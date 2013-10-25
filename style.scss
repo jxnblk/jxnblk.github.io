@@ -1,0 +1,16 @@
+@import "basscss.scss";
+
+// Theme
+$text: #666;
+$link:  #0bf;
+body {
+  color: $text;
+  background-color: #fff;
+}
+a {
+  color: $text;
+  text-decoration: none;
+  &:hover {
+    color: $link;
+  }
+}
