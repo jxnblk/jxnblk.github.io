@@ -60,6 +60,7 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
 
 // Default Font Stack
 $font-primary: 'Helvetica Neue', Helvetica, sans-serif !default;
+$font-primary: 'Source Sans Pro', Helvetica, sans-serif;
 
 // Base spacing unit
 $space: 1rem !default;
@@ -69,6 +70,8 @@ body {
   line-height: 1.5;
   font-weight: 400;
 }
+
+h1, h2, h3, h4, h5, h6 { font-weight: 600; }
 
 // Base Type Scale
 h1, .h1 {
@@ -105,7 +108,7 @@ small, .small {
 }
 
 // Utilities
-strong, .bold { font-weight: bold; }
+strong, .bold { font-weight: 600; }
 .regular { font-weight: normal; }
 .caps { text-transform: uppercase; letter-spacing: .2em; }
 .center { text-align: center; }
