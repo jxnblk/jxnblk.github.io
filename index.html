@@ -2,78 +2,207 @@
 <html lang="en"> 
 <head>
   <meta charset="utf-8">
-  <title>Jxnblk on Github</title>
-  <meta name="author" content="Jxnblk">
-  <meta name="description" content="Brent Jackson's notable HTML, CSS & JS repositories on Github">
+  <title>Jxnblk - Brent Jackson</title>
+  <meta name="author" content="Brent Jackson">
+  <meta name="description" content="Designer & proponent of simplicity">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="basscss.min.css">
-  <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
+  <link rel="icon" href="http://jxnblk.com/favicon.png">
+  <link rel="apple-touch-icon-precomposed" href="http://jxnblk.com/apple-touch-icon.png"> 
+  <style>
+    body {
+      font-family: 'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, sans-serif;
+      line-height: 1.5; font-weight: 600; padding: 1.5rem; margin: 0;
+      color: #333; background-color: #fff; }
+    svg{fill:#333;}
+    a{color:#0096cc;text-decoration:none;}
+    a:hover{color:#0088bb;text-decoration:underline;}
+    hr { height: 1px; border: 0; background-color: #bbb; }
+    /* h1 a, h2 a, h3 a { color: #333; } */
+    h1,h2,h3,h4 { font-weight: 600; text-transform: uppercase; letter-spacing: .125em; margin-top: 1.5rem; margin-bottom: 0; }
+    p { margin-top: 0; margin-bottom: 1rem; }
+    h1 { font-size: 2rem; }
+    h2 { font-size: 1.5rem; }
+    h3, h4, h5, p { font-size: 1.125rem; }
+    header, footer, section { padding-top: 3rem; padding-bottom: 3rem; }
+    nav a, footer a { display: inline-block; line-height: 2rem; margin-right: 1rem; }
+    ul { list-style: none; padding-left: 0; }
+  </style>
 </head>
-<body class="measure wrap p-responsive">
+<body>
 
-  <header class="py2">
-    <h1 class="h2">Jxnblk on Github</h1>
+
+  <header>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="64" height="64">
+      <path d=" M64 0 L64 4 L76 4 L74 6 L94 14 L92 16 L104 20 L100 22 L106 28 L102 28 L106 56 Q110 62 110 70 T105 84 L96 108 C92 116 76 128 64 128 C52 128 36 116 32 108 L23 84 Q18 78 18 70 T22 56 L22 22 L26 24 L34 12 L36 16z M72 40 Q56 30 40 30 Q32 34 30 48 L30 48 L28 74 C28 81 37 102 38 104 C46 118 62 121 64 121 C66 121 82 118 90 104 C91 102 100 81 100 74 L99 52 L94 40 L92 42 L84 38 L84 42 L74 36 M44 62 A5.5 5.5 0 0 0 44 73 A5.5 5.5 0 0 0 44 62 M84 62 A5.5 5.5 0 0 0 84 73 A5.5 5.5 0 0 0 84 62 M57 88 H71 A2 2 0 0 1 71 92 H57 A2 2 0 0 1 57 88 M53 104 H75 A2 2 0 0 1 75 108 H53 A2 2 0 0 1 53 104 M33.3 60.4 C34.6 57.8 37 55.9 39.7 55.2 C43 54.4 46.8 55.3 50.4 58 C51.3 58.6 52.5 58.4 53.2 57.5 C53.8 56.6 53.6 55.4 52.7 54.7 C46.8 50.5 41.8 50.5 38.7 51.3 C34.8 52.3 31.5 54.9 29.7 58.6 C29.2 59.6 29.6 60.8 30.6 61.3 C30.9 61.4 31.2 61.5 31.5 61.5 C32.2 61.5 32.9 61.1 33.3 60.4 z M97.7 61.9 C98.5 61.2  98.6  59.9  97.9  59.1 C94.3 55  90.1  52.9  85.4  53 C82 53  78.3  54.2  74.3  56.6 C73.3 57.2  73  58.4  73.6  59.3 C74.2 60.3  75.4  60.6  76.3  60 C79.7 58  82.7  57  85.5  57 C89 57  92.1  58.5  95  61.7 C95.4 62.2  95.9  62.4  96.5  62.4 C96.8 62.4 97.3 62.2 97.7 61.9 z "/>
+    </svg>
+    <h1>Brent Jackson</h1>
+    <p>Designer & proponent of simplicity</p>
+    <nav>
+      <a href="http://jxnblk.com/writing">Writing</a>
+      <a href="http://twitter.com/jxnblk">Twitter</a>
+      <a href="http://github.com/jxnblk">Github</a>
+    </nav>
   </header>
 
-  <main class="py2">
+  <hr>
 
-    <a href="//github.com/jxnblk/basscss" class="block mb2 dark-gray">
-      <h2 class="h2">BASSCSS</h2>
-      <p class="p">Next-level CSS Toolkit</p>
-      <p class="small">Simple, responsive CSS/SASS toolkit based on OOCSS principles</p>
-    </a>
+  <section id="featured-projects">
 
-    <a href="//github.com/jxnblk/geomicons-open" class="block mb2 dark-gray">
-      <h2 class="h2">Geomicons Open</h2>
-      <p class="p">Open Source Icons for the Web</p>
-    </a>
+    <h2><a href="http://basscss.com">BASSCSS</a></h2>
+    <p>Next-level CSS Toolkit</p>
+    <!--
+      <p>A lightweight collection of base styles and simple type and layout utilities designed for speed, performance, and scalability. Use it out of the box for simple sites and prototypes or as the base for a larger SASS project.</p>
+    -->
 
-    <a href="//github.com/jxnblk/loading" class="block mb2 dark-gray">
-      <h2 class="h2">Loading</h2>
-      <p class="p">This could take a while...</p>
-    </a>
+    <h2><a href="http://jxnblk.github.io/geomicons-open">Geomicons Open</a></h2>
+    <p>Open Source Icons for the Web</p>
 
-    <a href="//github.com/jxnblk/Plangular" class="block mb2 dark-gray">
-      <h2 class="h2">Plangular</h2>
-      <p class="p">Create custom SoundCloud players with HTML and CSS</p>
-      <p class="small">Built with AngularJS</p>
-    </a>
+    <h2><a href="http://jxnblk.github.io/plangular">Plangular</a></h2>
+    <p>Create Custom SoundCloud Players</p>
 
-    <a href="//github.com/jxnblk/tempo" class="block mb2 dark-gray">
-      <h2 class="h2">Tempo</h2>
-      <p class="p">Grid & Responsive CSS Layout Modules</p>
-      <p class="small">Designed for use with BASSCSS</p>
-    </a>
+  </section>
 
-    <a href="//github.com/jxnblk/Ashley" class="block mb2 dark-gray">
-      <h2 class="h2">Ashley</h2>
-      <p class="p">A Readable &amp; Responsive Tumblr Theme</p>
-    </a>
+  <hr>
 
-    <a href="//github.com/jxnblk/Heather" class="block mb2 dark-gray">
-      <h2 class="h2">Heather</h2>
-      <p class="p">Hyperminimal Jekyll Theme</p>
-    </a>
+  <section id="writing">
 
-    <a href="//github.com/jxnblk/Twipster" class="block mb2 dark-gray">
-      <h2 class="h2">Twipster</h2>
-      <p class="p">More Readable Twitter Experience</p>
-      <p class="small">Chrome &amp; Safari Browser Extensions</p>
-    </a>
+    <h1><a href="http://jxnblk.com/writing">Writing</a></h1>
 
-    <a href="//github.com/jxnblk/SoundRad" class="block mb2 dark-gray">
-      <h2 class="h2">SoundRad</h2>
-      <p class="p">Radically Simpler &amp; Faster SoundCloud Player</p>
-      <p class="small">Built with AngularJS</p>
-    </a>
+    <h2><a href="https://medium.com/p/e95e79f409b7">It's Okay to Look the Same</a></h2>
+    <h3>Why frameworks are actually pretty great</h3>
+    <p>Every once in a while I hear someone complain about the visual homogenization of the web, and front-end frameworks often get the brunt of the attack. This visual sameness isn’t necessarily a bad thing.</p>
+    <p><a href="https://medium.com/p/e95e79f409b7">Read more</a></p>
 
-    <a href="//github.com/jxnblk/repositories" class="p bold">View All Repositories</a>
+    <h2><a href="https://medium.com/p/bd413d2bc4f3">Designing in the Browser Faster</a></h2>
+    <p>I’ve been dabbling with HTML and CSS for years—building small websites for myself and friends and building prototypes to test designs. And, while I’ve been fascinated with the idea of designing in the browser for a long time, it wasn’t until recently that it’s become much, much faster for me than using traditional design software.</p>
+    <p><a href="https://medium.com/p/bd413d2bc4f3">Read more</a></p>
 
-  </main>
+    <h2><a href="http://jxnblk.tumblr.com/post/40693165132/organizing-mobile-navigation-based-on">
+        Organizing Mobile Navigation Based on Information-Seeking Behavior
+    </a></h2>
+    <p>When opening an application, a user should be able to understand its functionality, see relevant content, and get to where they want to go. Applications that obscure navigation with the intent of focusing on content can make finding specific information difficult. On the other hand, skewing towards too much navigation can overwhelm the user. Mobile apps should balance navigation for users with different information needs.</p>
+    <p><a href="http://jxnblk.tumblr.com/post/40693165132/organizing-mobile-navigation-based-on">Read more</a></p>
 
-  <footer class="py2">
-    <a href="//jxnblk.com" class="dark-gray">About Jxnblk</a>
+    <p>
+      <a href="writing">More Writing</a>
+    </p>
+
+  </section>
+
+  <hr>
+      
+  <section id="projects">
+    <h1>Projects</h1>
+    <ul>
+      <li>
+        <h3>
+          <a href="http://jxnblk.com/ashley">
+            <span>Ashley</span>
+          </a>
+        </h3>
+        <p>Readable Tumblr Theme</p>
+      </li>
+      <li>
+        <h3>
+          <a href="http://jxnblk.github.io/Heather">
+            <span>Heather</span>
+          </a>
+        </h3>
+        <p>Hyperminimal Jekyll Theme</p>
+      </li>
+      <li>
+        <h3>
+          <a href="http://jxnblk.github.io/loading">
+            <span>Loading</span>
+          </a>
+        </h3>
+        <p>This Could Take a While</p>
+      </li>
+      <!--
+      <li>
+        <h3>
+          <a href="http://jxnblk.github.io/principles">
+            <span>Principles</span>
+          </a>
+        </h3>
+        <p>Principles of Good Web Design</p>
+      </li>
+      -->
+      <li>
+        <h3>
+          <a href="http://jxnblk.github.io/Twipster">
+            <span>Twipster</span>
+          </a>
+        </h3>
+        <p>Simpler, Readabler Twitter</p>
+      </li>
+      <li>
+        <h3>
+          <a href="http://soundrad.com">
+            <span>SoundRad</span>
+          </a>
+        </h3>
+        <p>A Faster SoundCloud Player</p>
+      </li>
+      <li>
+        <h3>
+          <a href="http://jxnblk.github.io/tempo">
+            <span>Tempo</span>
+          </a>
+        </h3>
+        <p>Responsive Grid System</p>
+      </li>
+      <li>
+        <h3>
+          <a href="http://jxnblk.github.io/table-object">
+            <span>Table Object</span>
+          </a>
+        </h3>
+        <p>For Vertically Centering Elements</p>
+      </li>
+      <li>
+        <h3>
+          <a href="http://microbeats.cc">
+            <span>Microbeats</span>
+          </a>
+        </h3>
+        <p>Beats Created in Under an Hour</p>
+      </li>
+      <li>
+        <h3>
+          <a href="http://mrsjxn.com">
+            <span>MrsJxn</span>
+          </a>
+        </h3>
+        <p>Post-future Beats</p>
+      </li>
+      <!--
+      <li>
+        <h3>
+          <a href="http://jxnblk.github.io/gifolio">
+            <span>Gifolio</span>
+          </a>
+        </h3>
+        <p>GIF Portfolio</p>
+      </li>
+      -->
+      <li>
+        <h3>
+          <a href="http://jxnblk.github.io/skullcat">
+            <span>Skullcat</span>
+          </a>
+        </h3>
+        <p>A Avatar fur Mrmrs</p>
+      </li>
+    </ul>
+  </section>
+
+  <hr>
+
+  <footer>
+    <a href="//twitter.com/jxnblk">Twitter</a>
+    <a href="//github.com/jxnblk">GitHub</a>
+    <a href="//jxnblk.tumblr.com">Tumblr</a>
+    <a href="//soundcloud.com/jxnblk">Soundcloud</a>
   </footer>
-  
-</body>
-</html>
+
