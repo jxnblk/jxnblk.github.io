@@ -8,7 +8,8 @@
 $dark-gray: #405660;
 $mid-gray: rgba($dark-gray,.25);
 $light-gray: #f3f9f9;
-$blue: #00bbee;
+//$blue: #00bbee;
+$blue: #009fcc;
 
 
 // Base
@@ -100,6 +101,8 @@ ul, ol {
   text-transform: uppercase;
   letter-spacing: .2em;
 }
+
+.medium { font-weight: 500; }
 
 img { max-width: 100%; }
 svg{ fill: $dark-gray; }
