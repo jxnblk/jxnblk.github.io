@@ -9,26 +9,8 @@
   <link rel="icon" href="http://jxnblk.com/favicon.png">
   <link rel="apple-touch-icon-precomposed" href="http://jxnblk.com/apple-touch-icon.png"> 
   <style>
-    body {
-      font-family: 'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, sans-serif;
-      font-family: 'Helvetica Neue', Helvetica, sans-serif;
-      line-height: 1.5; font-weight: bold; padding: 1.5rem; margin: 0;
-      color: #405660;
-      background-color: #fff;
-    }
-    svg{fill:#405660;}
-    a{color:#0096cc;text-decoration:none;}
-    a:hover{color:#0088bb;text-decoration:underline;}
-    hr { height: 1px; border: 0; background-color: #bbb; }
-    h1,h2,h3,h4 { line-height: 1.25; margin-top: 1.5rem; margin-bottom: 0; }
-    p { margin-top: 0; margin-bottom: 1rem; }
-    h1 { font-size: 2.5rem; }
-    h2 { font-size: 2rem; }
-    h3 { font-size: 1.5rem; }
-    h4, h5, p, ul, ol { font-size: 1.125rem; }
-    header, footer, section { padding-top: 3rem; padding-bottom: 3rem; }
-    nav a, footer a { display: inline-block; line-height: 2rem; margin-right: 1rem; }
-    ul { list-style: none; padding-left: 0; }
+    body{font-family:'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif;font-size:100%;line-height:1.5;max-width:48rem;margin:0 auto;padding:2rem 1.5rem;color:#405660;background-color:white}a{word-wrap:break-word;text-decoration:none;color:#0be}a:hover{text-decoration:underline}a:focus{outline:0;background-color:rgba(0,187,238,0.0625);box-shadow:0 0 1px 2px rgba(0,187,238,0.5);border-radius:2px}pre,code,samp,.monospace{font-family:'Source Code Pro', Consolas, monospace;font-size:inherit}b,strong,.bold{font-weight:600}h1,h2,h3,h4,h5,h6{font-family:'Helvetica Neue', Helvetica, sans-serif;margin-top:1em;margin-bottom:.5rem;font-weight:bold}h1 a,h2 a,h3 a,h4 a,h5 a,h6 a{color:#405660;text-decoration:none}h1 a:focus,h2 a:focus,h3 a:focus,h4 a:focus,h5 a:focus,h6 a:focus{text-decoration:underline}h1{font-size:2rem;line-height:1.125}h2{font-size:1.5rem;line-height:1.25}h3{font-size:1.25em;line-height:1.375}h4{font-size:1rem;line-height:1.375}h5{font-size:.875rem;line-height:1.375}h6{font-size:.75rem;line-height:1.375}@media (min-width: 48em){h1{font-size:3rem}h2{font-size:2rem}}p{font-size:1.125rem}p,dl,ol,ul,blockquote,table{margin-top:0;margin-bottom:1rem}hr{height:1px;margin-top:2rem;margin-bottom:2rem;border-top:0;border-right:0;border-bottom:1px solid rgba(64,86,96,0.25);border-left:0}ul,ol{padding-left:2rem}ul ul,ul ol,ol ul,ol ol{margin-top:0;margin-bottom:0}.caps{text-transform:uppercase;letter-spacing:.2em}img{max-width:100%}svg{fill:#405660}header,footer,section{padding-top:3rem;padding-bottom:3rem}nav a,footer a{display:inline-block;line-height:2rem;margin-right:1rem}ul{list-style:none;padding-left:0}
+    .medium{font-weight:500}
   </style>
 </head>
 <body>
@@ -39,7 +21,7 @@
       <path d=" M64 0 L64 4 L76 4 L74 6 L94 14 L92 16 L104 20 L100 22 L106 28 L102 28 L106 56 Q110 62 110 70 T105 84 L96 108 C92 116 76 128 64 128 C52 128 36 116 32 108 L23 84 Q18 78 18 70 T22 56 L22 22 L26 24 L34 12 L36 16z M72 40 Q56 30 40 30 Q32 34 30 48 L30 48 L28 74 C28 81 37 102 38 104 C46 118 62 121 64 121 C66 121 82 118 90 104 C91 102 100 81 100 74 L99 52 L94 40 L92 42 L84 38 L84 42 L74 36 M44 62 A5.5 5.5 0 0 0 44 73 A5.5 5.5 0 0 0 44 62 M84 62 A5.5 5.5 0 0 0 84 73 A5.5 5.5 0 0 0 84 62 M57 88 H71 A2 2 0 0 1 71 92 H57 A2 2 0 0 1 57 88 M53 104 H75 A2 2 0 0 1 75 108 H53 A2 2 0 0 1 53 104 M33.3 60.4 C34.6 57.8 37 55.9 39.7 55.2 C43 54.4 46.8 55.3 50.4 58 C51.3 58.6 52.5 58.4 53.2 57.5 C53.8 56.6 53.6 55.4 52.7 54.7 C46.8 50.5 41.8 50.5 38.7 51.3 C34.8 52.3 31.5 54.9 29.7 58.6 C29.2 59.6 29.6 60.8 30.6 61.3 C30.9 61.4 31.2 61.5 31.5 61.5 C32.2 61.5 32.9 61.1 33.3 60.4 z M97.7 61.9 C98.5 61.2  98.6  59.9  97.9  59.1 C94.3 55  90.1  52.9  85.4  53 C82 53  78.3  54.2  74.3  56.6 C73.3 57.2  73  58.4  73.6  59.3 C74.2 60.3  75.4  60.6  76.3  60 C79.7 58  82.7  57  85.5  57 C89 57  92.1  58.5  95  61.7 C95.4 62.2  95.9  62.4  96.5  62.4 C96.8 62.4 97.3 62.2 97.7 61.9 z "/>
     </svg>
     <h1>Brent Jackson</h1>
-    <p>Designer & proponent of simplicity</p>
+    <p class="caps medium">Designer & proponent of simplicity</p>
     <nav>
       <a href="http://jxnblk.com/writing">Writing</a>
       <a href="http://twitter.com/jxnblk">Twitter</a>
