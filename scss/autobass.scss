@@ -1,14 +1,14 @@
+/*
 
+    A U T O B A S S
 
-/*   A U T O B A S S   */
-//   Jxnblk.com
+*/
 
 
 // Variables
 $dark-gray: #405660;
 $mid-gray: rgba($dark-gray,.25);
 $light-gray: #f3f9f9;
-//$blue: #00bbee;
 $blue: #009fcc;
 
 
@@ -17,11 +17,14 @@ body {
   font-family: 'Avenir Next', 'Helvetica Neue', Helvetica, sans-serif;
   font-size: 100%;
   line-height: 1.5;
-  max-width: 48rem;
-  margin: 0 auto;
-  padding: 2rem 1.5rem;
   color: $dark-gray;
   background-color: white;
+}
+
+.container {
+  padding: 2rem 1.5rem;
+  margin: 0 auto;
+  max-width: 48rem;
 }
 
 a {
@@ -39,13 +42,6 @@ a {
   }
 }
 
-pre, code, samp, .monospace {
-  font-family: 'Source Code Pro', Consolas, monospace;
-  font-size: inherit;
-}
-
-b, strong, .bold { font-weight: 600; }
-
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Helvetica Neue', Helvetica, sans-serif;
   margin-top: 1em;
@@ -60,24 +56,41 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-h1 { font-size: 2rem;    line-height: 1.125; }
-h2 { font-size: 1.5rem;  line-height: 1.25;  }
-h3 { font-size: 1.25em;  line-height: 1.375; }
-h4 { font-size: 1rem;    line-height: 1.375; }
-h5 { font-size: .875rem; line-height: 1.375; }
-h6 { font-size: .75rem;  line-height: 1.375; }
+h1, .h1 { font-size: 2rem;    line-height: 1.125; }
+h2, .h2 { font-size: 1.5rem;  line-height: 1.25;  }
+h3, .h3 { font-size: 1.25em;  line-height: 1.375; }
+h4, .h4 { font-size: 1rem;    line-height: 1.375; }
+h5, .h5 { font-size: .875rem; line-height: 1.375; }
+h6, .h6 { font-size: .75rem;  line-height: 1.375; }
 
 @media (min-width: 48em) {
-  h1 { font-size: 3rem; }
-  h2 { font-size: 2rem; }
+  h1, .h1 { font-size: 3rem; }
+  h2, .h2 { font-size: 2rem; }
 }
 
 p { font-size: 1.125rem; }
+
+pre, code, samp, .monospace {
+  font-family: 'Source Code Pro', Consolas, monospace;
+  font-size: inherit;
+}
+
+p code { font-size: 1rem; }
 
 p, dl, ol, ul, blockquote, table {
   margin-top: 0;
   margin-bottom: 1rem;
 }
+
+b, strong, .bold { font-weight: 600; }
+.medium { font-weight: 500; }
+.center { text-align: center; }
+.left-align { text-align: left; }
+.caps {
+  text-transform: uppercase;
+  letter-spacing: .2em;
+}
+.caps-center { padding-left: .2em; }
 
 hr {
   height: 1px;
@@ -89,27 +102,19 @@ hr {
   border-left: 0;
 }
 
-ul, ol {
-  padding-left: 2rem;
-  ul, ol {
-    margin-top: 0;
-    margin-bottom: 0;
-  }
+.ul {
+  list-style: none;
+  padding-left: 0;
 }
-
-.caps {
-  text-transform: uppercase;
-  letter-spacing: .2em;
-}
-
-.medium { font-weight: 500; }
 
 img { max-width: 100%; }
-svg{ fill: $dark-gray; }
 
-header, footer, section {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+code {
+  padding-right: .5em;
+  padding-left: .5em;
+  background-color: $light-gray;
+  border-radius: 2px;
+  word-wrap: break-word;
 }
 
 nav a, footer a {
@@ -118,14 +123,11 @@ nav a, footer a {
   margin-right: 1rem;
 }
 
-ul {
-  list-style: none;
-  padding-left: 0;
-}
 
-
-// Whitespace
-//.py1 { padding-top: 1rem; padding-bottom: 1rem; }
-//.mb4 { margin-bottom: 4rem; }
-
+@import "margins";
+@import "padding";
+@import "utilities";
+@import "buttons";
+@import "pygments";
+@import "theme";
 
