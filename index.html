@@ -8,185 +8,124 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="http://jxnblk.com/favicon.png">
   <link rel="apple-touch-icon-precomposed" href="http://jxnblk.com/apple-touch-icon.png"> 
+  <link rel="stylesheet" href="http://d2v52k3cl9vedd.cloudfront.net/basscss/4.0.0/bassdock.min.css">
   <style>
-    body,button,input,select,textarea,pre{margin:0}h1,h2,h3,h4,h5,h6{font-family:'Helvetica Neue', Helvetica, sans-serif;margin-top:1em;margin-bottom:.25rem}p,dl,ol,ul{margin-top:0;margin-bottom:1rem}button,input,select,textarea{font-family:inherit;font-size:100%}article,aside,details,figcaption,figure,footer,header,main,nav,section,summary{display:block}body{font-family:"Avenir Next","Helvetica Neue",Helvetica,sans-serif;line-height:1.5;font-weight:400}.avenir{font-family:"Avenir Next","Helvetica Neue",Helvetica,sans-serif}.caps{font-family:"Avenir Next","Helvetica Neue",Helvetica,sans-serif;font-weight:500;text-transform:uppercase;letter-spacing:.2em}h1,h2,h3,h4,h5,h6{font-family:'Hevletica Neue', Helvetica, sans-serif;line-height:1.125}h1,.h1{font-size:2rem}h2,.h2{font-size:1.5rem}h3,.h3{font-size:1.25rem}h4,.h4,p,dl,ol,ul{font-size:1.125rem}h5,.h5{font-size:0.875rem}h6,.h6,small{font-size:0.75rem}@media screen and (min-width: 48em){h1,.h1{font-size:3rem}h2,.h2{font-size:2rem}h3,.h3{font-size:1.5rem}}.bold{font-weight:bold}.medium{font-weight:500}.regular{font-weight:normal}.italic{font-style:italic}.left-align{text-align:left}.center{text-align:center}.right-align{text-align:right}.justified{text-align:justify}pre,code,samp,.monospace{font-family:'Source Code Pro', Consolas, Menlo, monospace;font-size:inherit}p code{font-size:1rem}hr{height:1px;margin-top:2rem;margin-bottom:2rem;border-top:0;border-right:0;border-bottom:1px solid rgba(64,86,96,0.25);border-left:0}.m0{margin:0}.mt0{margin-top:0}.mb0{margin-bottom:0}.m1{margin:0.5rem}.mt1{margin-top:0.5rem}.mr1{margin-right:0.5rem}.mb1{margin-bottom:0.5rem}.ml1{margin-left:0.5rem}.m2{margin:1rem}.mt2{margin-top:1rem}.mr2{margin-right:1rem}.mb2{margin-bottom:1rem}.ml2{margin-left:1rem}.m3{margin:2rem}.mt3{margin-top:2rem}.mr3{margin-right:2rem}.mb3{margin-bottom:2rem}.ml3{margin-left:2rem}.m4{margin:4rem}.mt4{margin-top:4rem}.mr4{margin-right:4rem}.mb4{margin-bottom:4rem}.ml4{margin-left:4rem}.wrap{margin-right:auto;margin-left:auto}.p1{padding:0.5rem}.px1{padding-right:0.5rem;padding-left:0.5rem}.py1{padding-top:0.5rem;padding-bottom:0.5rem}.p2{padding:1rem}.px2{padding-right:1rem;padding-left:1rem}.py2{padding-top:1rem;padding-bottom:1rem}.p3{padding:2rem}.px3{padding-right:2rem;padding-left:2rem}.py3{padding-top:2rem;padding-bottom:2rem}.p4{padding:4rem}.px4{padding-right:4rem;padding-left:4rem}.py4{padding-top:4rem;padding-bottom:4rem}.inline{display:inline}.block{display:block}.inline-block{display:inline-block}.oh{overflow:hidden}.left{float:left}.right{float:right}.clearfix:before,.clearfix:after{content:" ";display:table}.clearfix:after{clear:both}.fit{max-width:100%}.full-width{width:100%}.half-width{width:50%}.container{max-width:48rem;margin-right:auto;margin-left:auto;padding:2rem 1.5rem}.mobile-show{display:none !important}@media screen and (max-width: 48em){.mobile-show,.mobile-block{display:block !important}.mobile-block{width:100%}.mobile-hide{display:none !important}.mobile-center{text-align:center}}.list-reset{list-style:none;padding-left:0}.list-inline li{display:inline;white-space:nowrap}.table-reset{border-collapse:collapse;border-spacing:0;max-width:100%;width:100%}.table-reset th{text-align:left}.table-reset th,.table-reset td{padding:0.75rem;line-height:inherit}.table-reset th{vertical-align:bottom}.table-reset td{vertical-align:top}.table-small th,.table-small td{padding:0.1875rem 0.75rem;line-height:1.75rem}svg{max-height:100%;fill:#405660}.icon{width:1em;height:1em;position:relative;top:.125em}.button{font-family:inherit;font-weight:500;text-decoration:none;cursor:pointer;border:none;-webkit-appearance:none;appearance:none;white-space:nowrap;display:inline-block;line-height:2.25rem;height:auto;min-height:2.25rem;padding:0 0.75rem}.button:hover,.button:focus{text-decoration:none}.button-big{line-height:3rem;min-height:3rem;padding:0 1.125rem}.button-small{line-height:1.75rem;min-height:1.75rem}.mobile-table{display:table;width:100%}.mobile-table-cell{display:table-cell;vertical-align:middle}@media (min-width: 48em){.table{display:table;width:100%}.table-cell{display:table-cell;vertical-align:middle}}.table-fixed{table-layout:fixed}body{color:#405660;background-color:#fff}a{color:#009fcc;text-decoration:none}a:hover{color:#079;text-decoration:underline}h1 a,h2 a,h3 a,h4 a,h5 a,h6 a{color:#405660}.white{color:#fff}.dark-gray{color:#405660}.mid-gray{color:rgba(64,86,96,0.25)}.light-gray{color:#f3f9f9}.blue{color:#009fcc}.green{color:#11e966}.yellow{color:#ffdc00}.red{color:#f96010}.bg-white{background-color:#fff}.bg-dark-gray{background-color:#405660}.bg-mid-gray{background-color:rgba(64,86,96,0.25)}.bg-light-gray{background-color:#f3f9f9}.bg-blue{background-color:#009fcc}.bg-green{background-color:#11e966}.bg-yellow{background-color:#ffdc00}.bg-red{background-color:#f96010}.border{border-style:solid;border-width:1px;border-color:rgba(64,86,96,0.25)}.border-top{border-top-style:solid;border-top-width:1px;border-top-color:rgba(64,86,96,0.25)}.border-right{border-right-style:solid;border-right-width:1px;border-right-color:rgba(64,86,96,0.25)}.border-bottom{border-bottom-style:solid;border-bottom-width:1px;border-bottom-color:rgba(64,86,96,0.25)}.border-left{border-left-style:solid;border-left-width:1px;border-left-color:rgba(64,86,96,0.25)}.rounded{border-radius:0.125rem}.circle{border-radius:50%}.highlight{margin-bottom:1rem}.highlight{line-height:1.25;word-break:normal;padding:0 1rem;overflow:auto;background-color:#f3f9f9;border-radius:2px}pre code{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}pre code:before,pre code:after{content:normal}.highlight .c{color:#999988;font-style:italic}.highlight .err{color:#a61717;background-color:#e3d2d2}.highlight .k{font-weight:bold}.highlight .o{font-weight:bold}.highlight .cm{color:#999988;font-style:italic}.highlight .cp{color:#999999;font-weight:bold}.highlight .c1{color:#999988;font-style:italic}.highlight .cs{color:#999999;font-weight:bold;font-style:italic}.highlight .gd{color:#000000;background-color:#fdd}.highlight .gd .x{color:#000000;background-color:#faa}.highlight .ge{font-style:italic}.highlight .gr{color:#a00}.highlight .gh{color:#999}.highlight .gi{color:#000000;background-color:#dfd}.highlight .gi .x{color:#000000;background-color:#afa}.highlight .go{color:#888}.highlight .gp{color:#555}.highlight .gs{font-weight:bold}.highlight .gu{color:#800080;font-weight:bold}.highlight .gt{color:#a00}.highlight .kc{font-weight:bold}.highlight .kd{font-weight:bold}.highlight .kn{font-weight:bold}.highlight .kp{font-weight:bold}.highlight .kr{font-weight:bold}.highlight .kt{color:#445588;font-weight:bold}.highlight .m{color:#099}.highlight .s{color:#d14}.highlight .n{color:#333}.highlight .na{color:teal}.highlight .nb{color:#0086b3}.highlight .nc{color:#445588;font-weight:bold}.highlight .no{color:teal}.highlight .ni{color:purple}.highlight .ne{color:#990000;font-weight:bold}.highlight .nf{color:#990000;font-weight:bold}.highlight .nn{color:#555}.highlight .nt{color:navy}.highlight .nv{color:teal}.highlight .ow{font-weight:bold}.highlight .w{color:#bbb}.highlight .mf{color:#099}.highlight .mh{color:#099}.highlight .mi{color:#099}.highlight .mo{color:#099}.highlight .sb{color:#d14}.highlight .sc{color:#d14}.highlight .sd{color:#d14}.highlight .s2{color:#d14}.highlight .se{color:#d14}.highlight .sh{color:#d14}.highlight .si{color:#d14}.highlight .sx{color:#d14}.highlight .sr{color:#009926}.highlight .s1{color:#d14}.highlight .ss{color:#990073}.highlight .bp{color:#999}.highlight .vc{color:teal}.highlight .vg{color:teal}.highlight .vi{color:teal}.highlight .il{color:#099}.highlight .gc{color:#999;background-color:#eaf2f5}.table-light th,.table-light td{border-bottom:1px solid rgba(64,86,96,0.25)}.button{background-color:transparent;border-radius:0.125rem;transition-duration:.2s;transition-timing-function:ease;transition-property:box-shadow , background-color}.button:focus{outline:none;box-shadow:0 0 0 2px #fff,0 0 1px 4px rgba(0,159,204,0.5)}.button-box{color:#009fcc;box-shadow:0 0 0 2px}.button-box svg{fill:#009fcc}.button-box:hover,.button-box:focus{color:#fff;text-decoration:none;background-color:#009fcc;box-shadow:0 0 1px 3px rgba(0,159,204,0.75)}.button-box:hover svg,.button-box:focus svg{fill:white}.button-blue{color:#fff;background-color:#009fcc}.button-blue:hover{color:#fff;background-color:#004f66}
+    svg { fill: currentcolor }
   </style>
 </head>
-<body class="container">
+<body class="container px2">
 
-
-  <header class="py2">
+  <header class="py3">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="64" height="64">
       <path d=" M64 0 L64 4 L76 4 L74 6 L94 14 L92 16 L104 20 L100 22 L106 28 L102 28 L106 56 Q110 62 110 70 T105 84 L96 108 C92 116 76 128 64 128 C52 128 36 116 32 108 L23 84 Q18 78 18 70 T22 56 L22 22 L26 24 L34 12 L36 16z M72 40 Q56 30 40 30 Q32 34 30 48 L30 48 L28 74 C28 81 37 102 38 104 C46 118 62 121 64 121 C66 121 82 118 90 104 C91 102 100 81 100 74 L99 52 L94 40 L92 42 L84 38 L84 42 L74 36 M44 62 A5.5 5.5 0 0 0 44 73 A5.5 5.5 0 0 0 44 62 M84 62 A5.5 5.5 0 0 0 84 73 A5.5 5.5 0 0 0 84 62 M57 88 H71 A2 2 0 0 1 71 92 H57 A2 2 0 0 1 57 88 M53 104 H75 A2 2 0 0 1 75 108 H53 A2 2 0 0 1 53 104 M33.3 60.4 C34.6 57.8 37 55.9 39.7 55.2 C43 54.4 46.8 55.3 50.4 58 C51.3 58.6 52.5 58.4 53.2 57.5 C53.8 56.6 53.6 55.4 52.7 54.7 C46.8 50.5 41.8 50.5 38.7 51.3 C34.8 52.3 31.5 54.9 29.7 58.6 C29.2 59.6 29.6 60.8 30.6 61.3 C30.9 61.4 31.2 61.5 31.5 61.5 C32.2 61.5 32.9 61.1 33.3 60.4 z M97.7 61.9 C98.5 61.2  98.6  59.9  97.9  59.1 C94.3 55  90.1  52.9  85.4  53 C82 53  78.3  54.2  74.3  56.6 C73.3 57.2  73  58.4  73.6  59.3 C74.2 60.3  75.4  60.6  76.3  60 C79.7 58  82.7  57  85.5  57 C89 57  92.1  58.5  95  61.7 C95.4 62.2  95.9  62.4  96.5  62.4 C96.8 62.4 97.3 62.2 97.7 61.9 z "/>
     </svg>
-    <h1>Brent Jackson</h1>
-    <p class="caps">Designer & proponent of simplicity</p>
-    <nav class="medium">
-      <a href="http://jxnblk.com/writing" class="mr1">Writing</a>
-      <a href="http://twitter.com/jxnblk" class="mr1">Twitter</a>
-      <a href="http://github.com/jxnblk" class="mr1">Github</a>
-    </nav>
+    <h1 class="h4 caps mb0">Brent Jackson, <span class="regular">Designer</span></h1>
+    <h1 class="h0 caps m0">Jxnblk</h1>
+    <!--
+    <svg viewBox="0 0 120 16" style="max-width:100%">
+      <text y="14" class="caps bold" style="letter-spacing:.75em">Jxnblk</text>
+    </svg>
+    -->
   </header>
 
   <hr>
 
-  <section id="featured-projects" class="py2">
-
-    <h2><a href="http://basscss.com">BASSCSS</a></h2>
-    <p>Next-level CSS Toolkit</p>
-    <!--
-      <p>A lightweight collection of base styles and simple type and layout utilities designed for speed, performance, and scalability. Use it out of the box for simple sites and prototypes or as the base for a larger SASS project.</p>
-    -->
-
-    <h2><a href="http://jxnblk.github.io/geomicons-open">Geomicons Open</a></h2>
-    <p>Open Source Icons for the Web</p>
-
-    <h2><a href="http://jxnblk.github.io/plangular">Plangular</a></h2>
-    <p>Create Custom SoundCloud Players</p>
-
+  <section id="social-media" class="clearfix py2 mxn2">
+    <div class="sm-col sm-col-6 md-col-3">
+      <a href="http://twitter.com/jxnblk" class="h2 button block">Twitter</a>
+    </div>
+    <div class="sm-col sm-col-6 md-col-3">
+      <a href="http://github.com/jxnblk" class="h2 button block">Github</a>
+    </div>
   </section>
 
-  <hr>
+  <section id="featured-projects" class="clearfix py2 mxn2">
+    <div class="sm-col sm-col-6 md-col-3">
+      <a href="http://basscss.com" class="h2 button block">Basscss</a>
+    </div>
+    <div class="sm-col sm-col-6 md-col-3">
+      <a href="http://jxnblk.github.io/geomicons-open" class="h2 button block">Geomicons</a>
+    </div>
+    <div class="sm-col sm-col-6 md-col-3">
+      <a href="http://jxnblk.github.io/plangular" class="h2 button block">Plangular</a>
+    </div>
+    <div class="sm-col sm-col-6 md-col-3">
+      <a href="http://jxnblk.com/writing" class="h2 button block">Writing</a>
+    </div>
+  </section>
+      
+  <section id="projects" class="clearfix mxn2 py2">
+    <div class="sm-col sm-col-6 md-col-3">
+      <a href="http://jxnblk.com/ashley" class="h3 button block">Ashley</a>
+    </div>
+    <div class="sm-col sm-col-6 md-col-3">
+      <a href="http://jxnblk.github.io/Heather" class="h3 button block">Heather</a>
+    </div>
+    <div class="sm-col sm-col-6 md-col-3">
+        <a href="http://jxnblk.github.io/loading" class="h3 button block">Loading</a>
+    </div>
+    <div class="sm-col sm-col-6 md-col-3">
+      <a href="http://jxnblk.github.io/Twipster" class="h3 button block">Twipster</a>
+    </div>
+    <div class="clearfix md-show"></div>
 
-  <section id="writing" class="py2">
+    <div class="sm-col sm-col-6 md-col-3">
+      <a href="http://soundrad.com" class="h3 button block">SoundRad</a>
+    </div>
+    <div class="sm-col sm-col-6 md-col-3">
+      <a href="http://jxnblk.github.io/tempo" class="h3 button block">Tempo</a>
+    </div>
+    <div class="sm-col sm-col-6 md-col-3">
+      <a href="http://jxnblk.github.io/table-object" class="h3 button block">Table Object</a>
+    </div>
+    <div class="sm-col sm-col-6 md-col-3">
+      <a href="http://microbeats.cc" class="h3 button block">Microbeats</a>
+    </div>
+    <div class="clearfix md-show"></div>
 
+    <div class="sm-col sm-col-6 md-col-3">
+      <a href="http://mrsjxn.com" class="h3 button block">MrsJxn</a>
+    </div>
+    <div class="sm-col sm-col-6 md-col-3">
+      <a href="http://jxnblk.github.io/skullcat" class="h3 button block">Skullcat</a>
+    </div>
+    <div class="sm-col sm-col-6 md-col-3">
+      <a href="http://jxnblk.github.io/gifolio" class="h3 button block">Gifolio</a>
+    </div>
+    <!--
+      <div class="sm-col sm-col-6 md-col-4 px2">
+        <a href="http://jxnblk.github.io/principles" class="h3 button block">Principles</a>
+      </div>
+    -->
+  </section>
+
+
+  <!--
+  <footer class="py3 mxn2 mb3">
+    <a href="//twitter.com/jxnblk" class="button">Twitter</a>
+    <a href="//github.com/jxnblk" class="button">GitHub</a>
+    <a href="//jxnblk.tumblr.com" class="button">Tumblr</a>
+    <a href="//soundcloud.com/jxnblk" class="button">Soundcloud</a>
+  </footer>
+  -->
+  <!--
+  <section id="writing" class="py3">
     <h1>Writing</h1>
-
-    <h2><a href="https://medium.com/p/e95e79f409b7">It's Okay to Look the Same</a></h2>
-    <h3>Why frameworks are actually pretty great</h3>
-    <p>Every once in a while I hear someone complain about the visual homogenization of the web, and front-end frameworks often get the brunt of the attack. This visual sameness isn’t necessarily a bad thing.</p>
-    <p><a href="https://medium.com/p/e95e79f409b7">Read more</a></p>
-
+    <h2>
+      <a href="https://medium.com/p/e95e79f409b7">
+        It's Okay to Look the Same
+        Why frameworks are actually pretty great
+      </a>
+    </h2>
     <h2><a href="https://medium.com/p/bd413d2bc4f3">Designing in the Browser Faster</a></h2>
-    <p>I’ve been dabbling with HTML and CSS for years—building small websites for myself and friends and building prototypes to test designs. And, while I’ve been fascinated with the idea of designing in the browser for a long time, it wasn’t until recently that it’s become much, much faster for me than using traditional design software.</p>
-    <p><a href="https://medium.com/p/bd413d2bc4f3">Read more</a></p>
-
     <h2><a href="http://jxnblk.tumblr.com/post/40693165132/organizing-mobile-navigation-based-on">
         Organizing Mobile Navigation Based on Information-Seeking Behavior
     </a></h2>
-    <p>When opening an application, a user should be able to understand its functionality, see relevant content, and get to where they want to go. Applications that obscure navigation with the intent of focusing on content can make finding specific information difficult. On the other hand, skewing towards too much navigation can overwhelm the user. Mobile apps should balance navigation for users with different information needs.</p>
-    <p><a href="http://jxnblk.tumblr.com/post/40693165132/organizing-mobile-navigation-based-on">Read more</a></p>
-
-    <p>
-      <a href="writing">More Writing</a>
-    </p>
-
+    <div class="center">
+      <a href="writing" class="h3 button">More Writing</a>
+    </div>
   </section>
+  -->
 
-  <hr>
-      
-  <section id="projects" class="py2">
-    <h1>Projects</h1>
-    <ul class="list-reset">
-      <li>
-        <h3>
-          <a href="http://jxnblk.com/ashley">
-            <span>Ashley</span>
-          </a>
-        </h3>
-        <p>Readable Tumblr Theme</p>
-      </li>
-      <li>
-        <h3>
-          <a href="http://jxnblk.github.io/Heather">
-            <span>Heather</span>
-          </a>
-        </h3>
-        <p>Hyperminimal Jekyll Theme</p>
-      </li>
-      <li>
-        <h3>
-          <a href="http://jxnblk.github.io/loading">
-            <span>Loading</span>
-          </a>
-        </h3>
-        <p>This Could Take a While</p>
-      </li>
-      <!--
-      <li>
-        <h3>
-          <a href="http://jxnblk.github.io/principles">
-            <span>Principles</span>
-          </a>
-        </h3>
-        <p>Principles of Good Web Design</p>
-      </li>
-      -->
-      <li>
-        <h3>
-          <a href="http://jxnblk.github.io/Twipster">
-            <span>Twipster</span>
-          </a>
-        </h3>
-        <p>Simpler, Readabler Twitter</p>
-      </li>
-      <li>
-        <h3>
-          <a href="http://soundrad.com">
-            <span>SoundRad</span>
-          </a>
-        </h3>
-        <p>A Faster SoundCloud Player</p>
-      </li>
-      <li>
-        <h3>
-          <a href="http://jxnblk.github.io/tempo">
-            <span>Tempo</span>
-          </a>
-        </h3>
-        <p>Responsive Grid System</p>
-      </li>
-      <li>
-        <h3>
-          <a href="http://jxnblk.github.io/table-object">
-            <span>Table Object</span>
-          </a>
-        </h3>
-        <p>For Vertically Centering Elements</p>
-      </li>
-      <li>
-        <h3>
-          <a href="http://microbeats.cc">
-            <span>Microbeats</span>
-          </a>
-        </h3>
-        <p>Beats Created in Under an Hour</p>
-      </li>
-      <li>
-        <h3>
-          <a href="http://mrsjxn.com">
-            <span>MrsJxn</span>
-          </a>
-        </h3>
-        <p>Post-future Beats</p>
-      </li>
-      <!--
-      <li>
-        <h3>
-          <a href="http://jxnblk.github.io/gifolio">
-            <span>Gifolio</span>
-          </a>
-        </h3>
-        <p>GIF Portfolio</p>
-      </li>
-      -->
-      <li>
-        <h3>
-          <a href="http://jxnblk.github.io/skullcat">
-            <span>Skullcat</span>
-          </a>
-        </h3>
-        <p>A Avatar fur Mrmrs</p>
-      </li>
-    </ul>
-  </section>
-
-  <hr>
-
-  <footer class="medium py2">
-    <a href="//twitter.com/jxnblk" class="mr1">Twitter</a>
-    <a href="//github.com/jxnblk" class="mr1">GitHub</a>
-    <a href="//jxnblk.tumblr.com" class="mr1">Tumblr</a>
-    <a href="//soundcloud.com/jxnblk">Soundcloud</a>
-  </footer>
-
+</body>
+</html>
