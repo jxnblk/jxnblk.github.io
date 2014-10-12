@@ -9,7 +9,22 @@
   <link rel="icon" href="http://jxnblk.com/favicon.png">
   <link rel="apple-touch-icon-precomposed" href="http://jxnblk.com/apple-touch-icon.png"> 
   <link rel="stylesheet" href="http://d2v52k3cl9vedd.cloudfront.net/basscss/4.0.0/bassdock.min.css">
-  <style> svg { fill: currentcolor } </style>
+  <style>
+    svg { fill: currentcolor }
+    .card {
+      transition: transform .1s ease-out, border .2s ease-out, box-shadow .3s ease-out;
+    }
+    .card:hover {
+      text-decoration: none;
+      border: 1px solid #0076df;
+      box-shadow: 0 0 4px rgba(0,118,223,.5);
+      transform: scale(1.015625);
+    }
+    .card:active {
+      box-shadow: inset 0 2px 8px rgba(0,0,0,.375);
+      transform: scale(1);
+    }
+  </style>
 </head>
 <body class="container p2 p2">
 
@@ -23,71 +38,110 @@
     <h1 class="h0 caps m0">Jxnblk</h1>
   </header>
 
-  <hr>
-
-  <section id="social-media" class="clearfix py3 mxn2">
-    <div class="sm-col sm-col-6 md-col-3">
-      <a href="http://twitter.com/jxnblk" class="h2 button block">Twitter</a>
+  <section id="featured-projects" class="clearfix py2 mxn2">
+    <h1 class="h3 caps px2">Projects</h1>
+    <div class="sm-col sm-col-4 px2 py2">
+      <a href="http://basscss.com" class="block overflow-hidden dark-gray card border rounded">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 48">
+          <path fill="#304650" d="M0 0 H66 V50 H0z"/>
+          <path fill="#0076df" d="M32 16 L36 24 L52 22 L32 32 L28 24 L12 26 z"/>
+        </svg>
+        <div class="p1">
+          <h2 class="m0">Basscss</h2>
+          <p class="m0">Low-Level CSS Toolkit</p>
+        </div>
+      </a>
     </div>
-    <div class="sm-col sm-col-6 md-col-3">
-      <a href="http://github.com/jxnblk" class="h2 button block">Github</a>
+    <div class="sm-col sm-col-4 px2 py2">
+      <a href="http://jxnblk.github.io/geomicons-open" class="block overflow-hidden dark-gray card border rounded">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 48">
+          <path fill="#304650" d="M0 0 H66 V50 H0z"/>
+          <path transform="translate(16 8)" fill="white" opacity="0.9" d="M0 10 C0 6, 3 2, 8 2 C12 2, 15 5, 16 6 C17 5, 20 2, 24 2 C30 2, 32 6, 32 10 C32 18, 18 29, 16 30 C14 29, 0 18, 0 10  "></path>
+        </svg>
+        <div class="p1">
+          <h2 class="m0">Geomicons</h2>
+          <p class="m0">Open Source Icons for the Web</p>
+        </div>
+      </a>
     </div>
-    <div class="sm-col sm-col-6 md-col-3">
-      <a href="http://jxnblk.tumblr.com" class="h2 button block">Tumblr</a>
-    </div>
-    <div class="sm-col sm-col-6 md-col-3">
-      <a href="http://soundcloud.com/jxnblk" class="h2 button block">SoundCloud</a>
+    <div class="sm-col sm-col-4 px2 py2">
+      <a href="http://jxnblk.github.io/plangular" class="block overflow-hidden dark-gray card border rounded">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 48">
+          <path fill="#304650" d="M0 0 H66 V50 H0z"/>
+          <circle fill="#f52" opacity="0.875" cx="32" cy="24" r="16"/>
+          <circle fill="none" stroke="#f52" cx="32" cy="24" r="16"/>
+          <circle fill="none" stroke="#f52" stroke-width="0.5" opacity="0.5" cx="32" cy="24" r="17.5"/>
+          <path transform="translate(27.5 18) scale(0.375)" fill="#304650" d="M0 0 L32 16 L0 32 z"></path>
+        </svg>
+        <div class="p1">
+          <h2 class="m0">Plangular</h2>
+          <p class="m0">Create Custom SoundCloud Players</p>
+        </div>
+      </a>
+      <!--
+      <a href="http://jxnblk.github.io/plangular" class="h3 button block">Plangular</a>
+      -->
     </div>
   </section>
 
-  <section id="featured-projects" class="clearfix py3 mxn2 mb4">
-    <div class="sm-col sm-col-6 md-col-3">
-      <a href="http://basscss.com" class="h3 button block">Basscss</a>
-    </div>
-    <div class="sm-col sm-col-6 md-col-3">
-      <a href="http://jxnblk.github.io/geomicons-open" class="h3 button block">Geomicons</a>
-    </div>
-    <div class="sm-col sm-col-6 md-col-3">
-      <a href="http://jxnblk.github.io/plangular" class="h3 button block">Plangular</a>
-    </div>
-    <div class="sm-col sm-col-6 md-col-3">
+  <section id="projects" class="clearfix py3 mxn2">
+    <div class="col col-6 md-col-3">
       <a href="/writing" class="h3 button block">Writing</a>
     </div>
-    <div class="clearfix md-show"></div>
-      
-    <div class="sm-col sm-col-6 md-col-3">
+    <div class="col col-6 md-col-3">
       <a href="http://jxnblk.com/ashley" class="h3 button block">Ashley</a>
     </div>
-    <div class="sm-col sm-col-6 md-col-3">
+    <div class="col col-6 md-col-3">
       <a href="http://jxnblk.github.io/Heather" class="h3 button block">Heather</a>
     </div>
-    <div class="sm-col sm-col-6 md-col-3">
+    <div class="col col-6 md-col-3">
         <a href="http://jxnblk.github.io/loading" class="h3 button block">Loading</a>
     </div>
-    <div class="sm-col sm-col-6 md-col-3">
+    <div class="clearfix md-show"></div>
+
+    <div class="col col-6 md-col-3">
       <a href="http://jxnblk.github.io/Twipster" class="h3 button block">Twipster</a>
     </div>
-    <div class="clearfix md-show"></div>
-
-    <div class="sm-col sm-col-6 md-col-3">
+    <div class="col col-6 md-col-3">
       <a href="http://soundrad.com" class="h3 button block">SoundRad</a>
     </div>
-    <div class="sm-col sm-col-6 md-col-3">
+    <div class="col col-6 md-col-3">
       <a href="http://microbeats.cc" class="h3 button block">Microbeats</a>
     </div>
-    <div class="sm-col sm-col-6 md-col-3">
+    <div class="col col-6 md-col-3">
       <a href="http://mrsjxn.com" class="h3 button block">MrsJxn</a>
-    </div>
-    <div class="sm-col sm-col-6 md-col-3">
-      <a href="http://jxnblk.github.io/skullcat" class="h3 button block">Skullcat</a>
     </div>
     <div class="clearfix md-show"></div>
 
-    <div class="sm-col sm-col-6 md-col-3">
+    <div class="col col-6 md-col-3">
+      <a href="http://jxnblk.github.io/skullcat" class="h3 button block">Skullcat</a>
+    </div>
+    <div class="col col-6 md-col-3">
       <a href="http://jxnblk.github.io/gifolio" class="h3 button block">Gifolio</a>
     </div>
   </section>
 
+  <section id="social-media" class="clearfix py3 mxn2">
+    <div class="col col-6 md-col-3">
+      <a href="http://twitter.com/jxnblk" class="h3 button block">Twitter</a>
+    </div>
+    <div class="col col-6 md-col-3">
+      <a href="http://github.com/jxnblk" class="h3 button block">Github</a>
+    </div>
+    <div class="col col-6 md-col-3">
+      <a href="http://jxnblk.tumblr.com" class="h3 button block">Tumblr</a>
+    </div>
+    <div class="col col-6 md-col-3">
+      <a href="http://soundcloud.com/jxnblk" class="h3 button block">SoundCloud</a>
+    </div>
+  </section>
+
+  <section id="about" class="py3">
+    <h1 class="h3 caps">About</h1>
+    <p class="h3">
+      Product designer at Etsy. Based in Brooklyn, NY.
+    </p>
+  </section>
 
 </body>
 </html>
