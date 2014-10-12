@@ -27,5 +27,5 @@ Brent Jackson, Designer
 
 ## About
 
-Product designer for internal tools at Etsy. Based in Brooklyn, NY.
+Product designer at Etsy. Based in Brooklyn, NY.
 
