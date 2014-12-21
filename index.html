@@ -8,132 +8,173 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="http://jxnblk.com/favicon.png">
   <link rel="apple-touch-icon-precomposed" href="http://jxnblk.com/apple-touch-icon.png"> 
-  <link rel="stylesheet" href="http://d2v52k3cl9vedd.cloudfront.net/basscss/4.1.3/base.min.css">
-  <style>
-    svg { fill: currentcolor }
-    .card {
-      transition: transform .1s ease-out, border .2s ease-out, box-shadow .3s ease-out;
-    }
-    .card:hover {
-      text-decoration: none;
-      border: 1px solid #0076df;
-      box-shadow: 0 0 4px rgba(0,118,223,.5);
-      transform: scale(1.015625);
-    }
-    .card:active {
-      box-shadow: inset 0 2px 8px rgba(0,0,0,.375);
-      transform: scale(1);
-    }
-  </style>
+  <link rel="stylesheet" href="http://d2v52k3cl9vedd.cloudfront.net/blk/0.0.6-blk.min.css">
 </head>
-<body class="container p2 p2">
+<body class="container p2 p2 blue">
 
-  <header class="py3">
-    <a href="/" class="inline-block dark-gray">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="64" height="64">
+  <header class="flex flex-wrap flex-center py3">
+    <a href="/" class="h0 h0-responsive block mr2 mb2">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="1.5em" height="1.5em" class="block">
         <path d=" M64 0 L64 4 L76 4 L74 6 L94 14 L92 16 L104 20 L100 22 L106 28 L102 28 L106 56 Q110 62 110 70 T105 84 L96 108 C92 116 76 128 64 128 C52 128 36 116 32 108 L23 84 Q18 78 18 70 T22 56 L22 22 L26 24 L34 12 L36 16z M72 40 Q56 30 40 30 Q32 34 30 48 L30 48 L28 74 C28 81 37 102 38 104 C46 118 62 121 64 121 C66 121 82 118 90 104 C91 102 100 81 100 74 L99 52 L94 40 L92 42 L84 38 L84 42 L74 36 M44 62 A5.5 5.5 0 0 0 44 73 A5.5 5.5 0 0 0 44 62 M84 62 A5.5 5.5 0 0 0 84 73 A5.5 5.5 0 0 0 84 62 M57 88 H71 A2 2 0 0 1 71 92 H57 A2 2 0 0 1 57 88 M53 104 H75 A2 2 0 0 1 75 108 H53 A2 2 0 0 1 53 104 M33.3 60.4 C34.6 57.8 37 55.9 39.7 55.2 C43 54.4 46.8 55.3 50.4 58 C51.3 58.6 52.5 58.4 53.2 57.5 C53.8 56.6 53.6 55.4 52.7 54.7 C46.8 50.5 41.8 50.5 38.7 51.3 C34.8 52.3 31.5 54.9 29.7 58.6 C29.2 59.6 29.6 60.8 30.6 61.3 C30.9 61.4 31.2 61.5 31.5 61.5 C32.2 61.5 32.9 61.1 33.3 60.4 z M97.7 61.9 C98.5 61.2  98.6  59.9  97.9  59.1 C94.3 55  90.1  52.9  85.4  53 C82 53  78.3  54.2  74.3  56.6 C73.3 57.2  73  58.4  73.6  59.3 C74.2 60.3  75.4  60.6  76.3  60 C79.7 58  82.7  57  85.5  57 C89 57  92.1  58.5  95  61.7 C95.4 62.2  95.9  62.4  96.5  62.4 C96.8 62.4 97.3 62.2 97.7 61.9 z "/>
       </svg>
     </a>
-    <h1 class="h4 caps mb0">Brent Jackson, <span class="regular">Designer</span></h1>
-    <h1 class="h0 caps m0">Jxnblk</h1>
+    <div class="flex-auto">
+      <h1 class="h4 caps m0">Brent Jackson, <span class="regular">Designer</span></h1>
+      <h1 class="h0 h00-responsive caps m0">Jxnblk</h1>
+    </div>
   </header>
 
-  <section id="featured-projects" class="clearfix py2 mxn2">
-    <h1 class="h3 caps px2">Projects</h1>
-    <div class="sm-col sm-col-4 px2 py2">
-      <a href="http://basscss.com" class="block overflow-hidden card border rounded">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 48">
-          <path fill="#0076df" d="M32 16 L36 24 L52 22 L32 32 L28 24 L12 26 z"/>
-        </svg>
-        <div class="p1">
-          <h2 class="m0">Basscss</h2>
-          <p class="m0">Low-Level CSS Toolkit</p>
+  <hr>
+
+  <section id="featured-projects" class="py2">
+    <h1 class="h4 caps">Projects</h1>
+    <div class="sm-flex flex-wrap mxn2">
+      
+        <div class="md-col-6 xmd-col-3 p2">
+          <a href="//basscss.com" class="block">
+            <h2 class="h1 m0">Basscss</h2>
+            <p class="h4 m0 bold">Low-level CSS toolkit</p>
+          </a>
         </div>
-      </a>
-    </div>
-    <div class="sm-col sm-col-4 px2 py2">
-      <a href="http://geomicons.com" class="block overflow-hidden card border rounded">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 48">
-          <path transform="translate(16 8)" fill="#0076df" d="M0 10 C0 6, 3 2, 8 2 C12 2, 15 5, 16 6 C17 5, 20 2, 24 2 C30 2, 32 6, 32 10 C32 18, 18 29, 16 30 C14 29, 0 18, 0 10  "></path>
-        </svg>
-        <div class="p1">
-          <h2 class="m0">Geomicons</h2>
-          <p class="m0">Open Source Icons for the Web</p>
+      
+        <div class="md-col-6 xmd-col-3 p2">
+          <a href="//cssstats.com" class="block">
+            <h2 class="h1 m0">CSS Stats</h2>
+            <p class="h4 m0 bold">CSS parsing tool</p>
+          </a>
         </div>
-      </a>
-    </div>
-    <div class="sm-col sm-col-4 px2 py2">
-      <a href="http://jxnblk.com/plangular" class="block overflow-hidden card border rounded">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 48">
-          <circle fill="none" stroke="#0076df" cx="32" cy="24" r="16"/>
-          <path transform="translate(27.5 18) scale(0.375)" fill="#0076df" d="M0 0 L32 16 L0 32 z"></path>
-        </svg>
-        <div class="p1">
-          <h2 class="m0">Plangular</h2>
-          <p class="m0">Create Custom SoundCloud Players</p>
+      
+        <div class="md-col-6 xmd-col-3 p2">
+          <a href="//geomicons.com" class="block">
+            <h2 class="h1 m0">Geomicons</h2>
+            <p class="h4 m0 bold">Open source icons for the web</p>
+          </a>
         </div>
-      </a>
+      
+        <div class="md-col-6 xmd-col-3 p2">
+          <a href="//jxnblk.com/plangular" class="block">
+            <h2 class="h1 m0">Plangular</h2>
+            <p class="h4 m0 bold">Create custom Soundcloud players</p>
+          </a>
+        </div>
+      
     </div>
   </section>
 
-  <section id="projects" class="clearfix py3 mxn2">
-    <div class="col col-6 md-col-3">
-      <a href="/writing" class="h3 button block">Writing</a>
-    </div>
-    <div class="col col-6 md-col-3">
-      <a href="http://jxnblk.com/Ashley" class="h3 button block">Ashley</a>
-    </div>
-    <div class="col col-6 md-col-3">
-      <a href="http://jxnblk.com/Heather" class="h3 button block">Heather</a>
-    </div>
-    <div class="col col-6 md-col-3">
-        <a href="http://jxnblk.com/loading" class="h3 button block">Loading</a>
-    </div>
-    <div class="clearfix md-show"></div>
+  <hr>
 
-    <div class="col col-6 md-col-3">
-      <a href="http://jxnblk.com/Twipster" class="h3 button block">Twipster</a>
-    </div>
-    <div class="col col-6 md-col-3">
-      <a href="http://soundrad.com" class="h3 button block">SoundRad</a>
-    </div>
-    <div class="col col-6 md-col-3">
-      <a href="http://microbeats.cc" class="h3 button block">Microbeats</a>
-    </div>
-    <div class="col col-6 md-col-3">
-      <a href="http://mrsjxn.com" class="h3 button block">MrsJxn</a>
-    </div>
-    <div class="clearfix md-show"></div>
-
-    <div class="col col-6 md-col-3">
-      <a href="http://jxnblk.com/skullcat" class="h3 button block">Skullcat</a>
-    </div>
-    <div class="col col-6 md-col-3">
-      <a href="http://jxnblk.com/gifolio" class="h3 button block">Gifolio</a>
-    </div>
+  <section id="projects" class="flex flex-wrap py3 mxn2">
+    
+      <div class="col-6 md-col-3 p2">
+        <a href="//jxnblk.com/principles" class="h3 block">
+          <h3 class="m0">Principles</h3>
+          <p class="h5 m0 bold">Web design principles</p>
+        </a>
+      </div>
+    
+      <div class="col-6 md-col-3 p2">
+        <a href="//jxnblk.com/writing" class="h3 block">
+          <h3 class="m0">Writing</h3>
+          <p class="h5 m0 bold">Articles and blog posts</p>
+        </a>
+      </div>
+    
+      <div class="col-6 md-col-3 p2">
+        <a href="//jxnblk.com/reading-list" class="h3 block">
+          <h3 class="m0">Reading List</h3>
+          <p class="h5 m0 bold">Recommended reading</p>
+        </a>
+      </div>
+    
+      <div class="col-6 md-col-3 p2">
+        <a href="//jxnblk.com/Ashley" class="h3 block">
+          <h3 class="m0">Ashley</h3>
+          <p class="h5 m0 bold">Readable Tumblr theme</p>
+        </a>
+      </div>
+    
+      <div class="col-6 md-col-3 p2">
+        <a href="//jxnblk.com/Heather" class="h3 block">
+          <h3 class="m0">Heather</h3>
+          <p class="h5 m0 bold">Hyperminimal Jekyll theme</p>
+        </a>
+      </div>
+    
+      <div class="col-6 md-col-3 p2">
+        <a href="//jxnblk.com/loading" class="h3 block">
+          <h3 class="m0">Loading</h3>
+          <p class="h5 m0 bold">Animated SVG loading indicators</p>
+        </a>
+      </div>
+    
+      <div class="col-6 md-col-3 p2">
+        <a href="//jxnblk.com/Twipster" class="h3 block">
+          <h3 class="m0">Twipster</h3>
+          <p class="h5 m0 bold">Simpler, Readabler Twitter</p>
+        </a>
+      </div>
+    
+      <div class="col-6 md-col-3 p2">
+        <a href="//soundrad.com" class="h3 block">
+          <h3 class="m0">SoundRad</h3>
+          <p class="h5 m0 bold">A radically simpler and faster Soundcloud player</p>
+        </a>
+      </div>
+    
+      <div class="col-6 md-col-3 p2">
+        <a href="//mrsjxn.com" class="h3 block">
+          <h3 class="m0">MrsJxn</h3>
+          <p class="h5 m0 bold">Post-future beats</p>
+        </a>
+      </div>
+    
+      <div class="col-6 md-col-3 p2">
+        <a href="//microbeats.cc" class="h3 block">
+          <h3 class="m0">Microbeats</h3>
+          <p class="h5 m0 bold">Beats created in under an hour</p>
+        </a>
+      </div>
+    
+      <div class="col-6 md-col-3 p2">
+        <a href="//jxnblk.com/skullcat" class="h3 block">
+          <h3 class="m0">Skullcat</h3>
+          <p class="h5 m0 bold">A avatar fur Mrmrs</p>
+        </a>
+      </div>
+    
   </section>
 
-  <section id="social-media" class="clearfix py3 mxn2">
-    <div class="col col-6 md-col-3">
-      <a href="http://twitter.com/jxnblk" class="h3 button block">Twitter</a>
-    </div>
-    <div class="col col-6 md-col-3">
-      <a href="http://github.com/jxnblk" class="h3 button block">Github</a>
-    </div>
-    <div class="col col-6 md-col-3">
-      <a href="http://jxnblk.tumblr.com" class="h3 button block">Tumblr</a>
-    </div>
-    <div class="col col-6 md-col-3">
-      <a href="http://soundcloud.com/jxnblk" class="h3 button block">SoundCloud</a>
-    </div>
-  </section>
+  <hr>
 
   <section id="about" class="py3">
-    <h1 class="h3 caps">About</h1>
-    <p class="h3">
+    <h1 class="h4 caps">About</h1>
+    <p class="">
       Product designer at Etsy. Based in Brooklyn, NY.
     </p>
   </section>
+
+  <hr>
+
+  <section id="social-media" class="flex flex-wrap py3 mxn2">
+    
+      <div class="col-6 md-col-3 px2">
+        <a href="//twitter.com/jxnblk" class="h4 caps bold block">Twitter</a>
+      </div>
+    
+      <div class="col-6 md-col-3 px2">
+        <a href="//github.com/jxnblk" class="h4 caps bold block">Github</a>
+      </div>
+    
+      <div class="col-6 md-col-3 px2">
+        <a href="//jxnblk.tumblr.com" class="h4 caps bold block">Tumblr</a>
+      </div>
+    
+      <div class="col-6 md-col-3 px2">
+        <a href="//soundcloud.com/jxnblk" class="h4 caps bold block">Soundcloud</a>
+      </div>
+    
+  </section>
+
 
 </body>
 </html>

@@ -1,0 +1,24 @@
+{
+  "name": "jxnblk.github.io",
+  "version": "0.0.0",
+  "description": "Brent Jackson, Designer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jxnblk/jxnblk.github.io.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jxnblk/jxnblk.github.io/issues"
+  },
+  "homepage": "https://github.com/jxnblk/jxnblk.github.io",
+  "devDependencies": {
+    "gulp-swig": "^0.7.4",
+    "jxnblk-api": "^1.0.0",
+    "gulp": "^3.8.10"
+  }
+}
