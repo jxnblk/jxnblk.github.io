@@ -8,7 +8,7 @@ gulp.task('swig', function() {
   var options = {
     setup: function(swig) {
       swig.setDefaults({
-        loader: swig.loaders.fs(path.resolve(__dirname, '../docs/src/templates'))
+        loader: swig.loaders.fs(path.resolve(__dirname, './templates'))
       });
     },
     defaults: {
@@ -16,7 +16,11 @@ gulp.task('swig', function() {
     },
     data: api
   };
-  gulp.src('./templates/**/*.html')
+  gulp.src([
+      './templates/**/*.html',
+      '!./templates/partials/**/*',
+      '!./templates/layouts/**/*'
+    ])
     .pipe(swig(options))
     .pipe(gulp.dest('.'));
 });
