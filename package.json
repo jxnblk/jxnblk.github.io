@@ -22,6 +22,6 @@
     "gulp": "^3.8.10"
   },
   "dependencies": {
-    "jxnblk-api": "^1.0.4"
+    "jxnblk-api": "^1.0.5"
   }
 }
