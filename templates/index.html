@@ -1,0 +1,57 @@
+{% extends 'layouts/default.html' %}
+{% set title = 'Jxnblk - Brent Jackson' %}
+
+{% block content %}
+<body class="container p2 blue">
+
+  {% include 'partials/header.html' %}
+
+  <section id="featured-projects" class="py2">
+    <h1 class="h6 caps display-none">Projects</h1>
+    <div class="sm-flex flex-wrap mxn2">
+      {% for project in projects.featured %}
+        <div class="sm-col-6 p2">
+          <a href="{{ project.link }}" class="block">
+            <h2 class="h1 m0">{{ project.name }}</h2>
+            <p class="h4 m0 bold">{{ project.description }}</p>
+          </a>
+        </div>
+      {% endfor %}
+    </div>
+  </section>
+
+  <hr>
+
+  <section id="projects" class="flex flex-wrap py3 mxn2">
+    {% for project in projects.other %}
+      <div class="col-6 md-col-3 p2">
+        <a href="{{ project.link }}" class="h3 block">
+          <h3 class="m0">{{ project.name }}</h3>
+          <p class="h5 m0 bold">{{ project.description }}</p>
+        </a>
+      </div>
+    {% endfor %}
+  </section>
+
+  <hr>
+
+  <section id="about" class="py3">
+    <h1 class="h6 caps">About</h1>
+    <p class="">
+      Product designer at Etsy. Based in Brooklyn, NY.
+    </p>
+  </section>
+
+  <hr>
+
+  <section id="social-media" class="sm-flex flex-wrap py3 mxn2">
+    {% for account in social_networks %}
+      <div class="sm-col-6 md-col-3 px2">
+        <a href="{{ account.link }}" class="h6 caps bold block py2">{{ account.name }}</a>
+      </div>
+    {% endfor %}
+  </section>
+
+
+</body>
+{% endblock %}
