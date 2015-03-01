@@ -19738,13 +19738,32 @@ module.exports = React.createClass({displayName: "exports",
 },{"react":171,"react-router-component":5}],173:[function(require,module,exports){
 
 var React = require('react');
+
+module.exports = React.createClass({displayName: "exports",
+
+  render: function() {
+    return (
+      React.createElement("section", {id: "about", 
+        className: "py4 border-bottom border-aqua"}, 
+        React.createElement("h1", {className: "h4 caps mt0"}, "About"), 
+        this.props.byline
+      )
+    )
+  }
+
+});
+
+
+},{"react":171}],174:[function(require,module,exports){
+
+var React = require('react');
 var Root = React.createFactory(require('./root.jsx'));
 
 React.render(Root(window.INITIAL_PROPS), document);
 
 
 
-},{"./root.jsx":179,"react":171}],174:[function(require,module,exports){
+},{"./root.jsx":180,"react":171}],175:[function(require,module,exports){
 
 var React = require('react');
 var ProjectCard = require('./project-card.jsx');
@@ -19766,7 +19785,7 @@ module.exports = React.createClass({displayName: "exports",
       React.createElement("div", {className: colClass, 
         style: colStyle, 
         key: 'featured-' + i}, 
-        React.createElement(ProjectCard, React.__spread({},  card))
+        React.createElement(ProjectCard, React.__spread({},  card, {index: i}))
       )
     )
   },
@@ -19775,7 +19794,8 @@ module.exports = React.createClass({displayName: "exports",
     var featured = this.props.projects.featured;
     return (
       React.createElement("section", {id: "featured-projects", 
-        className: "py4"}, 
+        className: "py3"}, 
+        React.createElement("h1", {className: "h4 caps mt0"}, "Featured Projects"), 
         React.createElement("div", {className: "flex flex-wrap mxn2"}, 
           featured.map(this.renderCard)
         )
@@ -19786,7 +19806,7 @@ module.exports = React.createClass({displayName: "exports",
 });
 
 
-},{"./project-card.jsx":178,"classnames":1,"react":171}],175:[function(require,module,exports){
+},{"./project-card.jsx":179,"classnames":1,"react":171}],176:[function(require,module,exports){
 
 var React = require('react');
 var Router = require('react-router-component');
@@ -19827,7 +19847,7 @@ module.exports = React.createClass({displayName: "exports",
 
 
 
-},{"react":171,"react-router-component":5}],176:[function(require,module,exports){
+},{"react":171,"react-router-component":5}],177:[function(require,module,exports){
 
 var React = require('react');
 var Router = require('react-router-component');
@@ -19849,14 +19869,14 @@ module.exports = React.createClass({displayName: "exports",
   render: function() {
     return (
       React.createElement("header", {className: "px2"}, 
-        React.createElement("div", {className: "flex flex-center flex-wrap py2 border-bottom border-thick border-aqua"}, 
+        React.createElement("div", {className: "flex flex-center flex-wrap py2 mxn2"}, 
           React.createElement("a", {href: "/", className: "h2 block mr2 black"}, 
-            React.createElement("svg", {xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 128 128", width: "1.5em", height: "1.5em", className: "block"}, 
+            React.createElement("svg", {xmlns: "http://www.w3.org/2000/svg", viewBox: "0 0 128 128", width: "1.5em", height: "1.5em", className: "block px2"}, 
               React.createElement("path", {d: " M64 0 L64 4 L76 4 L74 6 L94 14 L92 16 L104 20 L100 22 L106 28 L102 28 L106 56 Q110 62 110 70 T105 84 L96 108 C92 116 76 128 64 128 C52 128 36 116 32 108 L23 84 Q18 78 18 70 T22 56 L22 22 L26 24 L34 12 L36 16z M72 40 Q56 30 40 30 Q32 34 30 48 L30 48 L28 74 C28 81 37 102 38 104 C46 118 62 121 64 121 C66 121 82 118 90 104 C91 102 100 81 100 74 L99 52 L94 40 L92 42 L84 38 L84 42 L74 36 M44 62 A5.5 5.5 0 0 0 44 73 A5.5 5.5 0 0 0 44 62 M84 62 A5.5 5.5 0 0 0 84 73 A5.5 5.5 0 0 0 84 62 M57 88 H71 A2 2 0 0 1 71 92 H57 A2 2 0 0 1 57 88 M53 104 H75 A2 2 0 0 1 75 108 H53 A2 2 0 0 1 53 104 M33.3 60.4 C34.6 57.8 37 55.9 39.7 55.2 C43 54.4 46.8 55.3 50.4 58 C51.3 58.6 52.5 58.4 53.2 57.5 C53.8 56.6 53.6 55.4 52.7 54.7 C46.8 50.5 41.8 50.5 38.7 51.3 C34.8 52.3 31.5 54.9 29.7 58.6 C29.2 59.6 29.6 60.8 30.6 61.3 C30.9 61.4 31.2 61.5 31.5 61.5 C32.2 61.5 32.9 61.1 33.3 60.4 z M97.7 61.9 C98.5 61.2  98.6  59.9  97.9  59.1 C94.3 55  90.1  52.9  85.4  53 C82 53  78.3  54.2  74.3  56.6 C73.3 57.2  73  58.4  73.6  59.3 C74.2 60.3  75.4  60.6  76.3  60 C79.7 58  82.7  57  85.5  57 C89 57  92.1  58.5  95  61.7 C95.4 62.2  95.9  62.4  96.5  62.4 C96.8 62.4 97.3 62.2 97.7 61.9 z "})
             )
           ), 
-          React.createElement("div", {className: "flex-auto"}, 
-            React.createElement("h1", {className: "h2 m0"}, this.props.title), 
+          React.createElement("div", {className: "flex-auto flex flex-baseline"}, 
+            React.createElement("h1", {className: "h2 mt0 mb0 mr1"}, this.props.title), 
             React.createElement("p", {className: "h5 m0"}, this.props.description)
           ), 
           React.createElement("nav", null, 
@@ -19871,18 +19891,20 @@ module.exports = React.createClass({displayName: "exports",
 
 
 
-},{"react":171,"react-router-component":5}],177:[function(require,module,exports){
+},{"react":171,"react-router-component":5}],178:[function(require,module,exports){
 
 var React = require('react');
 
 var FeaturedProjects = require('./featured-projects.jsx');
+var About = require('./about.jsx');
 
 module.exports = React.createClass({displayName: "exports",
 
   render: function() {
     return (
       React.createElement("main", null, 
-        React.createElement(FeaturedProjects, React.__spread({},  this.props))
+        React.createElement(FeaturedProjects, React.__spread({},  this.props)), 
+        React.createElement(About, React.__spread({},  this.props))
       )
     )
   }
@@ -19891,7 +19913,7 @@ module.exports = React.createClass({displayName: "exports",
 
 
 
-},{"./featured-projects.jsx":174,"react":171}],178:[function(require,module,exports){
+},{"./about.jsx":173,"./featured-projects.jsx":175,"react":171}],179:[function(require,module,exports){
 
 var React = require('react');
 var classnames = require('classnames');
@@ -19908,11 +19930,16 @@ module.exports = React.createClass({displayName: "exports",
       backgroundColor: 'black',
       color: 'white',
       customClass: false,
+      logo: false,
     }
   },
 
   renderLogo: function(logo) {
-    if (!logo) {
+    if (this.props.logoSvg) {
+      var svg = { __html: this.props.logoSvg };
+      console.log(this.props.logoSvg);
+      return ( React.createElement("div", {dangerouslySetInnerHTML: svg}) );
+    } else if (!logo) {
       return false;
     } else {
       return (
@@ -19926,7 +19953,6 @@ module.exports = React.createClass({displayName: "exports",
   },
 
   render: function() {
-
     var classes = {
       section: classnames(this.props.className, 'flex full-width center mb3'),
       link: classnames(
@@ -19935,10 +19961,14 @@ module.exports = React.createClass({displayName: "exports",
           'full-width',
           'button button-transparent',
           'px3 py4',
+          'border border-white',
           'bg-' + this.props.backgroundColor,
           this.props.color),
         content: 'full-width',
-        title: classnames('h1 h1-responsive m0'),
+        title: classnames(
+          {'h0 h0-responsive': (this.props.index == 0) },
+          {'h1 h1-responsive': (this.props.index > 0 && this.props.index < 6) },
+          'm0'),
         description: 'm0'
     };
     var styles = {
@@ -19965,7 +19995,7 @@ module.exports = React.createClass({displayName: "exports",
 });
 
 
-},{"classnames":1,"react":171}],179:[function(require,module,exports){
+},{"classnames":1,"react":171}],180:[function(require,module,exports){
 
 var React = require('react');
 var Router = require('react-router-component');
@@ -20017,4 +20047,4 @@ module.exports = React.createClass({displayName: "exports",
 
 
 
-},{"./404.jsx":172,"./footer.jsx":175,"./header.jsx":176,"./home.jsx":177,"react":171,"react-html":4,"react-router-component":5}]},{},[173]);
+},{"./404.jsx":172,"./footer.jsx":176,"./header.jsx":177,"./home.jsx":178,"react":171,"react-html":4,"react-router-component":5}]},{},[174]);

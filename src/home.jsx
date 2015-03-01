@@ -2,6 +2,7 @@
 var React = require('react');
 
 var FeaturedProjects = require('./featured-projects.jsx');
+var About = require('./about.jsx');
 
 module.exports = React.createClass({
 
@@ -9,6 +10,7 @@ module.exports = React.createClass({
     return (
       <main>
         <FeaturedProjects {...this.props} />
+        <About {...this.props} />
       </main>
     )
   }

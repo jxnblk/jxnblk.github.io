@@ -14,11 +14,16 @@ module.exports = React.createClass({
       backgroundColor: 'black',
       color: 'white',
       customClass: false,
+      logo: false,
     }
   },
 
   renderLogo: function(logo) {
-    if (!logo) {
+    if (this.props.logoSvg) {
+      var svg = { __html: this.props.logoSvg };
+      console.log(this.props.logoSvg);
+      return ( <div dangerouslySetInnerHTML={svg} /> );
+    } else if (!logo) {
       return false;
     } else {
       return (
@@ -32,7 +37,6 @@ module.exports = React.createClass({
   },
 
   render: function() {
-
     var classes = {
       section: classnames(this.props.className, 'flex full-width center mb3'),
       link: classnames(
@@ -41,10 +45,14 @@ module.exports = React.createClass({
           'full-width',
           'button button-transparent',
           'px3 py4',
+          'border border-white',
           'bg-' + this.props.backgroundColor,
           this.props.color),
         content: 'full-width',
-        title: classnames('h1 h1-responsive m0'),
+        title: classnames(
+          {'h0 h0-responsive': (this.props.index == 0) },
+          {'h1 h1-responsive': (this.props.index > 0 && this.props.index < 6) },
+          'm0'),
         description: 'm0'
     };
     var styles = {

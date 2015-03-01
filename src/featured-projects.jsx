@@ -19,7 +19,7 @@ module.exports = React.createClass({
       <div className={colClass}
         style={colStyle}
         key={'featured-' + i}>
-        <ProjectCard {...card} />
+        <ProjectCard {...card} index={i} />
       </div>
     )
   },
@@ -28,7 +28,8 @@ module.exports = React.createClass({
     var featured = this.props.projects.featured;
     return (
       <section id="featured-projects"
-        className="py4">
+        className="py3">
+        <h1 className="h4 caps mt0">Featured Projects</h1>
         <div className="flex flex-wrap mxn2">
           {featured.map(this.renderCard)}
         </div>
