@@ -1,14 +1,14 @@
 
 var React = require('react');
-var Router = require('react-router-component');
-var Link = Router.Link;
+
+var FeaturedProjects = require('./featured-projects.jsx');
 
 module.exports = React.createClass({
 
   render: function() {
     return (
       <main>
-        <h1>Home</h1>
+        <FeaturedProjects {...this.props} />
       </main>
     )
   }

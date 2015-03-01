@@ -3,7 +3,9 @@ var _ = require('lodash');
 var path = require('path');
 var staticReact = require('static-react');
 var Root = require('../src/root.jsx');
-var props = require('jxnblk-api');
+
+//var props = require('jxnblk-api');
+var props = require('../../api');
 
 props.routes = [
   { path: '/', title: 'Home' }

@@ -7,7 +7,6 @@ module.exports = React.createClass({
 
   renderLink: function(link) {
     var href = this.props.baseUrl + link.link;
-    console.log('social nework link', link.link, link.name);
     return (
       <a href={href}
         key={'footer-' + link.name}
@@ -18,7 +17,6 @@ module.exports = React.createClass({
   },
 
   render: function() {
-    console.log('footer props', this.props.social_networks);
     return (
       <footer className="px2">
         <div className="py2 border-top border-thick border-aqua">
