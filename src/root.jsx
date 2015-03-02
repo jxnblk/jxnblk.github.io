@@ -34,7 +34,7 @@ module.exports = React.createClass({
         <div className="flex flex-column"
           style={{ minHeight: '100vh' }}>
           <Header {...this.props} />
-          <div className="flex-auto px2">
+          <div className="flex-auto px3">
             <Locations path={path}>
               <Location path={this.props.baseUrl + '/*'} handler={React.createFactory(Pages)(this.props)} />
             </Locations>

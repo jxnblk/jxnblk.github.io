@@ -18,16 +18,14 @@ module.exports = React.createClass({
 
   render: function() {
     return (
-      <footer className="px2">
-        <div className="py2 border-top border-thick border-aqua">
-          <div className="flex flex-baseline flex-wrap mxn2">
-            <h1 className="h5 mt0 mb0 mr1">
-              <Link href="/" className="button button-transparent">{this.props.title}</Link>
-            </h1>
-            <div className="flex-auto" />
-            <div>
-              {this.props.social_networks.map(this.renderLink)}
-            </div>
+      <footer className="px3 py3">
+        <div className="flex flex-baseline flex-wrap mxn2">
+          <h1 className="h4 mt0 mb0 mr1">
+            <Link href="/" className="h4 button button-transparent">{this.props.title}</Link>
+          </h1>
+          <div className="flex-auto" />
+          <div>
+            {this.props.social_networks.map(this.renderLink)}
           </div>
         </div>
       </footer>

@@ -28,8 +28,8 @@ module.exports = React.createClass({
     var featured = this.props.projects.featured;
     return (
       <section id="featured-projects"
-        className="py3">
-        <h1 className="h4 caps mt0">Featured Projects</h1>
+        className="py3 border-bottom border-thick border-aqua">
+        <h1 className="h6 caps mt0 mb2">Featured Projects</h1>
         <div className="flex flex-wrap mxn2">
           {featured.map(this.renderCard)}
         </div>

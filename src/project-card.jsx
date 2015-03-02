@@ -19,6 +19,8 @@ module.exports = React.createClass({
   },
 
   renderLogo: function(logo) {
+    var width = (this.props.index < 3) ? 96 : 64;
+    var height = width;
     if (this.props.logoSvg) {
       var svg = { __html: this.props.logoSvg };
       console.log(this.props.logoSvg);
@@ -28,8 +30,8 @@ module.exports = React.createClass({
     } else {
       return (
         <img src={logo}
-          width="96"
-          height="96"
+          width={width}
+          height={height}
           className=""
           alt={this.props.name + ' logo'} />
       );
@@ -44,16 +46,21 @@ module.exports = React.createClass({
           'flex flex-center',
           'full-width',
           'button button-transparent',
-          'px3 py4',
+          'px3',
+          { 'py4': (this.props.index < 3) },
+          { 'py4': (this.props.index > 2) },
           'border border-white',
           'bg-' + this.props.backgroundColor,
           this.props.color),
         content: 'full-width',
         title: classnames(
-          {'h0 h0-responsive': (this.props.index == 0) },
-          {'h1 h1-responsive': (this.props.index > 0 && this.props.index < 6) },
+          { 'h0 h0-responsive': (this.props.index == 0) },
+          { 'h1 h1-responsive': (this.props.index > 0 && this.props.index < 3) },
+          { 'h1': (this.props.index > 2 && this.props.index < 6) },
+          { 'h2': (this.props.index > 5) },
           'm0'),
-        description: 'm0'
+        description: classnames('m0',
+          { 'h5': (this.props.index > 2) }),
     };
     var styles = {
       link: {

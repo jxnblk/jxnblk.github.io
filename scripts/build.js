@@ -4,8 +4,7 @@ var path = require('path');
 var staticReact = require('static-react');
 var Root = require('../src/root.jsx');
 
-//var props = require('jxnblk-api');
-var props = require('../../api');
+var props = require('jxnblk-api');
 
 props.routes = [
   { path: '/', title: 'Home' }
@@ -22,7 +21,7 @@ if (process.env.NODE_ENV === 'production') {
 props.title = 'Jxnblk';
 props.description = 'Brent Jackson';
 props.stylesheet = 'http://d2v52k3cl9vedd.cloudfront.net/blk/1.0.1/blk.min.css';
-props.script = '/js/app.min.js'
+//props.script = '/js/app.min.js'
 
 props.headerLinks = [
   { href: '//twitter.com/jxnblk', title: 'Twitter' },
