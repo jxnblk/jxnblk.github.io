@@ -2,26 +2,52 @@
   "name": "jxnblk.github.io",
   "version": "0.0.0",
   "description": "Brent Jackson, Designer",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "node scripts/build",
+    "browserify": "browserify src/client.js -o js/bundle.js",
+    "uglify": "uglifyjs js/bundle.js -o js/app.min.js",
+    "watch:build": "watch 'npm run build' ./src",
+    "watch:browserify": "watch 'npm run browserify' ./src",
+    "watch:uglify": "watch 'npm run uglify' ./js",
+    "deploy": "export NODE_ENV=production && npm run build && npm run browserify && npm run uglify",
+    "serve": "http-server -p 8000",
+    "start": "export NODE_ENV=development && parallelshell 'npm run watch:build' 'npm run watch:browserify' 'npm run watch:uglify' 'npm run serve'"
+  },
+  "devDependencies": {
+    "browserify": "^9.0.3",
+    "classnames": "^1.1.4",
+    "envify": "^3.2.0",
+    "http-server": "^0.7.5",
+    "jxnblk-api": "^2.0.1",
+    "lodash": "^3.3.1",
+    "parallelshell": "^1.0.4",
+    "react": "^0.12.2",
+    "react-async": "^2.0.1",
+    "react-html": "0.0.2",
+    "react-router-component": "^0.24.1",
+    "react-tools": "^0.12.2",
+    "reactify": "^1.0.0",
+    "static-react": "0.0.1",
+    "uglify-js": "^2.4.16",
+    "watch": "^0.14.0"
+  },
+  "dependencies": {
+    "jxnblk-api": "^1.0.5"
+  },
+  "browserify": {
+    "transform": [
+      "reactify",
+      "envify"
+    ]
   },
   "repository": {
     "type": "git",
     "url": "git://github.com/jxnblk/jxnblk.github.io.git"
   },
-  "author": "",
+  "author": "Brent Jackson",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/jxnblk/jxnblk.github.io/issues"
   },
-  "homepage": "https://github.com/jxnblk/jxnblk.github.io",
-  "devDependencies": {
-    "gulp-swig": "^0.7.4",
-    "jxnblk-api": "^1.0.2",
-    "gulp": "^3.8.10"
-  },
-  "dependencies": {
-    "jxnblk-api": "^1.0.5"
-  }
+  "homepage": "https://github.com/jxnblk/jxnblk.github.io"
 }
