@@ -62,9 +62,19 @@ module.exports = React.createClass({
         description: classnames('m0',
           { 'h5': (this.props.index > 2) }),
     };
+    var letterSpacing;
+    if (this.props.customClass) {
+      letterSpacing = this.props.customClass.match(/caps/g) ? '.2em' : false;
+    }
     var styles = {
       link: {
         backgroundImage: this.props.backgroundImage,
+      },
+      h1: {
+        letterSpacing: letterSpacing
+      },
+      description: {
+        letterSpacing: letterSpacing
       }
     };
 
@@ -75,8 +85,8 @@ module.exports = React.createClass({
           style={styles.link}>
           <div className={classes.content}>
             {this.renderLogo(this.props.logo)}
-            <h1 className={classes.title}>{this.props.name}</h1>
-            <p className={classes.description}>{this.props.description}</p>
+            <h1 className={classes.title} style={styles.h1}>{this.props.name}</h1>
+            <p className={classes.description} style={styles.description}>{this.props.description}</p>
           </div>
         </a>
       </section>
