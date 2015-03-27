@@ -18,7 +18,6 @@
     "classnames": "^1.1.4",
     "envify": "^3.2.0",
     "http-server": "^0.7.5",
-    "jxnblk-api": "^2.0.1",
     "lodash": "^3.3.1",
     "parallelshell": "^1.0.4",
     "react": "^0.12.2",
@@ -27,12 +26,12 @@
     "react-router-component": "^0.24.1",
     "react-tools": "^0.12.2",
     "reactify": "^1.0.0",
-    "static-react": "0.0.1",
+    "static-react": "^2.0.0-beta1",
     "uglify-js": "^2.4.16",
     "watch": "^0.14.0"
   },
   "dependencies": {
-    "jxnblk-api": "^1.0.5"
+    "jxnblk-api": "^2.0.1"
   },
   "browserify": {
     "transform": [
