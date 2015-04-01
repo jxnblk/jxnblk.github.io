@@ -8,7 +8,7 @@ var Root = require('../src/root.jsx');
 var props = require('jxnblk-api');
 
 props.title = 'Jxnblk';
-props.baseUrl = "";
+props.baseUrl = '';
 
 props.description = 'Brent Jackson';
 props.stylesheet = 'http://d2v52k3cl9vedd.cloudfront.net/blk/1.0.1/blk.min.css';
