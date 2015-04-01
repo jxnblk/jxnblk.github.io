@@ -2,7 +2,7 @@
 var _ = require('lodash');
 var fs = require('fs');
 var path = require('path');
-var build = require('static-react').build;
+var build = require('static-react/build');
 var Root = require('../src/root.jsx');
 
 var props = require('jxnblk-api');

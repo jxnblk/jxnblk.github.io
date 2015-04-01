@@ -1,18 +1,16 @@
 
 var React = require('react');
-var Router = require('react-router-component');
-var Link = Router.Link;
 
 module.exports = React.createClass({
 
   renderLink: function(link) {
-    var href = this.props.baseUrl + link.href;
+    var href = link.href;
     return (
-      <Link href={href}
+      <a href={href}
         key={link.title}
         className="button button-transparent">
         {link.title}
-      </Link>
+      </a>
     )
   },
 

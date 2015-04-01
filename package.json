@@ -23,7 +23,6 @@
     "react": "^0.12.2",
     "react-async": "^2.0.1",
     "react-html": "0.0.2",
-    "react-router-component": "^0.24.1",
     "react-tools": "^0.12.2",
     "reactify": "^1.0.0",
     "static-react": "^2.0.0-beta1",
