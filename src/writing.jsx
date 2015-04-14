@@ -43,7 +43,7 @@ module.exports = React.createClass({
   render: function() {
     var posts = this.props.writing.posts;
     return (
-      <section id="other-projects"
+      <section id="writing"
         className="py3 border-bottom border-thick border-aqua">
         <h1 className="h6 caps mt0">Writing</h1>
         <div className="sm-flex flex-wrap mxn3">
