@@ -10,7 +10,17 @@ module.exports = {
   username: 'jxnblk',
   baseUrl: '',
   favicon: 'favicon.png',
-  styles: cssnext('@import "blk";', { compress: true }),
+  styles: [
+    cssnext('@import "blk";', {
+      compress: true,
+      features: {
+        autoprefixer: false,
+        rem: false,
+        pseudoElements: false,
+      }
+    }),
+    '@media (min-width:40em){.sm-px3{padding-left:2rem;padding-right:2rem}}'
+  ].join(' '),
   stylesheet: 'http://d2v52k3cl9vedd.cloudfront.net/blk/1.0.1/blk.min.css',
   byline: 'Product designer at Etsy. Based in Brooklyn, NY.',
   homepage: '//jxnblk.com',

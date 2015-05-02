@@ -16,7 +16,7 @@ module.exports = React.createClass({
 
   render: function() {
     return (
-      <footer className="px3 py3">
+      <footer className="px2 sm-px3 py3">
         <div className="flex flex-baseline flex-wrap mxn1">
           <a href="/" className="m1 button button-link">{this.props.title}</a>
           <div className="flex-auto" />

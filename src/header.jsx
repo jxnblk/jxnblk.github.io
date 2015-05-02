@@ -17,7 +17,7 @@ module.exports = React.createClass({
 
   render: function() {
     return (
-      <header className="px3">
+      <header className="px2 sm-px3">
         <div className="border-bottom border-thick border-darken-1">
           <div className="flex flex-center flex-wrap py2 mxn1">
             <a href="/" className="flex-none h3 block px1 black">

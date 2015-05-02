@@ -46,8 +46,11 @@ module.exports = React.createClass({
           'flex flex-center',
           'full-width',
           'button button-transparent',
-          'px3',
-          'py4'),
+          'px2',
+          {
+            'py4': (this.props.index < 2),
+            'py3': (this.props.index > 1),
+          }),
         content: 'full-width',
         title: classnames({
             'h1': (this.props.index < 2),
@@ -56,21 +59,11 @@ module.exports = React.createClass({
         description: classnames('m0',
           { 'h5': (this.props.index > 2) }),
     };
-    var letterSpacing;
-    if (this.props.customClass) {
-      letterSpacing = this.props.customClass.match(/caps/g) ? '.2em' : false;
-    }
     var styles = {
       link: {
         color: this.props.color,
         backgroundImage: this.props.backgroundImage,
         backgroundColor: this.props.backgroundColor
-      },
-      h1: {
-        letterSpacing: letterSpacing
-      },
-      description: {
-        letterSpacing: letterSpacing
       }
     };
 
@@ -81,8 +74,8 @@ module.exports = React.createClass({
           style={styles.link}>
           <div className={classes.content}>
             {this.renderLogo(this.props.logo)}
-            <h1 className={classes.title} style={styles.h1}>{this.props.name}</h1>
-            <p className={classes.description} style={styles.description}>{this.props.description}</p>
+            <h1 className={classes.title}>{this.props.name}</h1>
+            <p className={classes.description}>{this.props.description}</p>
           </div>
         </a>
       </section>

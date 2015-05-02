@@ -16,7 +16,7 @@ module.exports = React.createClass({
         <div className="flex flex-column"
           style={{ minHeight: '100vh' }}>
           <Header {...this.props} />
-          <div className="flex-auto px3">
+          <div className="flex-auto px2 sm-px3">
             <Home {...this.props} />
           </div>
           <Footer {...this.props} />

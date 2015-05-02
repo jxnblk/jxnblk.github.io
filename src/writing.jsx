@@ -42,7 +42,7 @@ module.exports = React.createClass({
     var posts = this.props.writing.posts;
     return (
       <section id="writing"
-        className="py3 border-bottom border-thick border-darken-1">
+        className="py3 overflow-hidden border-bottom border-thick border-darken-1">
         <h1 className="h6 caps mt0">Writing</h1>
         <div className="sm-flex flex-wrap mxn3">
           {posts.map(this.renderPost)}
