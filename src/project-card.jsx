@@ -11,15 +11,15 @@ module.exports = React.createClass({
       link: '/',
       backgroundImage: false,
       backgroundSize: false,
-      backgroundColor: 'black',
-      color: 'white',
+      backgroundColor: 'transparent',
+      color: 'black',
       customClass: false,
       logo: false,
     }
   },
 
   renderLogo: function(logo) {
-    var width = (this.props.index < 3) ? 96 : 64;
+    var width = (this.props.index < 2) ? 96 : 64;
     var height = width;
     if (this.props.logoSvg) {
       var svg = { __html: this.props.logoSvg };
@@ -39,23 +39,19 @@ module.exports = React.createClass({
 
   render: function() {
     var classes = {
-      section: classnames(this.props.className, 'flex full-width center mb3'),
+      section: classnames(this.props.className, 'flex full-width center'),
       link: classnames(
           this.props.customClass,
           'flex flex-center',
           'full-width',
           'button button-transparent',
           'px3',
-          'py4',
-          'bg-' + this.props.backgroundColor,
-          this.props.color),
+          'py4'),
         content: 'full-width',
-        title: classnames(
-          { 'h0 h0-responsive': (this.props.index == 0) },
-          { 'h1 h1-responsive': (this.props.index > 0 && this.props.index < 3) },
-          { 'h1': (this.props.index > 2 && this.props.index < 6) },
-          { 'h2': (this.props.index > 5) },
-          'm0'),
+        title: classnames({
+            'h1': (this.props.index < 2),
+            'h2': (this.props.index > 2)
+          }, 'm0'),
         description: classnames('m0',
           { 'h5': (this.props.index > 2) }),
     };
@@ -65,7 +61,9 @@ module.exports = React.createClass({
     }
     var styles = {
       link: {
+        color: this.props.color,
         backgroundImage: this.props.backgroundImage,
+        backgroundColor: this.props.backgroundColor
       },
       h1: {
         letterSpacing: letterSpacing

@@ -7,19 +7,16 @@ module.exports = React.createClass({
 
   renderCard: function(card, i) {
     var colClass = classnames(
-      'flex px2',
+      'flex px1 mb2',
       {
         'col-12 sm-col-7': (i === 0),
         'col-12 sm-col-5': (i === 1),
         'col-12 sm-col-6 lg-col-4' : (i > 1)
       }
     );
-    var colStyle = {
-      //minHeight: (i == 0) ? '75vh' : false,
-    };
+
     return (
       <div className={colClass}
-        style={colStyle}
         key={'featured-' + i}>
         <ProjectCard {...card} index={i} />
       </div>
@@ -30,9 +27,9 @@ module.exports = React.createClass({
     var featured = this.props.projects.featured;
     return (
       <section id="featured-projects"
-        className="py3 border-bottom border-thick border-aqua">
+        className="py3 border-bottom border-thick border-darken-1">
         <h1 className="h6 caps mt0 mb2">Featured Projects</h1>
-        <div className="flex flex-wrap mxn2">
+        <div className="flex flex-wrap mxn1">
           {featured.map(this.renderCard)}
         </div>
       </section>

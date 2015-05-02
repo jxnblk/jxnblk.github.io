@@ -3,17 +3,16 @@
   "version": "256.0.0",
   "description": "Brent Jackson, Designer",
   "scripts": {
-    "build": "node scripts/build",
     "webpack": "webpack --progress --colors",
     "serve": "webpack-dev-server --progress --colors",
     "start": "npm run serve"
   },
   "devDependencies": {
-    "blk": "^1.0.2",
+    "blk": "^1.1.0",
     "classnames": "^1.1.4",
+    "colors.css": "^2.3.0",
     "cssnext": "^1.4.0",
     "jsx-loader": "^0.13.2",
-    "lodash": "^3.3.1",
     "react": "^0.12.2",
     "react-html": "2.0.1",
     "react-tools": "^0.12.2",

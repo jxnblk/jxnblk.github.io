@@ -1,5 +1,8 @@
 
 var cssnext = require('cssnext');
+var colors = require('colors.css');
+
+colors.darkgray = '#304650';
 
 module.exports = {
   name: 'Brent Jackson',
@@ -29,7 +32,7 @@ module.exports = {
         description: 'Low-level CSS toolkit',
         color: 'black',
         logo: 'http://d2v52k3cl9vedd.cloudfront.net/assets/images/bass-bolt.svg',
-        customClass: 'caps left-align bg-white border border-thick border-aqua',
+        customClass: 'caps left-align border border-thick border-aqua',
       },
       {
         name: 'CSS Stats',
@@ -37,7 +40,6 @@ module.exports = {
         description: 'CSS parsing tool',
         logo: 'http://d2v52k3cl9vedd.cloudfront.net/assets/images/cssstats.svg',
         color: 'black',
-        backgroundColor: 'white',
         customClass: 'border-gray',
       },
       {
@@ -46,51 +48,39 @@ module.exports = {
         description: 'Open source icons for the web',
         logo: 'http://d2v52k3cl9vedd.cloudfront.net/assets/images/geomicons-heart.svg',
         color: 'white',
-        backgroundColor: 'black',
+        backgroundColor: colors.darkgray,
         backgroundImage: 'url(http://d2v52k3cl9vedd.cloudfront.net/assets/images/geomicons-grid.svg)',
+      },
+      {
+        name: 'Colorable',
+        link: '//jxnblk.com/colorable',
+        description: 'Color palette contrast tester',
+        color: colors.red,
+        backgroundColor: colors.navy,
+        logo: 'http://d2v52k3cl9vedd.cloudfront.net/assets/images/colorable.svg',
       },
       {
         name: 'Shade',
         link: '//jxnblk.com/shade',
         description: 'Mathematically-derived gradients',
         color: 'white',
-        backgroundColor: 'bright-blue',
+        backgroundColor: '#f6ff00',
         backgroundImage: 'linear-gradient(-90deg, #F6FF00, #FF00A1)',
-        customClass: '', // Compensate for width bug
-      },
-      {
-        name: 'Colorable',
-        link: '//jxnblk.com/colorable',
-        description: 'Color palette contrast tester',
-        color: 'red',
-        backgroundColor: 'navy',
-        logo: 'http://d2v52k3cl9vedd.cloudfront.net/assets/images/colorable.svg',
+        customClass: 'border border-white',
       },
       {
         name: 'Spectral',
         link: '//jxnblk.com/Spectral',
         description: 'Click the Rainbow',
-        //backgroundImage: 'url(http://d2v52k3cl9vedd.cloudfront.net/assets/images/spectral-background.svg)',
-        //backgroundColor: 'bright-blue',
-        customClass: 'bg-cover bg-center',
+        color: 'rgba(0,0,0,.875)',
+        backgroundColor: '#00c9fc', //colors.aqua,
       },
       {
-        name: 'Fitter Happier Text',
         link: '//jxnblk.com/fitter-happier-text',
         description: 'Performant, Fully Fluid Headings',
-        color: 'white',
-        backgroundColor: 'red',
+        color: 'rgba(255,255,255,.875)',
+        backgroundColor: '#f40',
         logoSvg: '<svg xmlns="http://www.w3.org/2000/svg" fill="white" overflow="visible" viewBox="0 0 222 22"> <style> text { font-family: "Avenir Next", "Helvetica Neue", Helvetica, sans-serif; font-weight: 600; text-transform: uppercase; letter-spacing: .2em; } </style> <text x="50%" y="16" font-family="inherit" font-size="1rem" font-weight="inherit" style="text-anchor:middle">Fitter Happier Text</text> </svg>',
-        customClass: 'caps',
-      },
-      {
-        name: 'Plangular',
-        link: '//jxnblk.com/plangular',
-        description: 'Create custom Soundcloud players',
-        color: 'red',
-        backgroundColor: 'black',
-        logo: 'http://d2v52k3cl9vedd.cloudfront.net/assets/images/plangular.svg',
-        customClass: 'regular caps',
       },
       {
         name: 'Loading',
@@ -98,12 +88,11 @@ module.exports = {
         description: 'Animated SVG Loading Indicators',
         logo: 'http://d2v52k3cl9vedd.cloudfront.net/assets/images/loading-bubbles.svg',
         color: 'white',
-        backgroundColor: 'purple'
+        backgroundColor: '#aa4f80',
       },
     ],
     other: [
       { name: 'Principles', link: '//jxnblk.com/principles', description: 'Web Design Principles' },
-      //{ name: 'Writing', link: '//jxnblk.com/writing', description: 'Articles and Blog Posts' },
       { name: 'Reading List', link: '//jxnblk.com/reading-list', description: 'Recommended Reading' },
       { name: 'Ashley', link: '//jxnblk.com/Ashley', description: 'Readable Tumblr Theme' },
       { name: 'Heather', link: '//jxnblk.com/Heather', description: 'Hyperminimal Jekyll Theme' },
