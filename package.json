@@ -1,42 +1,25 @@
 {
   "name": "jxnblk.github.io",
-  "version": "0.0.0",
+  "version": "256.0.0",
   "description": "Brent Jackson, Designer",
   "scripts": {
     "build": "node scripts/build",
-    "browserify": "browserify src/client.js -o js/bundle.js",
-    "uglify": "uglifyjs js/bundle.js -o js/app.min.js",
-    "watch:build": "watch 'npm run build' ./src",
-    "watch:browserify": "watch 'npm run browserify' ./src",
-    "watch:uglify": "watch 'npm run uglify' ./js",
-    "deploy": "export NODE_ENV=production && npm run build && npm run browserify && npm run uglify",
-    "serve": "http-server -p 8000",
-    "start": "export NODE_ENV=development && parallelshell 'npm run watch:build' 'npm run watch:browserify' 'npm run watch:uglify' 'npm run serve'"
+    "webpack": "webpack --progress --colors",
+    "serve": "webpack-dev-server --progress --colors",
+    "start": "npm run serve"
   },
   "devDependencies": {
-    "browserify": "^9.0.3",
+    "blk": "^1.0.2",
     "classnames": "^1.1.4",
-    "envify": "^3.2.0",
-    "http-server": "^0.7.5",
+    "cssnext": "^1.4.0",
+    "jsx-loader": "^0.13.2",
     "lodash": "^3.3.1",
-    "parallelshell": "^1.0.4",
     "react": "^0.12.2",
-    "react-async": "^2.0.1",
-    "react-html": "0.0.2",
+    "react-html": "2.0.1",
     "react-tools": "^0.12.2",
-    "reactify": "^1.0.0",
-    "static-react": "^2.0.0-beta1",
-    "uglify-js": "^2.4.16",
-    "watch": "^0.14.0"
-  },
-  "dependencies": {
-    "jxnblk-api": "^2.0.1"
-  },
-  "browserify": {
-    "transform": [
-      "reactify",
-      "envify"
-    ]
+    "static-site-generator-webpack-plugin": "^1.0.0",
+    "webpack": "^1.8.11",
+    "webpack-dev-server": "^1.8.2"
   },
   "repository": {
     "type": "git",

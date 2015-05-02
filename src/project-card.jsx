@@ -23,7 +23,6 @@ module.exports = React.createClass({
     var height = width;
     if (this.props.logoSvg) {
       var svg = { __html: this.props.logoSvg };
-      console.log(this.props.logoSvg);
       return ( <div dangerouslySetInnerHTML={svg} /> );
     } else if (!logo) {
       return false;
@@ -47,9 +46,7 @@ module.exports = React.createClass({
           'full-width',
           'button button-transparent',
           'px3',
-          { 'py4': (this.props.index < 3) },
-          { 'py4': (this.props.index > 2) },
-          'border border-white',
+          'py4',
           'bg-' + this.props.backgroundColor,
           this.props.color),
         content: 'full-width',

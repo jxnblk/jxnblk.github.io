@@ -8,12 +8,14 @@ module.exports = React.createClass({
   renderCard: function(card, i) {
     var colClass = classnames(
       'flex px2',
-      { 'col-12': (i == 0) },
-      { 'col-12 sm-col-6' : (i != 0) },
-      { 'lg-col-4' : (i > 2) }
+      {
+        'col-12 sm-col-7': (i === 0),
+        'col-12 sm-col-5': (i === 1),
+        'col-12 sm-col-6 lg-col-4' : (i > 1)
+      }
     );
     var colStyle = {
-      minHeight: (i == 0) ? '75vh' : false,
+      //minHeight: (i == 0) ? '75vh' : false,
     };
     return (
       <div className={colClass}
