@@ -29,7 +29,7 @@ module.exports = React.createClass({
       <section id="featured-projects"
         className="py3 border-bottom border-thick border-darken-1">
         <h1 className="h6 caps mt0 mb2">Featured Projects</h1>
-        <div className="flex flex-wrap mxn1">
+        <div className="sm-flex flex-wrap mxn1">
           {featured.map(this.renderCard)}
         </div>
       </section>
