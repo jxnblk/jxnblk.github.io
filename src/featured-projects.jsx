@@ -7,11 +7,11 @@ module.exports = React.createClass({
 
   renderCard: function(card, i) {
     var colClass = classnames(
-      'flex px1 mb2',
+      'flex flex-auto px1 mb2 col-12 sm-col-6',
       {
-        'col-12 sm-col-7': (i === 0),
-        'col-12 sm-col-5': (i === 1),
-        'col-12 sm-col-6 lg-col-4' : (i > 1)
+        'lg-col-7': (i === 0),
+        'lg-col-5': (i === 1),
+        'lg-col-4' : (i > 1)
       }
     );
 

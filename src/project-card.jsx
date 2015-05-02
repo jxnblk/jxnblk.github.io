@@ -42,6 +42,7 @@ module.exports = React.createClass({
       section: classnames(this.props.className, 'flex full-width center'),
       link: classnames(
           this.props.customClass,
+          //'border border-thick border-darken-2',
           'flex flex-center',
           'full-width',
           'button button-transparent',

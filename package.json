@@ -14,7 +14,7 @@
     "cssnext": "^1.4.0",
     "jsx-loader": "^0.13.2",
     "react": "^0.12.2",
-    "react-html": "2.0.1",
+    "react-html": "^2.1.0",
     "react-tools": "^0.12.2",
     "static-site-generator-webpack-plugin": "^1.0.0",
     "webpack": "^1.8.11",
