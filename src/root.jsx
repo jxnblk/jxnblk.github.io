@@ -10,7 +10,7 @@ var Root = React.createClass({
 
   getInitialState: function() {
     return {
-      color: 'black',
+      color: 'navy',
       backgroundColor: 'white',
       theme: 0,
     }
@@ -19,11 +19,12 @@ var Root = React.createClass({
   toggleTheme: function() {
     var i = this.state.theme;
     var themes = [
-      { color: 'black', backgroundColor: 'white' },
+      { color: 'navy', backgroundColor: 'white' },
       { color: 'blue', backgroundColor: 'white' },
       { color: 'red', backgroundColor: 'white' },
       { color: 'maroon', backgroundColor: 'white' },
       { color: 'maroon', backgroundColor: 'teal' },
+      { color: 'navy', backgroundColor: 'teal' },
     ];
     if (i < themes.length - 1) {
       i++;
@@ -64,7 +65,7 @@ var Root = React.createClass({
           style={{ minHeight: '100vh' }}>
           <Header {...this.props} />
           <div className="flex-auto px2 sm-px3">
-            <Home {...this.props} />
+            <Home {...this.props} {...this.state} />
           </div>
           <Footer {...this.props} />
           <script id="initial-props" type="application/json" dangerouslySetInnerHTML={initialProps} />

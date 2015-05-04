@@ -9,10 +9,6 @@ module.exports = React.createClass({
       name: '',
       description: '',
       link: '/',
-      backgroundImage: false,
-      backgroundSize: false,
-      backgroundColor: 'transparent',
-      color: 'black',
       customClass: false,
       logo: false,
     }
@@ -39,14 +35,15 @@ module.exports = React.createClass({
 
   render: function() {
     var classes = {
-      section: classnames(this.props.className, 'flex full-width center'),
+      section: classnames(this.props.className, 'flex col-12 center'),
       link: classnames(
           this.props.customClass,
-          //'border border-thick border-darken-2',
+          this.props.backgroundColor,
+          'bg-' + this.props.color,
           'flex flex-center',
-          'full-width',
+          'col-12',
           'button button-transparent',
-          'px2',
+          'px3',
           {
             'py4': (this.props.index < 2),
             'py3': (this.props.index > 1),
@@ -56,22 +53,13 @@ module.exports = React.createClass({
             'h1': (this.props.index < 2),
             'h2': (this.props.index > 2)
           }, 'm0'),
-        description: classnames('m0',
-          { 'h5': (this.props.index > 2) }),
-    };
-    var styles = {
-      link: {
-        color: this.props.color,
-        backgroundImage: this.props.backgroundImage,
-        backgroundColor: this.props.backgroundColor
-      }
+        description: 'm0',
     };
 
     return (
       <section className={classes.section}>
         <a href={this.props.link}
-          className={classes.link}
-          style={styles.link}>
+          className={classes.link}>
           <div className={classes.content}>
             {this.renderLogo(this.props.logo)}
             <h1 className={classes.title}>{this.props.name}</h1>

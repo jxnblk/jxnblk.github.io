@@ -22,10 +22,9 @@ module.exports = React.createClass({
           <a href="/" className="flex-none h3 block px1">
             <Avatar />
           </a>
-          <div className="flex-auto flex flex-baseline">
-            <h1 className="h5 mt0 mb0 mr1">{this.props.title}</h1>
-            <span>|</span>
-            <p className="h5 bold m0 ml1">{this.props.name}</p>
+          <div className="flex-auto xflex xflex-baseline">
+            <h1 className="h3 m0">{this.props.title}</h1>
+            <p className="h5 bold m0">{this.props.name}</p>
           </div>
           <nav>
             {this.props.headerLinks.map(this.renderLink)}

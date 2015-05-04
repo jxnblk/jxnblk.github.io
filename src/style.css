@@ -4,3 +4,6 @@ a {
   text-decoration: underline;
 }
 
+.border-thick { border-width: 2px }
+.border-inherit { border-color: inherit }
+
