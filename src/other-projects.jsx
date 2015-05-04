@@ -21,7 +21,7 @@ module.exports = React.createClass({
     return (
       <section id="other-projects"
         className="py3 border-bottom border-thick border-darken-1">
-        <h1 className="h6 caps mt0">Other Projects</h1>
+        <h1 className="h5 mt0">Other Projects</h1>
         <div className="sm-flex flex-wrap mxn2">
           {projects.map(this.renderProject)}
         </div>

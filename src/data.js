@@ -1,6 +1,9 @@
 
+var fs = require('fs');
+var path = require('path');
 var cssnext = require('cssnext');
 var colors = require('colors.css');
+var styles = fs.readFileSync(path.join(__dirname, './style.css'), 'utf8');
 
 colors.darkgray = '#304650';
 
@@ -11,17 +14,40 @@ module.exports = {
   baseUrl: '',
   favicon: 'favicon.png',
   styles: [
-    cssnext('@import "blk";', {
+    cssnext([
+        '@import "basscss-base-reset";',
+        '@import "basscss-base-buttons";',
+        '@import "basscss-base-typography";',
+        '@import "basscss-utility-layout";',
+        '@import "basscss-utility-typography";',
+        '@import "basscss-white-space";',
+        '@import "basscss-grid";',
+        '@import "flex-object";',
+        '@import "basscss-color-base";',
+        '@import "basscss-button-transparent";',
+        '@import "basscss-button-link";',
+        '@import "basscss-borders";',
+        '@import "basscss-colors";',
+        '@import "basscss-defaults";',
+        styles
+      ].join(' '), {
       compress: true,
       features: {
         autoprefixer: false,
         rem: false,
         pseudoElements: false,
+        customProperties: {
+          variables: {
+            'bold-font-weight': '500',
+            'heading-font-weight': '500',
+            'button-font-weight': '500',
+            'button-font-size': 'var(--h5)',
+          }
+        }
       }
     }),
     '@media (min-width:40em){.sm-px3{padding-left:2rem;padding-right:2rem}}'
   ].join(' '),
-  stylesheet: 'http://d2v52k3cl9vedd.cloudfront.net/blk/1.0.1/blk.min.css',
   byline: 'Product designer at Etsy. Based in Brooklyn, NY.',
   homepage: '//jxnblk.com',
   headerLinks: [
