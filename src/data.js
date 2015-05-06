@@ -33,7 +33,6 @@ module.exports = {
       ].join(' '), {
       compress: true,
       features: {
-        autoprefixer: false,
         rem: false,
         pseudoElements: false,
         customProperties: {
