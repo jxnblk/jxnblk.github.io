@@ -20,7 +20,7 @@ module.exports = React.createClass({
       return (
         <div className="sm-col-12 md-col-4 px3 mb3" key={'post-' + i}>
           <h2 className="mb0">
-            <a href={post.link} className="black">
+            <a href={post.link}>
               {post.title}{post.subheading ? ': ' + post.subheading : false}
             </a>
           </h2>
@@ -31,7 +31,7 @@ module.exports = React.createClass({
       return (
         <div className="sm-col-6 md-col-4 px3 mb3" key={'post-' + i}>
           <h2 className="h3 m0">
-            <a href={post.link} className="black">{post.title}</a>
+            <a href={post.link}>{post.title}</a>
           </h2>
         </div>
       )
@@ -43,7 +43,7 @@ module.exports = React.createClass({
     return (
       <section id="writing"
         className="py3 overflow-hidden border-bottom border-thick border-darken-1">
-        <h1 className="h6 caps mt0">Writing</h1>
+        <h1 className="h5 mt0">Writing</h1>
         <div className="sm-flex flex-wrap mxn3">
           {posts.map(this.renderPost)}
         </div>

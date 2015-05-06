@@ -1,0 +1,17 @@
+
+a {
+  color: currentcolor;
+  text-decoration: underline;
+}
+
+.avenir { font-family: 'Avenir Next', 'Hevletica Neue', Helvetica, sans-serif }
+.medium { font-weight: 600 }
+.lh1 { line-height: 1 }
+
+.border-thick { border-width: 2px }
+.border-inherit { border-color: inherit }
+
+.bg-stripe-1 {
+  background-image: repeating-linear-gradient(45deg, currentcolor 0, currentcolor 2px, transparent 2px, transparent 8px);
+}
+

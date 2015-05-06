@@ -2,8 +2,10 @@
 var React = require('react');
 var Root = require('./root.jsx');
 
-//if (typeof document !== 'undefined') {
-//}
+if (typeof document !== 'undefined') {
+  var initialProps = JSON.parse(document.getElementById('initial-props').innerHTML);
+  React.render(React.createElement(Root, initialProps), document);
+}
 
 module.exports = function render(locals, callback) {
   var html = React.renderToString(React.createElement(Root, locals));
