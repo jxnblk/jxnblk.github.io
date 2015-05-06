@@ -36,7 +36,7 @@ module.exports = React.createClass({
   render: function() {
     var classes = {
       section: classnames('flex col-12'),
-      link: classnames('flex flex-end', 'col-12', 'button button-transparent', 'p3', 'border', 'border-white', this.props.className),
+      link: classnames('flex flex-end', 'col-12', 'overflow-hidden', 'button button-transparent', 'p3', 'border', 'border-white', this.props.className),
         content: 'full-width',
         title: classnames('h1', 'm0'),
         description: classnames('m0'),
