@@ -7,16 +7,28 @@ module.exports = React.createClass({
 
   renderCard: function(card, i) {
     var colClass = classnames(
-      'flex flex-auto px1 mb2 col-12 sm-col-6',
+      'flex flex-auto mb2 col-12 sm-col-6 px1',
       {
-        'lg-col-7': (i === 0),
-        'lg-col-5': (i === 1),
-        'lg-col-4' : (i > 1)
+        'md-col-8': (i === 0),
+        'md-col-4': (i === 1),
+        'md-col-5': (i === 2),
+        'md-col-7': (i === 3),
+        //'sm-col-6': (i > 1),
+        'lg-col-4' : (i > 3)
       }
     );
+    var style = {};
+    if (i === 0) {
+      style.minHeight = '40vh';
+    } else if (i < 3) {
+      style.minHeight = '30vh';
+    } else {
+      style.minHeight = '20vh';
+    }
 
     return (
       <div className={colClass}
+        style={style}
         key={'featured-' + i}>
         <ProjectCard {...this.props} {...card} index={i} />
       </div>

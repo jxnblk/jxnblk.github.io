@@ -35,30 +35,17 @@ module.exports = React.createClass({
 
   render: function() {
     var classes = {
-      section: classnames(this.props.className, 'flex col-12 center'),
-      link: classnames(
-          this.props.customClass,
-          this.props.backgroundColor,
-          'bg-' + this.props.color,
-          'flex flex-center',
-          'col-12',
-          'button button-transparent',
-          'px3',
-          {
-            'py4': (this.props.index < 2),
-            'py3': (this.props.index > 1),
-          }),
+      section: classnames('flex col-12'),
+      link: classnames('flex flex-end', 'col-12', 'button button-transparent', 'p3', 'border', 'border-white', this.props.className),
         content: 'full-width',
-        title: classnames({
-            'h1': (this.props.index < 2),
-            'h2': (this.props.index > 2)
-          }, 'm0'),
-        description: 'm0',
+        title: classnames('h1', 'm0'),
+        description: classnames('m0'),
     };
 
     return (
       <section className={classes.section}>
         <a href={this.props.link}
+          style={this.props.style}
           className={classes.link}>
           <div className={classes.content}>
             {this.renderLogo(this.props.logo)}
