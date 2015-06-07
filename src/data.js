@@ -47,9 +47,10 @@ module.exports = {
     }),
     '@media (min-width:40em){.sm-px3{padding-left:2rem;padding-right:2rem}}'
   ].join(' '),
-  byline: 'Product designer at Etsy. Based in Brooklyn, NY.',
+  byline: 'Brent Jackson is a designer and proponent of simplicity, emphasizing systematic approaches, heuristics, qualitative and quantitative research, and designing from the gut. Based in Brooklyn, NY.',
   homepage: '//jxnblk.com',
   headerLinks: [
+    { href: '//jxnblk.com/writing', title: 'Writing' },
     { href: '//twitter.com/jxnblk', title: 'Twitter' },
     { href: '//github.com/jxnblk', title: 'Github' },
   ],

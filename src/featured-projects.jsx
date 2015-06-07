@@ -40,7 +40,6 @@ module.exports = React.createClass({
     return (
       <section id="featured-projects"
         className="py2 border-bottom border-thick border-darken-1">
-        <h1 className="h5 mt0 mb2">Featured Projects</h1>
         <div className="flex flex-wrap mxn1">
           {featured.map(this.renderCard)}
         </div>

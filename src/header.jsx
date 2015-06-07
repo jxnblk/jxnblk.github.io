@@ -1,6 +1,6 @@
 
 var React = require('react');
-var Avatar = require('./avatar.jsx');
+var Avatar = require('jxnblk-avatar');
 
 module.exports = React.createClass({
 
@@ -20,11 +20,10 @@ module.exports = React.createClass({
       <header className="px2 sm-px3">
         <div className="flex flex-center flex-wrap py2 mxn1">
           <a href="/" className="flex-none h3 block px1">
-            <Avatar />
+            <Avatar size={48} />
           </a>
           <div className="flex-auto xflex xflex-baseline">
             <h1 className="h3 m0">{this.props.title}</h1>
-            <p className="h5 bold m0">{this.props.name}</p>
           </div>
           <nav>
             {this.props.headerLinks.map(this.renderLink)}
