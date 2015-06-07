@@ -68,8 +68,10 @@ var Root = React.createClass({
             <Home {...this.props} {...this.state} />
           </div>
           <Footer {...this.props} />
+          {/*
           <script id="initial-props" type="application/json" dangerouslySetInnerHTML={initialProps} />
           <script src="bundle.js" />
+          */}
           <script src="js/ga.js" />
         </div>
       </Html>
