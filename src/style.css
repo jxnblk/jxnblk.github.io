@@ -31,3 +31,10 @@ a {
   background-image: repeating-linear-gradient(45deg, currentcolor 0, currentcolor 2px, transparent 2px, transparent 8px);
 }
 
+:root {
+  --bold-font-weight: 500;
+  --heading-font-weight: 500;
+  --button-font-weight: 500;
+  --button-font-size: var(--h5);
+}
+

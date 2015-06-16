@@ -1,9 +1,10 @@
 
-var React = require('react');
-var ProjectCard = require('./ProjectCard.jsx');
-var cx = require('classnames');
+var React = require('react')
+var ProjectCard = require('./ProjectCard.jsx')
+var cx = require('classnames')
+var featured = require('../projects').featured
 
-module.exports = React.createClass({
+var FeaturedProjects = React.createClass({
 
   renderCard: function(card, i) {
     var colClass = cx(
@@ -16,14 +17,14 @@ module.exports = React.createClass({
         //'sm-col-6': (i > 1),
         'lg-col-4' : (i > 3)
       }
-    );
-    var style = {};
+    )
+    var style = {}
     if (i === 0) {
-      style.minHeight = '40vh';
+      style.minHeight = '40vh'
     } else if (i < 3) {
-      style.minHeight = '30vh';
+      style.minHeight = '30vh'
     } else {
-      style.minHeight = '20vh';
+      style.minHeight = '20vh'
     }
 
     return (
@@ -36,7 +37,7 @@ module.exports = React.createClass({
   },
 
   render: function() {
-    var featured = this.props.projects.featured;
+    //var featured = this.props.projects.featured
     return (
       <section id="featured-projects"
         className="py2 border-bottom border-thick border-darken-1">
@@ -47,4 +48,7 @@ module.exports = React.createClass({
     )
   }
 
-});
+})
+
+module.exports = FeaturedProjects
+

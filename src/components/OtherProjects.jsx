@@ -1,11 +1,12 @@
 
-var React = require('react');
-var cx = require('classnames');
+var React = require('react')
+var cx = require('classnames')
+var projects = require('../projects').other
 
-module.exports = React.createClass({
+var OtherProjects = React.createClass({
 
   renderProject: function(project, i) {
-    var colClass = cx('sm-col-6 md-col-4 lg-col-3 mb2');
+    var colClass = cx('sm-col-6 md-col-4 lg-col-3 mb2')
     return (
       <div className={colClass} key={'other-' + i}>
         <a href={project.link} className="block button button-transparent" title={'View ' + project.name}>
@@ -17,7 +18,6 @@ module.exports = React.createClass({
   },
 
   render: function() {
-    var projects = this.props.projects.other;
     return (
       <section id="other-projects"
         className="py3 border-bottom border-thick border-darken-1">
@@ -28,4 +28,7 @@ module.exports = React.createClass({
     )
   }
 
-});
+})
+
+module.exports = OtherProjects
+

@@ -1,8 +1,8 @@
 
-var StaticSiteGeneratorPlugin = require('static-site-generator-webpack-plugin');
+var StaticSiteGeneratorPlugin = require('static-site-generator-webpack-plugin')
 
-var paths = [ '/' ];
-var data = require('./src/data');
+var paths = [ '/' ]
+var data = require('./src/data')
 
 module.exports = {
 
@@ -23,7 +23,16 @@ module.exports = {
 
   plugins: [
     new StaticSiteGeneratorPlugin('bundle.js', paths, data)
-  ]
+  ],
 
-};
+  cssnext: {
+    compress: true,
+    features: {
+      rem: false,
+      pseudoElements: false,
+      colorRgba: false
+    }
+  }
+
+}
 

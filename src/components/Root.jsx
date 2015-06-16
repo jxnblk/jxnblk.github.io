@@ -1,7 +1,6 @@
 
 var React = require('react')
 
-var Html = require('react-html')
 var Header = require('./Header.jsx')
 var Footer = require('./Footer.jsx')
 var Home = require('./Home.jsx')
@@ -37,7 +36,6 @@ var Root = React.createClass({
   },
 
   handleKeydown: function(e) {
-    //console.log('keydown', e.keyCode)
     switch(e.keyCode) {
       case 90:
         e.preventDefault()
@@ -74,11 +72,7 @@ var Root = React.createClass({
               <Home {...this.props} {...this.state} />
             </div>
             <Footer {...this.props} />
-            {/*
-            <script id="initial-props" type="application/json" dangerouslySetInnerHTML={initialProps} />
-            <script src="bundle.js" />
-            */}
-            <script src="js/ga.js" />
+            <script dangerouslySetInnerHTML={{ __html: this.props.scripts.ga }} />
           </div>
         </body>
       </html>
