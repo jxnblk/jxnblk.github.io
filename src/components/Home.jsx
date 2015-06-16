@@ -1,10 +1,10 @@
 
 var React = require('react');
 
-var FeaturedProjects = require('./featured-projects.jsx');
-var OtherProjects = require('./other-projects.jsx');
-var About = require('./about.jsx');
-//var Writing = require('./writing.jsx');
+var FeaturedProjects = require('./FeaturedProjects.jsx');
+var OtherProjects = require('./OtherProjects.jsx');
+var About = require('./About.jsx');
+//var Writing = require('./Writing.jsx');
 
 module.exports = React.createClass({
 

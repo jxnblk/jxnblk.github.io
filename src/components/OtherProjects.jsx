@@ -1,11 +1,11 @@
 
 var React = require('react');
-var classnames = require('classnames');
+var cx = require('classnames');
 
 module.exports = React.createClass({
 
   renderProject: function(project, i) {
-    var colClass = classnames('sm-col-6 md-col-4 lg-col-3 mb2');
+    var colClass = cx('sm-col-6 md-col-4 lg-col-3 mb2');
     return (
       <div className={colClass} key={'other-' + i}>
         <a href={project.link} className="block button button-transparent" title={'View ' + project.name}>

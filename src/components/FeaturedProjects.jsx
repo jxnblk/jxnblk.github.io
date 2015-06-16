@@ -1,12 +1,12 @@
 
 var React = require('react');
-var ProjectCard = require('./project-card.jsx');
-var classnames = require('classnames');
+var ProjectCard = require('./ProjectCard.jsx');
+var cx = require('classnames');
 
 module.exports = React.createClass({
 
   renderCard: function(card, i) {
-    var colClass = classnames(
+    var colClass = cx(
       'flex flex-auto mb2 col-12 sm-col-6 px1',
       {
         'md-col-8': (i === 0),

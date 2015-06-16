@@ -1,6 +1,6 @@
 
 var React = require('react');
-var classnames = require('classnames');
+var cx = require('classnames');
 
 module.exports = React.createClass({
 
@@ -35,11 +35,11 @@ module.exports = React.createClass({
 
   render: function() {
     var classes = {
-      section: classnames('flex col-12'),
-      link: classnames('flex flex-end', 'col-12', 'overflow-hidden', 'button button-transparent', 'p3', 'border', 'border-white', this.props.className),
+      section: cx('flex col-12'),
+      link: cx('flex flex-end', 'col-12', 'overflow-hidden', 'button button-transparent', 'p3', 'border', 'border-white', this.props.className),
         content: 'full-width',
-        title: classnames('h1', 'm0'),
-        description: classnames('m0'),
+        title: cx('h1', 'm0'),
+        description: cx('m0'),
     };
 
     return (

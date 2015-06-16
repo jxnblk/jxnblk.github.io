@@ -1,6 +1,6 @@
 
 var React = require('react');
-var Root = require('./root.jsx');
+var Root = require('./components/Root.jsx');
 
 if (typeof document !== 'undefined') {
   var initialProps = JSON.parse(document.getElementById('initial-props').innerHTML);
