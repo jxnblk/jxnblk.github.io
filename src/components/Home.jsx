@@ -1,12 +1,11 @@
 
-var React = require('react');
+var React = require('react')
 
-var FeaturedProjects = require('./FeaturedProjects.jsx');
-var OtherProjects = require('./OtherProjects.jsx');
-var About = require('./About.jsx');
-//var Writing = require('./Writing.jsx');
+var FeaturedProjects = require('./FeaturedProjects.jsx')
+var OtherProjects = require('./OtherProjects.jsx')
+var About = require('./About.jsx')
 
-module.exports = React.createClass({
+var Home = React.createClass({
 
   render: function() {
     return (
@@ -18,5 +17,7 @@ module.exports = React.createClass({
     )
   }
 
-});
+})
+
+module.exports = Home
 

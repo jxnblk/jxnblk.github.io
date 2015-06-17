@@ -1,11 +1,11 @@
 
-var React = require('react');
-var Avatar = require('jxnblk-avatar');
+var React = require('react')
+var Avatar = require('jxnblk-avatar')
 
-module.exports = React.createClass({
+var Header = React.createClass({
 
   renderLink: function(link) {
-    var href = link.href;
+    var href = link.href
     return (
       <a href={href}
         key={link.title}
@@ -33,5 +33,7 @@ module.exports = React.createClass({
     )
   }
 
-});
+})
+
+module.exports = Header
 

@@ -1,8 +1,8 @@
 
-var React = require('react');
-var cx = require('classnames');
+var React = require('react')
+var cx = require('classnames')
 
-module.exports = React.createClass({
+var ProjectCard = React.createClass({
 
   getDefaultProps: function() {
     return {
@@ -15,13 +15,13 @@ module.exports = React.createClass({
   },
 
   renderLogo: function(logo) {
-    var width = (this.props.index < 2) ? 96 : 64;
-    var height = width;
+    var width = (this.props.index < 2) ? 96 : 64
+    var height = width
     if (this.props.logoSvg) {
-      var svg = { __html: this.props.logoSvg };
-      return ( <div dangerouslySetInnerHTML={svg} /> );
+      var svg = { __html: this.props.logoSvg }
+      return ( <div dangerouslySetInnerHTML={svg} /> )
     } else if (!logo) {
-      return false;
+      return false
     } else {
       return (
         <img src={logo}
@@ -29,7 +29,7 @@ module.exports = React.createClass({
           height={height}
           className=""
           alt={this.props.name + ' logo'} />
-      );
+      )
     }
   },
 
@@ -40,7 +40,7 @@ module.exports = React.createClass({
         content: 'full-width',
         title: cx('h1', 'm0'),
         description: cx('m0'),
-    };
+    }
 
     return (
       <section className={classes.section}>
@@ -57,4 +57,7 @@ module.exports = React.createClass({
     )
   }
 
-});
+})
+
+module.exports = ProjectCard
+

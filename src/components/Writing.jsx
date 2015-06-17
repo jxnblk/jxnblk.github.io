@@ -1,7 +1,7 @@
 
-var React = require('react');
+var React = require('react')
 
-module.exports = React.createClass({
+var Writing = React.createClass({
 
   renderPost: function(post, i) {
     var subheading = function(subheading) {
@@ -14,7 +14,7 @@ module.exports = React.createClass({
           </h3>
         )
       }
-    };
+    }
     if (i < 3) {
       return (
         <div className="sm-col-12 md-col-4 px3 mb3" key={'post-' + i}>
@@ -38,7 +38,7 @@ module.exports = React.createClass({
   },
 
   render: function() {
-    var posts = this.props.writing.posts;
+    var posts = this.props.writing.posts
     return (
       <section id="writing"
         className="py3 overflow-hidden border-bottom border-thick border-darken-1">
@@ -50,4 +50,7 @@ module.exports = React.createClass({
     )
   }
 
-});
+})
+
+module.exports = Writing
+

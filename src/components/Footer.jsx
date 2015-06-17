@@ -1,10 +1,10 @@
 
-var React = require('react');
+var React = require('react')
 
-module.exports = React.createClass({
+var Footer = React.createClass({
 
   renderLink: function(link) {
-    var href = link.link;
+    var href = link.link
     return (
       <a href={href}
         key={'footer-' + link.name}
@@ -28,5 +28,7 @@ module.exports = React.createClass({
     )
   }
 
-});
+})
+
+module.exports = Footer
 

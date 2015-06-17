@@ -24,6 +24,13 @@ a {
 .medium { font-weight: 600 }
 .lh1 { line-height: 1 }
 
+@media (min-width:40em) {
+  .sm-px3{
+    padding-left: var(--space-3);
+    padding-right: var(--space-3);
+  }
+}
+
 .border-thick { border-width: 2px }
 .border-inherit { border-color: inherit }
 

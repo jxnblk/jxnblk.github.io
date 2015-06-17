@@ -14,7 +14,6 @@ var FeaturedProjects = React.createClass({
         'md-col-4': (i === 1),
         'md-col-5': (i === 2),
         'md-col-7': (i === 3),
-        //'sm-col-6': (i > 1),
         'lg-col-4' : (i > 3)
       }
     )

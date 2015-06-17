@@ -93,7 +93,7 @@ module.exports = {
       description: 'Performant, Fully Fluid Headings',
       className: 'white',
       //logoSvg: '<svg data-fitter-happier-text="" class="avenir medium caps lh1" width="100%" style="max-height:100%" fill="currentcolor" overflow="visible" viewBox="0 0 64 16" opacity="0.8"><text x="50%" y="16" font-family="inherit" font-size="1rem" font-weight="inherit" style="text-anchor:middle">Fitter</text></svg>',
-      logoSvg: '<svg data-fitter-happier-text="" class="avenir medium caps lh1" width="100%" style="max-height:100%" fill="currentcolor" overflow="visible" viewBox="0 0 158 16" opacity="0.8"><text x="50%" y="16" font-family="inherit" font-size="1rem" font-weight="inherit" style="text-anchor:middle">Fitter Happier</text></svg>',
+      //logoSvg: '<svg data-fitter-happier-text="" class="avenir medium caps lh1" width="100%" style="max-height:100%" fill="currentcolor" overflow="visible" viewBox="0 0 158 16" opacity="0.8"><text x="50%" y="16" font-family="inherit" font-size="1rem" font-weight="inherit" style="text-anchor:middle">Fitter Happier</text></svg>',
       style: {
         backgroundColor: '#f43', //'#f37' //'#f40'
       }

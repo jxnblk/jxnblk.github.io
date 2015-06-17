@@ -10,7 +10,7 @@ colors.darkgray = '#304650';
 module.exports = {
   name: 'Brent Jackson',
   title: 'Jxnblk',
-  username: 'jxnblk',
+  //username: 'jxnblk',
   baseUrl: '',
   favicon: 'favicon.png',
   byline: 'Brent Jackson is a designer and proponent of simplicity, emphasizing systematic approaches, heuristics, qualitative and quantitative research, and designing from the gut. Based in Brooklyn, NY.',
