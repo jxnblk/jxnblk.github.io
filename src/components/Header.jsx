@@ -9,7 +9,7 @@ var Header = React.createClass({
     return (
       <a href={href}
         key={link.title}
-        className="m1 button button-link">
+        className="m1 btn btn-link">
         {link.title}
       </a>
     )
@@ -19,11 +19,11 @@ var Header = React.createClass({
     return (
       <header className="px2 sm-px3">
         <div className="flex flex-center flex-wrap py2 mxn1">
-          <a href="/" className="flex-none h3 block px1">
-            <Avatar size={48} />
+          <a href="/" className="block mr1">
+            <Avatar size={40} />
           </a>
-          <div className="flex-auto xflex xflex-baseline">
-            <h1 className="h3 m0">{this.props.title}</h1>
+          <div className="flex-auto">
+            <h1 className="h4 m0">{this.props.title}</h1>
           </div>
           <nav>
             {this.props.headerLinks.map(this.renderLink)}

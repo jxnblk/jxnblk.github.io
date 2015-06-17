@@ -7,7 +7,8 @@ class MrsJxnLogo extends React.Component {
     return (
       <svg viewBox='0 0 32 32'
         width={64}
-        height={64}>
+        height={64}
+        fill='currentcolor'>
         <defs>
           <clipPath id='mrs-clip'>
             <rect x='0' y='0' width='15' height='32' />

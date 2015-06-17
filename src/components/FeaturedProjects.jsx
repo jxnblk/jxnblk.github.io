@@ -1,11 +1,22 @@
 
-var React = require('react')
-var ProjectCard = require('./ProjectCard.jsx')
-var cx = require('classnames')
-var featured = require('../projects').featured
+import React from 'react'
+import ProjectCard from './ProjectCard.jsx'
+import cx from 'classnames'
+import clrs from 'colors.css'
+
+import Col from './Col.jsx'
+import BasscssLogo from './BasscssLogo.jsx'
+import CssStatsLogo from './CssStatsLogo.jsx'
+import MrsJxnLogo from './MrsJxnLogo.jsx'
+import Icon from 'react-geomicons'
+import ColorableLogo from './ColorableLogo.jsx'
+import ReactIconsLogo from './ReactIconsLogo.jsx'
+import LoadingLogo from './LoadingLogo.jsx'
+import GravitonsLogo from './GravitonsLogo.jsx'
 
 var FeaturedProjects = React.createClass({
 
+  /*
   renderCard: function(card, i) {
     var colClass = cx(
       'flex flex-auto mb2 col-12 sm-col-6 px1',
@@ -34,14 +45,127 @@ var FeaturedProjects = React.createClass({
       </div>
     )
   },
+  */
 
   render: function() {
-    //var featured = this.props.projects.featured
     return (
       <section id="featured-projects"
         className="py2 border-bottom border-thick border-darken-1">
         <div className="flex flex-wrap mxn1">
-          {featured.map(this.renderCard)}
+          <Col flex sm={6} md={8}>
+            <ProjectCard
+              name='Basscss'
+              description='Low-level CSS toolkit'
+              link='http://basscss.com'
+              logo={<BasscssLogo />}
+              className='white bg-blue' />
+          </Col>
+          <Col flex sm={6} md={4}>
+            <ProjectCard
+              name='CSS Stats'
+              description='CSS parsing tool'
+              link='http://cssstats.com'
+              logo={<CssStatsLogo />}
+              className='bg-darken-1' />
+          </Col>
+          <Col flex sm={6} md={5}>
+            <ProjectCard
+              name='Geomicons'
+              description='Open source icons for the web'
+              link='http://geomicons.com'
+              logo={<Icon name='heart' width={48} height={48} fill={clrs.blue} />}
+              className='white bg-slate' />
+          </Col>
+          <Col flex sm={6} md={7}>
+            <ProjectCard
+              name='Colorable'
+              description='Color palette contrast tester'
+              link='http://jxnblk.com/colorable'
+              logo={<ColorableLogo />}
+              className='aqua bg-navy' />
+          </Col>
+          <Col flex sm={6} md={7}>
+            <ProjectCard
+              name='Building SVG Icons with React'
+              description='How to create mathematically-generated graphics using JavaScript and React'
+              link='http://jxnblk.com/react-icons'
+              logo={<ReactIconsLogo />}
+              className='navy bg-aqua xbg-darken-1' />
+          </Col>
+          <Col flex sm={6} md={5}>
+            <ProjectCard
+              name='Loading'
+              description='Animated SVG loading indicators'
+              link='http://jxnblk.com/loading'
+              logo={<LoadingLogo />}
+              className='white bg-red' />
+          </Col>
+          <Col flex sm={6} md={4}>
+            <ProjectCard
+              name='Shade'
+              description='Mathematically-derived gradients'
+              link='http://jxnblk.com/shade'
+              className='white bg-shade-gradient' />
+          </Col>
+          <Col flex sm={6} md={4}>
+            <ProjectCard
+              name='Fitter Happier Text'
+              description='Performant, fully fluid headings'
+              link='http://jxnblk.com/fitter-happier-text'
+              className='white bg-fht' />
+          </Col>
+          <Col flex sm={6} md={4}>
+            <ProjectCard
+              name='Spectral'
+              description='Click the rainbox'
+              link='http://jxnblk.com/Spectral'
+              className='white bg-spectral' />
+          </Col>
+          <Col flex sm={6} md={4}>
+            <ProjectCard
+              name='Plangular'
+              description='Angular directive for custom SoundCloud players'
+              link='http://jxnblk.com/plangular'
+              logo={<Icon name='play' width={48} height={48} />}
+              className='red bg-black' />
+          </Col>
+          <Col flex sm={6} md={4}>
+            <ProjectCard
+              name='Gravitons'
+              description='Virtually massless CSS layout microlibrary'
+              link='http://jxnblk.com/gravitons'
+              logo={<GravitonsLogo />}
+              className='slate bg-white' />
+          </Col>
+          <Col flex sm={6} md={4}>
+            <ProjectCard
+              name='VHS'
+              description='Post-future CSS animations'
+              link='http://jxnblk.com/vhs'
+              className='red bg-black' />
+          </Col>
+          <Col flex sm={6} md={4}>
+            <ProjectCard
+              name='Writing'
+              description='Thoughts on minimalism and design'
+              link='http://jxnblk.com/writing'
+              className='bg-darken-1' />
+          </Col>
+          <Col flex sm={6} md={4}>
+            <ProjectCard
+              name='Work'
+              description='The professional work of Brent Jackson'
+              link='http://jxnblk.com/work'
+              className='white bg-blue' />
+          </Col>
+          <Col flex sm={6} md={4}>
+            <ProjectCard
+              name='MrsJxn'
+              description='Post-future beats'
+              link='http://mrsjxn.com'
+              logo={<MrsJxnLogo />}
+              className='white bg-black' />
+          </Col>
         </div>
       </section>
     )

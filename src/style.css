@@ -1,23 +1,35 @@
 
 @import 'basscss-base-reset';
-@import 'basscss-base-buttons';
+@import 'basscss-btn';
 @import 'basscss-base-typography';
+@import 'basscss-type-scale';
 @import 'basscss-utility-layout';
 @import 'basscss-utility-typography';
 @import 'basscss-white-space';
 @import 'basscss-grid';
 @import 'flex-object';
 @import 'basscss-color-base';
-@import 'basscss-button-transparent';
-@import 'basscss-button-link';
 @import 'basscss-borders';
 @import 'basscss-colors';
+@import 'basscss-background-colors';
 
 @import 'basscss-defaults';
 
 a {
   color: currentcolor;
   text-decoration: underline;
+}
+
+.btn-link {
+  padding-left: 0;
+  padding-right: 0;
+}
+.btn-link:hover {
+  padding-left: 0;
+  padding-right: 0;
+  text-decoration: underline;
+  box-shadow: none;
+  border-color: transparent;
 }
 
 .avenir { font-family: 'Avenir Next', 'Hevletica Neue', Helvetica, sans-serif }
@@ -34,14 +46,43 @@ a {
 .border-thick { border-width: 2px }
 .border-inherit { border-color: inherit }
 
+.slate { color: var(--slate) }
+.bg-slate { background-color: var(--slate) }
+.bg-shade-gradient {
+  background-color: #f6ff00;
+  background-image: linear-gradient(-90deg, #f6ff00, #ff00a1);
+  border: 1px solid white;
+}
+.bg-fht {
+  background-color: #f43;
+}
+.bg-spectral {
+  background-color: #00c9fc;
+}
+
 .bg-stripe-1 {
   background-image: repeating-linear-gradient(45deg, currentcolor 0, currentcolor 2px, transparent 2px, transparent 8px);
 }
 
 :root {
+  --font-family: 'SF UI Text', Roboto, 'Helvetica Neue', Helvetica, sans-serif;
+  --heading-font-family: 'SF UI Display', Roboto, 'Helvetica Neue', Helvetica, sans-serif;
+  --serif: Georgia, serif;
+  --h4: 1.125rem;
+  --line-height: 1.625;
   --bold-font-weight: 500;
-  --heading-font-weight: 500;
-  --button-font-weight: 500;
+  --heading-font-weight: var(--bold-font-weight);
+  --button-font-weight: var(--bold-font-weight);
   --button-font-size: var(--h5);
+  --pre-font-size: 75%;
+  --slate: #304650;
+  /*
+  --space-1: .75rem;
+  --space-2: 1.5rem;
+  --space-3: 3rem;
+  --space-4: 6rem;
+  --link-color: inherit;
+  --link-text-decoration: underline;
+  */
 }
 

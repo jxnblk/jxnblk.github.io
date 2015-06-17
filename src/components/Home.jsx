@@ -10,9 +10,9 @@ var Home = React.createClass({
   render: function() {
     return (
       <main>
+        <About {...this.props} />
         <FeaturedProjects {...this.props} />
         <OtherProjects {...this.props} />
-        <About {...this.props} />
       </main>
     )
   }
