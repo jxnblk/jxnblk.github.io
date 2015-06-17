@@ -1,5 +1,6 @@
 
 var React = require('react')
+var MrsJxnLogo = require('./MrsJxnLogo.jsx')
 
 var Footer = React.createClass({
 
@@ -24,6 +25,7 @@ var Footer = React.createClass({
             {this.props.social_networks.map(this.renderLink)}
           </div>
         </div>
+        <MrsJxnLogo />
       </footer>
     )
   }
