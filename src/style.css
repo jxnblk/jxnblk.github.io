@@ -64,13 +64,20 @@ a {
   background-image: repeating-linear-gradient(45deg, currentcolor 0, currentcolor 2px, transparent 2px, transparent 8px);
 }
 
+h1, h2,
+.h1, .h2 {
+  font-family: 'SF UI Display', Roboto, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
 :root {
   --font-family: 'SF UI Text', Roboto, 'Helvetica Neue', Helvetica, sans-serif;
+  /*
   --heading-font-family: 'SF UI Display', Roboto, 'Helvetica Neue', Helvetica, sans-serif;
+  */
   --serif: Georgia, serif;
   --h4: 1.125rem;
   --line-height: 1.625;
-  --bold-font-weight: 500;
+  --bold-font-weight: bold;
   --heading-font-weight: var(--bold-font-weight);
   --button-font-weight: var(--bold-font-weight);
   --button-font-size: var(--h5);

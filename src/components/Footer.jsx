@@ -1,9 +1,14 @@
 
-var React = require('react')
+import React from 'react'
 
-var Footer = React.createClass({
+class Footer extends React.Component {
 
-  renderLink: function(link) {
+  constructor() {
+    super()
+    this.renderLink = this.renderLink.bind(this)
+  }
+
+  renderLink(link) {
     var href = link.link
     return (
       <a href={href}
@@ -12,9 +17,9 @@ var Footer = React.createClass({
         {link.name}
       </a>
     )
-  },
+  }
 
-  render: function() {
+  render() {
     return (
       <footer className="px2 sm-px3 py3">
         <div className="flex flex-baseline flex-wrap mxn1">
@@ -28,7 +33,7 @@ var Footer = React.createClass({
     )
   }
 
-})
+}
 
-module.exports = Footer
+export default Footer
 

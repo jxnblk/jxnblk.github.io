@@ -1,9 +1,9 @@
 
-var React = require('react')
+import React from 'react'
 
-var About = React.createClass({
+class About extends React.Component {
 
-  render: function() {
+  render () {
     return (
       <section id="about" className="py3">
         <p className="h3 m0">{this.props.byline}</p>
@@ -11,7 +11,7 @@ var About = React.createClass({
     )
   }
 
-})
+}
 
-module.exports = About
+export default About
 

@@ -14,7 +14,7 @@ import ReactIconsLogo from './ReactIconsLogo.jsx'
 import LoadingLogo from './LoadingLogo.jsx'
 import GravitonsLogo from './GravitonsLogo.jsx'
 
-var FeaturedProjects = React.createClass({
+class FeaturedProjects extends React.Component {
 
   /*
   renderCard: function(card, i) {
@@ -47,7 +47,7 @@ var FeaturedProjects = React.createClass({
   },
   */
 
-  render: function() {
+  render () {
     return (
       <section id="featured-projects"
         className="py2 border-bottom border-thick border-darken-1">
@@ -151,6 +151,7 @@ var FeaturedProjects = React.createClass({
               link='http://jxnblk.com/writing'
               className='bg-darken-1' />
           </Col>
+          {/*
           <Col flex sm={6} md={4}>
             <ProjectCard
               name='Work'
@@ -158,6 +159,7 @@ var FeaturedProjects = React.createClass({
               link='http://jxnblk.com/work'
               className='white bg-blue' />
           </Col>
+          */}
           <Col flex sm={6} md={4}>
             <ProjectCard
               name='MrsJxn'
@@ -171,7 +173,7 @@ var FeaturedProjects = React.createClass({
     )
   }
 
-})
+}
 
-module.exports = FeaturedProjects
+export default FeaturedProjects
 

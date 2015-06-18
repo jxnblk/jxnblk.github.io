@@ -1,20 +1,15 @@
 
-var React = require('react')
-var cx = require('classnames')
+import React from 'react'
+import cx from 'classnames'
 
-var ProjectCard = React.createClass({
+class ProjectCard extends React.Component {
 
-  getDefaultProps: function() {
-    return {
-      name: '',
-      description: '',
-      link: '/',
-      customClass: false,
-      logo: false,
-    }
-  },
+  constructor() {
+    super()
+    this.renderLogo = this.renderLogo.bind(this)
+  }
 
-  renderLogo: function(logo) {
+  renderLogo(logo) {
     var width = (this.props.index < 2) ? 96 : 64
     var height = width
     if (this.props.logoSvg) {
@@ -25,9 +20,9 @@ var ProjectCard = React.createClass({
     } else if (!logo) {
       return false
     }
-  },
+  }
 
-  render: function() {
+  render() {
     var classes = {
       section: cx('flex col-12'),
       link: cx('flex flex-end', 'col-12', 'overflow-hidden', 'btn', 'p3', this.props.className),
@@ -56,7 +51,15 @@ var ProjectCard = React.createClass({
     )
   }
 
-})
+}
 
-module.exports = ProjectCard
+ProjectCard.defaultProps = {
+  name: '',
+  description: '',
+  link: '/',
+  customClass: false,
+  logo: false,
+}
+
+export default ProjectCard
 

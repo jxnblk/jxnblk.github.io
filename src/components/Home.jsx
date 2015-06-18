@@ -1,23 +1,23 @@
 
-var React = require('react')
+import React from 'react'
 
-var FeaturedProjects = require('./FeaturedProjects.jsx')
-var OtherProjects = require('./OtherProjects.jsx')
-var About = require('./About.jsx')
+import FeaturedProjects from './FeaturedProjects.jsx'
+import OtherProjects from './OtherProjects.jsx'
+import About from './About.jsx'
 
-var Home = React.createClass({
+class Home extends React.Component {
 
-  render: function() {
+  render() {
     return (
       <main>
-        <About {...this.props} />
         <FeaturedProjects {...this.props} />
         <OtherProjects {...this.props} />
+        <About {...this.props} />
       </main>
     )
   }
 
-})
+}
 
-module.exports = Home
+export default Home
 

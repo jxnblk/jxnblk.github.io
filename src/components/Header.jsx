@@ -1,10 +1,15 @@
 
-var React = require('react')
-var Avatar = require('jxnblk-avatar')
+import React from 'react'
+import Avatar from 'jxnblk-avatar'
 
-var Header = React.createClass({
+class Header extends React.Component {
 
-  renderLink: function(link) {
+  constructor() {
+    super()
+    this.renderLink = this.renderLink.bind(this)
+  }
+
+  renderLink(link) {
     var href = link.href
     return (
       <a href={href}
@@ -13,9 +18,9 @@ var Header = React.createClass({
         {link.title}
       </a>
     )
-  },
+  }
 
-  render: function() {
+  render() {
     return (
       <header className="px2 sm-px3">
         <div className="flex flex-center flex-wrap py2 mxn1">
@@ -33,7 +38,7 @@ var Header = React.createClass({
     )
   }
 
-})
+}
 
-module.exports = Header
+export default Header
 

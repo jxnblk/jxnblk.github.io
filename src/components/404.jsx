@@ -1,9 +1,9 @@
 
-var React = require('react')
+import React from 'react'
 
-var FourOhFour = React.createClass({
+class FourOhFour extends React.Component {
 
-  render: function() {
+  render () {
     return (
       <main>
         <h1>404</h1>
@@ -11,7 +11,7 @@ var FourOhFour = React.createClass({
     )
   }
 
-})
+}
 
-module.exports = FourOhFour
+export default FourOhFour
 

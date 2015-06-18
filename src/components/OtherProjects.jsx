@@ -1,11 +1,16 @@
 
-var React = require('react')
-var cx = require('classnames')
-var projects = require('../projects').other
+import React from 'react'
+import cx from 'classnames'
+import { other } from '../projects'
 
-var OtherProjects = React.createClass({
+class OtherProjects extends React.Component {
 
-  renderProject: function(project, i) {
+  constructor() {
+    super()
+    this.renderProject = this.renderProject.bind(this)
+  }
+
+  renderProject(project, i) {
     var colClass = cx('sm-col-6 md-col-4 lg-col-3 mb2')
     return (
       <div className={colClass} key={'other-' + i}>
@@ -15,20 +20,20 @@ var OtherProjects = React.createClass({
         </a>
       </div>
     )
-  },
+  }
 
-  render: function() {
+  render() {
     return (
       <section id="other-projects"
         className="py3 border-bottom border-thick border-darken-1">
         <div className="sm-flex flex-wrap">
-          {projects.map(this.renderProject)}
+          {other.map(this.renderProject)}
         </div>
       </section>
     )
   }
 
-})
+}
 
-module.exports = OtherProjects
+export default OtherProjects
 
