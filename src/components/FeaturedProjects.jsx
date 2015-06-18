@@ -90,7 +90,7 @@ class FeaturedProjects extends React.Component {
               description='How to create mathematically-generated graphics using JavaScript and React'
               link='http://jxnblk.com/react-icons'
               logo={<ReactIconsLogo />}
-              className='navy bg-aqua xbg-darken-1' />
+              className='bg-darken-1' />
           </Col>
           <Col flex sm={6} md={5}>
             <ProjectCard
@@ -127,7 +127,7 @@ class FeaturedProjects extends React.Component {
               description='Angular directive for custom SoundCloud players'
               link='http://jxnblk.com/plangular'
               logo={<Icon name='play' width={48} height={48} />}
-              className='red bg-black' />
+              className='red bg-slate' />
           </Col>
           <Col flex sm={6} md={4}>
             <ProjectCard
@@ -142,7 +142,7 @@ class FeaturedProjects extends React.Component {
               name='VHS'
               description='Post-future CSS animations'
               link='http://jxnblk.com/vhs'
-              className='red bg-black' />
+              className='red bg-slate' />
           </Col>
           <Col flex sm={6} md={4}>
             <ProjectCard
