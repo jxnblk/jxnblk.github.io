@@ -105,14 +105,14 @@ class FeaturedProjects extends React.Component {
               name='Shade'
               description='Mathematically-derived gradients'
               link='http://jxnblk.com/shade'
-              className='white bg-shade-gradient' />
+              className='bg-shade-gradient' />
           </Col>
           <Col flex sm={6} md={4}>
             <ProjectCard
               name='Fitter Happier Text'
               description='Performant, fully fluid headings'
               link='http://jxnblk.com/fitter-happier-text'
-              className='white bg-fht' />
+              className='white bg-red' />
           </Col>
           <Col flex sm={6} md={4}>
             <ProjectCard
