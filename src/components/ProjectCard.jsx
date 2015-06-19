@@ -25,14 +25,20 @@ class ProjectCard extends React.Component {
   render() {
     var classes = {
       section: cx('flex col-12'),
-      link: cx('flex flex-end', 'col-12', 'overflow-hidden', 'btn', 'p3', this.props.className),
+      link: cx(
+        'flex flex-end',
+        'col-12',
+        'overflow-hidden',
+        'btn',
+        'p3',
+        this.props.className),
         content: 'full-width',
         title: cx('h1', 'm0'),
         description: cx('m0'),
     }
     var styles = {
       card: {
-        minHeight: '30vh'
+        minHeight: '24vh'
       }
     }
 

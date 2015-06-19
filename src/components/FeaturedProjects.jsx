@@ -58,6 +58,7 @@ class FeaturedProjects extends React.Component {
               description='Low-level CSS toolkit'
               link='http://basscss.com'
               logo={<BasscssLogo />}
+              style={{ minHeight: '32vh' }}
               className='white bg-blue' />
           </Col>
           <Col flex sm={6} md={4}>
@@ -90,22 +91,29 @@ class FeaturedProjects extends React.Component {
               description='How to create mathematically-generated graphics using JavaScript and React'
               link='http://jxnblk.com/react-icons'
               logo={<ReactIconsLogo />}
-              className='bg-darken-1' />
+              className='navy border' />
           </Col>
           <Col flex sm={6} md={5}>
+            <ProjectCard
+              name='Writing'
+              description='Thoughts on minimalism and design'
+              link='http://jxnblk.com/writing'
+              className='border xbg-darken-1' />
+          </Col>
+          <Col flex sm={6} md={4}>
             <ProjectCard
               name='Loading'
               description='Animated SVG loading indicators'
               link='http://jxnblk.com/loading'
               logo={<LoadingLogo />}
-              className='white bg-red' />
+              className='white bg-purple' />
           </Col>
           <Col flex sm={6} md={4}>
             <ProjectCard
               name='Shade'
               description='Mathematically-derived gradients'
               link='http://jxnblk.com/shade'
-              className='bg-shade-gradient' />
+              className='white bg-fuchsia' />
           </Col>
           <Col flex sm={6} md={4}>
             <ProjectCard
@@ -119,7 +127,15 @@ class FeaturedProjects extends React.Component {
               name='Spectral'
               description='Click the rainbox'
               link='http://jxnblk.com/Spectral'
-              className='white bg-spectral' />
+              className='white bg-blue' />
+          </Col>
+          <Col flex sm={6} md={4}>
+            <ProjectCard
+              name='Gravitons'
+              description='Virtually massless CSS layout microlibrary'
+              link='http://jxnblk.com/gravitons'
+              logo={<GravitonsLogo />}
+              className='xaqua bg-teal border' />
           </Col>
           <Col flex sm={6} md={4}>
             <ProjectCard
@@ -131,25 +147,10 @@ class FeaturedProjects extends React.Component {
           </Col>
           <Col flex sm={6} md={4}>
             <ProjectCard
-              name='Gravitons'
-              description='Virtually massless CSS layout microlibrary'
-              link='http://jxnblk.com/gravitons'
-              logo={<GravitonsLogo />}
-              className='slate bg-white' />
-          </Col>
-          <Col flex sm={6} md={4}>
-            <ProjectCard
               name='VHS'
               description='Post-future CSS animations'
               link='http://jxnblk.com/vhs'
               className='red bg-slate' />
-          </Col>
-          <Col flex sm={6} md={4}>
-            <ProjectCard
-              name='Writing'
-              description='Thoughts on minimalism and design'
-              link='http://jxnblk.com/writing'
-              className='bg-darken-1' />
           </Col>
           {/*
           <Col flex sm={6} md={4}>
