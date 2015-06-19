@@ -13,7 +13,8 @@ module.exports = {
   //username: 'jxnblk',
   baseUrl: '',
   favicon: 'favicon.png',
-  byline: 'Brent Jackson is a designer and proponent of simplicity, emphasizing systematic approaches, heuristics, qualitative and quantitative research, and designing from the gut. Based in Brooklyn, NY.',
+  //byline: 'Brent Jackson is a designer and proponent of simplicity, emphasizing systematic approaches, heuristics, qualitative and quantitative research, and designing from the gut. Based in Brooklyn, NY.',
+  byline: 'Brent Jackson is a designer/developer specializing in living style guides, front-end architecture, and modular design systems, with an emphasis on heuristics, user-centered design, and collaborative design processes. Based in Brooklyn, NY.',
   homepage: '//jxnblk.com',
   headerLinks: [
     { href: '//jxnblk.com/writing', title: 'Writing' },
@@ -23,6 +24,7 @@ module.exports = {
   social_networks: [
     { name: 'Twitter', link: '//twitter.com/jxnblk' },
     { name: 'Github', link: '//github.com/jxnblk' },
+    { name: 'Dribbble', link: '//dribbble.com/jxnblk' },
     { name: 'Tumblr', link: '//jxnblk.tumblr.com' },
     { name: 'Soundcloud', link: '//soundcloud.com/jxnblk' }
   ],

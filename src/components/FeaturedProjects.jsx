@@ -135,7 +135,7 @@ class FeaturedProjects extends React.Component {
               description='Virtually massless CSS layout microlibrary'
               link='http://jxnblk.com/gravitons'
               logo={<GravitonsLogo />}
-              className='xaqua bg-teal border' />
+              className='navy border' />
           </Col>
           <Col flex sm={6} md={4}>
             <ProjectCard
