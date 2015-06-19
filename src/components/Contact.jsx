@@ -5,10 +5,15 @@ class Contact extends React.Component {
 
   render () {
     return (
-      <div className='py3 center border-bottom border-thick'>
-        <h3>Get in Touch</h3>
+      <div id='contact'
+        className='py4 center border-bottom border-thick'>
+        <h2>
+          <a href='#contact'>
+            Get in Touch
+          </a>
+        </h2>
         <a href='mailto:jxnblk@gmail.com'
-          className='btn btn-link'>
+          className='h4 btn btn-link'>
           jxnblk@gmail.com
         </a>
       </div>
