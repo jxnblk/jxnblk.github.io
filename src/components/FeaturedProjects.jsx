@@ -69,7 +69,7 @@ class FeaturedProjects extends React.Component {
               logo={<CssStatsLogo />}
               className='bg-darken-1' />
           </Col>
-          <Col flex sm={6} md={5}>
+          <Col flex sm={6} md={7}>
             <ProjectCard
               name='Geomicons'
               description='Open source icons for the web'
@@ -77,7 +77,15 @@ class FeaturedProjects extends React.Component {
               logo={<Icon name='heart' width={48} height={48} fill={clrs.blue} />}
               className='white bg-slate' />
           </Col>
-          <Col flex sm={6} md={7}>
+          <Col flex sm={6} md={5}>
+            <ProjectCard
+              name='React Geomicons'
+              description='React icon component for Geomicons Open'
+              link='http://jxnblk.com/react-geomicons'
+              logo={<Icon name='cloud' width={48} height={48} />}
+              className='white bg-blue' />
+          </Col>
+          <Col flex sm={6} md={5}>
             <ProjectCard
               name='Colorable'
               description='Color palette contrast tester'
@@ -93,7 +101,7 @@ class FeaturedProjects extends React.Component {
               logo={<ReactIconsLogo />}
               className='navy border' />
           </Col>
-          <Col flex sm={6} md={5}>
+          <Col flex sm={6} md={4}>
             <ProjectCard
               name='Writing'
               description='Thoughts on minimalism and design'
