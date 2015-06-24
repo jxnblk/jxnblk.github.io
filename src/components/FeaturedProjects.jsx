@@ -8,6 +8,7 @@ import Col from './Col.jsx'
 import BasscssLogo from './BasscssLogo.jsx'
 import CssStatsLogo from './CssStatsLogo.jsx'
 import MrsJxnLogo from './MrsJxnLogo.jsx'
+import SkullcatLogo from './SkullcatLogo.jsx'
 import Icon from 'react-geomicons'
 import ColorableLogo from './ColorableLogo.jsx'
 import ReactIconsLogo from './ReactIconsLogo.jsx'
@@ -69,7 +70,7 @@ class FeaturedProjects extends React.Component {
               logo={<CssStatsLogo />}
               className='bg-darken-1' />
           </Col>
-          <Col flex sm={6} md={5}>
+          <Col flex sm={6} md={7}>
             <ProjectCard
               name='Geomicons'
               description='Open source icons for the web'
@@ -77,7 +78,15 @@ class FeaturedProjects extends React.Component {
               logo={<Icon name='heart' width={48} height={48} fill={clrs.blue} />}
               className='white bg-slate' />
           </Col>
-          <Col flex sm={6} md={7}>
+          <Col flex sm={6} md={5}>
+            <ProjectCard
+              name='React Geomicons'
+              description='React icon component for Geomicons Open'
+              link='http://jxnblk.com/react-geomicons'
+              logo={<Icon name='cloud' width={48} height={48} />}
+              className='white bg-blue' />
+          </Col>
+          <Col flex sm={6} md={5}>
             <ProjectCard
               name='Colorable'
               description='Color palette contrast tester'
@@ -93,7 +102,7 @@ class FeaturedProjects extends React.Component {
               logo={<ReactIconsLogo />}
               className='navy border' />
           </Col>
-          <Col flex sm={6} md={5}>
+          <Col flex sm={6} md={4}>
             <ProjectCard
               name='Writing'
               description='Thoughts on minimalism and design'
@@ -124,10 +133,17 @@ class FeaturedProjects extends React.Component {
           </Col>
           <Col flex sm={6} md={4}>
             <ProjectCard
+              name='React Fitter Happier Text'
+              description='React component for fully fluid headings'
+              link='http://jxnblk.com/react-fitter-happier-text'
+              className='white bg-blue' />
+          </Col>
+          <Col flex sm={6} md={4}>
+            <ProjectCard
               name='Spectral'
               description='Click the rainbox'
               link='http://jxnblk.com/Spectral'
-              className='white bg-blue' />
+              className='white bg-brightblue' />
           </Col>
           <Col flex sm={6} md={4}>
             <ProjectCard
@@ -167,6 +183,14 @@ class FeaturedProjects extends React.Component {
               description='Post-future beats'
               link='http://mrsjxn.com'
               logo={<MrsJxnLogo />}
+              className='white bg-black' />
+          </Col>
+          <Col flex sm={6} md={4}>
+            <ProjectCard
+              name='Skullcat'
+              description='Avatar and web audio experiment'
+              link='http://jxnblk.com/skullcat'
+              logo={<SkullcatLogo />}
               className='white bg-black' />
           </Col>
         </div>
