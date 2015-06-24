@@ -9,7 +9,7 @@ module.exports = {
     { name: 'Twipster', link: '//jxnblk.com/Twipster', description: 'Simpler, Readabler Twitter' },
     { name: 'SoundRad', link: '//soundrad.com', description: 'Simple, Fast Soundcloud Player' },
     { name: 'Microbeats', link: '//microbeats.cc', description: 'Beats Created in Under an Hour' },
-    { name: 'Skullcat', link: '//jxnblk.com/skullcat', description: 'A Avatar fur Mrmrs' },
+    //{ name: 'Skullcat', link: '//jxnblk.com/skullcat', description: 'A Avatar fur Mrmrs' },
     { name: 'Gifolio', link: '//jxnblk.com/gifolio', description: 'GIF Portfolio' },
     { name: 'Papercraft', link: '//jxnblk.com/papercraft', description: 'Hand-Coded SVG Lettering' },
     { name: 'Stepkit', link: '//jxnblk.com/stepkit', description: 'Web Audio Step Sequencer' },

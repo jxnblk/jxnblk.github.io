@@ -8,6 +8,7 @@ import Col from './Col.jsx'
 import BasscssLogo from './BasscssLogo.jsx'
 import CssStatsLogo from './CssStatsLogo.jsx'
 import MrsJxnLogo from './MrsJxnLogo.jsx'
+import SkullcatLogo from './SkullcatLogo.jsx'
 import Icon from 'react-geomicons'
 import ColorableLogo from './ColorableLogo.jsx'
 import ReactIconsLogo from './ReactIconsLogo.jsx'
@@ -132,10 +133,17 @@ class FeaturedProjects extends React.Component {
           </Col>
           <Col flex sm={6} md={4}>
             <ProjectCard
+              name='React Fitter Happier Text'
+              description='React component for fully fluid headings'
+              link='http://jxnblk.com/react-fitter-happier-text'
+              className='white bg-blue' />
+          </Col>
+          <Col flex sm={6} md={4}>
+            <ProjectCard
               name='Spectral'
               description='Click the rainbox'
               link='http://jxnblk.com/Spectral'
-              className='white bg-blue' />
+              className='white bg-brightblue' />
           </Col>
           <Col flex sm={6} md={4}>
             <ProjectCard
@@ -175,6 +183,14 @@ class FeaturedProjects extends React.Component {
               description='Post-future beats'
               link='http://mrsjxn.com'
               logo={<MrsJxnLogo />}
+              className='white bg-black' />
+          </Col>
+          <Col flex sm={6} md={4}>
+            <ProjectCard
+              name='Skullcat'
+              description='Avatar and web audio experiment'
+              link='http://jxnblk.com/skullcat'
+              logo={<SkullcatLogo />}
               className='white bg-black' />
           </Col>
         </div>

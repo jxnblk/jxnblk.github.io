@@ -13,7 +13,7 @@ class Footer extends React.Component {
     return (
       <a href={href}
         key={'footer-' + link.name}
-        className="m1 btn btn-link">
+        className="btn btn-narrow btn-link">
         {link.name}
       </a>
     )
@@ -23,7 +23,7 @@ class Footer extends React.Component {
     return (
       <footer className="px2 sm-px3 py3">
         <div className="flex flex-baseline flex-wrap mxn1">
-          <a href="/" className="m1 btn btn-link">{this.props.title}</a>
+          <a href="/" className="btn btn-narrow btn-link">{this.props.title}</a>
           <div className="flex-auto" />
           <div>
             {this.props.social_networks.map(this.renderLink)}

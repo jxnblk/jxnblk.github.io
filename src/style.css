@@ -1,54 +1,5 @@
 
-@import 'basscss-base-reset';
-@import 'basscss-btn';
-@import 'basscss-base-typography';
-@import 'basscss-type-scale';
-@import 'basscss-utility-layout';
-@import 'basscss-utility-typography';
-@import 'basscss-white-space';
-@import 'basscss-grid';
-@import 'flex-object';
-@import 'basscss-color-base';
-@import 'basscss-borders';
-@import 'basscss-colors';
-@import 'basscss-background-colors';
-
-@import 'basscss-defaults';
-
-a {
-  color: currentcolor;
-  text-decoration: underline;
-}
-
-h1 a, h2 a, h3 a,
-h4 a, h5 a, h6 a {
-  text-decoration: none;
-}
-
-h1 a:hover, h2 a:hover, h3 a:hover,
-h4 a:hover, h5 a:hover, h6 a:hover {
-  text-decoration: underline;
-}
-
-.btn:hover {
-  box-shadow: inset 0 99999px color(var(--aqua) a(.125));
-}
-
-.btn-link {
-  padding-left: 0;
-  padding-right: 0;
-}
-.btn-link:hover {
-  padding-left: 0;
-  padding-right: 0;
-  text-decoration: underline;
-  box-shadow: none;
-  border-color: transparent;
-}
-
-.avenir { font-family: 'Avenir Next', 'Hevletica Neue', Helvetica, sans-serif }
-.medium { font-weight: 600 }
-.lh1 { line-height: 1 }
+@import 'blk';
 
 @media (min-width:40em) {
   .sm-px3{
@@ -57,54 +8,6 @@ h4 a:hover, h5 a:hover, h6 a:hover {
   }
 }
 
-.border-thick { border-width: 2px }
-.border-inherit { border-color: inherit }
-
-.slate { color: var(--slate) }
-.bg-slate { background-color: var(--slate) }
-.bg-shade-gradient {
-  background-color: #f6ff00;
-  background-image: linear-gradient(-90deg, #f6ff00, #ff00a1);
-  border: 1px solid white;
-}
-.bg-fht {
-  background-color: #f43;
-}
-.bg-spectral {
-  background-color: #00c9fc;
-}
-
-.bg-stripe-1 {
-  background-image: repeating-linear-gradient(45deg, currentcolor 0, currentcolor 2px, transparent 2px, transparent 8px);
-}
-
-h1, h2,
-.h1, .h2 {
-  font-family: 'SF UI Display', Roboto, 'Helvetica Neue', Helvetica, sans-serif;
-}
-
 :root {
-  --font-family: 'SF UI Text', Roboto, 'Helvetica Neue', Helvetica, sans-serif;
-  /*
-  --heading-font-family: 'SF UI Display', Roboto, 'Helvetica Neue', Helvetica, sans-serif;
-  */
-  --serif: Georgia, serif;
-  --h4: 1.125rem;
-  --line-height: 1.625;
-  --bold-font-weight: bold;
-  --heading-font-weight: var(--bold-font-weight);
-  --button-font-weight: var(--bold-font-weight);
-  --button-font-size: var(--h5);
-  --pre-font-size: 75%;
-  --slate: #304650;
-  --red: #f54;
-  /*
-  --space-1: .75rem;
-  --space-2: 1.5rem;
-  --space-3: 3rem;
-  --space-4: 6rem;
-  --link-color: inherit;
-  --link-text-decoration: underline;
-  */
 }
 
