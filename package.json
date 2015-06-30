@@ -3,10 +3,10 @@
   "version": "256.0.0",
   "description": "Brent Jackson, Designer",
   "scripts": {
-    "webpack": "webpack --progress --colors",
     "prod": "webpack -p --progress --colors",
     "serve": "webpack-dev-server --progress --colors",
-    "start": "npm run serve"
+    "start": "npm run serve",
+    "webpack": "webpack --progress --colors"
   },
   "devDependencies": {
     "babel-core": "^5.5.8",
@@ -24,6 +24,7 @@
     "basscss-colors": "^2.0.0-beta.1",
     "basscss-defaults": "^2.0.1",
     "basscss-grid": "^1.0.2",
+    "basscss-logo": "github:basscss/logo",
     "basscss-type-scale": "^1.0.0",
     "basscss-utility-layout": "^2.0.0-beta.1",
     "basscss-utility-typography": "^2.0.0-beta.0",
