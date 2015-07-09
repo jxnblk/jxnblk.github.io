@@ -167,7 +167,7 @@ class FeaturedProjects extends React.Component {
               name='VHS'
               description='Post-future CSS animations'
               link='http://jxnblk.com/vhs'
-              className='red bg-slate' />
+              className='white bg-blue' />
           </Col>
           {/*
           <Col flex sm={6} md={4}>
