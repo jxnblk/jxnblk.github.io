@@ -24,27 +24,32 @@ class ProjectCard extends React.Component {
   render() {
     let props = this.props
     let styles = {
-      heading: {
-        fontSize: props.big ? '12vw' : null,
-        //lineHeight: props.big ? 1 : null
-      },
       card: {
         minHeight: '12vh'
+      },
+      logo: {
+        width: props.logo ? 96 : null,
+        height: 96
       }
     }
 
     return (
-      <section className={props.big ? 'col-12' : 'col-12 sm-col-6 lg-col-4'}
+      <section className='flex xflex-auto col-12 sm-col-6 lg-col-4'
         style={styles.card}>
         <a href={props.link}
-          className='block btn btn-link py3'>
-          <div className=''>
-            {/*this.renderLogo(props.logo)*/}
-            <h1 className='h1 m0'
-              style={styles.heading}>
-              {props.name}
-            </h1>
-            <p className='regular m0'>{props.description}</p>
+          className='flex xflex-end col-12 btn link-card py3'>
+          <div className='flex flex-center'>
+            <div className='flex-none flex flex-center mr1'
+              style={styles.logo}>
+              {this.renderLogo(props.logo)}
+            </div>
+            <div className='flex-auto'>
+              <h1 className='h1 m0 link-underline'
+                style={styles.heading}>
+                {props.name}
+              </h1>
+              <p className='regular m0'>{props.description}</p>
+            </div>
           </div>
         </a>
       </section>

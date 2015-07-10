@@ -4,10 +4,11 @@ import React from 'react'
 class MrsJxnLogo extends React.Component {
 
   render() {
+    let size = this.props.size
     return (
       <svg viewBox='0 0 32 32'
-        width={64}
-        height={64}
+        width={size}
+        height={size}
         fill='currentcolor'>
         <defs>
           <clipPath id='mrs-clip'>
@@ -29,6 +30,10 @@ class MrsJxnLogo extends React.Component {
     )
   }
 
+}
+
+MrsJxnLogo.defaultProps = {
+  size: 48
 }
 
 export default MrsJxnLogo

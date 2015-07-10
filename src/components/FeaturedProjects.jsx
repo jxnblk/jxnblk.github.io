@@ -1,11 +1,8 @@
 
 import React from 'react'
 import ProjectCard from './ProjectCard.jsx'
-import cx from 'classnames'
 import clrs from 'colors.css'
-
 import Col from './Col.jsx'
-//import BasscssLogo from './BasscssLogo.jsx'
 import BasscssLogo from 'basscss-logo'
 import CssStatsLogo from './CssStatsLogo.jsx'
 import MrsJxnLogo from './MrsJxnLogo.jsx'
@@ -27,37 +24,37 @@ class FeaturedProjects extends React.Component {
             name='Basscss'
             description='Low-level CSS toolkit'
             link='http://basscss.com'
-            logo={<BasscssLogo />}
+            logo={<BasscssLogo size={96} />}
             className='white bg-blue' />
           <ProjectCard
             name='CSS Stats'
             description='CSS parsing tool'
             link='http://cssstats.com'
-            logo={<CssStatsLogo />}
+            logo={<CssStatsLogo size={96} />}
             className='bg-darken-1' />
           <ProjectCard
             name='Geomicons'
             description='Open source icons for the web'
             link='http://geomicons.com'
-            logo={<Icon name='heart' width={48} height={48} fill={clrs.blue} />}
+            logo={<Icon name='heart' width={72} height={72} />}
             className='white bg-slate' />
           <ProjectCard
             name='React Geomicons'
             description='React icon component for Geomicons Open'
             link='http://jxnblk.com/react-geomicons'
-            logo={<Icon name='cloud' width={48} height={48} />}
+            logo={<Icon name='cloud' width={72} height={72} />}
             className='white bg-blue' />
           <ProjectCard
             name='Colorable'
             description='Color palette contrast tester'
             link='http://jxnblk.com/colorable'
-            logo={<ColorableLogo />}
+            logo={<ColorableLogo size={96} />}
             className='aqua bg-navy' />
           <ProjectCard
-            name='Building SVG Icons with React'
-            description='How to create mathematically-generated graphics using JavaScript and React'
+            name='SVG Icons in React'
+            description='How to create generative graphics with JavaScript'
             link='http://jxnblk.com/react-icons'
-            logo={<ReactIconsLogo />}
+            logo={<ReactIconsLogo size={80} />}
             className='navy border' />
           <ProjectCard
             name='Writing'
@@ -94,13 +91,12 @@ class FeaturedProjects extends React.Component {
             name='Gravitons'
             description='Virtually massless CSS layout microlibrary'
             link='http://jxnblk.com/gravitons'
-            logo={<GravitonsLogo />}
+            logo={<GravitonsLogo size={96} />}
             className='navy border' />
           <ProjectCard
             name='Plangular'
             description='Angular directive for custom SoundCloud players'
             link='http://jxnblk.com/plangular'
-            logo={<Icon name='play' width={48} height={48} />}
             className='red bg-slate' />
           <ProjectCard
             name='VHS'
@@ -111,13 +107,13 @@ class FeaturedProjects extends React.Component {
             name='MrsJxn'
             description='Post-future beats'
             link='http://mrsjxn.com'
-            logo={<MrsJxnLogo />}
+            logo={<MrsJxnLogo size={128} />}
             className='white bg-black' />
           <ProjectCard
             name='Skullcat'
             description='Avatar and web audio experiment'
             link='http://jxnblk.com/skullcat'
-            logo={<SkullcatLogo />}
+            logo={<SkullcatLogo size={128} />}
             className='white bg-black' />
         </div>
       </section>

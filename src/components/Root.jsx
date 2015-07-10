@@ -22,12 +22,13 @@ class Root extends React.Component {
   toggleTheme () {
     var i = this.state.theme
     var themes = [
-      { color: 'navy', backgroundColor: 'white' },
+      { color: 'black', backgroundColor: 'white' },
       { color: 'blue', backgroundColor: 'white' },
       { color: 'red', backgroundColor: 'white' },
       { color: 'maroon', backgroundColor: 'white' },
       { color: 'maroon', backgroundColor: 'teal' },
       { color: 'navy', backgroundColor: 'teal' },
+      { color: 'white', backgroundColor: 'brightblue' },
     ]
     if (i < themes.length - 1) {
       i++
