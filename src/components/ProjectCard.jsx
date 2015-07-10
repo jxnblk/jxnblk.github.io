@@ -1,6 +1,5 @@
 
 import React from 'react'
-import cx from 'classnames'
 
 class ProjectCard extends React.Component {
 
@@ -10,10 +9,10 @@ class ProjectCard extends React.Component {
   }
 
   renderLogo(logo) {
-    var width = (this.props.index < 2) ? 96 : 64
-    var height = width
+    let width = (this.props.index < 2) ? 96 : 64
+    let height = width
     if (this.props.logoSvg) {
-      var svg = { __html: this.props.logoSvg }
+      let svg = { __html: this.props.logoSvg }
       return ( <div dangerouslySetInnerHTML={svg} /> )
     } else if (this.props.logo) {
       return logo
@@ -23,34 +22,29 @@ class ProjectCard extends React.Component {
   }
 
   render() {
-    var classes = {
-      section: cx('flex col-12'),
-      link: cx(
-        'flex flex-end',
-        'col-12',
-        'overflow-hidden',
-        'btn',
-        'p3',
-        this.props.className),
-        content: 'full-width',
-        title: cx('h1', 'm0'),
-        description: cx('m0'),
-    }
-    var styles = {
+    let props = this.props
+    let styles = {
+      heading: {
+        fontSize: props.big ? '12vw' : null,
+        //lineHeight: props.big ? 1 : null
+      },
       card: {
-        minHeight: '24vh'
+        minHeight: '12vh'
       }
     }
 
     return (
-      <section className={classes.section} style={styles.card}>
-        <a href={this.props.link}
-          style={this.props.style}
-          className={classes.link}>
-          <div className={classes.content}>
-            {this.renderLogo(this.props.logo)}
-            <h1 className={classes.title}>{this.props.name}</h1>
-            <p className={classes.description}>{this.props.description}</p>
+      <section className={props.big ? 'col-12' : 'col-12 sm-col-6 lg-col-4'}
+        style={styles.card}>
+        <a href={props.link}
+          className='block btn btn-link py3'>
+          <div className=''>
+            {/*this.renderLogo(props.logo)*/}
+            <h1 className='h1 m0'
+              style={styles.heading}>
+              {props.name}
+            </h1>
+            <p className='regular m0'>{props.description}</p>
           </div>
         </a>
       </section>
@@ -63,8 +57,6 @@ ProjectCard.defaultProps = {
   name: '',
   description: '',
   link: '/',
-  customClass: false,
-  logo: false,
 }
 
 export default ProjectCard

@@ -12,9 +12,13 @@ class Home extends React.Component {
     return (
       <main>
         <About {...this.props} />
+        <hr className='hrb' />
         <FeaturedProjects {...this.props} />
+        <hr className='hrb' />
         <OtherProjects {...this.props} />
+        <hr className='hrb' />
         <Contact {...this.props} />
+        <hr className='hrb' />
       </main>
     )
   }

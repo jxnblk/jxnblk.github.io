@@ -25,8 +25,8 @@ class OtherProjects extends React.Component {
   render() {
     return (
       <section id="other-projects"
-        className="py3 border-bottom border-thick border-darken-1">
-        <div className="sm-flex flex-wrap">
+        className="py3">
+        <div className="sm-flex flex-wrap mxn2">
           {other.map(this.renderProject)}
         </div>
       </section>

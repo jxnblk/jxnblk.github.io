@@ -22,22 +22,20 @@ class Header extends React.Component {
 
   render() {
     return (
-      <header className="px2 sm-px3">
-        <div className="flex flex-center flex-wrap py2 mxn1">
-          <a href="/" className="block mr1 color-inherit">
+      <header className='py2 mt2 mb4'>
+        <h1 className='h1 caps compact mt4 mb0'
+          style={{ fontSize: '12vw', lineHeight: 1 }}>
+          <a href='/' className='color-inherit'>
+            {this.props.title}
+          </a>
+        </h1>
+        <nav className='flex flex-center mt2 mxn1'>
+          <a href='https://github.com/jxnblk/avatar'
+            className='inline-block color-inherit'>
             <Avatar size={40} />
           </a>
-          <div className="flex-auto">
-            <h1 className="h5 caps compact m0">
-              <a href='/' className='color-inherit'>
-                {this.props.title}
-              </a>
-            </h1>
-          </div>
-          <nav>
-            {this.props.headerLinks.map(this.renderLink)}
-          </nav>
-        </div>
+          {this.props.headerLinks.map(this.renderLink)}
+        </nav>
       </header>
     )
   }

@@ -21,7 +21,7 @@ class Footer extends React.Component {
 
   render() {
     return (
-      <footer className="px2 sm-px3 py3">
+      <footer className="py3">
         <div className="flex flex-baseline flex-wrap mxn1">
           <a href="/" className="btn btn-narrow btn-link">{this.props.title}</a>
           <div className="flex-auto" />
