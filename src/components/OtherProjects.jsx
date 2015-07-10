@@ -1,6 +1,5 @@
 
 import React from 'react'
-import cx from 'classnames'
 import { other } from '../projects'
 
 class OtherProjects extends React.Component {
@@ -11,12 +10,19 @@ class OtherProjects extends React.Component {
   }
 
   renderProject(project, i) {
-    var colClass = cx('sm-col-6 md-col-4 lg-col-3 mb2')
     return (
-      <div className={colClass} key={'other-' + i}>
-        <a href={project.link} className='block btn link-card' title={'View ' + project.name}>
-          <h2 className='h3 m0 link-underline'>{project.name}</h2>
-          <p className='h5 regular m0'>{project.description}</p>
+      <div
+        key={'other-' + i}
+        className='sm-col-6 md-col-4 lg-col-3 mb2'>
+        <a href={project.link}
+          className='block btn link-card'
+          title={'View ' + project.name}>
+          <h2 className='h3 m0 link-underline'>
+            {project.name}
+          </h2>
+          <p className='h5 regular m0'>
+            {project.description}
+          </p>
         </a>
       </div>
     )

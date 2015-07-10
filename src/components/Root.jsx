@@ -56,7 +56,6 @@ class Root extends React.Component {
   }
 
   render() {
-    var path = this.props.baseUrl + this.props.path
     var initialProps = {
       __html: safeStringify(this.props)
     }
@@ -75,7 +74,8 @@ class Root extends React.Component {
           ].join(' ')}>
           <div className='flex flex-column '
             style={{ minHeight: '100vh' }}>
-            <Header {...this.props} />
+            <Header {...this.props}
+              toggleTheme={this.toggleTheme} />
             <div className="flex-auto">
               <Home {...this.props} {...this.state} />
             </div>

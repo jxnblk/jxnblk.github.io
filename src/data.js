@@ -1,19 +1,9 @@
 
-var fs = require('fs');
-var path = require('path');
-var cssnext = require('cssnext');
-var colors = require('colors.css');
-var styles = fs.readFileSync(path.join(__dirname, './style.css'), 'utf8');
-
-colors.darkgray = '#304650';
-
 module.exports = {
   name: 'Brent Jackson',
   title: 'Jxnblk',
-  //username: 'jxnblk',
   baseUrl: '',
   favicon: 'favicon.png',
-  //byline: 'Brent Jackson is a designer and proponent of simplicity, emphasizing systematic approaches, heuristics, qualitative and quantitative research, and designing from the gut. Based in Brooklyn, NY.',
   byline: 'Brent Jackson is a designer/developer specializing in living style guides, front-end architecture, and modular design systems, with an emphasis on heuristics, user-centered design, and collaborative design processes. Based in Brooklyn, NY.',
   homepage: '//jxnblk.com',
   headerLinks: [

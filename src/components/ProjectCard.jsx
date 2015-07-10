@@ -9,8 +9,6 @@ class ProjectCard extends React.Component {
   }
 
   renderLogo(logo) {
-    let width = (this.props.index < 2) ? 96 : 64
-    let height = width
     if (this.props.logoSvg) {
       let svg = { __html: this.props.logoSvg }
       return ( <div dangerouslySetInnerHTML={svg} /> )
