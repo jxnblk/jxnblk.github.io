@@ -16,7 +16,7 @@ class OtherProjects extends React.Component {
       <div className={colClass} key={'other-' + i}>
         <a href={project.link} className='block btn link-card' title={'View ' + project.name}>
           <h2 className='h3 m0 link-underline'>{project.name}</h2>
-          <p className='h5 m0'>{project.description}</p>
+          <p className='h5 regular m0'>{project.description}</p>
         </a>
       </div>
     )

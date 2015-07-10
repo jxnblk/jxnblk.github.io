@@ -19,6 +19,7 @@ a:focus,
 .hrb {
   border-bottom-width: 3px;
   border-bottom-color: currentcolor;
+  opacity: .125;
 }
 
 .btn-link:hover {
