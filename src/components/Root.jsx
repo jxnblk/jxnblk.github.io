@@ -11,7 +11,7 @@ class Root extends React.Component {
   constructor() {
     super()
     this.state = {
-      color: 'navy',
+      color: 'black',
       backgroundColor: 'white',
       theme: 0
     }

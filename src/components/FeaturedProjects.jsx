@@ -24,97 +24,85 @@ class FeaturedProjects extends React.Component {
             name='Basscss'
             description='Low-level CSS toolkit'
             link='http://basscss.com'
-            logo={<BasscssLogo size={96} />}
-            className='white bg-blue' />
+            logo={<BasscssLogo size={96} />} />
           <ProjectCard
             name='CSS Stats'
             description='CSS parsing tool'
             link='http://cssstats.com'
-            logo={<CssStatsLogo size={96} />}
-            className='bg-darken-1' />
+            logo={<CssStatsLogo size={96} />} />
           <ProjectCard
             name='Geomicons'
             description='Open source icons for the web'
             link='http://geomicons.com'
-            logo={<Icon name='heart' width={72} height={72} />}
-            className='white bg-slate' />
+            logo={<Icon name='heart' width={72} height={72} />} />
           <ProjectCard
             name='React Geomicons'
             description='React icon component for Geomicons Open'
             link='http://jxnblk.com/react-geomicons'
-            logo={<Icon name='cloud' width={72} height={72} />}
-            className='white bg-blue' />
+            logo={<Icon name='cloud' width={72} height={72} />} />
           <ProjectCard
             name='Colorable'
             description='Color palette contrast tester'
             link='http://jxnblk.com/colorable'
-            logo={<ColorableLogo size={96} />}
-            className='aqua bg-navy' />
+            logo={<ColorableLogo size={96} />} />
           <ProjectCard
             name='SVG Icons in React'
             description='How to create generative graphics with JavaScript'
             link='http://jxnblk.com/react-icons'
-            logo={<ReactIconsLogo size={80} />}
-            className='navy border' />
+            logo={<ReactIconsLogo size={80} />} />
           <ProjectCard
-            name='Writing'
-            description='Thoughts on minimalism and design'
-            link='http://jxnblk.com/writing'
-            className='border xbg-darken-1' />
-          <ProjectCard
-            name='Loading'
-            description='Animated SVG loading indicators'
-            link='http://jxnblk.com/loading'
-            logo={<LoadingLogo />}
-            className='white bg-purple' />
-          <ProjectCard
-            name='Shade'
-            description='Mathematically-derived gradients'
-            link='http://jxnblk.com/shade'
-            className='white bg-fuchsia' />
-          <ProjectCard
-            name='Fitter Happier Text'
-            description='Performant, fully fluid headings'
-            link='http://jxnblk.com/fitter-happier-text'
-            className='white bg-red' />
-          <ProjectCard
-            name='React Fitter Happier Text'
-            description='React component for fully fluid headings'
-            link='http://jxnblk.com/react-fitter-happier-text'
-            className='white bg-blue' />
-          <ProjectCard
-            name='Spectral'
-            description='Click the rainbox'
-            link='http://jxnblk.com/Spectral'
-            className='white bg-brightblue' />
+            name='Paths'
+            description='Edit SVGs in the browser'
+            link='http://jxnblk.com/paths'
+            logo={<Icon name='triangleUp' width={72} height={72} />} />
           <ProjectCard
             name='Gravitons'
             description='Virtually massless CSS layout microlibrary'
             link='http://jxnblk.com/gravitons'
-            logo={<GravitonsLogo size={96} />}
-            className='navy border' />
+            logo={<GravitonsLogo size={96} />} />
           <ProjectCard
-            name='Plangular'
-            description='Angular directive for custom SoundCloud players'
-            link='http://jxnblk.com/plangular'
-            className='red bg-slate' />
+            name='Loading'
+            description='Animated SVG loading indicators'
+            link='http://jxnblk.com/loading'
+            logo={<LoadingLogo />} />
+          <ProjectCard
+            name='Writing'
+            description='Thoughts on minimalism and design'
+            link='http://jxnblk.com/writing' />
+          <ProjectCard
+            name='Shade'
+            description='Mathematically-derived gradients'
+            link='http://jxnblk.com/shade' />
+          <ProjectCard
+            name='Rgx'
+            description='Constraint-based React grid system'
+            link='http://jxnblk.com/rgx' />
+          <ProjectCard
+            name='Fitter Happier Text'
+            description='Performant, fully fluid headings'
+            link='http://jxnblk.com/fitter-happier-text' />
+          <ProjectCard
+            name='React Fitter Happier Text'
+            description='React component for fully fluid headings'
+            link='http://jxnblk.com/react-fitter-happier-text' />
+          <ProjectCard
+            name='Spectral'
+            description='Click the rainbox'
+            link='http://jxnblk.com/Spectral' />
           <ProjectCard
             name='VHS'
             description='Post-future CSS animations'
-            link='http://jxnblk.com/vhs'
-            className='white bg-blue' />
+            link='http://jxnblk.com/vhs' />
           <ProjectCard
             name='MrsJxn'
             description='Post-future beats'
             link='http://mrsjxn.com'
-            logo={<MrsJxnLogo size={128} />}
-            className='white bg-black' />
+            logo={<MrsJxnLogo size={128} />} />
           <ProjectCard
             name='Skullcat'
             description='Avatar and web audio experiment'
             link='http://jxnblk.com/skullcat'
-            logo={<SkullcatLogo size={128} />}
-            className='white bg-black' />
+            logo={<SkullcatLogo size={128} />} />
         </div>
       </section>
     )
