@@ -39,7 +39,7 @@ class OtherProjects extends React.Component {
             name='SoundRad'
             description='Simple, Fast SoundCloud Player' />
           <SmallProjectCard
-            href='//microbeats.css'
+            href='//microbeats.cc'
             name='Microbeats'
             description='Beats Created in Under an Hour' />
           <SmallProjectCard
