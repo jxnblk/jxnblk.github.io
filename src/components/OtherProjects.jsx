@@ -43,10 +43,6 @@ class OtherProjects extends React.Component {
             name='Microbeats'
             description='Beats Created in Under an Hour' />
           <SmallProjectCard
-            href='/plangular'
-            name='Plangular'
-            description='Create Custom SoundCloud Players' />
-          <SmallProjectCard
             href='/gifolio'
             name='Gifolio'
             description='GIF Portfolio' />

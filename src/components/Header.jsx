@@ -39,7 +39,9 @@ class Header extends React.Component {
           style={{ fontSize: '12vw', lineHeight: 1 }}>
           {props.title}
         </h1>
-        {props.headerLinks.map(this.renderLink)}
+        <div className='mxn1'>
+          {props.headerLinks.map(this.renderLink)}
+        </div>
       </header>
     )
   }
