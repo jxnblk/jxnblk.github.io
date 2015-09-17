@@ -54,3 +54,9 @@ a:focus,
 }
 
 
+:root {
+  --font-family: -apple-system, Roboto, 'Helvetica Neue', Helvetica, sans-serif;
+  --heading-font-family: var(--font-family);
+  --small-font-family: var(--font-family);
+}
+
