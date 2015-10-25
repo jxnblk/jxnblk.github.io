@@ -2,7 +2,10 @@
 @import 'blk';
 
 a:hover {
+  text-decoration: none;
+  /*
   text-decoration-color: var(--brightblue);
+  */
 }
 
 a:focus,
@@ -13,6 +16,8 @@ a:focus,
   transition: box-shadow .3s ease-out, border-color .2s ease-out;
 }
 
+.caps { letter-spacing: .3em }
+
 .hrb {
   border-bottom-width: 3px;
   border-bottom-color: currentcolor;
@@ -20,6 +25,7 @@ a:focus,
 }
 
 .btn-link:hover {
+  text-decoration: none;
   border-color: transparent;
 }
 

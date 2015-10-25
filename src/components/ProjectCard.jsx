@@ -20,8 +20,8 @@ class ProjectCard extends React.Component {
   }
 
   render() {
-    let props = this.props
-    let styles = {
+    const props = this.props
+    const styles = {
       card: {
         minHeight: '12vh'
       },
@@ -31,18 +31,22 @@ class ProjectCard extends React.Component {
       }
     }
 
+    const { handleMouseEnter, handleMouseLeave } = props
+
     return (
       <section className='flex xflex-auto col-12 sm-col-6 lg-col-4'
-        style={styles.card}>
+        style={styles.card}
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave}>
         <a href={props.link}
-          className='flex xflex-end col-12 btn link-card py3'>
+          className='flex xflex-end col-12 btn xlink-card py3 inverse'>
           <div className='flex flex-center'>
             <div className='flex-none flex flex-center mr1'
               style={styles.logo}>
               {this.renderLogo(props.logo)}
             </div>
             <div className='flex-auto'>
-              <h1 className='h1 m0 link-underline'
+              <h1 className='h3 caps m0 xlink-underline'
                 style={styles.heading}>
                 {props.name}
               </h1>
@@ -60,6 +64,8 @@ ProjectCard.defaultProps = {
   name: '',
   description: '',
   link: '/',
+  handleMouseEnter: function () {},
+  handleMouseLeave: function () {},
 }
 
 export default ProjectCard

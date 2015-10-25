@@ -14,7 +14,7 @@ class Header extends React.Component {
     return (
       <a href={href}
         key={link.title}
-        className="btn btn-narrow btn-link">
+        className="caps btn btn-narrow btn-link">
         {link.title}
       </a>
     )

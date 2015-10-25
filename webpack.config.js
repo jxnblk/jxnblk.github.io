@@ -14,15 +14,19 @@ module.exports = {
     libraryTarget: 'umd'
   },
 
+  resolve: {
+    extensions: ['', '.js', '.jsx', '.json']
+  },
+
   module: {
     loaders: [
-      { test: /\.js$/, exclude: /node_modules/, loader: 'babel-loader' },
-      { test: /\.jsx$/, exclude: /node_modules/, loader: 'babel-loader' },
+      { test: /\.jsx?$/, exclude: /node_modules/, loader: 'babel-loader' },
       {
         test: /\.css/,
         exclude: /colors\.css/,
-        loader: 'css-loader!cssnext-loader'
-      }
+        loaders: ['css-loader', 'cssnext-loader']
+      },
+      { test: /\.json$/, loaders: [ 'json' ] }
     ]
   },
 

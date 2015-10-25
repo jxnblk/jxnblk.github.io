@@ -4,13 +4,16 @@ import React from 'react'
 class SmallProjectCard extends React.Component {
 
   render () {
-    let { href, name, description } = this.props
+    const { href, name, description, handleMouseEnter, handleMouseLeave } = this.props
+    console.log(handleMouseEnter)
     return (
       <div className='sm-col-6 md-col-4 lg-col-3 mb2'>
         <a href={href}
-          className='block btn link-card'
+          className='block btn xlink-card inverse'
+          onMouseEnter={handleMouseEnter}
+          onMouseLeave={handleMouseLeave}
           title={'View ' + name}>
-          <h2 className='h3 m0 link-underline'>
+          <h2 className='h3 m0 xlink-underline'>
             {name}
           </h2>
           <p className='h5 regular m0'>

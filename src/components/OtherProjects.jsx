@@ -11,46 +11,57 @@ class OtherProjects extends React.Component {
         className='py3'>
         <div className='sm-flex flex-wrap mxn2'>
           <SmallProjectCard
+            {...this.props}
             href='/work'
             name='Work'
             description='Professional Work' />
           <SmallProjectCard
+            {...this.props}
             href='/principles'
             name='Principles'
             description='Web Design Principles' />
           <SmallProjectCard
+            {...this.props}
             href='/reading-list'
             name='Reading List'
             description='Recommended Reading' />
           <SmallProjectCard
+            {...this.props}
             href='/Ashley'
             name='Ashley'
             description='Readable Tumblr Theme' />
           <SmallProjectCard
+            {...this.props}
             href='/Heather'
             name='Heather'
             description='Hyperminimal Jekyll Theme' />
           <SmallProjectCard
+            {...this.props}
             href='/Twipster'
             name='Twipster'
             description='Simpler, Readabler Twitter' />
           <SmallProjectCard
+            {...this.props}
             href='//soundrad.com'
             name='SoundRad'
             description='Simple, Fast SoundCloud Player' />
           <SmallProjectCard
+            {...this.props}
             href='//microbeats.cc'
             name='Microbeats'
             description='Beats Created in Under an Hour' />
           <SmallProjectCard
+            {...this.props}
             href='/gifolio'
             name='Gifolio'
             description='GIF Portfolio' />
           <SmallProjectCard
+            {...this.props}
             href='/papercraft'
             name='Papercraft'
             description='Hand-Coded SVG Lettering' />
           <SmallProjectCard
+            {...this.props}
             href='/stepkit'
             name='Stepkit'
             description='Web Audio Step Sequencer' />
