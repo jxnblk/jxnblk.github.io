@@ -1,6 +1,7 @@
 
 import React from 'react'
 import ProjectCard from './ProjectCard.jsx'
+import SmallProjectCard from './SmallProjectCard.jsx'
 import clrs from 'colors.css'
 import Col from './Col.jsx'
 import BasscssLogo from 'basscss-logo'
@@ -20,102 +21,102 @@ class FeaturedProjects extends React.Component {
       <section id="featured-projects"
         className="py2">
         <div className="flex flex-wrap mxn2">
-          <ProjectCard
+          <SmallProjectCard
             {...this.props}
             name='Basscss'
             description='Low-level CSS toolkit'
             link='http://basscss.com'
             logo={<BasscssLogo size={96} />} />
-          <ProjectCard
+          <SmallProjectCard
             {...this.props}
             name='CSS Stats'
             description='CSS parsing tool'
             link='http://cssstats.com'
             logo={<CssStatsLogo size={96} />} />
-          <ProjectCard
+          <SmallProjectCard
             {...this.props}
             name='Geomicons'
             description='Open source icons for the web'
             link='http://geomicons.com'
             logo={<Icon name='heart' width={72} height={72} />} />
-          <ProjectCard
+          <SmallProjectCard
             {...this.props}
             name='React Geomicons'
             description='React icon component for Geomicons Open'
             link='http://jxnblk.com/react-geomicons'
             logo={<Icon name='cloud' width={72} height={72} />} />
-          <ProjectCard
+          <SmallProjectCard
             {...this.props}
             name='Colorable'
             description='Color palette contrast tester'
             link='http://jxnblk.com/colorable'
             logo={<ColorableLogo size={96} />} />
-          <ProjectCard
+          <SmallProjectCard
             {...this.props}
             name='SVG Icons in React'
             description='How to create generative graphics with JavaScript'
             link='http://jxnblk.com/react-icons'
             logo={<ReactIconsLogo size={80} />} />
-          <ProjectCard
+          <SmallProjectCard
             {...this.props}
             name='Paths'
             description='Edit SVGs in the browser'
             link='http://jxnblk.com/paths'
             logo={<Icon name='triangleUp' width={72} height={72} />} />
-          <ProjectCard
+          <SmallProjectCard
             {...this.props}
             name='Gravitons'
             description='Virtually massless CSS layout microlibrary'
             link='http://jxnblk.com/gravitons'
             logo={<GravitonsLogo size={96} />} />
-          <ProjectCard
+          <SmallProjectCard
             {...this.props}
             name='Loading'
             description='Animated SVG loading indicators'
             link='http://jxnblk.com/loading'
             logo={<LoadingLogo />} />
-          <ProjectCard
+          <SmallProjectCard
             {...this.props}
             name='Writing'
             description='Thoughts on minimalism and design'
             link='http://jxnblk.com/writing' />
-          <ProjectCard
+          <SmallProjectCard
             {...this.props}
             name='Shade'
             description='Mathematically-derived gradients'
             link='http://jxnblk.com/shade' />
-          <ProjectCard
+          <SmallProjectCard
             {...this.props}
             name='Rgx'
             description='Constraint-based React grid system'
             link='http://jxnblk.com/rgx' />
-          <ProjectCard
+          <SmallProjectCard
             {...this.props}
             name='Fitter Happier Text'
             description='Performant, fully fluid headings'
             link='http://jxnblk.com/fitter-happier-text' />
-          <ProjectCard
+          <SmallProjectCard
             {...this.props}
             name='React Fitter Happier Text'
             description='React component for fully fluid headings'
             link='http://jxnblk.com/react-fitter-happier-text' />
-          <ProjectCard
+          <SmallProjectCard
             {...this.props}
             name='Spectral'
             description='Click the rainbox'
             link='http://jxnblk.com/Spectral' />
-          <ProjectCard
+          <SmallProjectCard
             {...this.props}
             name='VHS'
             description='Post-future CSS animations'
             link='http://jxnblk.com/vhs' />
-          <ProjectCard
+          <SmallProjectCard
             {...this.props}
             name='MrsJxn'
             description='Post-future beats'
             link='http://mrsjxn.com'
             logo={<MrsJxnLogo size={128} />} />
-          <ProjectCard
+          <SmallProjectCard
             {...this.props}
             name='Skullcat'
             description='Avatar and web audio experiment'

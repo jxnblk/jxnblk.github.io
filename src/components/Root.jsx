@@ -79,6 +79,8 @@ class Root extends React.Component {
       __html: safeStringify(this.props)
     }
 
+    const { title } = this.props
+
     const { color, backgroundColor } = this.state
 
     const inverse = `
@@ -92,7 +94,7 @@ class Root extends React.Component {
       <html>
         <head>
           <meta charSet='utf-8' />
-          <title>{this.props.title}</title>
+          <title>{title}</title>
           <meta name='viewport' content='width=device-width,initial-scale=1' />
           <style dangerouslySetInnerHTML={{ __html: css }} />
           <style dangerouslySetInnerHTML={{ __html: inverse }} />

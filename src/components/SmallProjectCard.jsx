@@ -5,9 +5,8 @@ class SmallProjectCard extends React.Component {
 
   render () {
     const { href, name, description, handleMouseEnter, handleMouseLeave } = this.props
-    console.log(handleMouseEnter)
     return (
-      <div className='sm-col-6 md-col-4 lg-col-3 mb2'>
+      <div className='col-12 sm-col-6 md-col-4 lg-col-3 mb2'>
         <a href={href}
           className='block btn xlink-card inverse'
           onMouseEnter={handleMouseEnter}

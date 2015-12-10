@@ -42,11 +42,6 @@ class OtherProjects extends React.Component {
             description='Simpler, Readabler Twitter' />
           <SmallProjectCard
             {...this.props}
-            href='//soundrad.com'
-            name='SoundRad'
-            description='Simple, Fast SoundCloud Player' />
-          <SmallProjectCard
-            {...this.props}
             href='//microbeats.cc'
             name='Microbeats'
             description='Beats Created in Under an Hour' />

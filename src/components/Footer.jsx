@@ -5,28 +5,26 @@ class Footer extends React.Component {
 
   constructor() {
     super()
-    this.renderLink = this.renderLink.bind(this)
-  }
-
-  renderLink(link) {
-    var href = link.link
-    return (
-      <a href={href}
-        key={'footer-' + link.name}
-        className='btn btn-narrow btn-link'>
-        {link.name}
-      </a>
-    )
   }
 
   render() {
+    const { title, nav } = this.props
+
+    console.log(nav)
+
     return (
-      <footer className='py4'>
+      <footer className='py3'>
         <div className='flex flex-baseline flex-wrap mxn1'>
-          <a href='/' className='btn btn-narrow btn-link'>{this.props.title}</a>
+          <a href='/' className='btn btn-narrow btn-link'>{title}</a>
           <div className='flex-auto' />
           <div>
-            {this.props.social_networks.map(this.renderLink)}
+            {nav.map(link => (
+              <a href={link.href}
+                key={link.href}
+                className='btn btn-narrow btn-link'>
+                {link.title}
+              </a>
+            ))}
           </div>
         </div>
       </footer>
