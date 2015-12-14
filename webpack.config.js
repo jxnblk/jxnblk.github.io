@@ -1,5 +1,9 @@
 
 var StaticSiteGeneratorPlugin = require('static-site-generator-webpack-plugin')
+var postcssImport = require('postcss-import')
+var customMedia = require('postcss-custom-media')
+var customProperties = require('postcss-custom-properties')
+var calc = require('postcss-calc')
 
 var paths = [ '/' ]
 var data = require('./src/data')
@@ -28,7 +32,10 @@ module.exports = {
       {
         test: /\.css/,
         exclude: /colors\.css/,
-        loaders: ['css', 'cssnext']
+        loaders: [
+          'css',
+          'postcss'
+        ]
       },
       {
         test: /\.json$/,
@@ -41,14 +48,13 @@ module.exports = {
     new StaticSiteGeneratorPlugin('bundle.js', paths, data)
   ],
 
-  cssnext: {
-    compress: true,
-    features: {
-      rem: false,
-      pseudoElements: false,
-      colorRgba: false
-    }
+  postcss: function() {
+    return [
+      postcssImport,
+      customMedia,
+      customProperties,
+      calc
+    ]
   }
-
 }
 

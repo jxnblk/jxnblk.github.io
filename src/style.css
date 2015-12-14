@@ -1,5 +1,14 @@
 
-@import 'blk';
+@import 'basscss-base-reset';
+@import 'basscss-base-typography';
+@import 'basscss-color-base';
+
+@import 'basscss-btn';
+@import 'basscss-type-scale';
+@import 'basscss-utility-typography';
+@import 'basscss-utility-layout';
+@import 'basscss-white-space';
+@import 'flex-object';
 
 body,
 .btn {
@@ -9,9 +18,6 @@ body,
 
 a:hover {
   text-decoration: none;
-  /*
-  text-decoration-color: var(--brightblue);
-  */
 }
 
 a:focus,
@@ -22,27 +28,9 @@ a:focus,
   transition: box-shadow .3s ease-out, border-color .2s ease-out;
 }
 
-.caps { letter-spacing: .3em }
-
 .btn-link:hover {
   text-decoration: none;
   border-color: transparent;
-}
-
-.link-card {
-  transition: border-color .2s ease-out;
-}
-
-.link-card:hover {
-  box-shadow: none;
-  border-color: var(--brightblue);
-  box-shadow: inset 0 0 0 999px color(var(--brightblue) a(.03125));
-}
-
-.link-card:hover .link-underline,
-.link-card:focus .link-underline {
-  text-decoration: underline;
-  text-decoration-color: var(--brightblue);
 }
 
 @media (min-width:40em) {
@@ -59,16 +47,9 @@ a:focus,
   }
 }
 
-
 :root {
-  /*
-  --h1: 1.125rem;
-  --h2: var(--h1);
-  --h3: var(--h1);
-  --h4: var(--h1);
-  --h5: 1rem;
-  */
   --font-family: -apple-system, Roboto, 'Helvetica Neue', Helvetica, sans-serif;
   --heading-font-family: var(--font-family);
+  --brightblue: #33b8ff;
 }
 
