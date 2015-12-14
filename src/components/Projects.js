@@ -4,7 +4,7 @@ import ProjectCard from './ProjectCard'
 
 const Projects = ({ ...props }) => (
   <section id="featured-projects"
-    className="py2">
+    className="py4">
     <div className="flex flex-wrap mxn2">
       <ProjectCard
         {...props}

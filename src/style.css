@@ -44,6 +44,9 @@ a:focus,
 :root {
   --font-family: -apple-system, Roboto, 'Helvetica Neue', Helvetica, sans-serif;
   --heading-font-family: var(--font-family);
+  --space-2: 1.5rem;
+  --space-3: 4rem;
+  --space-4: 8rem;
   --button-font-size: var(--h5);
   --brightblue: #33b8ff;
 }

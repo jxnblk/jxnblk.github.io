@@ -2,7 +2,7 @@
 import React from 'react'
 
 const Footer = ({ title, nav }) => (
-  <footer className='py3'>
+  <footer className='py4'>
     <div className='flex flex-baseline flex-wrap mxn1'>
       <a href='/' className='btn px1 btn-link'>{title}</a>
       <div className='flex-auto' />
