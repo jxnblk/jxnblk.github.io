@@ -20,13 +20,20 @@ module.exports = {
 
   module: {
     loaders: [
-      { test: /\.jsx?$/, exclude: /node_modules/, loader: 'babel-loader' },
+      {
+        test: /\.jsx?$/,
+        exclude: /node_modules/,
+        loader: 'babel'
+      },
       {
         test: /\.css/,
         exclude: /colors\.css/,
-        loaders: ['css-loader', 'cssnext-loader']
+        loaders: ['css', 'cssnext']
       },
-      { test: /\.json$/, loaders: [ 'json' ] }
+      {
+        test: /\.json$/,
+        loader: 'json'
+      }
     ]
   },
 

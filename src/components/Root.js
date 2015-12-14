@@ -3,9 +3,10 @@ import React from 'react'
 import { padLeft } from 'lodash'
 import hello from 'hello-color'
 
-import Header from './Header.jsx'
-import Footer from './Footer.jsx'
-import Home from './Home.jsx'
+import Header from './Header'
+import Footer from './Footer'
+import Projects from './Projects'
+import About from './About'
 import css from '../style.css'
 
 function randomHex () {
@@ -26,7 +27,6 @@ class Root extends React.Component {
     this.toggleTheme = this.toggleTheme.bind(this)
     this.handleKeydown = this.handleKeydown.bind(this)
     this.handleMouseEnter = this.handleMouseEnter.bind(this)
-    this.handleMouseLeave = this.handleMouseLeave.bind(this)
   }
 
   toggleTheme () {
@@ -56,15 +56,6 @@ class Root extends React.Component {
     if (this.state.psychedelic) {
       this.toggleTheme()
     }
-  }
-
-  handleMouseLeave (e) {
-    /*
-    this.setState({
-      color: '#111',
-      backgroundColor: '#fff'
-    })
-    */
   }
 
   componentDidMount () {
@@ -112,13 +103,10 @@ class Root extends React.Component {
             style={{ minHeight: '100vh' }}>
             <Header {...this.props}
               toggleTheme={this.toggleTheme} />
-            <div className="flex-auto">
-              <Home
-                {...this.props}
-                {...this.state}
-                handleMouseEnter={this.handleMouseEnter}
-                handleMouseLeave={this.handleMouseLeave} />
-            </div>
+            <main className="flex-auto">
+              <About {...this.props} handleMouseEnter={this.handleMouseEnter} />
+              <Projects {...this.props} handleMouseEnter={this.handleMouseEnter} />
+            </main>
             <Footer {...this.props} />
             <script id='initial-props'
               type='application/json'
@@ -130,7 +118,6 @@ class Root extends React.Component {
       </html>
     )
   }
-
 }
 
 function safeStringify(obj) {

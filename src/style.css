@@ -1,6 +1,12 @@
 
 @import 'blk';
 
+body,
+.btn {
+  font-size: var(--h4);
+  line-height: 1.25;
+}
+
 a:hover {
   text-decoration: none;
   /*
@@ -17,12 +23,6 @@ a:focus,
 }
 
 .caps { letter-spacing: .3em }
-
-.hrb {
-  border-bottom-width: 3px;
-  border-bottom-color: currentcolor;
-  opacity: .125;
-}
 
 .btn-link:hover {
   text-decoration: none;
@@ -61,8 +61,14 @@ a:focus,
 
 
 :root {
+  /*
+  --h1: 1.125rem;
+  --h2: var(--h1);
+  --h3: var(--h1);
+  --h4: var(--h1);
+  --h5: 1rem;
+  */
   --font-family: -apple-system, Roboto, 'Helvetica Neue', Helvetica, sans-serif;
   --heading-font-family: var(--font-family);
-  --small-font-family: var(--font-family);
 }
 

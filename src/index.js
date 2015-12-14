@@ -1,14 +1,17 @@
 
-var React = require('react');
-var Root = require('./components/Root.jsx');
+import React from 'react'
+import ReactDOM from 'react-dom'
+import Root from './components/Root'
 
 if (typeof document !== 'undefined') {
-  var initialProps = JSON.parse(document.getElementById('initial-props').innerHTML);
-  React.render(React.createElement(Root, initialProps), document);
+  const initialProps = JSON.parse(document.getElementById('initial-props').innerHTML)
+  ReactDOM.render(<Root {...initialProps} />, document)
 }
 
-module.exports = function render(locals, callback) {
-  var html = React.renderToString(React.createElement(Root, locals));
-  callback(null, '<!DOCTYPE html>' + html);
-};
+const render = (locals, callback) => {
+  const html = React.renderToString(<Root {...locals} />)
+  callback(null, '<!DOCTYPE html>' + html)
+}
+
+export default render
 
