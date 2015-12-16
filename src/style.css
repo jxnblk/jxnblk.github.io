@@ -1,11 +1,17 @@
 
-@import 'blk';
+@import 'basscss-base-reset';
+@import 'basscss-base-typography';
+@import 'basscss-color-base';
+
+@import 'basscss-btn';
+@import 'basscss-type-scale';
+@import 'basscss-utility-typography';
+@import 'basscss-utility-layout';
+@import 'basscss-white-space';
+@import 'flex-object';
 
 a:hover {
   text-decoration: none;
-  /*
-  text-decoration-color: var(--brightblue);
-  */
 }
 
 a:focus,
@@ -16,33 +22,9 @@ a:focus,
   transition: box-shadow .3s ease-out, border-color .2s ease-out;
 }
 
-.caps { letter-spacing: .3em }
-
-.hrb {
-  border-bottom-width: 3px;
-  border-bottom-color: currentcolor;
-  opacity: .125;
-}
-
 .btn-link:hover {
   text-decoration: none;
   border-color: transparent;
-}
-
-.link-card {
-  transition: border-color .2s ease-out;
-}
-
-.link-card:hover {
-  box-shadow: none;
-  border-color: var(--brightblue);
-  box-shadow: inset 0 0 0 999px color(var(--brightblue) a(.03125));
-}
-
-.link-card:hover .link-underline,
-.link-card:focus .link-underline {
-  text-decoration: underline;
-  text-decoration-color: var(--brightblue);
 }
 
 @media (min-width:40em) {
@@ -59,10 +41,13 @@ a:focus,
   }
 }
 
-
 :root {
   --font-family: -apple-system, Roboto, 'Helvetica Neue', Helvetica, sans-serif;
   --heading-font-family: var(--font-family);
-  --small-font-family: var(--font-family);
+  --space-2: 1.5rem;
+  --space-3: 4rem;
+  --space-4: 8rem;
+  --button-font-size: var(--h5);
+  --brightblue: #33b8ff;
 }
 
