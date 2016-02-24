@@ -1,14 +1,7 @@
 
-@import 'basscss-base-reset';
-@import 'basscss-base-typography';
-@import 'basscss-color-base';
-
+@import 'basscss-basic';
 @import 'basscss-btn';
-@import 'basscss-type-scale';
-@import 'basscss-utility-typography';
-@import 'basscss-utility-layout';
-@import 'basscss-white-space';
-@import 'flex-object';
+@import 'basscss';
 
 a:hover {
   text-decoration: none;

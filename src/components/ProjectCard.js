@@ -4,7 +4,7 @@ import React from 'react'
 const ProjectCard = ({ href, name, description, ...props }) => (
   <div
     style={{
-      flex: '1 0 320px'
+      flex: '0 0 320px'
     }}
     className='mb2'>
     <a href={href}

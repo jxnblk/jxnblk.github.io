@@ -5,7 +5,7 @@ import ProjectCard from './ProjectCard'
 const Projects = ({ ...props }) => (
   <section id="featured-projects"
     className="py4">
-    <div className="flex flex-wrap mxn2">
+    <div className="flex flex-wrap xjustify-between mxn2">
       <ProjectCard
         {...props}
         name='Basscss'
@@ -61,6 +61,11 @@ const Projects = ({ ...props }) => (
         name='Shade'
         description='Mathematically-derived gradients'
         href='http://jxnblk.com/shade' />
+      <ProjectCard
+        {...props}
+        name='Reflexbox'
+        description='React flexbox layout and grid system'
+        href='http://jxnblk.com/reflexbox' />
       <ProjectCard
         {...props}
         name='Rgx'
