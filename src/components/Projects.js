@@ -13,9 +13,24 @@ const Projects = ({ ...props }) => (
         href='http://basscss.com' />
       <ProjectCard
         {...props}
+        name='Rebass'
+        description='Configurable React UI components'
+        href='http://jxnblk.com/rebass' />
+      <ProjectCard
+        {...props}
         name='CSS Stats'
-        description='CSS parsing tool'
+        description='CSS static-analysis tool'
         href='http://cssstats.com' />
+      <ProjectCard
+        {...props}
+        name='Writing'
+        description='Thoughts on minimalism and design'
+        href='http://jxnblk.com/writing' />
+      <ProjectCard
+        {...props}
+        name='Colorable'
+        description='Color palette contrast tester'
+        href='http://jxnblk.com/colorable' />
       <ProjectCard
         {...props}
         name='Geomicons'
@@ -26,11 +41,6 @@ const Projects = ({ ...props }) => (
         name='React Geomicons'
         description='React icon component for Geomicons Open'
         href='http://jxnblk.com/react-geomicons' />
-      <ProjectCard
-        {...props}
-        name='Colorable'
-        description='Color palette contrast tester'
-        href='http://jxnblk.com/colorable' />
       <ProjectCard
         {...props}
         name='SVG Icons in React'
@@ -53,11 +63,6 @@ const Projects = ({ ...props }) => (
         href='http://jxnblk.com/loading' />
       <ProjectCard
         {...props}
-        name='Writing'
-        description='Thoughts on minimalism and design'
-        href='http://jxnblk.com/writing' />
-      <ProjectCard
-        {...props}
         name='Shade'
         description='Mathematically-derived gradients'
         href='http://jxnblk.com/shade' />
@@ -66,6 +71,11 @@ const Projects = ({ ...props }) => (
         name='Reflexbox'
         description='React flexbox layout and grid system'
         href='http://jxnblk.com/reflexbox' />
+      <ProjectCard
+        {...props}
+        name='Gx'
+        description='Minimal, responsive React grid system'
+        href='http://jxnblk.com/gx' />
       <ProjectCard
         {...props}
         name='Rgx'

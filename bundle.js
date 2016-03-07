@@ -20050,9 +20050,21 @@ return /******/ (function(modules) { // webpackBootstrap
 	        description: 'Low-level CSS toolkit',
 	        href: 'http://basscss.com' })),
 	      _react2['default'].createElement(_ProjectCard2['default'], _extends({}, props, {
+	        name: 'Rebass',
+	        description: 'Configurable React UI components',
+	        href: 'http://jxnblk.com/rebass' })),
+	      _react2['default'].createElement(_ProjectCard2['default'], _extends({}, props, {
 	        name: 'CSS Stats',
-	        description: 'CSS parsing tool',
+	        description: 'CSS static-analysis tool',
 	        href: 'http://cssstats.com' })),
+	      _react2['default'].createElement(_ProjectCard2['default'], _extends({}, props, {
+	        name: 'Writing',
+	        description: 'Thoughts on minimalism and design',
+	        href: 'http://jxnblk.com/writing' })),
+	      _react2['default'].createElement(_ProjectCard2['default'], _extends({}, props, {
+	        name: 'Colorable',
+	        description: 'Color palette contrast tester',
+	        href: 'http://jxnblk.com/colorable' })),
 	      _react2['default'].createElement(_ProjectCard2['default'], _extends({}, props, {
 	        name: 'Geomicons',
 	        description: 'Open source icons for the web',
@@ -20061,10 +20073,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	        name: 'React Geomicons',
 	        description: 'React icon component for Geomicons Open',
 	        href: 'http://jxnblk.com/react-geomicons' })),
-	      _react2['default'].createElement(_ProjectCard2['default'], _extends({}, props, {
-	        name: 'Colorable',
-	        description: 'Color palette contrast tester',
-	        href: 'http://jxnblk.com/colorable' })),
 	      _react2['default'].createElement(_ProjectCard2['default'], _extends({}, props, {
 	        name: 'SVG Icons in React',
 	        description: 'How to create generative graphics with JavaScript',
@@ -20082,10 +20090,6 @@ return /******/ (function(modules) { // webpackBootstrap
 	        description: 'Animated SVG loading indicators',
 	        href: 'http://jxnblk.com/loading' })),
 	      _react2['default'].createElement(_ProjectCard2['default'], _extends({}, props, {
-	        name: 'Writing',
-	        description: 'Thoughts on minimalism and design',
-	        href: 'http://jxnblk.com/writing' })),
-	      _react2['default'].createElement(_ProjectCard2['default'], _extends({}, props, {
 	        name: 'Shade',
 	        description: 'Mathematically-derived gradients',
 	        href: 'http://jxnblk.com/shade' })),
@@ -20093,6 +20097,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	        name: 'Reflexbox',
 	        description: 'React flexbox layout and grid system',
 	        href: 'http://jxnblk.com/reflexbox' })),
+	      _react2['default'].createElement(_ProjectCard2['default'], _extends({}, props, {
+	        name: 'Gx',
+	        description: 'Minimal, responsive React grid system',
+	        href: 'http://jxnblk.com/gx' })),
 	      _react2['default'].createElement(_ProjectCard2['default'], _extends({}, props, {
 	        name: 'Rgx',
 	        description: 'Constraint-based React grid system',
