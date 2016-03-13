@@ -3,23 +3,24 @@ import React from 'react'
 import Avatar from 'jxnblk-avatar'
 
 const Header = ({ title, nav, ...props }) => (
-  <header className='flex items-center py4'>
-    <div className='flex-auto'>
-      <h1 className='h3 caps flex items-center m0'>
-        {title}
-      </h1>
-      <nav className='mxn1'>
-        {nav.map(link => (
-          <a href={link.href}
-            key={link.title}
-            className="btn px1 btn-link">
-            {link.title}
-          </a>
-        ))}
-      </nav>
-    </div>
-    <Avatar size={48} />
-  </header>
+  <div>
+    <nav className='xs-hide right-align mxn1 mt1'>
+      {nav.map(link => (
+        <a href={link.href}
+          key={link.title}
+          className="h6 btn px1 btn-link">
+          {link.title}
+        </a>
+      ))}
+    </nav>
+    <header className='flex items-center py3'>
+      <Avatar size={48} />
+      <div className='ml2'>
+        <h1 className='h2 flex items-center m0' children={title} />
+        <h2 className='h4 m0'>Brent Jackson</h2>
+      </div>
+    </header>
+  </div>
 )
 
 export default Header

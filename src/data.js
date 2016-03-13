@@ -5,7 +5,10 @@ module.exports = {
   baseUrl: '',
   favicon: 'favicon.png',
   _byline: 'Brent Jackson is a designer/developer specializing in living style guides, front-end architecture, and modular design systems, with an emphasis on heuristics, user-centered design, and collaborative design processes. Based in Brooklyn, NY.',
-  byline: 'Brent Jackson is a designer/developer specializing in living style guides, front-end architecture, and modular design systems. Based in Brooklyn, NY.',
+  __byline: 'Brent Jackson is a designer/developer specializing in living style guides, front-end architecture, and modular design systems. Based in Brooklyn, NY.',
+  byline: `
+    Brent Jackson is a web designer/developer specializing in modular design systems<br class='xs-hide'/>& front-end architecture.
+  `,
   homepage: '//jxnblk.com',
   nav: [
     { href: '//jxnblk.com/writing', title: 'Writing' },

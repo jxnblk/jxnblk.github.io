@@ -3,8 +3,16 @@
 @import 'basscss-btn';
 @import 'basscss';
 
-a:hover {
+a {
+  color: inherit;
   text-decoration: none;
+}
+p a {
+  box-shadow: inset 0 -2px 0 #ccc;
+}
+
+p a:hover {
+  box-shadow: inset 0 -2px 0 #0cf;
 }
 
 a:focus,
@@ -13,6 +21,16 @@ a:focus,
   border-color: var(--brightblue);
   box-shadow: 0 0 0 3px var(--brightblue);
   transition: box-shadow .3s ease-out, border-color .2s ease-out;
+}
+
+.h0 { font-size: 32px }
+
+@media (min-width: 32em) {
+  .h0 { font-size: 48px }
+}
+
+@media (min-width: 48em) {
+  .h0 { font-size: 64px }
 }
 
 .btn-link:hover {
