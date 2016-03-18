@@ -12,7 +12,8 @@ const sx = {
 const About = ({ ...props }) => (
   <section id='about' className='mb3'>
     <p className='h0 m0' style={sx.byline}>
-      Web designer/<br className='sm-hide md-hide lg-hide' />developer specializing in <br className='xs-hide' />
+      Web designer-developer <br className='xs-hide' />
+      specializing in <br className='xs-hide' />
       modular design systems <br className='xs-hide' />
       <i>&</i> front-end architecture.
     </p>
