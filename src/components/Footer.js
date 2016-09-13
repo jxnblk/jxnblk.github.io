@@ -1,22 +1,23 @@
 
 import React from 'react'
+import { NavItem } from 'rebass'
+import Robox from 'robox'
+import Grid from './Grid'
 
-const Footer = ({ title, nav }) => (
-  <footer className='py3'>
-    <div className='flex flex-baseline flex-wrap mxn1'>
-      <a href='/' className='h6 btn px1 btn-link'>{title}</a>
-      <div className='flex-auto' />
-      <div className='flex flex-baseline'>
-        {nav.map(link => (
-          <a href={link.href}
-            key={link.href}
-            className='h6 btn px1 btn-link'>
+const Box = Robox('div')
+
+const Footer = ({ nav }) => (
+  <footer>
+    <Box py={6}>
+      {nav.map((link, i) => (
+        <Grid key={i} small>
+          <NavItem px={0} href={link.href}>
             {link.title}
-          </a>
-          ))}
-        </div>
-      </div>
-    </footer>
+          </NavItem>
+        </Grid>
+      ))}
+    </Box>
+  </footer>
 )
 
 export default Footer

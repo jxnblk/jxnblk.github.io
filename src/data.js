@@ -7,13 +7,13 @@ module.exports = {
   _byline: 'Brent Jackson is a designer/developer specializing in living style guides, front-end architecture, and modular design systems, with an emphasis on heuristics, user-centered design, and collaborative design processes. Based in Brooklyn, NY.',
   __byline: 'Brent Jackson is a designer/developer specializing in living style guides, front-end architecture, and modular design systems. Based in Brooklyn, NY.',
   byline: `
-    Brent Jackson is a web designer/developer specializing in modular design systems<br class='xs-hide'/>& front-end architecture.
+    Web designer-developer specializing in modular design systems & front-end architecture.
   `,
   homepage: '//jxnblk.com',
   nav: [
-    { href: '//jxnblk.com/writing', title: 'Writing' },
     { href: '//twitter.com/jxnblk', title: 'Twitter' },
     { href: '//github.com/jxnblk', title: 'Github' },
+    { href: '//jxnblk.com/writing', title: 'Writing' },
   ],
   social_networks: [
     { name: 'Twitter', link: '//twitter.com/jxnblk' },
@@ -22,6 +22,51 @@ module.exports = {
   writing: [
   ],
   projects: [
+    {
+      category: 'Recent Posts',
+      links: [
+        {
+          href: 'http://jxnblk.com/writing/posts/patterns-for-style-composition-in-react/',
+          name: 'Patterns for Style Composition in React'
+        },
+        {
+          href: 'http://jxnblk.com/writing/posts/universal-ui-components/',
+          name: 'Universal UI Components'
+        },
+        {
+          href: 'http://jxnblk.com/writing/posts/unit-testing-ui/',
+          name: 'Unit Testing UI'
+        },
+        {
+          href: 'http://jxnblk.com/writing/posts/components/',
+          name: 'Components'
+        },
+        {
+          href: 'http://jxnblk.com/writing/posts/zero-configuration-react-static-site-generator/',
+          name: 'Zero-Configuration React Static Site Generator'
+        },
+        {
+          href: 'http://jxnblk.com/writing/posts/mathematical-web-typography/',
+          name: 'Mathematical Web Typography'
+        },
+        {
+          href: 'http://jxnblk.com/writing/posts/color-palette-documentation-for-living-style-guides/',
+          name: 'Color Palette Documentation for Living Style Guides'
+        },
+        {
+          href: 'http://jxnblk.com/writing/posts/rethinking-variables-in-css/',
+          name: 'Rethinking Variables in CSS'
+        },
+        {
+          href: 'http://jxnblk.com/writing/posts/its-okay-to-look-the-same/',
+          name: 'It‘s Okay to Look the Same'
+        },
+        {
+          href: 'http://jxnblk.com/writing/posts/i-dont-know-how-to-design/',
+          name: 'I Don’t Know How to Design'
+        },
+      ]
+    },
     {
       category: 'React',
       links: [
@@ -97,7 +142,7 @@ module.exports = {
         },
         {
           href: 'http://jxnblk.com/cxs',
-          name: 'Cxs',
+          name: 'CXS',
           description: 'A CSS-in-JS solution for functional CSS in functional UI components'
         },
         {
@@ -171,6 +216,11 @@ module.exports = {
       category: 'Music',
       links: [
         {
+          href: 'http://mrsjxn.com',
+          name: 'Mrsjxn',
+          description: 'Post-future beats'
+        },
+        {
           href: 'http://jxnblk.com/skullcat',
           name: 'Skullcat',
           description: 'A avatar fur mrmrs'
@@ -197,7 +247,7 @@ module.exports = {
         },
         {
           href: 'https://github.com/jxnblk/hyperterminator',
-          name: 'hyperterminator',
+          name: 'Hyperterminator',
           description: 'Hyperterm theme for cybernetic organisms'
         },
         {
@@ -221,13 +271,13 @@ module.exports = {
           description: 'Principles of web design'
         },
         {
-          href: 'https://jxnblk.com/hyp',
-          name: 'hyp',
+          href: 'http://jxnblk.com/hyp',
+          name: 'Hyp',
           description: 'Hyperminimal functional DOM element microlibrary'
         },
         {
-          href: 'https://github.com/jxnblk/h0',
-          name: 'h0',
+          href: 'http://github.com/jxnblk/h0',
+          name: 'H0',
           description: 'Hyperminimal functional DOM element microlibrary'
         },
         {
@@ -239,6 +289,39 @@ module.exports = {
           href: 'http://jxnblk.com/reading-list/',
           name: 'Reading List',
           description: 'Recommended reading on web design and development'
+        },
+      ]
+    },
+    {
+      category: 'Résumé',
+      links: [
+        {
+          name: 'Bond Street',
+          description: '2016–Present'
+        },
+        {
+          name: 'The Grid',
+          description: '2015–2016'
+        },
+        {
+          name: 'Etsy',
+          description: '2014–2015'
+        },
+        {
+          name: 'Kickstarter',
+          description: '2013–2014'
+        },
+        {
+          name: 'Stich Fix',
+          description: '2013'
+        },
+        {
+          name: 'LivingSocial',
+          description: '2010–2013'
+        },
+        {
+          name: 'Opower',
+          description: '2008–2010'
         },
       ]
     }
