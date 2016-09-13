@@ -1,16 +1,14 @@
 
 import React from 'react'
-import ReactDOM from 'react-dom'
 import ReactDOMServer from 'react-dom/server'
+import cxs from 'cxs'
 import Root from './components/Root'
-
-// if (typeof document !== 'undefined') {
-//   const initialProps = JSON.parse(document.getElementById('initial-props').innerHTML)
-//   ReactDOM.render(<Root {...initialProps} />, document)
-// }
+import Body from './components/Body'
 
 const render = (locals, callback) => {
-  const html = ReactDOMServer.renderToStaticMarkup(<Root {...locals} />)
+  const body = ReactDOMServer.renderToStaticMarkup(<Body {...locals} />)
+  const css = cxs.css
+  const html = ReactDOMServer.renderToStaticMarkup(<Root {...locals} css={css} body={body} />)
   callback(null, '<!DOCTYPE html>' + html)
 }
 

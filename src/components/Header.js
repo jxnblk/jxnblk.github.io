@@ -1,24 +1,41 @@
 
 import React from 'react'
+import {
+  Heading,
+  Text
+} from 'rebass'
 import Avatar from 'jxnblk-avatar'
+import Robox from 'robox'
+import Grid from './Grid'
+import Box from './Box'
 
-const Header = ({ title, nav, ...props }) => (
+const sx = {
+  header: {
+    overflow: 'hidden'
+  },
+  heading: {
+    fontWeight: 800
+  }
+}
+
+const Header = ({ title, ...props }) => (
   <div>
-    <nav className='xs-hide right-align mxn1 mt1'>
-      {nav.map(link => (
-        <a href={link.href}
-          key={link.title}
-          className="h6 btn px1 btn-link">
-          {link.title}
-        </a>
-      ))}
-    </nav>
-    <header className='flex items-center py3'>
-      <Avatar size={48} />
-      <div className='ml2'>
-        <h1 className='h2 flex items-center m0' children={title} />
-        <h2 className='h4 m0'>Brent Jackson</h2>
-      </div>
+    <header style={sx.header}>
+      <Box py={6}>
+        <Grid span={2}>
+          <Heading
+            level={1}
+            size={0}
+            style={sx.heading}>
+            {title}
+          </Heading>
+          <Text bold>Brent Jackson</Text>
+        </Grid>
+        <Grid span={2} />
+        <Grid>
+          <Avatar />
+        </Grid>
+      </Box>
     </header>
   </div>
 )
