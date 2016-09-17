@@ -312,7 +312,7 @@ module.exports = {
           description: '2013–2014'
         },
         {
-          name: 'Stich Fix',
+          name: 'Stitch Fix',
           description: '2013'
         },
         {
