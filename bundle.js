@@ -29806,7 +29806,20 @@ return /******/ (function(modules) { // webpackBootstrap
 	            link.title
 	          )
 	        );
-	      })
+	      }),
+	      _react2['default'].createElement(
+	        'div',
+	        null,
+	        _react2['default'].createElement(
+	          _Grid2['default'],
+	          null,
+	          _react2['default'].createElement(
+	            'p',
+	            null,
+	            '© MMXVI Brent Jackson'
+	          )
+	        )
+	      )
 	    )
 	  );
 	};
