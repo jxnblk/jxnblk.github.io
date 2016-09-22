@@ -2,4 +2,3 @@
 
 Personal site, built with React and Basscss
 
-
