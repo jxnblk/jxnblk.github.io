@@ -8,10 +8,10 @@ const About = ({ byline, ...props }) => (
   <section id='about'>
     <Box py={0}>
       <Grid span={2}>
-        <Text bold>{byline}</Text>
+        <Text>{byline}</Text>
       </Grid>
       <Grid span={2}>
-        <Text bold>Based in Brooklyn, NY.</Text>
+        <Text>Based in Brooklyn, NY.</Text>
       </Grid>
     </Box>
   </section>

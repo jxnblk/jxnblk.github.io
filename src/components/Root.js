@@ -16,6 +16,7 @@ class Root extends React.Component {
           <style dangerouslySetInnerHTML={{ __html: this.props.css }} />
         </head>
         <body dangerouslySetInnerHTML={{ __html: body }} />
+        <script src='/color.js'></script>
       </html>
     )
   }

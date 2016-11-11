@@ -1,5 +1,7 @@
 
 import React from 'react'
+import classnames from 'classnames'
+import cxs from 'cxs'
 import {
   Heading,
   Text
@@ -21,24 +23,28 @@ const sx = {
 const Header = ({ title, ...props }) => (
   <div>
     <header style={sx.header}>
-      <Box py={6}>
-        <Grid span={2}>
-          <Heading
-            level={1}
-            size={0}
-            style={sx.heading}>
-            {title}
-          </Heading>
-          <Text bold>Brent Jackson</Text>
-        </Grid>
-        <Grid span={2} />
-        <Grid>
-          <Avatar />
-        </Grid>
-      </Box>
+      <Grid span={2}>
+        <Heading
+          level={1}
+          size={0}
+          className={cx}
+          style={sx.heading}>
+          {title}
+        </Heading>
+        <Text>Brent Jackson</Text>
+      </Grid>
     </header>
   </div>
 )
+
+const cx = classnames('sf', cxs({
+  '@media screen and (min-width:40em)': {
+    fontSize: '128px !important'
+  },
+  '@media screen and (min-width:64em)': {
+    fontSize: '192px !important'
+  },
+}))
 
 export default Header
 

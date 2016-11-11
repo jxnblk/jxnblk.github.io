@@ -10,10 +10,13 @@ var data = require('./src/data')
 
 module.exports = {
 
-  entry: './src/index.js',
+  entry: {
+    static: './src/index.js',
+    color: './src/color.js'
+  },
 
   output: {
-    filename: 'bundle.js',
+    filename: '[name].js',
     path: __dirname,
     libraryTarget: 'umd'
   },
@@ -45,7 +48,7 @@ module.exports = {
   },
 
   plugins: [
-    new StaticSiteGeneratorPlugin('bundle.js', paths, data)
+    new StaticSiteGeneratorPlugin('static.js', paths, data)
   ],
 
   postcss: function() {

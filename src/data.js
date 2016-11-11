@@ -68,22 +68,47 @@ module.exports = {
       ]
     },
     {
-      category: 'React',
+      category: 'Color',
       links: [
         {
-          href: 'http://jxnblk.com/rebass',
-          name: 'Rebass',
-          description: 'Configurable React UI components'
+          href: 'http://jxnblk.com/hello-color',
+          name: 'Hello Color',
+          description: 'Functional color palette generator'
         },
+        {
+          href: 'http://jxnblk.com/colorable',
+          name: 'Colorable',
+          description: 'Color combination contrast tester'
+        },
+        {
+          href: 'https://monochrome.jxnblk.com/0077d6',
+          name: 'Monochrome',
+          description: 'Monoschrome color scheme picker'
+        },
+        {
+          href: 'http://jxnblk.com/grays/',
+          name: 'Grays',
+          description: 'How light can you go?'
+        },
+        {
+          href: 'http://jxnblk.com/shade/',
+          name: 'Shade',
+          description: 'Mathematically derived gradient explorer'
+        },
+        {
+          href: 'http://jxnblk.com/Spectral/',
+          name: 'Spectral',
+          description: 'Click the rainbow'
+        },
+      ]
+    },
+    {
+      category: 'Grids',
+      links: [
         {
           href: 'http://jxnblk.com/reflexbox',
           name: 'Reflexbox',
           description: 'React flexbox layout and grid system'
-        },
-        {
-          href: 'http://jxnblk.com/reline',
-          name: 'Reline',
-          description: 'React SVG line icon components'
         },
         {
           href: 'http://jxnblk.com/rgx',
@@ -96,14 +121,29 @@ module.exports = {
           description: 'Minimal responsive React grid system based on the Fab Four Technique'
         },
         {
-          href: 'https://github.com/jxnblk/static-react',
-          name: 'Static React',
-          description: 'Zero-configuration CLI React static renderer'
+          href: 'https://github.com/jxnblk/react-css-grid',
+          name: 'React CSS Grid',
+          description: 'Responsive CSS-based React grid component'
         },
         {
-          href: 'http://jxnblk.com/react-geomicons',
-          name: 'React Geomicons',
-          description: 'Icon component for Geomicons Open'
+          href: 'http://jxnblk.com/grid-styled/',
+          name: 'Grid Styled',
+          description: 'Responsive React grid system built with styled-components'
+        }
+      ]
+    },
+    {
+      category: 'Typography',
+      links: [
+        {
+          href: 'http://jxnblk.com/type-system/',
+          name: 'Type System',
+          description: 'Typographic scale with pixel-perfect alignment'
+        },
+        {
+          href: 'http://jxnblk.com/fitter-happier-text',
+          name: 'Fitter Happier Text',
+          description: 'Performant, fully fluid headings'
         },
         {
           href: 'http://jxnblk.com/react-fitter-happier-text',
@@ -111,14 +151,89 @@ module.exports = {
           description: 'React component for fully fluid headings'
         },
         {
+          href: 'http://jxnblk.com/modular/',
+          name: 'Modular',
+          description: 'Don’t compose without a scale'
+        },
+        {
+          href: 'http://jxnblk.com/papercraft/',
+          name: 'Papercraft',
+          description: 'Hand-coded SVG lettering'
+        },
+      ]
+    },
+    {
+      category: 'Icons',
+      links: [
+        {
+          href: 'http://jxnblk.com/reline',
+          name: 'Reline',
+          description: 'React SVG line icon components'
+        },
+        {
+          href: 'https://icon.now.sh',
+          name: 'microicon',
+          description: 'SVG icon placeholder microservice – including icons from Material Design, Simple Icons, and Geomicons'
+        },
+        {
+          href: 'http://geomicons.com',
+          name: 'Geomicons Open',
+          description: 'Open source SVG icons for the web'
+        },
+        {
+          href: 'http://jxnblk.com/react-geomicons',
+          name: 'React Geomicons',
+          description: 'Icon component for Geomicons Open'
+        },
+        {
+          href: 'http://jxnblk.com/loading/',
+          name: 'Loading...',
+          description: 'This could take a while'
+        },
+        {
           href: 'http://jxnblk.com/react-icons',
           name: 'React Icons',
           description: 'How to build generative SVG icons with React'
         },
         {
-          href: 'https://github.com/jxnblk/react-css-grid',
-          name: 'React CSS Grid',
-          description: 'Responsive CSS-based React grid component'
+          href: 'https://github.com/jxnblk/react-simple-icons',
+          name: 'React Simple Icons',
+          description: 'React component for a subset of social icons from http://simpleicons.org'
+        }
+      ]
+    },
+    {
+      category: 'React',
+      links: [
+        {
+          href: 'http://jxnblk.com/rebass',
+          name: 'Rebass',
+          description: 'Configurable React UI components'
+        },
+        {
+          href: 'https://github.com/jxnblk/repng',
+          name: 'Repng',
+          description: 'React component to PNG converter'
+        },
+        {
+          href: 'http://jxnblk.com/ejsx/',
+          name: '<Ejsx />',
+          description: 'Pure JSX templates for rendering static HTML'
+        },
+        {
+          href: 'http://jxnblk.com/f0/',
+          name: 'f0',
+          description: 'Minimal, composable fully-fluid SVG charts for React'
+        },
+        {
+          href: 'http://jxnblk.com/cxs-components/',
+          name: 'cxs-components',
+          description: 'Styled UI component primitives for React - built with cxs'
+        },
+        {
+          href: 'https://github.com/jxnblk/static-react',
+          name: 'Static React',
+          description: 'Zero-configuration CLI React static renderer'
         },
       ]
     },
@@ -136,6 +251,11 @@ module.exports = {
           description: 'CSS static-analysis tool'
         },
         {
+          href: 'http://basscss.com/ace/',
+          name: 'Ace.css',
+          description: 'Full-featured Basscss package for web apps'
+        },
+        {
           href: 'http://jxnblk.com/gravitons',
           name: 'Gravitons',
           description: 'Virtually massless CSS layout microlibrary'
@@ -146,69 +266,14 @@ module.exports = {
           description: 'A CSS-in-JS solution for functional CSS in functional UI components'
         },
         {
+          href: 'https://github.com/jxnblk/understyle',
+          name: 'Understyle',
+          description: 'Functional style utilities for authoring JavaScript style objects'
+        },
+        {
           href: 'http://jxnblk.com/vhs/',
           name: 'VHS',
           description: 'Post-future CSS animations'
-        },
-      ]
-    },
-    {
-      category: 'Color',
-      links: [
-        {
-          href: 'http://jxnblk.com/hello-color',
-          name: 'Hello Color',
-          description: 'Functional color palette generator'
-        },
-        {
-          href: 'http://jxnblk.com/colorable',
-          name: 'Colorable',
-          description: 'Color combination contrast tester'
-        },
-        {
-          href: 'http://jxnblk.com/shade/',
-          name: 'Shade',
-          description: 'Mathematically derived gradient explorer'
-        },
-        {
-          href: 'http://jxnblk.com/Spectral/',
-          name: 'Spectral',
-          description: 'Click the rainbow'
-        },
-      ]
-    },
-    {
-      category: 'Design Tools',
-      links: [
-        {
-          href: 'http://jxnblk.com/formula/',
-          name: 'Formula',
-          description: 'CSS calculator for bulletproof form and button styles that always line up'
-        },
-        {
-          href: 'http://jxnblk.com/modular/',
-          name: 'Modular',
-          description: 'Don’t compose without a scale'
-        },
-        {
-          href: 'http://jxnblk.com/paths/',
-          name: 'Paths',
-          description: 'Build and edit SVGs in the browser'
-        },
-        {
-          href: 'http://geomicons.com',
-          name: 'Geomicons Open',
-          description: 'Open source SVG icons for the web'
-        },
-        {
-          href: 'http://jxnblk.com/loading/',
-          name: 'Loading...',
-          description: 'This could take a while'
-        },
-        {
-          href: 'http://jxnblk.com/papercraft/',
-          name: 'Papercraft',
-          description: 'Hand-coded SVG lettering'
         },
       ]
     },
@@ -269,6 +334,16 @@ module.exports = {
           href: 'http://jxnblk.com/principles',
           name: 'Principles',
           description: 'Principles of web design'
+        },
+        {
+          href: 'http://jxnblk.com/formula/',
+          name: 'Formula',
+          description: 'CSS calculator for bulletproof form and button styles that always line up'
+        },
+        {
+          href: 'http://jxnblk.com/paths/',
+          name: 'Paths',
+          description: 'Build and edit SVGs in the browser'
         },
         {
           href: 'http://jxnblk.com/hyp',

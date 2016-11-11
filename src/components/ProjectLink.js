@@ -20,7 +20,7 @@ const ProjectLink = ({ href, name, description }) => {
       style={sx}
       href={href}>
       <Heading
-        size={2}
+        size={4}
         level={3}>
         {name}
       </Heading>
