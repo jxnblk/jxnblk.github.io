@@ -76,7 +76,7 @@ module.exports = {
           description: 'Functional color palette generator'
         },
         {
-          href: 'http://jxnblk.com/colorable',
+          href: 'https://colorable.jxnblk.com',
           name: 'Colorable',
           description: 'Color combination contrast tester'
         },
