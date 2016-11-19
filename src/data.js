@@ -81,6 +81,11 @@ module.exports = {
           description: 'Color combination contrast tester'
         },
         {
+          href: 'https://palx.jxnblk.com',
+          name: 'Palx',
+          description: 'Automatic UI color palette generator'
+        },
+        {
           href: 'https://monochrome.jxnblk.com/0077d6',
           name: 'Monochrome',
           description: 'Monoschrome color scheme picker'
@@ -219,6 +224,11 @@ module.exports = {
           href: 'http://jxnblk.com/ejsx/',
           name: '<Ejsx />',
           description: 'Pure JSX templates for rendering static HTML'
+        },
+        {
+          href: 'http://jxnblk.com/axs',
+          name: 'Axs',
+          description: 'A build-your-own responsive typography and layout UI toolkit for React'
         },
         {
           href: 'http://jxnblk.com/f0/',
