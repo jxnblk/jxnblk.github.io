@@ -18,7 +18,7 @@ const Footer = ({ nav }) => (
       ))}
       <div>
         <Grid>
-          <p>© MMXVI Brent Jackson</p>
+          <p>© MMXVII Brent Jackson</p>
         </Grid>
       </div>
     </Box>
