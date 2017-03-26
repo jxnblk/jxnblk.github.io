@@ -17,6 +17,9 @@
           "text": "white"
         },
         "layout": {
+          "paddingBottom": [
+            4
+          ],
           "paddingTop": null
         },
         "name": "BoldSpaced",
@@ -151,7 +154,7 @@
         ],
         "layout": {
           "paddingTop": [
-            1
+            0
           ]
         },
         "name": "Grid",
@@ -222,8 +225,8 @@
         "columns": [
           1,
           2,
-          3,
-          4
+          0,
+          3
         ],
         "name": "Basic",
         "ratio": 0.5625,
@@ -280,7 +283,7 @@
           1,
           2,
           null,
-          4
+          3
         ],
         "name": "Basic",
         "ratio": 0.5625,
@@ -335,9 +338,9 @@
         },
         "columns": [
           1,
-          null,
           2,
-          4
+          3,
+          0
         ],
         "name": "Basic",
         "ratio": 0.5625,
@@ -406,9 +409,9 @@
         },
         "columns": [
           1,
-          null,
           2,
-          4
+          3,
+          0
         ],
         "name": "Basic",
         "ratio": 0.5625,
@@ -477,9 +480,9 @@
         },
         "columns": [
           1,
-          null,
           2,
-          4
+          3,
+          0
         ],
         "name": "Basic",
         "ratio": 0.5625,
@@ -548,9 +551,9 @@
         },
         "columns": [
           1,
-          null,
           2,
-          4
+          3,
+          0
         ],
         "name": "Basic",
         "ratio": 0.5625,
@@ -598,9 +601,9 @@
         },
         "columns": [
           1,
-          null,
           2,
-          4
+          3,
+          0
         ],
         "name": "Basic",
         "ratio": 0.5625,
@@ -648,9 +651,9 @@
         },
         "columns": [
           1,
-          null,
           2,
-          4
+          3,
+          0
         ],
         "name": "Basic",
         "ratio": 0.5625,
@@ -719,9 +722,9 @@
         },
         "columns": [
           1,
-          null,
           2,
-          4
+          3,
+          0
         ],
         "name": "Basic",
         "ratio": 0.5625,
@@ -788,7 +791,7 @@
         5,
         null,
         5,
-        null,
+        7,
         7
       ],
       "lineHeight": 1.125,
@@ -816,7 +819,7 @@
       "weight": 700
     },
     "lineHeight": 1.5,
-    "maxWidth": 1024,
+    "maxWidth": 1280,
     "name": "Custom",
     "palette": [
       "#000",
