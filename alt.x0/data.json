@@ -1,0 +1,1238 @@
+{
+  "meta": {
+    "description": "Brent Jackson is a web designer/developer specializing in modular design systems & front-end architecture. Based in Brooklyn, NY.",
+    "engine": "x0",
+    "favicon": "assets/favicon.png",
+    "icon": "assets/avatar-640.png",
+    "title": "Jxnblk",
+    "version": "0.0.30"
+  },
+  "content": [
+    {
+      "_id": 291964490050088,
+      "heading": "Jxnblk",
+      "image": "assets/avatar-640.png",
+      "kicker": "",
+      "meta": {
+        "backgroundImage": "",
+        "colors": {
+          "background": "white",
+          "button": {},
+          "text": 0
+        },
+        "layout": {
+          "paddingBottom": [
+            4
+          ],
+          "paddingTop": [
+            6
+          ]
+        },
+        "name": "Bold",
+        "type": "header"
+      },
+      "subhead": "Brent Jackson",
+      "text": "Web designer/developer specializing in modular design systems & front-end architecture. Based in Brooklyn, NY."
+    },
+    {
+      "_id": 291964490050089,
+      "image": "",
+      "links": [
+        {
+          "_id": 291964490050100,
+          "href": "https://twitter.com/jxnblk",
+          "text": "Twitter"
+        },
+        {
+          "_id": 291964490050101,
+          "href": "https://github.com/jxnblk",
+          "text": "GitHub"
+        },
+        {
+          "_id": 291964490050102,
+          "href": "http://jxnblk.com/writing",
+          "text": "Writing"
+        }
+      ],
+      "meta": {
+        "colors": {
+          "background": "white",
+          "button": {},
+          "text": 0
+        },
+        "layout": {
+          "paddingBottom": [
+            0
+          ],
+          "paddingTop": [
+            0
+          ]
+        },
+        "name": "LeftTight",
+        "type": "nav"
+      }
+    },
+    {
+      "_id": 291964490050364,
+      "heading": "Writing",
+      "kicker": "",
+      "meta": {
+        "colors": {
+          "background": "white",
+          "button": {},
+          "text": 0
+        },
+        "layout": {
+          "paddingBottom": [
+            1
+          ]
+        },
+        "name": "Basic",
+        "type": "header"
+      },
+      "text": ""
+    },
+    {
+      "_id": 291964490050090,
+      "heading": "",
+      "items": [
+        {
+          "_id": 291964490050174,
+          "heading": "Patterns for Style Composition in React",
+          "href": "http://jxnblk.com/writing/posts/patterns-for-style-composition-in-react/"
+        },
+        {
+          "_id": 291964490050175,
+          "heading": "Universal UI Components",
+          "href": "http://jxnblk.com/writing/posts/universal-ui-components/"
+        },
+        {
+          "_id": 291964490050176,
+          "heading": "Unit Testing UI",
+          "href": "http://jxnblk.com/writing/posts/unit-testing-ui/"
+        },
+        {
+          "_id": 291964490050177,
+          "heading": "Components",
+          "href": "http://jxnblk.com/writing/posts/components/"
+        },
+        {
+          "_id": 291964490050178,
+          "heading": "Zero-Configuration React Static Site Generator",
+          "href": "http://jxnblk.com/writing/posts/zero-configuration-react-static-site-generator/"
+        },
+        {
+          "_id": 291964490050179,
+          "heading": "Mathematical Web Typography",
+          "href": "http://jxnblk.com/writing/posts/mathematical-web-typography/"
+        },
+        {
+          "_id": 291964490050180,
+          "heading": "Color Palette Documentation for Living Style Guides",
+          "href": "http://jxnblk.com/writing/posts/color-palette-documentation-for-living-style-guides/"
+        },
+        {
+          "_id": 291964490050181,
+          "heading": "Rethinking Variables in CSS",
+          "href": "http://jxnblk.com/writing/posts/rethinking-variables-in-css/"
+        },
+        {
+          "_id": 291964490050182,
+          "heading": "It‘s Okay to Look the Same",
+          "href": "http://jxnblk.com/writing/posts/its-okay-to-look-the-same/"
+        },
+        {
+          "_id": 291964490050183,
+          "heading": "I Don’t Know How to Design",
+          "href": "http://jxnblk.com/writing/posts/i-dont-know-how-to-design/"
+        }
+      ],
+      "meta": {
+        "colors": {
+          "background": "white",
+          "button": {},
+          "link": 0,
+          "text": 0
+        },
+        "columns": [
+          1,
+          null,
+          3
+        ],
+        "layout": {
+          "columns": [
+            1,
+            2,
+            4
+          ],
+          "paddingBottom": [
+            0
+          ],
+          "paddingTop": [
+            0
+          ]
+        },
+        "name": "Grid",
+        "type": "linkList"
+      },
+      "subhead": ""
+    },
+    {
+      "_id": 291964490056637,
+      "heading": "Color",
+      "image": "assets/Screenshot-2017-03-25-18.21.48.png",
+      "kicker": "",
+      "meta": {
+        "colors": {
+          "button": {},
+          "text": 0
+        },
+        "layout": {
+          "paddingBottom": [
+            1
+          ]
+        },
+        "name": "PolaroidContained",
+        "type": "header"
+      },
+      "text": ""
+    },
+    {
+      "_id": 291964490050091,
+      "heading": "",
+      "items": [
+        {
+          "_id": 291964490050521,
+          "heading": "Hello Color",
+          "href": "http://jxnblk.com/hello-color",
+          "image": "",
+          "text": "Functional color palette generator"
+        },
+        {
+          "_id": 291964490050522,
+          "heading": "Colorable",
+          "href": "https://colorable.jxnblk.com",
+          "image": "",
+          "text": "Color combination contrast tester"
+        },
+        {
+          "_id": 291964490050523,
+          "heading": "Palx",
+          "href": "https://palx.jxnblk.com",
+          "image": "",
+          "text": "Automatic UI color palette generator"
+        },
+        {
+          "_id": 291964490050524,
+          "heading": "Monochrome",
+          "href": "https://monochrome.jxnblk.com/0077d6",
+          "image": "",
+          "text": "Monoschrome color scheme picker"
+        },
+        {
+          "_id": 291964490050525,
+          "heading": "Grays",
+          "href": "http://jxnblk.com/grays/",
+          "image": "",
+          "text": "How light can you go?"
+        },
+        {
+          "_id": 291964490050526,
+          "heading": "Shade",
+          "href": "http://jxnblk.com/shade/",
+          "image": "",
+          "text": "Mathematically derived gradient explorer"
+        },
+        {
+          "_id": 291964490050527,
+          "heading": "Spectral",
+          "href": "http://jxnblk.com/Spectral/",
+          "image": "",
+          "text": "Click the rainbow"
+        }
+      ],
+      "meta": {
+        "backgroundImage": "",
+        "colors": {
+          "background": "white",
+          "button": {},
+          "text": 0
+        },
+        "columns": [
+          1,
+          2,
+          0,
+          3
+        ],
+        "layout": {
+          "columns": [
+            1,
+            2,
+            4
+          ],
+          "paddingBottom": [
+            0
+          ],
+          "paddingTop": [
+            0
+          ]
+        },
+        "name": "Basic",
+        "ratio": 0.5625,
+        "type": "cards"
+      }
+    },
+    {
+      "_id": 291964490056428,
+      "heading": "Grids",
+      "image": "assets/Screenshot-2017-03-25-18.30.20.png",
+      "kicker": "",
+      "meta": {
+        "colors": {
+          "button": {},
+          "text": 0
+        },
+        "layout": {
+          "paddingBottom": [
+            1
+          ]
+        },
+        "name": "PolaroidContained",
+        "type": "header"
+      },
+      "text": ""
+    },
+    {
+      "_id": 291964490050092,
+      "heading": "",
+      "items": [
+        {
+          "_id": 291964490050580,
+          "heading": "Reflexbox",
+          "href": "http://jxnblk.com/reflexbox",
+          "image": "",
+          "text": "React flexbox layout and grid system"
+        },
+        {
+          "_id": 291964490050581,
+          "heading": "Rgx",
+          "href": "http://jxnblk.com/rgx",
+          "image": "",
+          "text": "Constraint-based grid system based on minimum and maximum widths"
+        },
+        {
+          "_id": 291964490050582,
+          "heading": "Gx",
+          "href": "http://jxnblk.com/gx",
+          "image": "",
+          "text": "Minimal responsive React grid system based on the Fab Four Technique"
+        },
+        {
+          "_id": 291964490050583,
+          "heading": "React CSS Grid",
+          "href": "https://github.com/jxnblk/react-css-grid",
+          "image": "",
+          "text": "Responsive CSS-based React grid component"
+        },
+        {
+          "_id": 291964490050584,
+          "heading": "Grid Styled",
+          "href": "http://jxnblk.com/grid-styled/",
+          "image": "",
+          "text": "Responsive React grid system built with styled-components"
+        }
+      ],
+      "meta": {
+        "backgroundImage": "",
+        "colors": {
+          "background": "white",
+          "button": {},
+          "text": 0
+        },
+        "columns": [
+          1,
+          2,
+          null,
+          3
+        ],
+        "layout": {
+          "columns": [
+            1,
+            2,
+            4
+          ],
+          "paddingBottom": [
+            0
+          ],
+          "paddingTop": [
+            0
+          ]
+        },
+        "name": "Basic",
+        "ratio": 0.5625,
+        "type": "cards"
+      }
+    },
+    {
+      "_id": 291964490056893,
+      "heading": "Typography",
+      "image": "assets/Screenshot-2017-03-25-18.33.04.png",
+      "kicker": "",
+      "meta": {
+        "colors": {
+          "button": {},
+          "text": 0
+        },
+        "layout": {
+          "paddingBottom": [
+            1
+          ]
+        },
+        "name": "PolaroidContained",
+        "ratio": 0,
+        "type": "header"
+      },
+      "text": ""
+    },
+    {
+      "_id": 291964490050093,
+      "heading": "",
+      "items": [
+        {
+          "_id": 291964490050624,
+          "heading": "Type System",
+          "href": "http://jxnblk.com/type-system/",
+          "image": "",
+          "text": "Typographic scale with pixel-perfect alignment"
+        },
+        {
+          "_id": 291964490050625,
+          "heading": "Fitter Happier Text",
+          "href": "http://jxnblk.com/fitter-happier-text",
+          "image": "",
+          "text": "Performant, fully fluid headings"
+        },
+        {
+          "_id": 291964490050626,
+          "heading": "React Fitter Happier Text",
+          "href": "http://jxnblk.com/react-fitter-happier-text",
+          "image": "",
+          "text": "React component for fully fluid headings"
+        },
+        {
+          "_id": 291964490050627,
+          "heading": "Modular",
+          "href": "http://jxnblk.com/modular/",
+          "image": "",
+          "text": "Don’t compose without a scale"
+        },
+        {
+          "_id": 291964490050628,
+          "heading": "Papercraft",
+          "href": "http://jxnblk.com/papercraft/",
+          "image": "",
+          "text": "Hand-coded SVG lettering"
+        }
+      ],
+      "meta": {
+        "backgroundImage": "",
+        "colors": {
+          "background": "white",
+          "button": {},
+          "text": 0
+        },
+        "columns": [
+          1,
+          2,
+          3,
+          0
+        ],
+        "layout": {
+          "columns": [
+            1,
+            2,
+            4
+          ],
+          "paddingBottom": [
+            0
+          ],
+          "paddingTop": [
+            0
+          ]
+        },
+        "name": "Basic",
+        "ratio": 0.5625,
+        "type": "cards"
+      }
+    },
+    {
+      "_id": 291964490057380,
+      "heading": "Icons",
+      "image": "assets/Screenshot-2017-03-25-18.33.15.png",
+      "kicker": "",
+      "meta": {
+        "colors": {
+          "button": {},
+          "text": 0
+        },
+        "layout": {
+          "paddingBottom": [
+            1
+          ]
+        },
+        "name": "PolaroidContained",
+        "type": "header"
+      },
+      "text": ""
+    },
+    {
+      "_id": 291964490050094,
+      "heading": "",
+      "items": [
+        {
+          "_id": 291964490050668,
+          "heading": "Reline",
+          "href": "http://jxnblk.com/reline",
+          "image": "",
+          "text": "React SVG line icon components"
+        },
+        {
+          "_id": 291964490050669,
+          "heading": "microicon",
+          "href": "https://icon.now.sh",
+          "image": "",
+          "text": "SVG icon placeholder microservice – including icons from Material Design, Simple Icons, and Geomicons"
+        },
+        {
+          "_id": 291964490050670,
+          "heading": "Geomicons Open",
+          "href": "http://geomicons.com",
+          "image": "",
+          "text": "Open source SVG icons for the web"
+        },
+        {
+          "_id": 291964490050671,
+          "heading": "React Geomicons",
+          "href": "http://jxnblk.com/react-geomicons",
+          "image": "",
+          "text": "Icon component for Geomicons Open"
+        },
+        {
+          "_id": 291964490050672,
+          "heading": "Loading...",
+          "href": "http://jxnblk.com/loading/",
+          "image": "",
+          "text": "This could take a while"
+        },
+        {
+          "_id": 291964490050673,
+          "heading": "React Icons",
+          "href": "http://jxnblk.com/react-icons",
+          "image": "",
+          "text": "How to build generative SVG icons with React"
+        },
+        {
+          "_id": 291964490050674,
+          "heading": "React Simple Icons",
+          "href": "https://github.com/jxnblk/react-simple-icons",
+          "image": "",
+          "text": "React component for a subset of social icons from http://simpleicons.org"
+        }
+      ],
+      "meta": {
+        "colors": {
+          "background": "white",
+          "button": {},
+          "text": 0
+        },
+        "columns": [
+          1,
+          2,
+          3,
+          0
+        ],
+        "layout": {
+          "columns": [
+            1,
+            2,
+            4
+          ],
+          "paddingBottom": [
+            0
+          ],
+          "paddingTop": [
+            0
+          ]
+        },
+        "name": "Basic",
+        "ratio": 0.5625,
+        "type": "cards"
+      }
+    },
+    {
+      "_id": 291964490058027,
+      "heading": "React",
+      "image": "assets/Screenshot-2017-03-25-18.36.02.png",
+      "kicker": "",
+      "meta": {
+        "colors": {
+          "button": {},
+          "text": 0
+        },
+        "layout": {
+          "paddingBottom": [
+            1
+          ]
+        },
+        "name": "PolaroidContained",
+        "type": "header"
+      },
+      "text": ""
+    },
+    {
+      "_id": 291964490050095,
+      "heading": "",
+      "items": [
+        {
+          "_id": 291964490050714,
+          "heading": "Rebass",
+          "href": "http://jxnblk.com/rebass",
+          "image": "",
+          "text": "Configurable React UI components"
+        },
+        {
+          "_id": 291964490050715,
+          "heading": "Repng",
+          "href": "https://github.com/jxnblk/repng",
+          "image": "",
+          "text": "React component to PNG converter"
+        },
+        {
+          "_id": 291964490050716,
+          "heading": "&lt;Ejsx />",
+          "href": "http://jxnblk.com/ejsx/",
+          "image": "",
+          "text": "Pure JSX templates for rendering static HTML"
+        },
+        {
+          "_id": 291964490050717,
+          "heading": "Axs",
+          "href": "http://jxnblk.com/axs",
+          "image": "",
+          "text": "A build-your-own responsive typography and layout UI toolkit for React"
+        },
+        {
+          "_id": 291964490050718,
+          "heading": "f0",
+          "href": "http://jxnblk.com/f0/",
+          "image": "",
+          "text": "Minimal, composable fully-fluid SVG charts for React"
+        },
+        {
+          "_id": 291964490050719,
+          "heading": "cxs-components",
+          "href": "http://jxnblk.com/cxs-components/",
+          "image": "",
+          "text": "Styled UI component primitives for React - built with cxs"
+        },
+        {
+          "_id": 291964490050720,
+          "heading": "Static React",
+          "href": "https://github.com/jxnblk/static-react",
+          "image": "",
+          "text": "Zero-configuration CLI React static renderer"
+        }
+      ],
+      "meta": {
+        "colors": {
+          "background": "white",
+          "button": {},
+          "text": 0
+        },
+        "columns": [
+          1,
+          2,
+          3,
+          0
+        ],
+        "layout": {
+          "columns": [
+            1,
+            2,
+            4
+          ],
+          "paddingBottom": [
+            0
+          ],
+          "paddingTop": [
+            0
+          ]
+        },
+        "name": "Basic",
+        "ratio": 0.5625,
+        "type": "cards"
+      }
+    },
+    {
+      "_id": 291964490058228,
+      "heading": "CSS",
+      "image": "assets/Screenshot-2017-03-25-18.47.02.png",
+      "kicker": "",
+      "meta": {
+        "colors": {
+          "button": {},
+          "text": 0
+        },
+        "layout": {
+          "paddingBottom": [
+            1
+          ]
+        },
+        "name": "PolaroidContained",
+        "type": "header"
+      },
+      "text": ""
+    },
+    {
+      "_id": 291964490050096,
+      "heading": "",
+      "items": [
+        {
+          "_id": 291964490050838,
+          "heading": "Basscss",
+          "href": "http://basscss.com",
+          "image": "",
+          "text": "Low-level CSS toolkit"
+        },
+        {
+          "_id": 291964490050839,
+          "heading": "CSS Stats",
+          "href": "http://cssstats.com",
+          "image": "",
+          "text": "CSS static-analysis tool"
+        },
+        {
+          "_id": 291964490050840,
+          "heading": "Ace.css",
+          "href": "http://basscss.com/ace/",
+          "image": "",
+          "text": "Full-featured Basscss package for web apps"
+        },
+        {
+          "_id": 291964490050841,
+          "heading": "Gravitons",
+          "href": "http://jxnblk.com/gravitons",
+          "image": "",
+          "text": "Virtually massless CSS layout microlibrary"
+        },
+        {
+          "_id": 291964490050842,
+          "heading": "CXS",
+          "href": "http://jxnblk.com/cxs",
+          "image": "",
+          "text": "A CSS-in-JS solution for functional CSS in functional UI components"
+        },
+        {
+          "_id": 291964490050843,
+          "heading": "Understyle",
+          "href": "https://github.com/jxnblk/understyle",
+          "image": "",
+          "text": "Functional style utilities for authoring JavaScript style objects"
+        },
+        {
+          "_id": 291964490050844,
+          "heading": "VHS",
+          "href": "http://jxnblk.com/vhs/",
+          "image": "",
+          "text": "Post-future CSS animations"
+        }
+      ],
+      "meta": {
+        "colors": {
+          "background": "white",
+          "button": {},
+          "text": 0
+        },
+        "columns": [
+          1,
+          2,
+          3,
+          0
+        ],
+        "layout": {
+          "columns": [
+            1,
+            2,
+            4
+          ],
+          "paddingBottom": [
+            0
+          ],
+          "paddingTop": [
+            0
+          ]
+        },
+        "name": "Basic",
+        "ratio": 0.5625,
+        "type": "cards"
+      }
+    },
+    {
+      "_id": 291964490058481,
+      "heading": "Music",
+      "image": "assets/Screenshot-2017-03-25-18.49.58.png",
+      "kicker": "",
+      "meta": {
+        "colors": {
+          "button": {},
+          "text": 0
+        },
+        "layout": {
+          "paddingBottom": [
+            1
+          ]
+        },
+        "name": "PolaroidContained",
+        "type": "header"
+      },
+      "text": ""
+    },
+    {
+      "_id": 291964490050097,
+      "heading": "",
+      "items": [
+        {
+          "_id": 291964490050884,
+          "heading": "Mrsjxn",
+          "href": "http://mrsjxn.com",
+          "image": "",
+          "text": "Post-future beats"
+        },
+        {
+          "_id": 291964490050885,
+          "heading": "Skullcat",
+          "href": "http://jxnblk.com/skullcat",
+          "image": "",
+          "text": "A avatar fur mrmrs"
+        },
+        {
+          "_id": 291964490050886,
+          "heading": "Stepkit",
+          "href": "http://jxnblk.com/stepkit",
+          "image": "",
+          "text": "Web audio step sequencer"
+        },
+        {
+          "_id": 291964490050887,
+          "heading": "Microbeats",
+          "href": "http://microbeats.cc",
+          "image": "",
+          "text": "Beats created in under an hour"
+        }
+      ],
+      "meta": {
+        "colors": {
+          "background": "white",
+          "button": {},
+          "text": 0
+        },
+        "columns": [
+          1,
+          2,
+          3,
+          0
+        ],
+        "layout": {
+          "columns": [
+            1,
+            2,
+            4
+          ],
+          "paddingBottom": [
+            0
+          ],
+          "paddingTop": [
+            0
+          ]
+        },
+        "name": "Basic",
+        "ratio": 0.5625,
+        "type": "cards"
+      }
+    },
+    {
+      "_id": 291964490058790,
+      "heading": "Themes",
+      "image": "assets/2b396cae-623b-11e6-9428-9f901a867e1a.png",
+      "kicker": "",
+      "meta": {
+        "colors": {
+          "button": {},
+          "text": 0
+        },
+        "layout": {
+          "paddingBottom": [
+            1
+          ]
+        },
+        "name": "PolaroidContained",
+        "type": "header"
+      },
+      "text": ""
+    },
+    {
+      "_id": 291964490050098,
+      "heading": "",
+      "items": [
+        {
+          "_id": 291964490050927,
+          "heading": "Hypercolors",
+          "href": "https://github.com/jxnblk/hypercolors",
+          "image": "",
+          "text": "Generative hyperterm color theme"
+        },
+        {
+          "_id": 291964490050928,
+          "heading": "Hyperterminator",
+          "href": "https://github.com/jxnblk/hyperterminator",
+          "image": "",
+          "text": "Hyperterm theme for cybernetic organisms"
+        },
+        {
+          "_id": 291964490050929,
+          "heading": "Twipster",
+          "href": "http://jxnblk.com/Twipster/",
+          "image": "",
+          "text": "Simpler, Readabler Twitter"
+        },
+        {
+          "_id": 291964490050930,
+          "heading": "Heather",
+          "href": "http://jxnblk.com/Heather/",
+          "image": "",
+          "text": "Hyperminimal Jekyll theme"
+        }
+      ],
+      "meta": {
+        "colors": {
+          "background": "white",
+          "button": {},
+          "link": 1,
+          "text": 0
+        },
+        "columns": [
+          1,
+          2,
+          3,
+          0
+        ],
+        "layout": {
+          "columns": [
+            1,
+            2,
+            4
+          ],
+          "paddingBottom": [
+            0
+          ],
+          "paddingTop": [
+            0
+          ]
+        },
+        "name": "Basic",
+        "ratio": 0.5625,
+        "type": "cards"
+      },
+      "text": ""
+    },
+    {
+      "_id": 291964490050099,
+      "heading": "Miscellaneous",
+      "items": [
+        {
+          "_id": 291964490050983,
+          "heading": "Principles",
+          "href": "http://jxnblk.com/principles",
+          "image": "",
+          "text": "Principles of web design"
+        },
+        {
+          "_id": 291964490050984,
+          "heading": "Formula",
+          "href": "http://jxnblk.com/formula/",
+          "image": "",
+          "text": "CSS calculator for bulletproof form and button styles that always line up"
+        },
+        {
+          "_id": 291964490050985,
+          "heading": "Paths",
+          "href": "http://jxnblk.com/paths/",
+          "image": "",
+          "text": "Build and edit SVGs in the browser"
+        },
+        {
+          "_id": 291964490050986,
+          "heading": "Hyp",
+          "href": "http://jxnblk.com/hyp",
+          "image": "",
+          "text": "Hyperminimal functional DOM element microlibrary"
+        },
+        {
+          "_id": 291964490050987,
+          "heading": "H0",
+          "href": "http://github.com/jxnblk/h0",
+          "image": "",
+          "text": "Hyperminimal functional DOM element microlibrary"
+        },
+        {
+          "_id": 291964490050988,
+          "heading": "Gifolio",
+          "href": "http://jxnblk.com/gifolio",
+          "image": "",
+          "text": "GIF portfolio"
+        },
+        {
+          "_id": 291964490050989,
+          "heading": "Reading List",
+          "href": "http://jxnblk.com/reading-list/",
+          "image": "",
+          "text": "Recommended reading on web design and development"
+        }
+      ],
+      "meta": {
+        "colors": {
+          "background": "white",
+          "button": {},
+          "link": null,
+          "text": 0
+        },
+        "columns": [
+          1,
+          2,
+          3,
+          0
+        ],
+        "layout": {
+          "columns": [
+            1,
+            2,
+            4
+          ],
+          "paddingBottom": [
+            0
+          ]
+        },
+        "name": "Basic",
+        "ratio": 0.5625,
+        "type": "cards"
+      }
+    },
+    {
+      "_id": 291964490061411,
+      "heading": "",
+      "items": [
+        {
+          "_id": 291964490061436,
+          "heading": "Bond Street",
+          "href": "",
+          "image": "",
+          "text": "2016–Present"
+        },
+        {
+          "_id": 291964490061437,
+          "heading": "The Grid",
+          "href": "",
+          "image": "",
+          "text": "2015–2016"
+        },
+        {
+          "_id": 291964490061438,
+          "heading": "Etsy",
+          "href": "",
+          "image": "",
+          "text": "2014–2015"
+        },
+        {
+          "_id": 291964490062999,
+          "cta": "",
+          "heading": "Kickstarter",
+          "href": "",
+          "image": "",
+          "kicker": "",
+          "subhead": "",
+          "text": "2013–2014"
+        },
+        {
+          "_id": 291964490063696,
+          "cta": "",
+          "heading": "Stitch Fix",
+          "href": "",
+          "image": "",
+          "kicker": "",
+          "subhead": "",
+          "text": "2013"
+        },
+        {
+          "_id": 291964490064057,
+          "cta": "",
+          "heading": "LivingSocial",
+          "href": "",
+          "image": "",
+          "kicker": "",
+          "subhead": "",
+          "text": "2010–2013"
+        },
+        {
+          "_id": 291964490064826,
+          "cta": "",
+          "heading": "Opower",
+          "href": "",
+          "image": "",
+          "kicker": "",
+          "subhead": "",
+          "text": "2008–2010"
+        }
+      ],
+      "meta": {
+        "layout": {
+          "columns": [
+            2,
+            2,
+            4
+          ]
+        },
+        "name": "Basic",
+        "type": "cards"
+      },
+      "subhead": "Résumé"
+    },
+    {
+      "_id": 291964490051094,
+      "links": [
+        {
+          "_id": 291964490051109,
+          "href": "https://twitter.com/jxnblk",
+          "text": "Twitter"
+        },
+        {
+          "_id": 291964490051110,
+          "href": "https://github.com/jxnblk",
+          "text": "GitHub"
+        },
+        {
+          "_id": 291964490051111,
+          "href": "http://jxnblk.com/writing",
+          "text": "Writing"
+        }
+      ],
+      "meta": {
+        "colors": {
+          "background": null,
+          "button": {},
+          "text": 0
+        },
+        "name": "Basic",
+        "type": "footer"
+      }
+    },
+    {
+      "_id": 291964490055200,
+      "heading": "Header",
+      "kicker": "Hello",
+      "meta": {
+        "colors": {
+          "background": 2,
+          "button": {},
+          "text": 0
+        },
+        "name": "PromoBadge",
+        "type": "styleguide"
+      },
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do "
+    }
+  ],
+  "theme": {
+    "bold": 700,
+    "breakpoints": [
+      "@media screen and (min-width:32em)",
+      "@media screen and (min-width:48em)",
+      "@media screen and (min-width:64em)",
+      "@media screen and (min-width:96em)"
+    ],
+    "fontFamily": "-apple-system, BlinkMacSystemFont, sans-serif",
+    "h1": {
+      "caps": false,
+      "fontSizes": [
+        5,
+        null,
+        5,
+        7,
+        7
+      ],
+      "lineHeight": 1.125,
+      "tracking": 0,
+      "weight": 600
+    },
+    "h2": {
+      "fontSizes": [
+        3,
+        null,
+        4,
+        null,
+        4
+      ],
+      "lineHeight": 1.125,
+      "weight": 600
+    },
+    "h3": {
+      "fontSizes": [
+        2,
+        null,
+        2
+      ],
+      "lineHeight": 1.125,
+      "weight": 700
+    },
+    "lineHeight": 1.5,
+    "maxWidth": 1280,
+    "name": "Custom",
+    "palette": [
+      "#000",
+      "#08e",
+      "#333",
+      "#111",
+      "#eee"
+    ],
+    "radius": 2,
+    "space": [
+      0,
+      4,
+      8,
+      16,
+      32,
+      64,
+      128,
+      256,
+      512
+    ],
+    "typeScale": [
+      12,
+      14,
+      16,
+      20,
+      24,
+      32,
+      48,
+      64,
+      96,
+      128
+    ],
+    "ui": {
+      "button": {},
+      "card": {},
+      "link": {},
+      "navLink": {}
+    },
+    "white": "#fff"
+  }
+}
