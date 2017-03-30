@@ -5,7 +5,7 @@
     "favicon": "assets/favicon.png",
     "icon": "assets/avatar-640.png",
     "title": "Jxnblk",
-    "version": "0.0.30"
+    "version": "0.0.31"
   },
   "content": [
     {
@@ -16,9 +16,9 @@
       "meta": {
         "backgroundImage": "",
         "colors": {
-          "background": "white",
+          "background": "cyan",
           "button": {},
-          "text": 0
+          "text": "gh67magenta"
         },
         "layout": {
           "paddingBottom": [
@@ -184,8 +184,9 @@
       "kicker": "",
       "meta": {
         "colors": {
+          "background": 0,
           "button": {},
-          "text": 0
+          "text": "white"
         },
         "layout": {
           "paddingBottom": [
@@ -254,9 +255,9 @@
       "meta": {
         "backgroundImage": "",
         "colors": {
-          "background": "white",
+          "background": 0,
           "button": {},
-          "text": 0
+          "text": "white"
         },
         "columns": [
           1,
@@ -271,10 +272,10 @@
             4
           ],
           "paddingBottom": [
-            0
+            2
           ],
           "paddingTop": [
-            0
+            2
           ]
         },
         "name": "Basic",
@@ -289,6 +290,7 @@
       "kicker": "",
       "meta": {
         "colors": {
+          "background": "yellow",
           "button": {},
           "text": 0
         },
@@ -345,7 +347,7 @@
       "meta": {
         "backgroundImage": "",
         "colors": {
-          "background": "white",
+          "background": "yellow",
           "button": {},
           "text": 0
         },
@@ -362,10 +364,10 @@
             4
           ],
           "paddingBottom": [
-            0
+            2
           ],
           "paddingTop": [
-            0
+            2
           ]
         },
         "name": "Basic",
@@ -380,6 +382,7 @@
       "kicker": "",
       "meta": {
         "colors": {
+          "background": "magenta",
           "button": {},
           "text": 0
         },
@@ -437,7 +440,7 @@
       "meta": {
         "backgroundImage": "",
         "colors": {
-          "background": "white",
+          "background": "magenta",
           "button": {},
           "text": 0
         },
@@ -454,10 +457,10 @@
             4
           ],
           "paddingBottom": [
-            0
+            2
           ],
           "paddingTop": [
-            0
+            2
           ]
         },
         "name": "Basic",
@@ -472,6 +475,7 @@
       "kicker": "",
       "meta": {
         "colors": {
+          "background": "lime",
           "button": {},
           "text": 0
         },
@@ -541,7 +545,7 @@
       ],
       "meta": {
         "colors": {
-          "background": "white",
+          "background": "lime",
           "button": {},
           "text": 0
         },
@@ -558,10 +562,10 @@
             4
           ],
           "paddingBottom": [
-            0
+            2
           ],
           "paddingTop": [
-            0
+            2
           ]
         },
         "name": "Basic",
@@ -576,8 +580,9 @@
       "kicker": "",
       "meta": {
         "colors": {
+          "background": "teal",
           "button": {},
-          "text": 0
+          "text": "white"
         },
         "layout": {
           "paddingBottom": [
@@ -645,9 +650,9 @@
       ],
       "meta": {
         "colors": {
-          "background": "white",
+          "background": "teal",
           "button": {},
-          "text": 0
+          "text": "white"
         },
         "columns": [
           1,
@@ -662,10 +667,10 @@
             4
           ],
           "paddingBottom": [
-            0
+            2
           ],
           "paddingTop": [
-            0
+            2
           ]
         },
         "name": "Basic",
@@ -680,6 +685,7 @@
       "kicker": "",
       "meta": {
         "colors": {
+          "background": "fuchsia",
           "button": {},
           "text": 0
         },
@@ -749,7 +755,7 @@
       ],
       "meta": {
         "colors": {
-          "background": "white",
+          "background": "fuchsia",
           "button": {},
           "text": 0
         },
@@ -766,10 +772,10 @@
             4
           ],
           "paddingBottom": [
-            0
+            2
           ],
           "paddingTop": [
-            0
+            2
           ]
         },
         "name": "Basic",
@@ -784,8 +790,9 @@
       "kicker": "",
       "meta": {
         "colors": {
+          "background": 0,
           "button": {},
-          "text": 0
+          "text": "cyan"
         },
         "layout": {
           "paddingBottom": [
@@ -832,9 +839,9 @@
       ],
       "meta": {
         "colors": {
-          "background": "white",
+          "background": 0,
           "button": {},
-          "text": 0
+          "text": "cyan"
         },
         "columns": [
           1,
@@ -849,10 +856,10 @@
             4
           ],
           "paddingBottom": [
-            0
+            2
           ],
           "paddingTop": [
-            0
+            2
           ]
         },
         "name": "Basic",
@@ -867,6 +874,7 @@
       "kicker": "",
       "meta": {
         "colors": {
+          "background": "gray",
           "button": {},
           "text": 0
         },
@@ -915,7 +923,7 @@
       ],
       "meta": {
         "colors": {
-          "background": "white",
+          "background": "gray",
           "button": {},
           "link": 1,
           "text": 0
@@ -933,10 +941,10 @@
             4
           ],
           "paddingBottom": [
-            0
+            2
           ],
           "paddingTop": [
-            0
+            2
           ]
         },
         "name": "Basic",
@@ -1001,7 +1009,7 @@
       ],
       "meta": {
         "colors": {
-          "background": "white",
+          "background": "silver",
           "button": {},
           "link": null,
           "text": 0
@@ -1019,7 +1027,7 @@
             4
           ],
           "paddingBottom": [
-            0
+            2
           ]
         },
         "name": "Basic",
@@ -1094,6 +1102,11 @@
         }
       ],
       "meta": {
+        "colors": {
+          "background": "white",
+          "button": {},
+          "text": 0
+        },
         "layout": {
           "columns": [
             2,
@@ -1127,9 +1140,9 @@
       ],
       "meta": {
         "colors": {
-          "background": null,
+          "background": 0,
           "button": {},
-          "text": 0
+          "text": "white"
         },
         "name": "Basic",
         "type": "footer"
@@ -1143,7 +1156,7 @@
         "colors": {
           "background": 2,
           "button": {},
-          "text": 0
+          "text": "magenta"
         },
         "name": "PromoBadge",
         "type": "styleguide"
@@ -1159,7 +1172,7 @@
       "@media screen and (min-width:64em)",
       "@media screen and (min-width:96em)"
     ],
-    "fontFamily": "-apple-system, BlinkMacSystemFont, sans-serif",
+    "fontFamily": "apple, systemujy",
     "h1": {
       "caps": false,
       "fontSizes": [
