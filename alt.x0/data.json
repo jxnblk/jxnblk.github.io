@@ -1172,7 +1172,7 @@
       "@media screen and (min-width:64em)",
       "@media screen and (min-width:96em)"
     ],
-    "fontFamily": "apple, systemujy",
+    "fontFamily": "apple, system, monospace",
     "h1": {
       "caps": false,
       "fontSizes": [
