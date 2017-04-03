@@ -5,7 +5,7 @@
     "favicon": "assets/favicon.png",
     "icon": "assets/avatar-640.png",
     "title": "Jxnblk",
-    "version": "0.0.31"
+    "version": "0.0.35"
   },
   "content": [
     {
@@ -16,9 +16,9 @@
       "meta": {
         "backgroundImage": "",
         "colors": {
-          "background": "cyan",
+          "background": null,
           "button": {},
-          "text": "gh67magenta"
+          "text": null
         },
         "layout": {
           "paddingBottom": [
@@ -56,9 +56,9 @@
       ],
       "meta": {
         "colors": {
-          "background": "white",
+          "background": null,
           "button": {},
-          "text": 0
+          "text": null
         },
         "layout": {
           "paddingBottom": [
@@ -68,7 +68,7 @@
             0
           ]
         },
-        "name": "LeftTight",
+        "name": "Left",
         "type": "nav"
       }
     },
@@ -80,7 +80,7 @@
         "colors": {
           "background": "white",
           "button": {},
-          "text": 0
+          "text": null
         },
         "layout": {
           "paddingBottom": [
@@ -163,7 +163,7 @@
           "columns": [
             1,
             2,
-            4
+            3
           ],
           "paddingBottom": [
             0
@@ -173,7 +173,12 @@
           ]
         },
         "name": "Grid",
-        "type": "linkList"
+        "type": "cards",
+        "typography": {
+          "h1": [
+            2
+          ]
+        }
       },
       "subhead": ""
     },
@@ -184,9 +189,9 @@
       "kicker": "",
       "meta": {
         "colors": {
-          "background": 0,
+          "background": null,
           "button": {},
-          "text": "white"
+          "text": null
         },
         "layout": {
           "paddingBottom": [
@@ -255,9 +260,9 @@
       "meta": {
         "backgroundImage": "",
         "colors": {
-          "background": 0,
+          "background": null,
           "button": {},
-          "text": "white"
+          "text": null
         },
         "columns": [
           1,
@@ -269,7 +274,7 @@
           "columns": [
             1,
             2,
-            4
+            3
           ],
           "paddingBottom": [
             2
@@ -280,7 +285,10 @@
         },
         "name": "Basic",
         "ratio": 0.5625,
-        "type": "cards"
+        "type": "cards",
+        "typography": {
+          "h1": null
+        }
       }
     },
     {
@@ -290,9 +298,9 @@
       "kicker": "",
       "meta": {
         "colors": {
-          "background": "yellow",
+          "background": null,
           "button": {},
-          "text": 0
+          "text": null
         },
         "layout": {
           "paddingBottom": [
@@ -347,9 +355,9 @@
       "meta": {
         "backgroundImage": "",
         "colors": {
-          "background": "yellow",
+          "background": null,
           "button": {},
-          "text": 0
+          "text": null
         },
         "columns": [
           1,
@@ -361,7 +369,7 @@
           "columns": [
             1,
             2,
-            4
+            3
           ],
           "paddingBottom": [
             2
@@ -382,9 +390,9 @@
       "kicker": "",
       "meta": {
         "colors": {
-          "background": "magenta",
+          "background": null,
           "button": {},
-          "text": 0
+          "text": null
         },
         "layout": {
           "paddingBottom": [
@@ -440,9 +448,9 @@
       "meta": {
         "backgroundImage": "",
         "colors": {
-          "background": "magenta",
+          "background": null,
           "button": {},
-          "text": 0
+          "text": null
         },
         "columns": [
           1,
@@ -454,7 +462,7 @@
           "columns": [
             1,
             2,
-            4
+            3
           ],
           "paddingBottom": [
             2
@@ -475,9 +483,9 @@
       "kicker": "",
       "meta": {
         "colors": {
-          "background": "lime",
+          "background": null,
           "button": {},
-          "text": 0
+          "text": null
         },
         "layout": {
           "paddingBottom": [
@@ -545,9 +553,9 @@
       ],
       "meta": {
         "colors": {
-          "background": "lime",
+          "background": null,
           "button": {},
-          "text": 0
+          "text": null
         },
         "columns": [
           1,
@@ -559,7 +567,7 @@
           "columns": [
             1,
             2,
-            4
+            3
           ],
           "paddingBottom": [
             2
@@ -580,9 +588,9 @@
       "kicker": "",
       "meta": {
         "colors": {
-          "background": "teal",
+          "background": null,
           "button": {},
-          "text": "white"
+          "text": null
         },
         "layout": {
           "paddingBottom": [
@@ -650,9 +658,9 @@
       ],
       "meta": {
         "colors": {
-          "background": "teal",
+          "background": null,
           "button": {},
-          "text": "white"
+          "text": null
         },
         "columns": [
           1,
@@ -664,7 +672,7 @@
           "columns": [
             1,
             2,
-            4
+            3
           ],
           "paddingBottom": [
             2
@@ -685,9 +693,9 @@
       "kicker": "",
       "meta": {
         "colors": {
-          "background": "fuchsia",
+          "background": null,
           "button": {},
-          "text": 0
+          "text": null
         },
         "layout": {
           "paddingBottom": [
@@ -755,9 +763,9 @@
       ],
       "meta": {
         "colors": {
-          "background": "fuchsia",
+          "background": null,
           "button": {},
-          "text": 0
+          "text": null
         },
         "columns": [
           1,
@@ -769,7 +777,7 @@
           "columns": [
             1,
             2,
-            4
+            3
           ],
           "paddingBottom": [
             2
@@ -790,9 +798,9 @@
       "kicker": "",
       "meta": {
         "colors": {
-          "background": 0,
+          "background": null,
           "button": {},
-          "text": "cyan"
+          "text": null
         },
         "layout": {
           "paddingBottom": [
@@ -839,9 +847,9 @@
       ],
       "meta": {
         "colors": {
-          "background": 0,
+          "background": null,
           "button": {},
-          "text": "cyan"
+          "text": null
         },
         "columns": [
           1,
@@ -853,7 +861,7 @@
           "columns": [
             1,
             2,
-            4
+            3
           ],
           "paddingBottom": [
             2
@@ -874,9 +882,9 @@
       "kicker": "",
       "meta": {
         "colors": {
-          "background": "gray",
+          "background": null,
           "button": {},
-          "text": 0
+          "text": null
         },
         "layout": {
           "paddingBottom": [
@@ -923,10 +931,10 @@
       ],
       "meta": {
         "colors": {
-          "background": "gray",
+          "background": null,
           "button": {},
           "link": 1,
-          "text": 0
+          "text": null
         },
         "columns": [
           1,
@@ -1009,10 +1017,10 @@
       ],
       "meta": {
         "colors": {
-          "background": "silver",
+          "background": null,
           "button": {},
           "link": null,
-          "text": 0
+          "text": null
         },
         "columns": [
           1,
@@ -1024,7 +1032,7 @@
           "columns": [
             1,
             2,
-            4
+            3
           ],
           "paddingBottom": [
             2
@@ -1103,19 +1111,24 @@
       ],
       "meta": {
         "colors": {
-          "background": "white",
+          "background": null,
           "button": {},
-          "text": 0
+          "text": null
         },
         "layout": {
           "columns": [
             2,
             2,
-            4
+            3
           ]
         },
         "name": "Basic",
-        "type": "cards"
+        "type": "cards",
+        "typography": {
+          "h1": [
+            2
+          ]
+        }
       },
       "subhead": "Résumé"
     },
@@ -1140,7 +1153,7 @@
       ],
       "meta": {
         "colors": {
-          "background": 0,
+          "background": 3,
           "button": {},
           "text": "white"
         },
@@ -1154,9 +1167,9 @@
       "kicker": "Hello",
       "meta": {
         "colors": {
-          "background": 2,
+          "background": 3,
           "button": {},
-          "text": "magenta"
+          "text": "white"
         },
         "name": "PromoBadge",
         "type": "styleguide"
@@ -1172,15 +1185,13 @@
       "@media screen and (min-width:64em)",
       "@media screen and (min-width:96em)"
     ],
-    "fontFamily": "apple, system, monospace",
+    "fontFamily": "Consolas, \"Liberation Mono\", Menlo, Courier, monospace",
     "h1": {
       "caps": false,
       "fontSizes": [
-        5,
+        4,
         null,
-        5,
-        7,
-        7
+        5
       ],
       "lineHeight": 1.125,
       "tracking": 0,
