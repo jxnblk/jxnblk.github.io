@@ -1,37 +1,51 @@
 {
   "meta": {
+    "deploys": [
+      {
+        "date": "2017-04-03T22:54:10.425Z",
+        "title": "Jxnblk",
+        "url": "https://eozggopfpgwmxzzmuzif.x.c8r.io"
+      }
+    ],
     "description": "Brent Jackson is a web designer/developer specializing in modular design systems & front-end architecture. Based in Brooklyn, NY.",
     "engine": "x0",
     "favicon": "assets/favicon.png",
     "icon": "assets/avatar-640.png",
     "title": "Jxnblk",
-    "version": "0.0.31"
+    "version": "0.0.41"
   },
   "content": [
     {
       "_id": 291964490050088,
       "heading": "Jxnblk",
       "image": "assets/avatar-640.png",
-      "kicker": "",
+      "kicker": "Brent Jackson",
       "meta": {
         "backgroundImage": "",
         "colors": {
-          "background": "cyan",
+          "background": "",
           "button": {},
-          "text": "gh67magenta"
+          "text": ""
         },
         "layout": {
           "paddingBottom": [
-            4
+            0
           ],
           "paddingTop": [
             6
           ]
         },
-        "name": "Bold",
-        "type": "header"
+        "name": "MiniBar",
+        "styles": {},
+        "type": "header",
+        "typography": {
+          "h1": [
+            5,
+            6
+          ]
+        }
       },
-      "subhead": "Brent Jackson",
+      "subhead": "",
       "text": "Web designer/developer specializing in modular design systems & front-end architecture. Based in Brooklyn, NY."
     },
     {
@@ -56,9 +70,9 @@
       ],
       "meta": {
         "colors": {
-          "background": "white",
+          "background": "",
           "button": {},
-          "text": 0
+          "text": ""
         },
         "layout": {
           "paddingBottom": [
@@ -68,7 +82,8 @@
             0
           ]
         },
-        "name": "LeftTight",
+        "name": "Left",
+        "styles": {},
         "type": "nav"
       }
     },
@@ -78,17 +93,27 @@
       "kicker": "",
       "meta": {
         "colors": {
-          "background": "white",
+          "background": "",
           "button": {},
-          "text": 0
+          "text": ""
         },
         "layout": {
           "paddingBottom": [
             1
+          ],
+          "paddingTop": [
+            6
           ]
         },
         "name": "Basic",
-        "type": "header"
+        "styles": {},
+        "type": "header",
+        "typography": {
+          "h1": [
+            5,
+            6
+          ]
+        }
       },
       "text": ""
     },
@@ -149,10 +174,10 @@
       ],
       "meta": {
         "colors": {
-          "background": "white",
+          "background": "",
           "button": {},
           "link": 0,
-          "text": 0
+          "text": ""
         },
         "columns": [
           1,
@@ -162,18 +187,24 @@
         "layout": {
           "columns": [
             1,
-            2,
-            4
+            null,
+            3
           ],
           "paddingBottom": [
-            0
+            5
           ],
           "paddingTop": [
             0
           ]
         },
         "name": "Grid",
-        "type": "linkList"
+        "styles": {},
+        "type": "cards",
+        "typography": {
+          "h1": [
+            2
+          ]
+        }
       },
       "subhead": ""
     },
@@ -184,17 +215,24 @@
       "kicker": "",
       "meta": {
         "colors": {
-          "background": 0,
+          "background": "",
           "button": {},
-          "text": "white"
+          "text": ""
         },
         "layout": {
           "paddingBottom": [
             1
           ]
         },
-        "name": "PolaroidContained",
-        "type": "header"
+        "name": "Split_1_2",
+        "styles": {},
+        "type": "section",
+        "typography": {
+          "h1": [
+            5,
+            6
+          ]
+        }
       },
       "text": ""
     },
@@ -255,21 +293,15 @@
       "meta": {
         "backgroundImage": "",
         "colors": {
-          "background": 0,
+          "background": "",
           "button": {},
-          "text": "white"
+          "text": ""
         },
-        "columns": [
-          1,
-          2,
-          0,
-          3
-        ],
         "layout": {
           "columns": [
             1,
             2,
-            4
+            3
           ],
           "paddingBottom": [
             2
@@ -280,6 +312,7 @@
         },
         "name": "Basic",
         "ratio": 0.5625,
+        "styles": {},
         "type": "cards"
       }
     },
@@ -290,17 +323,24 @@
       "kicker": "",
       "meta": {
         "colors": {
-          "background": "yellow",
+          "background": "",
           "button": {},
-          "text": 0
+          "text": ""
         },
         "layout": {
           "paddingBottom": [
             1
           ]
         },
-        "name": "PolaroidContained",
-        "type": "header"
+        "name": "SplitRight_1_2",
+        "styles": {},
+        "type": "section",
+        "typography": {
+          "h1": [
+            5,
+            6
+          ]
+        }
       },
       "text": ""
     },
@@ -347,9 +387,9 @@
       "meta": {
         "backgroundImage": "",
         "colors": {
-          "background": "yellow",
+          "background": "",
           "button": {},
-          "text": 0
+          "text": ""
         },
         "columns": [
           1,
@@ -361,7 +401,8 @@
           "columns": [
             1,
             2,
-            4
+            null,
+            3
           ],
           "paddingBottom": [
             2
@@ -372,7 +413,11 @@
         },
         "name": "Basic",
         "ratio": 0.5625,
-        "type": "cards"
+        "styles": {},
+        "type": "cards",
+        "typography": {
+          "h1": null
+        }
       }
     },
     {
@@ -382,18 +427,26 @@
       "kicker": "",
       "meta": {
         "colors": {
-          "background": "magenta",
+          "background": "",
           "button": {},
-          "text": 0
+          "text": ""
         },
         "layout": {
           "paddingBottom": [
             1
-          ]
+          ],
+          "paddingTop": null
         },
-        "name": "PolaroidContained",
+        "name": "Split_1_2",
         "ratio": 0,
-        "type": "header"
+        "styles": {},
+        "type": "section",
+        "typography": {
+          "h1": [
+            5,
+            6
+          ]
+        }
       },
       "text": ""
     },
@@ -440,9 +493,9 @@
       "meta": {
         "backgroundImage": "",
         "colors": {
-          "background": "magenta",
+          "background": "",
           "button": {},
-          "text": 0
+          "text": ""
         },
         "columns": [
           1,
@@ -454,7 +507,8 @@
           "columns": [
             1,
             2,
-            4
+            3,
+            0
           ],
           "paddingBottom": [
             2
@@ -465,7 +519,11 @@
         },
         "name": "Basic",
         "ratio": 0.5625,
-        "type": "cards"
+        "styles": {},
+        "type": "cards",
+        "typography": {
+          "h1": null
+        }
       }
     },
     {
@@ -475,17 +533,24 @@
       "kicker": "",
       "meta": {
         "colors": {
-          "background": "lime",
+          "background": "",
           "button": {},
-          "text": 0
+          "text": ""
         },
         "layout": {
           "paddingBottom": [
             1
           ]
         },
-        "name": "PolaroidContained",
-        "type": "header"
+        "name": "SplitRight_1_2",
+        "styles": {},
+        "type": "section",
+        "typography": {
+          "h1": [
+            5,
+            6
+          ]
+        }
       },
       "text": ""
     },
@@ -545,9 +610,9 @@
       ],
       "meta": {
         "colors": {
-          "background": "lime",
+          "background": "",
           "button": {},
-          "text": 0
+          "text": ""
         },
         "columns": [
           1,
@@ -559,7 +624,8 @@
           "columns": [
             1,
             2,
-            4
+            3,
+            0
           ],
           "paddingBottom": [
             2
@@ -570,6 +636,7 @@
         },
         "name": "Basic",
         "ratio": 0.5625,
+        "styles": {},
         "type": "cards"
       }
     },
@@ -580,17 +647,24 @@
       "kicker": "",
       "meta": {
         "colors": {
-          "background": "teal",
+          "background": "",
           "button": {},
-          "text": "white"
+          "text": ""
         },
         "layout": {
           "paddingBottom": [
             1
           ]
         },
-        "name": "PolaroidContained",
-        "type": "header"
+        "name": "Split_1_2",
+        "styles": {},
+        "type": "section",
+        "typography": {
+          "h1": [
+            5,
+            6
+          ]
+        }
       },
       "text": ""
     },
@@ -650,9 +724,9 @@
       ],
       "meta": {
         "colors": {
-          "background": "teal",
+          "background": "",
           "button": {},
-          "text": "white"
+          "text": ""
         },
         "columns": [
           1,
@@ -664,7 +738,8 @@
           "columns": [
             1,
             2,
-            4
+            3,
+            0
           ],
           "paddingBottom": [
             2
@@ -675,6 +750,7 @@
         },
         "name": "Basic",
         "ratio": 0.5625,
+        "styles": {},
         "type": "cards"
       }
     },
@@ -685,17 +761,24 @@
       "kicker": "",
       "meta": {
         "colors": {
-          "background": "fuchsia",
+          "background": "",
           "button": {},
-          "text": 0
+          "text": ""
         },
         "layout": {
           "paddingBottom": [
             1
           ]
         },
-        "name": "PolaroidContained",
-        "type": "header"
+        "name": "SplitRight_1_2",
+        "styles": {},
+        "type": "section",
+        "typography": {
+          "h1": [
+            5,
+            6
+          ]
+        }
       },
       "text": ""
     },
@@ -755,9 +838,9 @@
       ],
       "meta": {
         "colors": {
-          "background": "fuchsia",
+          "background": "",
           "button": {},
-          "text": 0
+          "text": ""
         },
         "columns": [
           1,
@@ -769,7 +852,8 @@
           "columns": [
             1,
             2,
-            4
+            3,
+            0
           ],
           "paddingBottom": [
             2
@@ -780,6 +864,7 @@
         },
         "name": "Basic",
         "ratio": 0.5625,
+        "styles": {},
         "type": "cards"
       }
     },
@@ -790,17 +875,24 @@
       "kicker": "",
       "meta": {
         "colors": {
-          "background": 0,
+          "background": "",
           "button": {},
-          "text": "cyan"
+          "text": ""
         },
         "layout": {
           "paddingBottom": [
             1
           ]
         },
-        "name": "PolaroidContained",
-        "type": "header"
+        "name": "Split_1_2",
+        "styles": {},
+        "type": "section",
+        "typography": {
+          "h1": [
+            5,
+            6
+          ]
+        }
       },
       "text": ""
     },
@@ -839,9 +931,9 @@
       ],
       "meta": {
         "colors": {
-          "background": 0,
+          "background": "",
           "button": {},
-          "text": "cyan"
+          "text": ""
         },
         "columns": [
           1,
@@ -853,7 +945,8 @@
           "columns": [
             1,
             2,
-            4
+            3,
+            0
           ],
           "paddingBottom": [
             2
@@ -864,6 +957,7 @@
         },
         "name": "Basic",
         "ratio": 0.5625,
+        "styles": {},
         "type": "cards"
       }
     },
@@ -874,17 +968,24 @@
       "kicker": "",
       "meta": {
         "colors": {
-          "background": "gray",
+          "background": "",
           "button": {},
-          "text": 0
+          "text": ""
         },
         "layout": {
           "paddingBottom": [
             1
           ]
         },
-        "name": "PolaroidContained",
-        "type": "header"
+        "name": "SplitRight_1_2",
+        "styles": {},
+        "type": "section",
+        "typography": {
+          "h1": [
+            5,
+            7
+          ]
+        }
       },
       "text": ""
     },
@@ -923,10 +1024,10 @@
       ],
       "meta": {
         "colors": {
-          "background": "gray",
+          "background": "",
           "button": {},
           "link": 1,
-          "text": 0
+          "text": ""
         },
         "columns": [
           1,
@@ -938,7 +1039,8 @@
           "columns": [
             1,
             2,
-            4
+            3,
+            0
           ],
           "paddingBottom": [
             2
@@ -949,6 +1051,7 @@
         },
         "name": "Basic",
         "ratio": 0.5625,
+        "styles": {},
         "type": "cards"
       },
       "text": ""
@@ -1009,10 +1112,10 @@
       ],
       "meta": {
         "colors": {
-          "background": "silver",
+          "background": "",
           "button": {},
           "link": null,
-          "text": 0
+          "text": ""
         },
         "columns": [
           1,
@@ -1024,7 +1127,8 @@
           "columns": [
             1,
             2,
-            4
+            3,
+            0
           ],
           "paddingBottom": [
             2
@@ -1032,12 +1136,16 @@
         },
         "name": "Basic",
         "ratio": 0.5625,
-        "type": "cards"
+        "styles": {},
+        "type": "cards",
+        "typography": {
+          "h1": null
+        }
       }
     },
     {
       "_id": 291964490061411,
-      "heading": "",
+      "heading": "Résumé",
       "items": [
         {
           "_id": 291964490061436,
@@ -1103,7 +1211,7 @@
       ],
       "meta": {
         "colors": {
-          "background": "white",
+          "background": "",
           "button": {},
           "text": 0
         },
@@ -1115,9 +1223,10 @@
           ]
         },
         "name": "Basic",
+        "styles": {},
         "type": "cards"
       },
-      "subhead": "Résumé"
+      "subhead": ""
     },
     {
       "_id": 291964490051094,
@@ -1140,11 +1249,12 @@
       ],
       "meta": {
         "colors": {
-          "background": 0,
+          "background": 3,
           "button": {},
           "text": "white"
         },
         "name": "Basic",
+        "styles": {},
         "type": "footer"
       }
     },
@@ -1154,11 +1264,12 @@
       "kicker": "Hello",
       "meta": {
         "colors": {
-          "background": 2,
+          "background": 0,
           "button": {},
-          "text": "magenta"
+          "text": "white"
         },
         "name": "PromoBadge",
+        "styles": {},
         "type": "styleguide"
       },
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do "
@@ -1172,41 +1283,87 @@
       "@media screen and (min-width:64em)",
       "@media screen and (min-width:96em)"
     ],
-    "fontFamily": "apple, system, monospace",
+    "fontFamily": "\"Avenir Next\", Helvetica, sans-serif",
     "h1": {
-      "caps": false,
-      "fontSizes": [
+      "fontSize": [
         5,
         null,
-        5,
-        7,
-        7
+        6,
+        0,
+        null
       ],
+      "fontWeight": 500,
+      "letterSpacing": 0.1875,
       "lineHeight": 1.125,
-      "tracking": 0,
-      "weight": 600
+      "textTransform": "uppercase"
     },
     "h2": {
-      "fontSizes": [
+      "fontSize": [
         3,
         null,
         4,
         null,
         4
       ],
-      "lineHeight": 1.125,
-      "weight": 600
+      "fontWeight": 600,
+      "lineHeight": 1.125
     },
     "h3": {
-      "fontSizes": [
+      "fontSize": [
         2,
         null,
         2
       ],
-      "lineHeight": 1.125,
-      "weight": 700
+      "fontWeight": 700,
+      "lineHeight": 1.125
     },
     "lineHeight": 1.5,
+    "links": [
+      {
+        "color": 1
+      },
+      {
+        "alignItems": "center",
+        "color": "inherit",
+        "display": "inline-flex",
+        "fontWeight": 600,
+        "paddingBottom": 2,
+        "paddingTop": 2,
+        "textDecoration": "none",
+        "verticalAlign": "middle"
+      },
+      {
+        "alignItems": "center",
+        "backgroundColor": 1,
+        "borderRadius": 3,
+        "color": "#fff",
+        "display": "inline-flex",
+        "paddingBottom": 2,
+        "paddingLeft": 3,
+        "paddingRight": 3,
+        "paddingTop": 2,
+        "textAlign": "center",
+        "textDecoration": "none",
+        "verticalAlign": "middle",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "alignItems": "center",
+        "backgroundColor": "tranparent",
+        "borderRadius": 3,
+        "boxShadow": "inset 0 0 0 2px",
+        "color": 1,
+        "display": "inline-flex",
+        "paddingBottom": 2,
+        "paddingLeft": 3,
+        "paddingRight": 3,
+        "paddingTop": 2,
+        "textAlign": "center",
+        "textDecoration": "none",
+        "verticalAlign": "middle",
+        "whiteSpace": "nowrap"
+      }
+    ],
     "maxWidth": 1280,
     "name": "Custom",
     "palette": [
@@ -1240,12 +1397,6 @@
       96,
       128
     ],
-    "ui": {
-      "button": {},
-      "card": {},
-      "link": {},
-      "navLink": {}
-    },
     "white": "#fff"
   }
 }

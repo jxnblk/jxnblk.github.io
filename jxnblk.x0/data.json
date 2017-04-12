@@ -1,9 +1,21 @@
 {
   "meta": {
+    "deploys": [
+      {
+        "date": "2017-04-03T23:09:44.164Z",
+        "title": "Jxnblk",
+        "url": "https://glvwtrxvtkbuaknmykqx.x.c8r.io"
+      },
+      {
+        "date": "2017-04-03T23:09:11.777Z",
+        "title": "Jxnblk",
+        "url": "https://sertyggacqlvnxwwfcdu.x.c8r.io"
+      }
+    ],
     "description": "Brent Jackson is a web designer/developer specializing in modular design systems & front-end architecture. Based in Brooklyn, NY.",
     "engine": "x0",
     "title": "Jxnblk",
-    "version": "0.0.29"
+    "version": "0.0.35"
   },
   "content": [
     {
