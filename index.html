@@ -13,11 +13,9 @@
 .align-items-baseline{align-items:baseline}
 .align-items-center{align-items:center}
 .bg-currentcolor{background-color:currentcolor}
-.bg-gray2{background-color:#111}
-.bg-gray{background-color:#000}
 .bg{background-color:}
+.blue{color:#08e}
 .c-inherit{color:inherit}
-.c-white{color:white}
 .c{color:}
 .db{display:block}
 .df{display:flex}
@@ -27,6 +25,7 @@
 .fs1{font-size:14px}
 .fs2{font-size:16px}
 .fs3{font-size:20px}
+.fs4{font-size:24px}
 .fs5{font-size:32px}
 .fw-500{font-weight:500}
 .fw-600{font-weight:600}
@@ -40,20 +39,15 @@
 .mauto{margin:auto}
 .max-width-100P{max-width:100%}
 .max-width-1280px{max-width:1280px}
-.mb2{margin-bottom:8px}
 .mb3{margin-bottom:16px}
 .mb4{margin-bottom:32px}
 .ml-16px{margin-left:-16px}
-.ml-8px{margin-left:-8px}
 .ml2{margin-left:8px}
-.ml4{margin-left:32px}
 .mlauto{margin-left:auto}
 .mr-16px{margin-right:-16px}
-.mr-8px{margin-right:-8px}
 .mr2{margin-right:8px}
-.mr4{margin-right:32px}
+.mr3{margin-right:16px}
 .mrauto{margin-right:auto}
-.mt2{margin-top:8px}
 .mt3{margin-top:16px}
 .p2{padding:8px}
 .pb0{padding-bottom:0}
@@ -75,24 +69,27 @@
 .vertical-align-middle{vertical-align:middle}
 .w-100P{width:100%}
 .w-128px{width:128px}
-.w-50P{width:50%}
+@media screen and (min-width:32em){.sm-fs5{font-size:32px}}
 @media screen and (min-width:32em){.sm-fs6{font-size:48px}}
 @media screen and (min-width:32em){.sm-fs7{font-size:64px}}
-@media screen and (min-width:32em){.sm-ml-32px{margin-left:-32px}}
-@media screen and (min-width:32em){.sm-mr-32px{margin-right:-32px}}
 @media screen and (min-width:32em){.sm-order-2{order:2}}
 @media screen and (min-width:32em){.sm-w-50P{width:50%}}
 @media screen and (min-width:32em){.sm-w-Infinitypx{width:Infinitypx}}
 @media screen and (min-width:48em){.md-fs2{font-size:16px}}
 @media screen and (min-width:48em){.md-fs6{font-size:48px}}
-@media screen and (min-width:48em){.md-w-33p33333333333333P{width:33.33333333333333%}}
+@media screen and (min-width:48em){.md-w-50P{width:50%}}
 @media screen and (min-width:48em){.md-w-Infinitypx{width:Infinitypx}}
 @media screen and (min-width:64em){.lg-fs0{font-size:12px}}
-@media screen and (min-width:64em){.lg-w-33p33333333333333P{width:33.33333333333333%}}
-@media screen and (min-width:64em){.lg-w-Infinitypx{width:Infinitypx}}</style>
+@media screen and (min-width:64em){.lg-w-33p33333333333333P{width:33.33333333333333%}}</style>
 
 
 <body class='x0'>
+<nav class="Basic-nav p2 c bg pt3 pb0">
+  <div class="df flex-wrap-wrap align-items-baseline">
+    <div class="mrauto"><a class="align-items-center c-inherit dif fs1 fw-600 pb2 pt2 text-decoration-none vertical-align-middle ml2 mr2" href="https://twitter.com/jxnblk">Twitter</a><a class="align-items-center c-inherit dif fs1 fw-600 pb2 pt2 text-decoration-none vertical-align-middle ml2 mr2"
+        href="https://github.com/jxnblk">GitHub</a><a class="align-items-center c-inherit dif fs1 fw-600 pb2 pt2 text-decoration-none vertical-align-middle ml2 mr2" href="http://jxnblk.com/writing">Writing</a></div>
+  </div>
+</nav>
 <header class="MiniBar-header c bg pt6 pb0">
   <div class="mauto pl4 pr4 max-width-1280px">
     <h4 class="m0 lh-1p125 fw-700 mb3 fs2 md-fs2">Brent Jackson</h4>
@@ -101,12 +98,6 @@
     <p class="m0">Web designer/developer specializing in modular design systems & front-end architecture. Based in Brooklyn, NY.</p>
   </div>
 </header>
-<nav class="Left-nav c bg pt0 pb0">
-  <div class="mauto pl4 pr4 max-width-1280px">
-    <div class="df flex-wrap-wrap align-items-center ml-16px sm-ml-32px sm-mr-32px mr-16px"><a class="align-items-center c-inherit dif fs1 fw-600 pb2 pt2 text-decoration-none vertical-align-middle ml4 mr4 mt3 mb3" href="https://twitter.com/jxnblk">Twitter</a><a class="align-items-center c-inherit dif fs1 fw-600 pb2 pt2 text-decoration-none vertical-align-middle ml4 mr4 mt3 mb3"
-        href="https://github.com/jxnblk">GitHub</a><a class="align-items-center c-inherit dif fs1 fw-600 pb2 pt2 text-decoration-none vertical-align-middle ml4 mr4 mt3 mb3" href="http://jxnblk.com/writing">Writing</a></div>
-  </div>
-</nav>
 <header class="Basic-header c bg pt6 pb1">
   <div class="mauto pl4 pr4 max-width-1280px">
     <h2 class="m0 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase fs5 sm-fs6">Writing</h2>
@@ -115,70 +106,70 @@
 <section class="Grid-cards c bg pt0 pb5">
   <div class="mauto pl4 pr4 max-width-1280px">
     <div class="df flex-wrap-wrap ml-16px mr-16px mt3 mb3">
-      <div class="pl3 pr3 mb4 w-100P sm-w-Infinitypx md-w-33p33333333333333P">
+      <div class="pl3 pr3 mb4 w-100P sm-w-Infinitypx md-w-50P lg-w-33p33333333333333P">
         <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/writing/posts/patterns-for-style-composition-in-react/">
           <div class="w-100P">
             <h2 class="m0 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase fs2">Patterns for Style Composition in React</h2>
           </div>
         </a>
       </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-Infinitypx md-w-33p33333333333333P">
+      <div class="pl3 pr3 mb4 w-100P sm-w-Infinitypx md-w-50P lg-w-33p33333333333333P">
         <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/writing/posts/universal-ui-components/">
           <div class="w-100P">
             <h2 class="m0 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase fs2">Universal UI Components</h2>
           </div>
         </a>
       </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-Infinitypx md-w-33p33333333333333P">
+      <div class="pl3 pr3 mb4 w-100P sm-w-Infinitypx md-w-50P lg-w-33p33333333333333P">
         <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/writing/posts/unit-testing-ui/">
           <div class="w-100P">
             <h2 class="m0 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase fs2">Unit Testing UI</h2>
           </div>
         </a>
       </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-Infinitypx md-w-33p33333333333333P">
+      <div class="pl3 pr3 mb4 w-100P sm-w-Infinitypx md-w-50P lg-w-33p33333333333333P">
         <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/writing/posts/components/">
           <div class="w-100P">
             <h2 class="m0 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase fs2">Components</h2>
           </div>
         </a>
       </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-Infinitypx md-w-33p33333333333333P">
+      <div class="pl3 pr3 mb4 w-100P sm-w-Infinitypx md-w-50P lg-w-33p33333333333333P">
         <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/writing/posts/zero-configuration-react-static-site-generator/">
           <div class="w-100P">
             <h2 class="m0 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase fs2">Zero-Configuration React Static Site Generator</h2>
           </div>
         </a>
       </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-Infinitypx md-w-33p33333333333333P">
+      <div class="pl3 pr3 mb4 w-100P sm-w-Infinitypx md-w-50P lg-w-33p33333333333333P">
         <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/writing/posts/mathematical-web-typography/">
           <div class="w-100P">
             <h2 class="m0 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase fs2">Mathematical Web Typography</h2>
           </div>
         </a>
       </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-Infinitypx md-w-33p33333333333333P">
+      <div class="pl3 pr3 mb4 w-100P sm-w-Infinitypx md-w-50P lg-w-33p33333333333333P">
         <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/writing/posts/color-palette-documentation-for-living-style-guides/">
           <div class="w-100P">
             <h2 class="m0 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase fs2">Color Palette Documentation for Living Style Guides</h2>
           </div>
         </a>
       </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-Infinitypx md-w-33p33333333333333P">
+      <div class="pl3 pr3 mb4 w-100P sm-w-Infinitypx md-w-50P lg-w-33p33333333333333P">
         <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/writing/posts/rethinking-variables-in-css/">
           <div class="w-100P">
             <h2 class="m0 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase fs2">Rethinking Variables in CSS</h2>
           </div>
         </a>
       </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-Infinitypx md-w-33p33333333333333P">
+      <div class="pl3 pr3 mb4 w-100P sm-w-Infinitypx md-w-50P lg-w-33p33333333333333P">
         <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/writing/posts/its-okay-to-look-the-same/">
           <div class="w-100P">
             <h2 class="m0 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase fs2">It‘s Okay to Look the Same</h2>
           </div>
         </a>
       </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-Infinitypx md-w-33p33333333333333P">
+      <div class="pl3 pr3 mb4 w-100P sm-w-Infinitypx md-w-50P lg-w-33p33333333333333P">
         <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/writing/posts/i-dont-know-how-to-design/">
           <div class="w-100P">
             <h2 class="m0 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase fs2">I Don’t Know How to Design</h2>
@@ -201,7 +192,7 @@
 <section class="Basic-cards c bg pt2 pb2">
   <div class="mauto pl4 pr4 max-width-1280px">
     <div class="df flex-wrap-wrap ml-16px mr-16px mt3 mb3">
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-33p33333333333333P">
+      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
         <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/hello-color">
           <div class="w-100P">
             <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Hello Color</h2>
@@ -209,7 +200,7 @@
           </div>
         </a>
       </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-33p33333333333333P">
+      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
         <a class="db text-decoration-none c-inherit" href="https://colorable.jxnblk.com">
           <div class="w-100P">
             <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Colorable</h2>
@@ -217,7 +208,7 @@
           </div>
         </a>
       </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-33p33333333333333P">
+      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
         <a class="db text-decoration-none c-inherit" href="https://palx.jxnblk.com">
           <div class="w-100P">
             <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Palx</h2>
@@ -225,7 +216,7 @@
           </div>
         </a>
       </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-33p33333333333333P">
+      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
         <a class="db text-decoration-none c-inherit" href="https://monochrome.jxnblk.com/0077d6">
           <div class="w-100P">
             <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Monochrome</h2>
@@ -233,7 +224,7 @@
           </div>
         </a>
       </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-33p33333333333333P">
+      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
         <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/grays/">
           <div class="w-100P">
             <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Grays</h2>
@@ -241,7 +232,7 @@
           </div>
         </a>
       </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-33p33333333333333P">
+      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
         <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/shade/">
           <div class="w-100P">
             <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Shade</h2>
@@ -249,7 +240,7 @@
           </div>
         </a>
       </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-33p33333333333333P">
+      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
         <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/Spectral/">
           <div class="w-100P">
             <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Spectral</h2>
@@ -329,7 +320,7 @@
 <section class="Basic-cards c bg pt2 pb2">
   <div class="mauto pl4 pr4 max-width-1280px">
     <div class="df flex-wrap-wrap ml-16px mr-16px mt3 mb3">
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-33p33333333333333P lg-w-Infinitypx">
+      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
         <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/type-system/">
           <div class="w-100P">
             <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Type System</h2>
@@ -337,7 +328,7 @@
           </div>
         </a>
       </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-33p33333333333333P lg-w-Infinitypx">
+      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
         <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/fitter-happier-text">
           <div class="w-100P">
             <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Fitter Happier Text</h2>
@@ -345,7 +336,7 @@
           </div>
         </a>
       </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-33p33333333333333P lg-w-Infinitypx">
+      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
         <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/react-fitter-happier-text">
           <div class="w-100P">
             <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">React Fitter Happier Text</h2>
@@ -353,7 +344,7 @@
           </div>
         </a>
       </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-33p33333333333333P lg-w-Infinitypx">
+      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
         <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/modular/">
           <div class="w-100P">
             <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Modular</h2>
@@ -361,7 +352,7 @@
           </div>
         </a>
       </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-33p33333333333333P lg-w-Infinitypx">
+      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
         <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/papercraft/">
           <div class="w-100P">
             <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Papercraft</h2>
@@ -385,7 +376,7 @@
 <section class="Basic-cards c bg pt2 pb2">
   <div class="mauto pl4 pr4 max-width-1280px">
     <div class="df flex-wrap-wrap ml-16px mr-16px mt3 mb3">
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-33p33333333333333P lg-w-Infinitypx">
+      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
         <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/reline">
           <div class="w-100P">
             <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Reline</h2>
@@ -393,7 +384,7 @@
           </div>
         </a>
       </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-33p33333333333333P lg-w-Infinitypx">
+      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
         <a class="db text-decoration-none c-inherit" href="https://icon.now.sh">
           <div class="w-100P">
             <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">microicon</h2>
@@ -401,7 +392,7 @@
           </div>
         </a>
       </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-33p33333333333333P lg-w-Infinitypx">
+      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
         <a class="db text-decoration-none c-inherit" href="http://geomicons.com">
           <div class="w-100P">
             <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Geomicons Open</h2>
@@ -409,7 +400,7 @@
           </div>
         </a>
       </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-33p33333333333333P lg-w-Infinitypx">
+      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
         <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/react-geomicons">
           <div class="w-100P">
             <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">React Geomicons</h2>
@@ -417,7 +408,7 @@
           </div>
         </a>
       </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-33p33333333333333P lg-w-Infinitypx">
+      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
         <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/loading/">
           <div class="w-100P">
             <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Loading...</h2>
@@ -425,7 +416,7 @@
           </div>
         </a>
       </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-33p33333333333333P lg-w-Infinitypx">
+      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
         <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/react-icons">
           <div class="w-100P">
             <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">React Icons</h2>
@@ -433,7 +424,7 @@
           </div>
         </a>
       </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-33p33333333333333P lg-w-Infinitypx">
+      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
         <a class="db text-decoration-none c-inherit" href="https://github.com/jxnblk/react-simple-icons">
           <div class="w-100P">
             <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">React Simple Icons</h2>
@@ -457,7 +448,7 @@
 <section class="Basic-cards c bg pt2 pb2">
   <div class="mauto pl4 pr4 max-width-1280px">
     <div class="df flex-wrap-wrap ml-16px mr-16px mt3 mb3">
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-33p33333333333333P lg-w-Infinitypx">
+      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
         <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/rebass">
           <div class="w-100P">
             <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Rebass</h2>
@@ -465,7 +456,7 @@
           </div>
         </a>
       </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-33p33333333333333P lg-w-Infinitypx">
+      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
         <a class="db text-decoration-none c-inherit" href="https://github.com/jxnblk/repng">
           <div class="w-100P">
             <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Repng</h2>
@@ -473,7 +464,7 @@
           </div>
         </a>
       </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-33p33333333333333P lg-w-Infinitypx">
+      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
         <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/ejsx/">
           <div class="w-100P">
             <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">&lt;Ejsx /></h2>
@@ -481,7 +472,7 @@
           </div>
         </a>
       </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-33p33333333333333P lg-w-Infinitypx">
+      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
         <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/axs">
           <div class="w-100P">
             <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Axs</h2>
@@ -489,7 +480,7 @@
           </div>
         </a>
       </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-33p33333333333333P lg-w-Infinitypx">
+      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
         <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/f0/">
           <div class="w-100P">
             <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">f0</h2>
@@ -497,7 +488,7 @@
           </div>
         </a>
       </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-33p33333333333333P lg-w-Infinitypx">
+      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
         <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/cxs-components/">
           <div class="w-100P">
             <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">cxs-components</h2>
@@ -505,7 +496,7 @@
           </div>
         </a>
       </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-33p33333333333333P lg-w-Infinitypx">
+      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
         <a class="db text-decoration-none c-inherit" href="https://github.com/jxnblk/static-react">
           <div class="w-100P">
             <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Static React</h2>
@@ -529,7 +520,7 @@
 <section class="Basic-cards c bg pt2 pb2">
   <div class="mauto pl4 pr4 max-width-1280px">
     <div class="df flex-wrap-wrap ml-16px mr-16px mt3 mb3">
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-33p33333333333333P lg-w-Infinitypx">
+      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-50P lg-w-33p33333333333333P">
         <a class="db text-decoration-none c-inherit" href="http://basscss.com">
           <div class="w-100P">
             <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Basscss</h2>
@@ -537,7 +528,7 @@
           </div>
         </a>
       </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-33p33333333333333P lg-w-Infinitypx">
+      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-50P lg-w-33p33333333333333P">
         <a class="db text-decoration-none c-inherit" href="http://cssstats.com">
           <div class="w-100P">
             <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">CSS Stats</h2>
@@ -545,7 +536,7 @@
           </div>
         </a>
       </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-33p33333333333333P lg-w-Infinitypx">
+      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-50P lg-w-33p33333333333333P">
         <a class="db text-decoration-none c-inherit" href="http://basscss.com/ace/">
           <div class="w-100P">
             <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Ace.css</h2>
@@ -553,7 +544,7 @@
           </div>
         </a>
       </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-33p33333333333333P lg-w-Infinitypx">
+      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-50P lg-w-33p33333333333333P">
         <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/gravitons">
           <div class="w-100P">
             <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Gravitons</h2>
@@ -561,7 +552,7 @@
           </div>
         </a>
       </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-33p33333333333333P lg-w-Infinitypx">
+      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-50P lg-w-33p33333333333333P">
         <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/cxs">
           <div class="w-100P">
             <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">CXS</h2>
@@ -569,7 +560,7 @@
           </div>
         </a>
       </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-33p33333333333333P lg-w-Infinitypx">
+      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-50P lg-w-33p33333333333333P">
         <a class="db text-decoration-none c-inherit" href="https://github.com/jxnblk/understyle">
           <div class="w-100P">
             <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Understyle</h2>
@@ -577,7 +568,7 @@
           </div>
         </a>
       </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-33p33333333333333P lg-w-Infinitypx">
+      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-50P lg-w-33p33333333333333P">
         <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/vhs/">
           <div class="w-100P">
             <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">VHS</h2>
@@ -601,7 +592,7 @@
 <section class="Basic-cards c bg pt2 pb2">
   <div class="mauto pl4 pr4 max-width-1280px">
     <div class="df flex-wrap-wrap ml-16px mr-16px mt3 mb3">
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-33p33333333333333P lg-w-Infinitypx">
+      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-50P lg-w-33p33333333333333P">
         <a class="db text-decoration-none c-inherit" href="http://mrsjxn.com">
           <div class="w-100P">
             <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Mrsjxn</h2>
@@ -609,7 +600,7 @@
           </div>
         </a>
       </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-33p33333333333333P lg-w-Infinitypx">
+      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-50P lg-w-33p33333333333333P">
         <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/skullcat">
           <div class="w-100P">
             <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Skullcat</h2>
@@ -617,7 +608,7 @@
           </div>
         </a>
       </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-33p33333333333333P lg-w-Infinitypx">
+      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-50P lg-w-33p33333333333333P">
         <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/stepkit">
           <div class="w-100P">
             <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Stepkit</h2>
@@ -625,7 +616,7 @@
           </div>
         </a>
       </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-33p33333333333333P lg-w-Infinitypx">
+      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-50P lg-w-33p33333333333333P">
         <a class="db text-decoration-none c-inherit" href="http://microbeats.cc">
           <div class="w-100P">
             <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Microbeats</h2>
@@ -649,7 +640,7 @@
 <section class="Basic-cards c bg pt2 pb2">
   <div class="mauto pl4 pr4 max-width-1280px">
     <div class="df flex-wrap-wrap ml-16px mr-16px mt3 mb3">
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-33p33333333333333P lg-w-Infinitypx">
+      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
         <a class="db text-decoration-none c-inherit" href="https://github.com/jxnblk/hypercolors">
           <div class="w-100P">
             <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Hypercolors</h2>
@@ -657,7 +648,7 @@
           </div>
         </a>
       </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-33p33333333333333P lg-w-Infinitypx">
+      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
         <a class="db text-decoration-none c-inherit" href="https://github.com/jxnblk/hyperterminator">
           <div class="w-100P">
             <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Hyperterminator</h2>
@@ -665,7 +656,7 @@
           </div>
         </a>
       </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-33p33333333333333P lg-w-Infinitypx">
+      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
         <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/Twipster/">
           <div class="w-100P">
             <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Twipster</h2>
@@ -673,7 +664,7 @@
           </div>
         </a>
       </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-33p33333333333333P lg-w-Infinitypx">
+      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
         <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/Heather/">
           <div class="w-100P">
             <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Heather</h2>
@@ -686,9 +677,9 @@
 </section>
 <section class="Basic-cards pt5 c bg pb2">
   <div class="mauto pl4 pr4 max-width-1280px">
-    <h2 class="m0 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase fs5 md-fs6 lg-fs0">Miscellaneous</h2>
+    <h2 class="m0 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase fs4 sm-fs5 md-fs6 lg-fs0">Miscellaneous</h2>
     <div class="df flex-wrap-wrap ml-16px mr-16px mt3 mb3">
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-33p33333333333333P lg-w-Infinitypx">
+      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
         <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/principles">
           <div class="w-100P">
             <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Principles</h2>
@@ -696,7 +687,7 @@
           </div>
         </a>
       </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-33p33333333333333P lg-w-Infinitypx">
+      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
         <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/formula/">
           <div class="w-100P">
             <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Formula</h2>
@@ -704,7 +695,7 @@
           </div>
         </a>
       </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-33p33333333333333P lg-w-Infinitypx">
+      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
         <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/paths/">
           <div class="w-100P">
             <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Paths</h2>
@@ -712,7 +703,7 @@
           </div>
         </a>
       </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-33p33333333333333P lg-w-Infinitypx">
+      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
         <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/hyp">
           <div class="w-100P">
             <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Hyp</h2>
@@ -720,7 +711,7 @@
           </div>
         </a>
       </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-33p33333333333333P lg-w-Infinitypx">
+      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
         <a class="db text-decoration-none c-inherit" href="http://github.com/jxnblk/h0">
           <div class="w-100P">
             <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">H0</h2>
@@ -728,7 +719,7 @@
           </div>
         </a>
       </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-33p33333333333333P lg-w-Infinitypx">
+      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
         <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/gifolio">
           <div class="w-100P">
             <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Gifolio</h2>
@@ -736,7 +727,7 @@
           </div>
         </a>
       </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-33p33333333333333P lg-w-Infinitypx">
+      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
         <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/reading-list/">
           <div class="w-100P">
             <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Reading List</h2>
@@ -749,9 +740,9 @@
 </section>
 <section class="Basic-cards pt5 pb5 bg">
   <div class="mauto pl4 pr4 max-width-1280px">
-    <h2 class="m0 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase fs5 md-fs6 lg-fs0">Résumé</h2>
+    <h2 class="m0 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase fs4 sm-fs5 md-fs6 lg-fs0">Résumé</h2>
     <div class="df flex-wrap-wrap ml-16px mr-16px mt3 mb3">
-      <div class="pl3 pr3 mb4 w-50P sm-w-50P md-w-33p33333333333333P">
+      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
         <a class="db text-decoration-none c-inherit">
           <div class="w-100P">
             <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Bond Street</h2>
@@ -759,7 +750,7 @@
           </div>
         </a>
       </div>
-      <div class="pl3 pr3 mb4 w-50P sm-w-50P md-w-33p33333333333333P">
+      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
         <a class="db text-decoration-none c-inherit">
           <div class="w-100P">
             <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">The Grid</h2>
@@ -767,7 +758,7 @@
           </div>
         </a>
       </div>
-      <div class="pl3 pr3 mb4 w-50P sm-w-50P md-w-33p33333333333333P">
+      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
         <a class="db text-decoration-none c-inherit">
           <div class="w-100P">
             <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Etsy</h2>
@@ -775,7 +766,7 @@
           </div>
         </a>
       </div>
-      <div class="pl3 pr3 mb4 w-50P sm-w-50P md-w-33p33333333333333P">
+      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
         <a class="db text-decoration-none c-inherit">
           <div class="w-100P">
             <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Kickstarter</h2>
@@ -783,7 +774,7 @@
           </div>
         </a>
       </div>
-      <div class="pl3 pr3 mb4 w-50P sm-w-50P md-w-33p33333333333333P">
+      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
         <a class="db text-decoration-none c-inherit">
           <div class="w-100P">
             <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Stitch Fix</h2>
@@ -791,7 +782,7 @@
           </div>
         </a>
       </div>
-      <div class="pl3 pr3 mb4 w-50P sm-w-50P md-w-33p33333333333333P">
+      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
         <a class="db text-decoration-none c-inherit">
           <div class="w-100P">
             <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">LivingSocial</h2>
@@ -799,7 +790,7 @@
           </div>
         </a>
       </div>
-      <div class="pl3 pr3 mb4 w-50P sm-w-50P md-w-33p33333333333333P">
+      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
         <a class="db text-decoration-none c-inherit">
           <div class="w-100P">
             <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Opower</h2>
@@ -810,15 +801,13 @@
     </div>
   </div>
 </section>
-<footer class="Basic-footer pt3 pb3 c-white bg-gray2">
+<footer class="Right-footer pt3 pb3 c bg">
   <div class="mauto pl4 pr4 max-width-1280px">
-    <div class="df flex-wrap-wrap ml-8px mr-8px align-items-baseline">
-      <div class="mrauto"><a class="align-items-center c-inherit dif fs1 fw-600 pb2 pt2 text-decoration-none vertical-align-middle ml2 mr2 mt2 mb2" href="https://twitter.com/jxnblk">Twitter</a><a class="align-items-center c-inherit dif fs1 fw-600 pb2 pt2 text-decoration-none vertical-align-middle ml2 mr2 mt2 mb2"
-          href="https://github.com/jxnblk">GitHub</a><a class="align-items-center c-inherit dif fs1 fw-600 pb2 pt2 text-decoration-none vertical-align-middle ml2 mr2 mt2 mb2" href="http://jxnblk.com/writing">Writing</a></div>
-    </div>
+    <div class="df flex-wrap-wrap align-items-baseline"><a class="align-items-center c-inherit dif fs1 fw-600 pb2 pt2 text-decoration-none vertical-align-middle mr3 mlauto" href="https://twitter.com/jxnblk">Twitter</a><a class="align-items-center c-inherit dif fs1 fw-600 pb2 pt2 text-decoration-none vertical-align-middle mr3"
+        href="https://github.com/jxnblk">GitHub</a><a class="align-items-center c-inherit dif fs1 fw-600 pb2 pt2 text-decoration-none vertical-align-middle mr3" href="http://jxnblk.com/writing">Writing</a></div>
   </div>
 </footer>
-<div class="PromoBadge-styleguide c-white bg-gray">
+<div class="PromoBadge-styleguide blue bg">
   <div class="df p2 align-items-center">
     <a class="db text-decoration-none c-inherit mlauto" href="http://compositor.io">
       <div class="df align-items-center">

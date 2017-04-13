@@ -16,6 +16,45 @@
   },
   "content": [
     {
+      "_id": 291964490050089,
+      "image": "",
+      "links": [
+        {
+          "_id": 291964490050100,
+          "href": "https://twitter.com/jxnblk",
+          "text": "Twitter"
+        },
+        {
+          "_id": 291964490050101,
+          "href": "https://github.com/jxnblk",
+          "text": "GitHub"
+        },
+        {
+          "_id": 291964490050102,
+          "href": "http://jxnblk.com/writing",
+          "text": "Writing"
+        }
+      ],
+      "meta": {
+        "colors": {
+          "background": "",
+          "button": {},
+          "text": ""
+        },
+        "layout": {
+          "paddingBottom": [
+            0
+          ],
+          "paddingTop": [
+            3
+          ]
+        },
+        "name": "Basic",
+        "styles": {},
+        "type": "nav"
+      }
+    },
+    {
       "_id": 291964490050088,
       "heading": "Jxnblk",
       "image": "assets/avatar-640.png",
@@ -47,45 +86,6 @@
       },
       "subhead": "",
       "text": "Web designer/developer specializing in modular design systems & front-end architecture. Based in Brooklyn, NY."
-    },
-    {
-      "_id": 291964490050089,
-      "image": "",
-      "links": [
-        {
-          "_id": 291964490050100,
-          "href": "https://twitter.com/jxnblk",
-          "text": "Twitter"
-        },
-        {
-          "_id": 291964490050101,
-          "href": "https://github.com/jxnblk",
-          "text": "GitHub"
-        },
-        {
-          "_id": 291964490050102,
-          "href": "http://jxnblk.com/writing",
-          "text": "Writing"
-        }
-      ],
-      "meta": {
-        "colors": {
-          "background": "",
-          "button": {},
-          "text": ""
-        },
-        "layout": {
-          "paddingBottom": [
-            0
-          ],
-          "paddingTop": [
-            0
-          ]
-        },
-        "name": "Left",
-        "styles": {},
-        "type": "nav"
-      }
     },
     {
       "_id": 291964490050364,
@@ -188,6 +188,7 @@
           "columns": [
             1,
             null,
+            2,
             3
           ],
           "paddingBottom": [
@@ -301,6 +302,7 @@
           "columns": [
             1,
             2,
+            0,
             3
           ],
           "paddingBottom": [
@@ -507,8 +509,8 @@
           "columns": [
             1,
             2,
-            3,
-            0
+            0,
+            3
           ],
           "paddingBottom": [
             2
@@ -624,8 +626,8 @@
           "columns": [
             1,
             2,
-            3,
-            0
+            0,
+            3
           ],
           "paddingBottom": [
             2
@@ -738,8 +740,8 @@
           "columns": [
             1,
             2,
-            3,
-            0
+            0,
+            3
           ],
           "paddingBottom": [
             2
@@ -852,8 +854,8 @@
           "columns": [
             1,
             2,
-            3,
-            0
+            2,
+            3
           ],
           "paddingBottom": [
             2
@@ -945,8 +947,8 @@
           "columns": [
             1,
             2,
-            3,
-            0
+            2,
+            3
           ],
           "paddingBottom": [
             2
@@ -1039,8 +1041,8 @@
           "columns": [
             1,
             2,
-            3,
-            0
+            0,
+            3
           ],
           "paddingBottom": [
             2
@@ -1127,8 +1129,8 @@
           "columns": [
             1,
             2,
-            3,
-            0
+            0,
+            3
           ],
           "paddingBottom": [
             2
@@ -1217,8 +1219,9 @@
         },
         "layout": {
           "columns": [
+            1,
             2,
-            2,
+            0,
             3
           ]
         },
@@ -1249,11 +1252,11 @@
       ],
       "meta": {
         "colors": {
-          "background": 3,
+          "background": "",
           "button": {},
-          "text": "white"
+          "text": ""
         },
-        "name": "Basic",
+        "name": "Right",
         "styles": {},
         "type": "footer"
       }
@@ -1264,9 +1267,9 @@
       "kicker": "Hello",
       "meta": {
         "colors": {
-          "background": 0,
+          "background": "",
           "button": {},
-          "text": "white"
+          "text": 1
         },
         "name": "PromoBadge",
         "styles": {},
@@ -1286,8 +1289,8 @@
     "fontFamily": "\"Avenir Next\", Helvetica, sans-serif",
     "h1": {
       "fontSize": [
+        4,
         5,
-        null,
         6,
         0,
         null
