@@ -1213,13 +1213,13 @@
         "colors": {
           "background": "",
           "button": {},
-          "text": 0
+          "text": null
         },
         "layout": {
           "columns": [
             2,
             2,
-            4
+            3
           ]
         },
         "name": "Basic",
@@ -1326,6 +1326,7 @@
         "alignItems": "center",
         "color": "inherit",
         "display": "inline-flex",
+        "fontSize": 1,
         "fontWeight": 600,
         "paddingBottom": 2,
         "paddingTop": 2,
