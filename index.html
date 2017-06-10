@@ -8,14 +8,14 @@
 <meta name='og:title' content='Jxnblk' />
 <meta name='description' content='Brent Jackson is a web designer/developer specializing in modular design systems & front-end architecture. Based in Brooklyn, NY.' /><meta name='og:description' content='Brent Jackson is a web designer/developer specializing in modular design systems & front-end architecture. Based in Brooklyn, NY.' />
 <meta name='twitter:card' content='summary' />
-<style>*{ box-sizing:border-box }.x0{font-family:"Avenir Next", Helvetica, sans-serif;line-height:1.5;color:#000;margin:0}
+<style>*{ box-sizing:border-box }.x0{font-family:-apple-system, BlinkMacSystemFont, sans-serif;line-height:1.5;color:#000;margin:0}
 .PromoBadge-styleguide-xp7h0p6{font-family:-apple-system, Roboto, Helvetica, sans-serif}
 .align-items-baseline{align-items:baseline}
 .align-items-center{align-items:center}
-.bg-currentcolor{background-color:currentcolor}
+.bg-gray{background-color:#000}
 .bg{background-color:}
-.blue{color:#08e}
 .c-inherit{color:inherit}
+.c-white{color:white}
 .c{color:}
 .db{display:block}
 .df{display:flex}
@@ -27,28 +27,34 @@
 .fs3{font-size:20px}
 .fs4{font-size:24px}
 .fs5{font-size:32px}
-.fw-500{font-weight:500}
+.fs7{font-size:64px}
 .fw-600{font-weight:600}
 .fw-700{font-weight:700}
-.h-8px{height:8px}
 .h-auto{height:auto}
-.letter-spacing-0p1875em{letter-spacing:0.1875em}
+.letter-spacing-0em{letter-spacing:0em}
 .letter-spacing-p2em{letter-spacing:.2em}
 .lh-1p125{line-height:1.125}
+.lh-1p25{line-height:1.25}
 .m0{margin:0}
 .mauto{margin:auto}
 .max-width-100P{max-width:100%}
 .max-width-1280px{max-width:1280px}
+.mb1{margin-bottom:4px}
+.mb2{margin-bottom:8px}
 .mb3{margin-bottom:16px}
 .mb4{margin-bottom:32px}
+.mb5{margin-bottom:64px}
 .ml-16px{margin-left:-16px}
-.ml2{margin-left:8px}
+.ml3{margin-left:16px}
 .mlauto{margin-left:auto}
 .mr-16px{margin-right:-16px}
 .mr2{margin-right:8px}
 .mr3{margin-right:16px}
-.mrauto{margin-right:auto}
+.mt1{margin-top:4px}
+.mt2{margin-top:8px}
 .mt3{margin-top:16px}
+.mt4{margin-top:32px}
+.mt5{margin-top:64px}
 .p2{padding:8px}
 .pb0{padding-bottom:0}
 .pb1{padding-bottom:4px}
@@ -68,754 +74,767 @@
 .text-transform-uppercase{text-transform:uppercase}
 .vertical-align-middle{vertical-align:middle}
 .w-100P{width:100%}
-.w-128px{width:128px}
+.w-33p33333333333333P{width:33.33333333333333%}
+@media screen and (min-width:32em){.sm-fs3{font-size:20px}}
 @media screen and (min-width:32em){.sm-fs5{font-size:32px}}
 @media screen and (min-width:32em){.sm-fs6{font-size:48px}}
 @media screen and (min-width:32em){.sm-fs7{font-size:64px}}
 @media screen and (min-width:32em){.sm-order-2{order:2}}
+@media screen and (min-width:32em){.sm-w-20P{width:20%}}
 @media screen and (min-width:32em){.sm-w-50P{width:50%}}
 @media screen and (min-width:32em){.sm-w-Infinitypx{width:Infinitypx}}
-@media screen and (min-width:48em){.md-fs2{font-size:16px}}
+@media screen and (min-width:48em){.md-fs4{font-size:24px}}
 @media screen and (min-width:48em){.md-fs6{font-size:48px}}
+@media screen and (min-width:48em){.md-fs8{font-size:96px}}
 @media screen and (min-width:48em){.md-w-50P{width:50%}}
 @media screen and (min-width:48em){.md-w-Infinitypx{width:Infinitypx}}
 @media screen and (min-width:64em){.lg-fs0{font-size:12px}}
-@media screen and (min-width:64em){.lg-w-33p33333333333333P{width:33.33333333333333%}}</style>
+@media screen and (min-width:64em){.lg-fs9{font-size:128px}}
+@media screen and (min-width:64em){.lg-w-33p33333333333333P{width:33.33333333333333%}}
+@media screen and (min-width:96em){.xl-fs4{font-size:24px}}</style>
 
 
-<body class='x0'>
-<nav class="Basic-nav p2 c bg pt3 pb0">
-  <div class="df flex-wrap-wrap align-items-baseline">
-    <div class="mrauto"><a class="align-items-center c-inherit dif fs1 fw-600 pb2 pt2 text-decoration-none vertical-align-middle ml2 mr2" href="https://twitter.com/jxnblk">Twitter</a><a class="align-items-center c-inherit dif fs1 fw-600 pb2 pt2 text-decoration-none vertical-align-middle ml2 mr2"
-        href="https://github.com/jxnblk">GitHub</a><a class="align-items-center c-inherit dif fs1 fw-600 pb2 pt2 text-decoration-none vertical-align-middle ml2 mr2" href="http://jxnblk.com/writing">Writing</a></div>
-  </div>
-</nav>
-<header class="MiniBar-header c bg pt6 pb0">
-  <div class="mauto pl4 pr4 max-width-1280px">
-    <h4 class="m0 lh-1p125 fw-700 mb3 fs2 md-fs2">Brent Jackson</h4>
-    <div class="w-128px h-8px bg-currentcolor"> </div>
-    <h2 class="m0 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase mt3 mb3 fs5 sm-fs6">Jxnblk</h2>
-    <p class="m0">Web designer/developer specializing in modular design systems & front-end architecture. Based in Brooklyn, NY.</p>
-  </div>
-</header>
-<header class="Basic-header c bg pt6 pb1">
-  <div class="mauto pl4 pr4 max-width-1280px">
-    <h2 class="m0 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase fs5 sm-fs6">Writing</h2>
-  </div>
-</header>
-<section class="Grid-cards c bg pt0 pb5">
-  <div class="mauto pl4 pr4 max-width-1280px">
-    <div class="df flex-wrap-wrap ml-16px mr-16px mt3 mb3">
-      <div class="pl3 pr3 mb4 w-100P sm-w-Infinitypx md-w-50P lg-w-33p33333333333333P">
-        <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/writing/posts/patterns-for-style-composition-in-react/">
-          <div class="w-100P">
-            <h2 class="m0 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase fs2">Patterns for Style Composition in React</h2>
-          </div>
-        </a>
-      </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-Infinitypx md-w-50P lg-w-33p33333333333333P">
-        <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/writing/posts/universal-ui-components/">
-          <div class="w-100P">
-            <h2 class="m0 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase fs2">Universal UI Components</h2>
-          </div>
-        </a>
-      </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-Infinitypx md-w-50P lg-w-33p33333333333333P">
-        <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/writing/posts/unit-testing-ui/">
-          <div class="w-100P">
-            <h2 class="m0 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase fs2">Unit Testing UI</h2>
-          </div>
-        </a>
-      </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-Infinitypx md-w-50P lg-w-33p33333333333333P">
-        <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/writing/posts/components/">
-          <div class="w-100P">
-            <h2 class="m0 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase fs2">Components</h2>
-          </div>
-        </a>
-      </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-Infinitypx md-w-50P lg-w-33p33333333333333P">
-        <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/writing/posts/zero-configuration-react-static-site-generator/">
-          <div class="w-100P">
-            <h2 class="m0 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase fs2">Zero-Configuration React Static Site Generator</h2>
-          </div>
-        </a>
-      </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-Infinitypx md-w-50P lg-w-33p33333333333333P">
-        <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/writing/posts/mathematical-web-typography/">
-          <div class="w-100P">
-            <h2 class="m0 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase fs2">Mathematical Web Typography</h2>
-          </div>
-        </a>
-      </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-Infinitypx md-w-50P lg-w-33p33333333333333P">
-        <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/writing/posts/color-palette-documentation-for-living-style-guides/">
-          <div class="w-100P">
-            <h2 class="m0 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase fs2">Color Palette Documentation for Living Style Guides</h2>
-          </div>
-        </a>
-      </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-Infinitypx md-w-50P lg-w-33p33333333333333P">
-        <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/writing/posts/rethinking-variables-in-css/">
-          <div class="w-100P">
-            <h2 class="m0 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase fs2">Rethinking Variables in CSS</h2>
-          </div>
-        </a>
-      </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-Infinitypx md-w-50P lg-w-33p33333333333333P">
-        <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/writing/posts/its-okay-to-look-the-same/">
-          <div class="w-100P">
-            <h2 class="m0 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase fs2">It‘s Okay to Look the Same</h2>
-          </div>
-        </a>
-      </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-Infinitypx md-w-50P lg-w-33p33333333333333P">
-        <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/writing/posts/i-dont-know-how-to-design/">
-          <div class="w-100P">
-            <h2 class="m0 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase fs2">I Don’t Know How to Design</h2>
-          </div>
-        </a>
+<body class="x0">
+  <header class="Bold-header c bg pt6 pb0">
+    <div class="mauto pl4 pr4 max-width-1280px">
+      <h2 class="lh-1p125 fw-700 letter-spacing-0em mb3 fs7 md-fs8 lg-fs9 m0">Jxnblk</h2>
+      <h3 class="lh-1p125 fw-700 fs3 md-fs4 xl-fs4 m0">Brent Jackson</h3>
+      <p class="mt5 mb5 fs2 sm-fs3 m0">Web designer/developer specializing in modular design systems &amp; front-end architecture. Based in Brooklyn, NY.</p>
+      <div class="align-items-baseline ml-16px mr-16px mt4 mb4 df flex-wrap-wrap">
+        <div class="pl3 pr3 mt1 mb1 w-33p33333333333333P sm-w-20P"><a type="1" href="https://twitter.com/jxnblk" icon="" class="align-items-center c-inherit dif fs1 fw-600 pb2 pt2 text-decoration-none vertical-align-middle">Twitter</a></div>
+        <div class="pl3 pr3 mt1 mb1 w-33p33333333333333P sm-w-20P"><a type="1" href="https://github.com/jxnblk" icon="" class="align-items-center c-inherit dif fs1 fw-600 pb2 pt2 text-decoration-none vertical-align-middle">GitHub</a></div>
+        <div class="pl3 pr3 mt1 mb1 w-33p33333333333333P sm-w-20P"><a type="1" href="http://jxnblk.com/writing" icon="" class="align-items-center c-inherit dif fs1 fw-600 pb2 pt2 text-decoration-none vertical-align-middle">Writing</a></div>
       </div>
     </div>
-  </div>
-</section>
-<section class="Split_1_2-section pt5 c bg pb1">
-  <div class="mauto pl4 pr4 max-width-1280px">
-    <div class="df flex-wrap-wrap ml-16px mr-16px align-items-center">
-      <div class="pl3 pr3 pt2 pb2 w-100P sm-w-50P"><img class="db max-width-100P h-auto w-100P" src="assets/Screenshot-2017-03-25-18.21.48.png" /></div>
-      <div class="pl3 pr3 pt2 pb2 w-100P sm-w-50P">
-        <h2 class="m0 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase mb3 fs5 sm-fs6">Color</h2>
+  </header>
+  <header class="Basic-header c bg pt6 pb1">
+    <div class="mauto pl4 pr4 max-width-1280px">
+      <h2 class="lh-1p125 fw-700 letter-spacing-0em fs5 sm-fs6 m0">Writing</h2>
+      <div class="pt3 pb3"></div>
+    </div>
+  </header>
+  <section class="Basic-cards c bg pt0 pb5">
+    <div class="mauto pl4 pr4 max-width-1280px">
+      <div class="ml-16px mr-16px mt3 mb3 df flex-wrap-wrap">
+        <div class="pl3 pr3 mb4 w-100P sm-w-Infinitypx md-w-50P lg-w-33p33333333333333P">
+          <a href="http://jxnblk.com/writing/posts/patterns-for-style-composition-in-react/" class="db text-decoration-none c-inherit">
+            <div class="w-100P">
+              <h2 class="lh-1p125 fw-700 letter-spacing-0em fs2 m0">Patterns for Style Composition in React</h2>
+            </div>
+          </a>
+        </div>
+        <div class="pl3 pr3 mb4 w-100P sm-w-Infinitypx md-w-50P lg-w-33p33333333333333P">
+          <a href="http://jxnblk.com/writing/posts/universal-ui-components/" class="db text-decoration-none c-inherit">
+            <div class="w-100P">
+              <h2 class="lh-1p125 fw-700 letter-spacing-0em fs2 m0">Universal UI Components</h2>
+            </div>
+          </a>
+        </div>
+        <div class="pl3 pr3 mb4 w-100P sm-w-Infinitypx md-w-50P lg-w-33p33333333333333P">
+          <a href="http://jxnblk.com/writing/posts/unit-testing-ui/" class="db text-decoration-none c-inherit">
+            <div class="w-100P">
+              <h2 class="lh-1p125 fw-700 letter-spacing-0em fs2 m0">Unit Testing UI</h2>
+            </div>
+          </a>
+        </div>
+        <div class="pl3 pr3 mb4 w-100P sm-w-Infinitypx md-w-50P lg-w-33p33333333333333P">
+          <a href="http://jxnblk.com/writing/posts/components/" class="db text-decoration-none c-inherit">
+            <div class="w-100P">
+              <h2 class="lh-1p125 fw-700 letter-spacing-0em fs2 m0">Components</h2>
+            </div>
+          </a>
+        </div>
+        <div class="pl3 pr3 mb4 w-100P sm-w-Infinitypx md-w-50P lg-w-33p33333333333333P">
+          <a href="http://jxnblk.com/writing/posts/zero-configuration-react-static-site-generator/" class="db text-decoration-none c-inherit">
+            <div class="w-100P">
+              <h2 class="lh-1p125 fw-700 letter-spacing-0em fs2 m0">Zero-Configuration React Static Site Generator</h2>
+            </div>
+          </a>
+        </div>
+        <div class="pl3 pr3 mb4 w-100P sm-w-Infinitypx md-w-50P lg-w-33p33333333333333P">
+          <a href="http://jxnblk.com/writing/posts/mathematical-web-typography/" class="db text-decoration-none c-inherit">
+            <div class="w-100P">
+              <h2 class="lh-1p125 fw-700 letter-spacing-0em fs2 m0">Mathematical Web Typography</h2>
+            </div>
+          </a>
+        </div>
+        <div class="pl3 pr3 mb4 w-100P sm-w-Infinitypx md-w-50P lg-w-33p33333333333333P">
+          <a href="http://jxnblk.com/writing/posts/color-palette-documentation-for-living-style-guides/" class="db text-decoration-none c-inherit">
+            <div class="w-100P">
+              <h2 class="lh-1p125 fw-700 letter-spacing-0em fs2 m0">Color Palette Documentation for Living Style Guides</h2>
+            </div>
+          </a>
+        </div>
+        <div class="pl3 pr3 mb4 w-100P sm-w-Infinitypx md-w-50P lg-w-33p33333333333333P">
+          <a href="http://jxnblk.com/writing/posts/rethinking-variables-in-css/" class="db text-decoration-none c-inherit">
+            <div class="w-100P">
+              <h2 class="lh-1p125 fw-700 letter-spacing-0em fs2 m0">Rethinking Variables in CSS</h2>
+            </div>
+          </a>
+        </div>
+        <div class="pl3 pr3 mb4 w-100P sm-w-Infinitypx md-w-50P lg-w-33p33333333333333P">
+          <a href="http://jxnblk.com/writing/posts/its-okay-to-look-the-same/" class="db text-decoration-none c-inherit">
+            <div class="w-100P">
+              <h2 class="lh-1p125 fw-700 letter-spacing-0em fs2 m0">It‘s Okay to Look the Same</h2>
+            </div>
+          </a>
+        </div>
+        <div class="pl3 pr3 mb4 w-100P sm-w-Infinitypx md-w-50P lg-w-33p33333333333333P">
+          <a href="http://jxnblk.com/writing/posts/i-dont-know-how-to-design/" class="db text-decoration-none c-inherit">
+            <div class="w-100P">
+              <h2 class="lh-1p125 fw-700 letter-spacing-0em fs2 m0">I Don’t Know How to Design</h2>
+            </div>
+          </a>
+        </div>
       </div>
     </div>
-  </div>
-</section>
-<section class="Basic-cards c bg pt2 pb2">
-  <div class="mauto pl4 pr4 max-width-1280px">
-    <div class="df flex-wrap-wrap ml-16px mr-16px mt3 mb3">
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
-        <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/hello-color">
-          <div class="w-100P">
-            <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Hello Color</h2>
-            <p class="m0 fs1">Functional color palette generator</p>
-          </div>
-        </a>
-      </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
-        <a class="db text-decoration-none c-inherit" href="https://colorable.jxnblk.com">
-          <div class="w-100P">
-            <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Colorable</h2>
-            <p class="m0 fs1">Color combination contrast tester</p>
-          </div>
-        </a>
-      </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
-        <a class="db text-decoration-none c-inherit" href="https://palx.jxnblk.com">
-          <div class="w-100P">
-            <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Palx</h2>
-            <p class="m0 fs1">Automatic UI color palette generator</p>
-          </div>
-        </a>
-      </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
-        <a class="db text-decoration-none c-inherit" href="https://monochrome.jxnblk.com/0077d6">
-          <div class="w-100P">
-            <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Monochrome</h2>
-            <p class="m0 fs1">Monoschrome color scheme picker</p>
-          </div>
-        </a>
-      </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
-        <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/grays/">
-          <div class="w-100P">
-            <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Grays</h2>
-            <p class="m0 fs1">How light can you go?</p>
-          </div>
-        </a>
-      </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
-        <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/shade/">
-          <div class="w-100P">
-            <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Shade</h2>
-            <p class="m0 fs1">Mathematically derived gradient explorer</p>
-          </div>
-        </a>
-      </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
-        <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/Spectral/">
-          <div class="w-100P">
-            <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Spectral</h2>
-            <p class="m0 fs1">Click the rainbow</p>
-          </div>
-        </a>
+  </section>
+  <section class="Split_1_2-section pt5 c bg pb1">
+    <div class="mauto pl4 pr4 max-width-1280px">
+      <div class="align-items-center ml-16px mr-16px df flex-wrap-wrap">
+        <div class="pl3 pr3 pt2 pb2 w-100P sm-w-50P"><img src="assets/Screenshot-2017-03-25-18.21.48.png" class="w-100P db max-width-100P h-auto" /></div>
+        <div class="pl3 pr3 pt2 pb2 w-100P sm-w-50P">
+          <h2 class="lh-1p125 fw-700 letter-spacing-0em mb3 fs5 sm-fs6 m0">Color</h2>
+        </div>
       </div>
     </div>
-  </div>
-</section>
-<section class="SplitRight_1_2-section pt5 c bg pb1">
-  <div class="mauto pl4 pr4 max-width-1280px">
-    <div class="df flex-wrap-wrap ml-16px mr-16px align-items-center">
-      <div class="pl3 pr3 pt2 pb2 sm-order-2 sm-w-50P w-100P"><img class="db max-width-100P h-auto w-100P" src="assets/Screenshot-2017-03-25-18.30.20.png" /></div>
-      <div class="pl3 pr3 pt2 pb2 w-100P sm-w-50P">
-        <h2 class="m0 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase mb3 fs5 sm-fs6">Grids</h2>
+  </section>
+  <section class="Basic-cards c bg pt2 pb2">
+    <div class="mauto pl4 pr4 max-width-1280px">
+      <div class="ml-16px mr-16px mt3 mb3 df flex-wrap-wrap">
+        <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
+          <a href="http://jxnblk.com/hello-color" class="db text-decoration-none c-inherit">
+            <div class="w-100P">
+              <h2 class="fs3 lh-1p125 fw-700 letter-spacing-0em m0">Hello Color</h2>
+              <p class="fs1 m0">Functional color palette generator</p>
+            </div>
+          </a>
+        </div>
+        <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
+          <a href="https://colorable.jxnblk.com" class="db text-decoration-none c-inherit">
+            <div class="w-100P">
+              <h2 class="fs3 lh-1p125 fw-700 letter-spacing-0em m0">Colorable</h2>
+              <p class="fs1 m0">Color combination contrast tester</p>
+            </div>
+          </a>
+        </div>
+        <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
+          <a href="https://palx.jxnblk.com" class="db text-decoration-none c-inherit">
+            <div class="w-100P">
+              <h2 class="fs3 lh-1p125 fw-700 letter-spacing-0em m0">Palx</h2>
+              <p class="fs1 m0">Automatic UI color palette generator</p>
+            </div>
+          </a>
+        </div>
+        <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
+          <a href="https://monochrome.jxnblk.com/0077d6" class="db text-decoration-none c-inherit">
+            <div class="w-100P">
+              <h2 class="fs3 lh-1p125 fw-700 letter-spacing-0em m0">Monochrome</h2>
+              <p class="fs1 m0">Monoschrome color scheme picker</p>
+            </div>
+          </a>
+        </div>
+        <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
+          <a href="http://jxnblk.com/grays/" class="db text-decoration-none c-inherit">
+            <div class="w-100P">
+              <h2 class="fs3 lh-1p125 fw-700 letter-spacing-0em m0">Grays</h2>
+              <p class="fs1 m0">How light can you go?</p>
+            </div>
+          </a>
+        </div>
+        <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
+          <a href="http://jxnblk.com/shade/" class="db text-decoration-none c-inherit">
+            <div class="w-100P">
+              <h2 class="fs3 lh-1p125 fw-700 letter-spacing-0em m0">Shade</h2>
+              <p class="fs1 m0">Mathematically derived gradient explorer</p>
+            </div>
+          </a>
+        </div>
+        <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
+          <a href="http://jxnblk.com/Spectral/" class="db text-decoration-none c-inherit">
+            <div class="w-100P">
+              <h2 class="fs3 lh-1p125 fw-700 letter-spacing-0em m0">Spectral</h2>
+              <p class="fs1 m0">Click the rainbow</p>
+            </div>
+          </a>
+        </div>
       </div>
     </div>
-  </div>
-</section>
-<section class="Basic-cards c bg pt2 pb2">
-  <div class="mauto pl4 pr4 max-width-1280px">
-    <div class="df flex-wrap-wrap ml-16px mr-16px mt3 mb3">
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
-        <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/reflexbox">
-          <div class="w-100P">
-            <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Reflexbox</h2>
-            <p class="m0 fs1">React flexbox layout and grid system</p>
-          </div>
-        </a>
-      </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
-        <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/rgx">
-          <div class="w-100P">
-            <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Rgx</h2>
-            <p class="m0 fs1">Constraint-based grid system based on minimum and maximum widths</p>
-          </div>
-        </a>
-      </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
-        <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/gx">
-          <div class="w-100P">
-            <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Gx</h2>
-            <p class="m0 fs1">Minimal responsive React grid system based on the Fab Four Technique</p>
-          </div>
-        </a>
-      </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
-        <a class="db text-decoration-none c-inherit" href="https://github.com/jxnblk/react-css-grid">
-          <div class="w-100P">
-            <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">React CSS Grid</h2>
-            <p class="m0 fs1">Responsive CSS-based React grid component</p>
-          </div>
-        </a>
-      </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
-        <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/grid-styled/">
-          <div class="w-100P">
-            <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Grid Styled</h2>
-            <p class="m0 fs1">Responsive React grid system built with styled-components</p>
-          </div>
-        </a>
+  </section>
+  <section class="SplitRight_1_2-section pt5 c bg pb1">
+    <div class="mauto pl4 pr4 max-width-1280px">
+      <div class="align-items-center ml-16px mr-16px df flex-wrap-wrap">
+        <div class="sm-order-2 pl3 pr3 pt2 pb2 sm-w-50P w-100P"><img src="assets/Screenshot-2017-03-25-18.30.20.png" class="w-100P db max-width-100P h-auto" /></div>
+        <div class="pl3 pr3 pt2 pb2 w-100P sm-w-50P">
+          <h2 class="lh-1p125 fw-700 letter-spacing-0em mb3 fs5 sm-fs6 m0">Grids</h2>
+        </div>
       </div>
     </div>
-  </div>
-</section>
-<section class="Split_1_2-section pt5 c bg pb1">
-  <div class="mauto pl4 pr4 max-width-1280px">
-    <div class="df flex-wrap-wrap ml-16px mr-16px align-items-center">
-      <div class="pl3 pr3 pt2 pb2 w-100P sm-w-50P"><img class="db max-width-100P h-auto w-100P" src="assets/Screenshot-2017-03-25-18.33.04.png" /></div>
-      <div class="pl3 pr3 pt2 pb2 w-100P sm-w-50P">
-        <h2 class="m0 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase mb3 fs5 sm-fs6">Typography</h2>
+  </section>
+  <section class="Basic-cards c bg pt2 pb2">
+    <div class="mauto pl4 pr4 max-width-1280px">
+      <div class="ml-16px mr-16px mt3 mb3 df flex-wrap-wrap">
+        <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
+          <a href="http://jxnblk.com/reflexbox" class="db text-decoration-none c-inherit">
+            <div class="w-100P">
+              <h2 class="fs3 lh-1p125 fw-700 letter-spacing-0em m0">Reflexbox</h2>
+              <p class="fs1 m0">React flexbox layout and grid system</p>
+            </div>
+          </a>
+        </div>
+        <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
+          <a href="http://jxnblk.com/rgx" class="db text-decoration-none c-inherit">
+            <div class="w-100P">
+              <h2 class="fs3 lh-1p125 fw-700 letter-spacing-0em m0">Rgx</h2>
+              <p class="fs1 m0">Constraint-based grid system based on minimum and maximum widths</p>
+            </div>
+          </a>
+        </div>
+        <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
+          <a href="http://jxnblk.com/gx" class="db text-decoration-none c-inherit">
+            <div class="w-100P">
+              <h2 class="fs3 lh-1p125 fw-700 letter-spacing-0em m0">Gx</h2>
+              <p class="fs1 m0">Minimal responsive React grid system based on the Fab Four Technique</p>
+            </div>
+          </a>
+        </div>
+        <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
+          <a href="https://github.com/jxnblk/react-css-grid" class="db text-decoration-none c-inherit">
+            <div class="w-100P">
+              <h2 class="fs3 lh-1p125 fw-700 letter-spacing-0em m0">React CSS Grid</h2>
+              <p class="fs1 m0">Responsive CSS-based React grid component</p>
+            </div>
+          </a>
+        </div>
+        <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
+          <a href="http://jxnblk.com/grid-styled/" class="db text-decoration-none c-inherit">
+            <div class="w-100P">
+              <h2 class="fs3 lh-1p125 fw-700 letter-spacing-0em m0">Grid Styled</h2>
+              <p class="fs1 m0">Responsive React grid system built with styled-components</p>
+            </div>
+          </a>
+        </div>
       </div>
     </div>
-  </div>
-</section>
-<section class="Basic-cards c bg pt2 pb2">
-  <div class="mauto pl4 pr4 max-width-1280px">
-    <div class="df flex-wrap-wrap ml-16px mr-16px mt3 mb3">
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
-        <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/type-system/">
-          <div class="w-100P">
-            <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Type System</h2>
-            <p class="m0 fs1">Typographic scale with pixel-perfect alignment</p>
-          </div>
-        </a>
-      </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
-        <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/fitter-happier-text">
-          <div class="w-100P">
-            <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Fitter Happier Text</h2>
-            <p class="m0 fs1">Performant, fully fluid headings</p>
-          </div>
-        </a>
-      </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
-        <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/react-fitter-happier-text">
-          <div class="w-100P">
-            <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">React Fitter Happier Text</h2>
-            <p class="m0 fs1">React component for fully fluid headings</p>
-          </div>
-        </a>
-      </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
-        <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/modular/">
-          <div class="w-100P">
-            <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Modular</h2>
-            <p class="m0 fs1">Don’t compose without a scale</p>
-          </div>
-        </a>
-      </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
-        <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/papercraft/">
-          <div class="w-100P">
-            <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Papercraft</h2>
-            <p class="m0 fs1">Hand-coded SVG lettering</p>
-          </div>
-        </a>
+  </section>
+  <section class="Split_1_2-section pt5 c bg pb1">
+    <div class="mauto pl4 pr4 max-width-1280px">
+      <div class="align-items-center ml-16px mr-16px df flex-wrap-wrap">
+        <div class="pl3 pr3 pt2 pb2 w-100P sm-w-50P"><img src="assets/Screenshot-2017-03-25-18.33.04.png" class="w-100P db max-width-100P h-auto" /></div>
+        <div class="pl3 pr3 pt2 pb2 w-100P sm-w-50P">
+          <h2 class="lh-1p125 fw-700 letter-spacing-0em mb3 fs5 sm-fs6 m0">Typography</h2>
+        </div>
       </div>
     </div>
-  </div>
-</section>
-<section class="SplitRight_1_2-section pt5 c bg pb1">
-  <div class="mauto pl4 pr4 max-width-1280px">
-    <div class="df flex-wrap-wrap ml-16px mr-16px align-items-center">
-      <div class="pl3 pr3 pt2 pb2 sm-order-2 sm-w-50P w-100P"><img class="db max-width-100P h-auto w-100P" src="assets/Screenshot-2017-03-25-18.33.15.png" /></div>
-      <div class="pl3 pr3 pt2 pb2 w-100P sm-w-50P">
-        <h2 class="m0 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase mb3 fs5 sm-fs6">Icons</h2>
+  </section>
+  <section class="Basic-cards c bg pt2 pb2">
+    <div class="mauto pl4 pr4 max-width-1280px">
+      <div class="ml-16px mr-16px mt3 mb3 df flex-wrap-wrap">
+        <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
+          <a href="http://jxnblk.com/type-system/" class="db text-decoration-none c-inherit">
+            <div class="w-100P">
+              <h2 class="fs3 lh-1p125 fw-700 letter-spacing-0em m0">Type System</h2>
+              <p class="fs1 m0">Typographic scale with pixel-perfect alignment</p>
+            </div>
+          </a>
+        </div>
+        <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
+          <a href="http://jxnblk.com/fitter-happier-text" class="db text-decoration-none c-inherit">
+            <div class="w-100P">
+              <h2 class="fs3 lh-1p125 fw-700 letter-spacing-0em m0">Fitter Happier Text</h2>
+              <p class="fs1 m0">Performant, fully fluid headings</p>
+            </div>
+          </a>
+        </div>
+        <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
+          <a href="http://jxnblk.com/react-fitter-happier-text" class="db text-decoration-none c-inherit">
+            <div class="w-100P">
+              <h2 class="fs3 lh-1p125 fw-700 letter-spacing-0em m0">React Fitter Happier Text</h2>
+              <p class="fs1 m0">React component for fully fluid headings</p>
+            </div>
+          </a>
+        </div>
+        <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
+          <a href="http://jxnblk.com/modular/" class="db text-decoration-none c-inherit">
+            <div class="w-100P">
+              <h2 class="fs3 lh-1p125 fw-700 letter-spacing-0em m0">Modular</h2>
+              <p class="fs1 m0">Don’t compose without a scale</p>
+            </div>
+          </a>
+        </div>
+        <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
+          <a href="http://jxnblk.com/papercraft/" class="db text-decoration-none c-inherit">
+            <div class="w-100P">
+              <h2 class="fs3 lh-1p125 fw-700 letter-spacing-0em m0">Papercraft</h2>
+              <p class="fs1 m0">Hand-coded SVG lettering</p>
+            </div>
+          </a>
+        </div>
       </div>
     </div>
-  </div>
-</section>
-<section class="Basic-cards c bg pt2 pb2">
-  <div class="mauto pl4 pr4 max-width-1280px">
-    <div class="df flex-wrap-wrap ml-16px mr-16px mt3 mb3">
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
-        <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/reline">
-          <div class="w-100P">
-            <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Reline</h2>
-            <p class="m0 fs1">React SVG line icon components</p>
-          </div>
-        </a>
-      </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
-        <a class="db text-decoration-none c-inherit" href="https://icon.now.sh">
-          <div class="w-100P">
-            <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">microicon</h2>
-            <p class="m0 fs1">SVG icon placeholder microservice – including icons from Material Design, Simple Icons, and Geomicons</p>
-          </div>
-        </a>
-      </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
-        <a class="db text-decoration-none c-inherit" href="http://geomicons.com">
-          <div class="w-100P">
-            <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Geomicons Open</h2>
-            <p class="m0 fs1">Open source SVG icons for the web</p>
-          </div>
-        </a>
-      </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
-        <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/react-geomicons">
-          <div class="w-100P">
-            <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">React Geomicons</h2>
-            <p class="m0 fs1">Icon component for Geomicons Open</p>
-          </div>
-        </a>
-      </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
-        <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/loading/">
-          <div class="w-100P">
-            <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Loading...</h2>
-            <p class="m0 fs1">This could take a while</p>
-          </div>
-        </a>
-      </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
-        <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/react-icons">
-          <div class="w-100P">
-            <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">React Icons</h2>
-            <p class="m0 fs1">How to build generative SVG icons with React</p>
-          </div>
-        </a>
-      </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
-        <a class="db text-decoration-none c-inherit" href="https://github.com/jxnblk/react-simple-icons">
-          <div class="w-100P">
-            <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">React Simple Icons</h2>
-            <p class="m0 fs1">React component for a subset of social icons from http://simpleicons.org</p>
-          </div>
-        </a>
+  </section>
+  <section class="SplitRight_1_2-section pt5 c bg pb1">
+    <div class="mauto pl4 pr4 max-width-1280px">
+      <div class="align-items-center ml-16px mr-16px df flex-wrap-wrap">
+        <div class="sm-order-2 pl3 pr3 pt2 pb2 sm-w-50P w-100P"><img src="assets/Screenshot-2017-03-25-18.33.15.png" class="w-100P db max-width-100P h-auto" /></div>
+        <div class="pl3 pr3 pt2 pb2 w-100P sm-w-50P">
+          <h2 class="lh-1p125 fw-700 letter-spacing-0em mb3 fs5 sm-fs6 m0">Icons</h2>
+        </div>
       </div>
     </div>
-  </div>
-</section>
-<section class="Split_1_2-section pt5 c bg pb1">
-  <div class="mauto pl4 pr4 max-width-1280px">
-    <div class="df flex-wrap-wrap ml-16px mr-16px align-items-center">
-      <div class="pl3 pr3 pt2 pb2 w-100P sm-w-50P"><img class="db max-width-100P h-auto w-100P" src="assets/Screenshot-2017-03-25-18.36.02.png" /></div>
-      <div class="pl3 pr3 pt2 pb2 w-100P sm-w-50P">
-        <h2 class="m0 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase mb3 fs5 sm-fs6">React</h2>
+  </section>
+  <section class="Basic-cards c bg pt2 pb2">
+    <div class="mauto pl4 pr4 max-width-1280px">
+      <div class="ml-16px mr-16px mt3 mb3 df flex-wrap-wrap">
+        <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
+          <a href="http://jxnblk.com/reline" class="db text-decoration-none c-inherit">
+            <div class="w-100P">
+              <h2 class="fs3 lh-1p125 fw-700 letter-spacing-0em m0">Reline</h2>
+              <p class="fs1 m0">React SVG line icon components</p>
+            </div>
+          </a>
+        </div>
+        <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
+          <a href="https://icon.now.sh" class="db text-decoration-none c-inherit">
+            <div class="w-100P">
+              <h2 class="fs3 lh-1p125 fw-700 letter-spacing-0em m0">microicon</h2>
+              <p class="fs1 m0">SVG icon placeholder microservice – including icons from Material Design, Simple Icons, and Geomicons</p>
+            </div>
+          </a>
+        </div>
+        <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
+          <a href="http://geomicons.com" class="db text-decoration-none c-inherit">
+            <div class="w-100P">
+              <h2 class="fs3 lh-1p125 fw-700 letter-spacing-0em m0">Geomicons Open</h2>
+              <p class="fs1 m0">Open source SVG icons for the web</p>
+            </div>
+          </a>
+        </div>
+        <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
+          <a href="http://jxnblk.com/react-geomicons" class="db text-decoration-none c-inherit">
+            <div class="w-100P">
+              <h2 class="fs3 lh-1p125 fw-700 letter-spacing-0em m0">React Geomicons</h2>
+              <p class="fs1 m0">Icon component for Geomicons Open</p>
+            </div>
+          </a>
+        </div>
+        <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
+          <a href="http://jxnblk.com/loading/" class="db text-decoration-none c-inherit">
+            <div class="w-100P">
+              <h2 class="fs3 lh-1p125 fw-700 letter-spacing-0em m0">Loading...</h2>
+              <p class="fs1 m0">This could take a while</p>
+            </div>
+          </a>
+        </div>
+        <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
+          <a href="http://jxnblk.com/react-icons" class="db text-decoration-none c-inherit">
+            <div class="w-100P">
+              <h2 class="fs3 lh-1p125 fw-700 letter-spacing-0em m0">React Icons</h2>
+              <p class="fs1 m0">How to build generative SVG icons with React</p>
+            </div>
+          </a>
+        </div>
+        <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
+          <a href="https://github.com/jxnblk/react-simple-icons" class="db text-decoration-none c-inherit">
+            <div class="w-100P">
+              <h2 class="fs3 lh-1p125 fw-700 letter-spacing-0em m0">React Simple Icons</h2>
+              <p class="fs1 m0">React component for a subset of social icons from http://simpleicons.org</p>
+            </div>
+          </a>
+        </div>
       </div>
     </div>
-  </div>
-</section>
-<section class="Basic-cards c bg pt2 pb2">
-  <div class="mauto pl4 pr4 max-width-1280px">
-    <div class="df flex-wrap-wrap ml-16px mr-16px mt3 mb3">
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
-        <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/rebass">
-          <div class="w-100P">
-            <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Rebass</h2>
-            <p class="m0 fs1">Configurable React UI components</p>
-          </div>
-        </a>
-      </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
-        <a class="db text-decoration-none c-inherit" href="https://github.com/jxnblk/repng">
-          <div class="w-100P">
-            <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Repng</h2>
-            <p class="m0 fs1">React component to PNG converter</p>
-          </div>
-        </a>
-      </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
-        <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/ejsx/">
-          <div class="w-100P">
-            <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">&lt;Ejsx /></h2>
-            <p class="m0 fs1">Pure JSX templates for rendering static HTML</p>
-          </div>
-        </a>
-      </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
-        <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/axs">
-          <div class="w-100P">
-            <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Axs</h2>
-            <p class="m0 fs1">A build-your-own responsive typography and layout UI toolkit for React</p>
-          </div>
-        </a>
-      </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
-        <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/f0/">
-          <div class="w-100P">
-            <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">f0</h2>
-            <p class="m0 fs1">Minimal, composable fully-fluid SVG charts for React</p>
-          </div>
-        </a>
-      </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
-        <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/cxs-components/">
-          <div class="w-100P">
-            <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">cxs-components</h2>
-            <p class="m0 fs1">Styled UI component primitives for React - built with cxs</p>
-          </div>
-        </a>
-      </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
-        <a class="db text-decoration-none c-inherit" href="https://github.com/jxnblk/static-react">
-          <div class="w-100P">
-            <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Static React</h2>
-            <p class="m0 fs1">Zero-configuration CLI React static renderer</p>
-          </div>
-        </a>
+  </section>
+  <section class="Split_1_2-section pt5 c bg pb1">
+    <div class="mauto pl4 pr4 max-width-1280px">
+      <div class="align-items-center ml-16px mr-16px df flex-wrap-wrap">
+        <div class="pl3 pr3 pt2 pb2 w-100P sm-w-50P"><img src="assets/Screenshot-2017-03-25-18.36.02.png" class="w-100P db max-width-100P h-auto" /></div>
+        <div class="pl3 pr3 pt2 pb2 w-100P sm-w-50P">
+          <h2 class="lh-1p125 fw-700 letter-spacing-0em mb3 fs5 sm-fs6 m0">React</h2>
+        </div>
       </div>
     </div>
-  </div>
-</section>
-<section class="SplitRight_1_2-section pt5 c bg pb1">
-  <div class="mauto pl4 pr4 max-width-1280px">
-    <div class="df flex-wrap-wrap ml-16px mr-16px align-items-center">
-      <div class="pl3 pr3 pt2 pb2 sm-order-2 sm-w-50P w-100P"><img class="db max-width-100P h-auto w-100P" src="assets/Screenshot-2017-03-25-18.47.02.png" /></div>
-      <div class="pl3 pr3 pt2 pb2 w-100P sm-w-50P">
-        <h2 class="m0 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase mb3 fs5 sm-fs6">CSS</h2>
+  </section>
+  <section class="Basic-cards c bg pt2 pb2">
+    <div class="mauto pl4 pr4 max-width-1280px">
+      <div class="ml-16px mr-16px mt3 mb3 df flex-wrap-wrap">
+        <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
+          <a href="http://jxnblk.com/rebass" class="db text-decoration-none c-inherit">
+            <div class="w-100P">
+              <h2 class="fs3 lh-1p125 fw-700 letter-spacing-0em m0">Rebass</h2>
+              <p class="fs1 m0">Configurable React UI components</p>
+            </div>
+          </a>
+        </div>
+        <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
+          <a href="https://github.com/jxnblk/repng" class="db text-decoration-none c-inherit">
+            <div class="w-100P">
+              <h2 class="fs3 lh-1p125 fw-700 letter-spacing-0em m0">Repng</h2>
+              <p class="fs1 m0">React component to PNG converter</p>
+            </div>
+          </a>
+        </div>
+        <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
+          <a href="http://jxnblk.com/ejsx/" class="db text-decoration-none c-inherit">
+            <div class="w-100P">
+              <h2 class="fs3 lh-1p125 fw-700 letter-spacing-0em m0">&lt;Ejsx /&gt;</h2>
+              <p class="fs1 m0">Pure JSX templates for rendering static HTML</p>
+            </div>
+          </a>
+        </div>
+        <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
+          <a href="http://jxnblk.com/axs" class="db text-decoration-none c-inherit">
+            <div class="w-100P">
+              <h2 class="fs3 lh-1p125 fw-700 letter-spacing-0em m0">Axs</h2>
+              <p class="fs1 m0">A build-your-own responsive typography and layout UI toolkit for React</p>
+            </div>
+          </a>
+        </div>
+        <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
+          <a href="http://jxnblk.com/f0/" class="db text-decoration-none c-inherit">
+            <div class="w-100P">
+              <h2 class="fs3 lh-1p125 fw-700 letter-spacing-0em m0">f0</h2>
+              <p class="fs1 m0">Minimal, composable fully-fluid SVG charts for React</p>
+            </div>
+          </a>
+        </div>
+        <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
+          <a href="http://jxnblk.com/cxs-components/" class="db text-decoration-none c-inherit">
+            <div class="w-100P">
+              <h2 class="fs3 lh-1p125 fw-700 letter-spacing-0em m0">cxs-components</h2>
+              <p class="fs1 m0">Styled UI component primitives for React - built with cxs</p>
+            </div>
+          </a>
+        </div>
+        <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
+          <a href="https://github.com/jxnblk/static-react" class="db text-decoration-none c-inherit">
+            <div class="w-100P">
+              <h2 class="fs3 lh-1p125 fw-700 letter-spacing-0em m0">Static React</h2>
+              <p class="fs1 m0">Zero-configuration CLI React static renderer</p>
+            </div>
+          </a>
+        </div>
       </div>
     </div>
-  </div>
-</section>
-<section class="Basic-cards c bg pt2 pb2">
-  <div class="mauto pl4 pr4 max-width-1280px">
-    <div class="df flex-wrap-wrap ml-16px mr-16px mt3 mb3">
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-50P lg-w-33p33333333333333P">
-        <a class="db text-decoration-none c-inherit" href="http://basscss.com">
-          <div class="w-100P">
-            <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Basscss</h2>
-            <p class="m0 fs1">Low-level CSS toolkit</p>
-          </div>
-        </a>
-      </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-50P lg-w-33p33333333333333P">
-        <a class="db text-decoration-none c-inherit" href="http://cssstats.com">
-          <div class="w-100P">
-            <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">CSS Stats</h2>
-            <p class="m0 fs1">CSS static-analysis tool</p>
-          </div>
-        </a>
-      </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-50P lg-w-33p33333333333333P">
-        <a class="db text-decoration-none c-inherit" href="http://basscss.com/ace/">
-          <div class="w-100P">
-            <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Ace.css</h2>
-            <p class="m0 fs1">Full-featured Basscss package for web apps</p>
-          </div>
-        </a>
-      </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-50P lg-w-33p33333333333333P">
-        <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/gravitons">
-          <div class="w-100P">
-            <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Gravitons</h2>
-            <p class="m0 fs1">Virtually massless CSS layout microlibrary</p>
-          </div>
-        </a>
-      </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-50P lg-w-33p33333333333333P">
-        <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/cxs">
-          <div class="w-100P">
-            <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">CXS</h2>
-            <p class="m0 fs1">A CSS-in-JS solution for functional CSS in functional UI components</p>
-          </div>
-        </a>
-      </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-50P lg-w-33p33333333333333P">
-        <a class="db text-decoration-none c-inherit" href="https://github.com/jxnblk/understyle">
-          <div class="w-100P">
-            <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Understyle</h2>
-            <p class="m0 fs1">Functional style utilities for authoring JavaScript style objects</p>
-          </div>
-        </a>
-      </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-50P lg-w-33p33333333333333P">
-        <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/vhs/">
-          <div class="w-100P">
-            <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">VHS</h2>
-            <p class="m0 fs1">Post-future CSS animations</p>
-          </div>
-        </a>
+  </section>
+  <section class="SplitRight_1_2-section pt5 c bg pb1">
+    <div class="mauto pl4 pr4 max-width-1280px">
+      <div class="align-items-center ml-16px mr-16px df flex-wrap-wrap">
+        <div class="sm-order-2 pl3 pr3 pt2 pb2 sm-w-50P w-100P"><img src="assets/Screenshot-2017-03-25-18.47.02.png" class="w-100P db max-width-100P h-auto" /></div>
+        <div class="pl3 pr3 pt2 pb2 w-100P sm-w-50P">
+          <h2 class="lh-1p125 fw-700 letter-spacing-0em mb3 fs5 sm-fs6 m0">CSS</h2>
+        </div>
       </div>
     </div>
-  </div>
-</section>
-<section class="Split_1_2-section pt5 c bg pb1">
-  <div class="mauto pl4 pr4 max-width-1280px">
-    <div class="df flex-wrap-wrap ml-16px mr-16px align-items-center">
-      <div class="pl3 pr3 pt2 pb2 w-100P sm-w-50P"><img class="db max-width-100P h-auto w-100P" src="assets/Screenshot-2017-03-25-18.49.58.png" /></div>
-      <div class="pl3 pr3 pt2 pb2 w-100P sm-w-50P">
-        <h2 class="m0 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase mb3 fs5 sm-fs6">Music</h2>
+  </section>
+  <section class="Basic-cards c bg pt2 pb2">
+    <div class="mauto pl4 pr4 max-width-1280px">
+      <div class="ml-16px mr-16px mt3 mb3 df flex-wrap-wrap">
+        <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-50P lg-w-33p33333333333333P">
+          <a href="http://basscss.com" class="db text-decoration-none c-inherit">
+            <div class="w-100P">
+              <h2 class="fs3 lh-1p125 fw-700 letter-spacing-0em m0">Basscss</h2>
+              <p class="fs1 m0">Low-level CSS toolkit</p>
+            </div>
+          </a>
+        </div>
+        <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-50P lg-w-33p33333333333333P">
+          <a href="http://cssstats.com" class="db text-decoration-none c-inherit">
+            <div class="w-100P">
+              <h2 class="fs3 lh-1p125 fw-700 letter-spacing-0em m0">CSS Stats</h2>
+              <p class="fs1 m0">CSS static-analysis tool</p>
+            </div>
+          </a>
+        </div>
+        <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-50P lg-w-33p33333333333333P">
+          <a href="http://basscss.com/ace/" class="db text-decoration-none c-inherit">
+            <div class="w-100P">
+              <h2 class="fs3 lh-1p125 fw-700 letter-spacing-0em m0">Ace.css</h2>
+              <p class="fs1 m0">Full-featured Basscss package for web apps</p>
+            </div>
+          </a>
+        </div>
+        <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-50P lg-w-33p33333333333333P">
+          <a href="http://jxnblk.com/gravitons" class="db text-decoration-none c-inherit">
+            <div class="w-100P">
+              <h2 class="fs3 lh-1p125 fw-700 letter-spacing-0em m0">Gravitons</h2>
+              <p class="fs1 m0">Virtually massless CSS layout microlibrary</p>
+            </div>
+          </a>
+        </div>
+        <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-50P lg-w-33p33333333333333P">
+          <a href="http://jxnblk.com/cxs" class="db text-decoration-none c-inherit">
+            <div class="w-100P">
+              <h2 class="fs3 lh-1p125 fw-700 letter-spacing-0em m0">CXS</h2>
+              <p class="fs1 m0">A CSS-in-JS solution for functional CSS in functional UI components</p>
+            </div>
+          </a>
+        </div>
+        <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-50P lg-w-33p33333333333333P">
+          <a href="https://github.com/jxnblk/understyle" class="db text-decoration-none c-inherit">
+            <div class="w-100P">
+              <h2 class="fs3 lh-1p125 fw-700 letter-spacing-0em m0">Understyle</h2>
+              <p class="fs1 m0">Functional style utilities for authoring JavaScript style objects</p>
+            </div>
+          </a>
+        </div>
+        <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-50P lg-w-33p33333333333333P">
+          <a href="http://jxnblk.com/vhs/" class="db text-decoration-none c-inherit">
+            <div class="w-100P">
+              <h2 class="fs3 lh-1p125 fw-700 letter-spacing-0em m0">VHS</h2>
+              <p class="fs1 m0">Post-future CSS animations</p>
+            </div>
+          </a>
+        </div>
       </div>
     </div>
-  </div>
-</section>
-<section class="Basic-cards c bg pt2 pb2">
-  <div class="mauto pl4 pr4 max-width-1280px">
-    <div class="df flex-wrap-wrap ml-16px mr-16px mt3 mb3">
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-50P lg-w-33p33333333333333P">
-        <a class="db text-decoration-none c-inherit" href="http://mrsjxn.com">
-          <div class="w-100P">
-            <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Mrsjxn</h2>
-            <p class="m0 fs1">Post-future beats</p>
-          </div>
-        </a>
-      </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-50P lg-w-33p33333333333333P">
-        <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/skullcat">
-          <div class="w-100P">
-            <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Skullcat</h2>
-            <p class="m0 fs1">A avatar fur mrmrs</p>
-          </div>
-        </a>
-      </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-50P lg-w-33p33333333333333P">
-        <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/stepkit">
-          <div class="w-100P">
-            <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Stepkit</h2>
-            <p class="m0 fs1">Web audio step sequencer</p>
-          </div>
-        </a>
-      </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-50P lg-w-33p33333333333333P">
-        <a class="db text-decoration-none c-inherit" href="http://microbeats.cc">
-          <div class="w-100P">
-            <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Microbeats</h2>
-            <p class="m0 fs1">Beats created in under an hour</p>
-          </div>
-        </a>
+  </section>
+  <section class="Split_1_2-section pt5 c bg pb1">
+    <div class="mauto pl4 pr4 max-width-1280px">
+      <div class="align-items-center ml-16px mr-16px df flex-wrap-wrap">
+        <div class="pl3 pr3 pt2 pb2 w-100P sm-w-50P"><img src="assets/Screenshot-2017-03-25-18.49.58.png" class="w-100P db max-width-100P h-auto" /></div>
+        <div class="pl3 pr3 pt2 pb2 w-100P sm-w-50P">
+          <h2 class="lh-1p125 fw-700 letter-spacing-0em mb3 fs5 sm-fs6 m0">Music</h2>
+        </div>
       </div>
     </div>
-  </div>
-</section>
-<section class="SplitRight_1_2-section pt5 c bg pb1">
-  <div class="mauto pl4 pr4 max-width-1280px">
-    <div class="df flex-wrap-wrap ml-16px mr-16px align-items-center">
-      <div class="pl3 pr3 pt2 pb2 sm-order-2 sm-w-50P w-100P"><img class="db max-width-100P h-auto w-100P" src="assets/2b396cae-623b-11e6-9428-9f901a867e1a.png" /></div>
-      <div class="pl3 pr3 pt2 pb2 w-100P sm-w-50P">
-        <h2 class="m0 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase mb3 fs5 sm-fs7">Themes</h2>
+  </section>
+  <section class="Basic-cards c bg pt2 pb2">
+    <div class="mauto pl4 pr4 max-width-1280px">
+      <div class="ml-16px mr-16px mt3 mb3 df flex-wrap-wrap">
+        <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-50P lg-w-33p33333333333333P">
+          <a href="http://mrsjxn.com" class="db text-decoration-none c-inherit">
+            <div class="w-100P">
+              <h2 class="fs3 lh-1p125 fw-700 letter-spacing-0em m0">Mrsjxn</h2>
+              <p class="fs1 m0">Post-future beats</p>
+            </div>
+          </a>
+        </div>
+        <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-50P lg-w-33p33333333333333P">
+          <a href="http://jxnblk.com/skullcat" class="db text-decoration-none c-inherit">
+            <div class="w-100P">
+              <h2 class="fs3 lh-1p125 fw-700 letter-spacing-0em m0">Skullcat</h2>
+              <p class="fs1 m0">A avatar fur mrmrs</p>
+            </div>
+          </a>
+        </div>
+        <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-50P lg-w-33p33333333333333P">
+          <a href="http://jxnblk.com/stepkit" class="db text-decoration-none c-inherit">
+            <div class="w-100P">
+              <h2 class="fs3 lh-1p125 fw-700 letter-spacing-0em m0">Stepkit</h2>
+              <p class="fs1 m0">Web audio step sequencer</p>
+            </div>
+          </a>
+        </div>
+        <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-50P lg-w-33p33333333333333P">
+          <a href="http://microbeats.cc" class="db text-decoration-none c-inherit">
+            <div class="w-100P">
+              <h2 class="fs3 lh-1p125 fw-700 letter-spacing-0em m0">Microbeats</h2>
+              <p class="fs1 m0">Beats created in under an hour</p>
+            </div>
+          </a>
+        </div>
       </div>
     </div>
-  </div>
-</section>
-<section class="Basic-cards c bg pt2 pb2">
-  <div class="mauto pl4 pr4 max-width-1280px">
-    <div class="df flex-wrap-wrap ml-16px mr-16px mt3 mb3">
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
-        <a class="db text-decoration-none c-inherit" href="https://github.com/jxnblk/hypercolors">
-          <div class="w-100P">
-            <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Hypercolors</h2>
-            <p class="m0 fs1">Generative hyperterm color theme</p>
-          </div>
-        </a>
-      </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
-        <a class="db text-decoration-none c-inherit" href="https://github.com/jxnblk/hyperterminator">
-          <div class="w-100P">
-            <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Hyperterminator</h2>
-            <p class="m0 fs1">Hyperterm theme for cybernetic organisms</p>
-          </div>
-        </a>
-      </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
-        <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/Twipster/">
-          <div class="w-100P">
-            <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Twipster</h2>
-            <p class="m0 fs1">Simpler, Readabler Twitter</p>
-          </div>
-        </a>
-      </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
-        <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/Heather/">
-          <div class="w-100P">
-            <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Heather</h2>
-            <p class="m0 fs1">Hyperminimal Jekyll theme</p>
-          </div>
-        </a>
+  </section>
+  <section class="SplitRight_1_2-section pt5 c bg pb1">
+    <div class="mauto pl4 pr4 max-width-1280px">
+      <div class="align-items-center ml-16px mr-16px df flex-wrap-wrap">
+        <div class="sm-order-2 pl3 pr3 pt2 pb2 sm-w-50P w-100P"><img src="assets/2b396cae-623b-11e6-9428-9f901a867e1a.png" class="w-100P db max-width-100P h-auto" /></div>
+        <div class="pl3 pr3 pt2 pb2 w-100P sm-w-50P">
+          <h2 class="lh-1p125 fw-700 letter-spacing-0em mb3 fs5 sm-fs7 m0">Themes</h2>
+        </div>
       </div>
     </div>
-  </div>
-</section>
-<section class="Basic-cards pt5 c bg pb2">
-  <div class="mauto pl4 pr4 max-width-1280px">
-    <h2 class="m0 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase fs4 sm-fs5 md-fs6 lg-fs0">Miscellaneous</h2>
-    <div class="df flex-wrap-wrap ml-16px mr-16px mt3 mb3">
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
-        <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/principles">
-          <div class="w-100P">
-            <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Principles</h2>
-            <p class="m0 fs1">Principles of web design</p>
-          </div>
-        </a>
-      </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
-        <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/formula/">
-          <div class="w-100P">
-            <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Formula</h2>
-            <p class="m0 fs1">CSS calculator for bulletproof form and button styles that always line up</p>
-          </div>
-        </a>
-      </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
-        <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/paths/">
-          <div class="w-100P">
-            <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Paths</h2>
-            <p class="m0 fs1">Build and edit SVGs in the browser</p>
-          </div>
-        </a>
-      </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
-        <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/hyp">
-          <div class="w-100P">
-            <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Hyp</h2>
-            <p class="m0 fs1">Hyperminimal functional DOM element microlibrary</p>
-          </div>
-        </a>
-      </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
-        <a class="db text-decoration-none c-inherit" href="http://github.com/jxnblk/h0">
-          <div class="w-100P">
-            <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">H0</h2>
-            <p class="m0 fs1">Hyperminimal functional DOM element microlibrary</p>
-          </div>
-        </a>
-      </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
-        <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/gifolio">
-          <div class="w-100P">
-            <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Gifolio</h2>
-            <p class="m0 fs1">GIF portfolio</p>
-          </div>
-        </a>
-      </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
-        <a class="db text-decoration-none c-inherit" href="http://jxnblk.com/reading-list/">
-          <div class="w-100P">
-            <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Reading List</h2>
-            <p class="m0 fs1">Recommended reading on web design and development</p>
-          </div>
-        </a>
+  </section>
+  <section class="Basic-cards c bg pt2 pb2">
+    <div class="mauto pl4 pr4 max-width-1280px">
+      <div class="ml-16px mr-16px mt3 mb3 df flex-wrap-wrap">
+        <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
+          <a href="https://github.com/jxnblk/hypercolors" class="db text-decoration-none c-inherit">
+            <div class="w-100P">
+              <h2 class="fs3 lh-1p125 fw-700 letter-spacing-0em m0">Hypercolors</h2>
+              <p class="fs1 m0">Generative hyperterm color theme</p>
+            </div>
+          </a>
+        </div>
+        <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
+          <a href="https://github.com/jxnblk/hyperterminator" class="db text-decoration-none c-inherit">
+            <div class="w-100P">
+              <h2 class="fs3 lh-1p125 fw-700 letter-spacing-0em m0">Hyperterminator</h2>
+              <p class="fs1 m0">Hyperterm theme for cybernetic organisms</p>
+            </div>
+          </a>
+        </div>
+        <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
+          <a href="http://jxnblk.com/Twipster/" class="db text-decoration-none c-inherit">
+            <div class="w-100P">
+              <h2 class="fs3 lh-1p125 fw-700 letter-spacing-0em m0">Twipster</h2>
+              <p class="fs1 m0">Simpler, Readabler Twitter</p>
+            </div>
+          </a>
+        </div>
+        <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
+          <a href="http://jxnblk.com/Heather/" class="db text-decoration-none c-inherit">
+            <div class="w-100P">
+              <h2 class="fs3 lh-1p125 fw-700 letter-spacing-0em m0">Heather</h2>
+              <p class="fs1 m0">Hyperminimal Jekyll theme</p>
+            </div>
+          </a>
+        </div>
       </div>
     </div>
-  </div>
-</section>
-<section class="Basic-cards pt5 pb5 bg">
-  <div class="mauto pl4 pr4 max-width-1280px">
-    <h2 class="m0 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase fs4 sm-fs5 md-fs6 lg-fs0">Résumé</h2>
-    <div class="df flex-wrap-wrap ml-16px mr-16px mt3 mb3">
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
-        <a class="db text-decoration-none c-inherit">
-          <div class="w-100P">
-            <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Bond Street</h2>
-            <p class="m0 fs1">2016–Present</p>
-          </div>
-        </a>
-      </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
-        <a class="db text-decoration-none c-inherit">
-          <div class="w-100P">
-            <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">The Grid</h2>
-            <p class="m0 fs1">2015–2016</p>
-          </div>
-        </a>
-      </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
-        <a class="db text-decoration-none c-inherit">
-          <div class="w-100P">
-            <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Etsy</h2>
-            <p class="m0 fs1">2014–2015</p>
-          </div>
-        </a>
-      </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
-        <a class="db text-decoration-none c-inherit">
-          <div class="w-100P">
-            <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Kickstarter</h2>
-            <p class="m0 fs1">2013–2014</p>
-          </div>
-        </a>
-      </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
-        <a class="db text-decoration-none c-inherit">
-          <div class="w-100P">
-            <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Stitch Fix</h2>
-            <p class="m0 fs1">2013</p>
-          </div>
-        </a>
-      </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
-        <a class="db text-decoration-none c-inherit">
-          <div class="w-100P">
-            <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">LivingSocial</h2>
-            <p class="m0 fs1">2010–2013</p>
-          </div>
-        </a>
-      </div>
-      <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
-        <a class="db text-decoration-none c-inherit">
-          <div class="w-100P">
-            <h2 class="m0 fs3 lh-1p125 fw-500 letter-spacing-0p1875em text-transform-uppercase">Opower</h2>
-            <p class="m0 fs1">2008–2010</p>
-          </div>
-        </a>
+  </section>
+  <section class="Basic-cards pt5 c bg pb2">
+    <div class="mauto pl4 pr4 max-width-1280px">
+      <h2 class="lh-1p125 fw-700 letter-spacing-0em fs4 sm-fs5 md-fs6 lg-fs0 m0">Miscellaneous</h2>
+      <div class="ml-16px mr-16px mt3 mb3 df flex-wrap-wrap">
+        <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
+          <a href="http://jxnblk.com/principles" class="db text-decoration-none c-inherit">
+            <div class="w-100P">
+              <h2 class="fs3 lh-1p125 fw-700 letter-spacing-0em m0">Principles</h2>
+              <p class="fs1 m0">Principles of web design</p>
+            </div>
+          </a>
+        </div>
+        <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
+          <a href="http://jxnblk.com/formula/" class="db text-decoration-none c-inherit">
+            <div class="w-100P">
+              <h2 class="fs3 lh-1p125 fw-700 letter-spacing-0em m0">Formula</h2>
+              <p class="fs1 m0">CSS calculator for bulletproof form and button styles that always line up</p>
+            </div>
+          </a>
+        </div>
+        <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
+          <a href="http://jxnblk.com/paths/" class="db text-decoration-none c-inherit">
+            <div class="w-100P">
+              <h2 class="fs3 lh-1p125 fw-700 letter-spacing-0em m0">Paths</h2>
+              <p class="fs1 m0">Build and edit SVGs in the browser</p>
+            </div>
+          </a>
+        </div>
+        <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
+          <a href="http://jxnblk.com/hyp" class="db text-decoration-none c-inherit">
+            <div class="w-100P">
+              <h2 class="fs3 lh-1p125 fw-700 letter-spacing-0em m0">Hyp</h2>
+              <p class="fs1 m0">Hyperminimal functional DOM element microlibrary</p>
+            </div>
+          </a>
+        </div>
+        <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
+          <a href="http://github.com/jxnblk/h0" class="db text-decoration-none c-inherit">
+            <div class="w-100P">
+              <h2 class="fs3 lh-1p125 fw-700 letter-spacing-0em m0">H0</h2>
+              <p class="fs1 m0">Hyperminimal functional DOM element microlibrary</p>
+            </div>
+          </a>
+        </div>
+        <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
+          <a href="http://jxnblk.com/gifolio" class="db text-decoration-none c-inherit">
+            <div class="w-100P">
+              <h2 class="fs3 lh-1p125 fw-700 letter-spacing-0em m0">Gifolio</h2>
+              <p class="fs1 m0">GIF portfolio</p>
+            </div>
+          </a>
+        </div>
+        <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
+          <a href="http://jxnblk.com/reading-list/" class="db text-decoration-none c-inherit">
+            <div class="w-100P">
+              <h2 class="fs3 lh-1p125 fw-700 letter-spacing-0em m0">Reading List</h2>
+              <p class="fs1 m0">Recommended reading on web design and development</p>
+            </div>
+          </a>
+        </div>
       </div>
     </div>
-  </div>
-</section>
-<footer class="Right-footer pt3 pb3 c bg">
-  <div class="mauto pl4 pr4 max-width-1280px">
-    <div class="df flex-wrap-wrap align-items-baseline"><a class="align-items-center c-inherit dif fs1 fw-600 pb2 pt2 text-decoration-none vertical-align-middle mr3 mlauto" href="https://twitter.com/jxnblk">Twitter</a><a class="align-items-center c-inherit dif fs1 fw-600 pb2 pt2 text-decoration-none vertical-align-middle mr3"
-        href="https://github.com/jxnblk">GitHub</a><a class="align-items-center c-inherit dif fs1 fw-600 pb2 pt2 text-decoration-none vertical-align-middle mr3" href="http://jxnblk.com/writing">Writing</a></div>
-  </div>
-</footer>
-<div class="PromoBadge-styleguide blue bg">
-  <div class="df p2 align-items-center">
-    <a class="db text-decoration-none c-inherit mlauto" href="http://compositor.io">
-      <div class="df align-items-center">
-        <p class="m0 mr2 PromoBadge-styleguide-xp7h0p6 fs-8px fw-700 text-transform-uppercase letter-spacing-p2em">Built with Compositor</p>
-        <div><svg class="db m0" viewBox="-12 -12 24 24" width="24" height="24" vectorEffect="non-scaling-stroke"><rect x="-12" y="-12" width="24" height="24" fill="currentcolor" rx="1" ry="1" /><rect x="-8" y="-4" width="16" height="8" fill="#000" rx="0.5" ry="0.5" /><g fill="none" stroke="currentcolor" strokeWidth="0.5"><path d="M -4.8 -1.8 L -1.2 1.8 M -1.2 -1.8 L -4.8 1.8" /><path d="M 3 -2 A 2 2 0 0 0 3 2 A 2 2 0 0 0 3 -2 M 4.5 -1.5 L 1.5 1.5" /></g></svg></div>
+  </section>
+  <section class="Basic-cards pt5 pb5 bg">
+    <div class="mauto pl4 pr4 max-width-1280px">
+      <h2 class="lh-1p125 fw-700 letter-spacing-0em fs4 sm-fs5 md-fs6 lg-fs0 m0">Résumé</h2>
+      <div class="ml-16px mr-16px mt3 mb3 df flex-wrap-wrap">
+        <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
+          <a href="" class="db text-decoration-none c-inherit">
+            <div class="w-100P">
+              <h2 class="fs3 lh-1p125 fw-700 letter-spacing-0em m0">Priceline.com</h2>
+              <p class="fs1 m0">2017</p>
+            </div>
+          </a>
+        </div>
+        <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
+          <a href="" class="db text-decoration-none c-inherit">
+            <div class="w-100P">
+              <h2 class="fs3 lh-1p125 fw-700 letter-spacing-0em m0">Bond Street</h2>
+              <p class="fs1 m0">2016–2017</p>
+            </div>
+          </a>
+        </div>
+        <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
+          <a href="" class="db text-decoration-none c-inherit">
+            <div class="w-100P">
+              <h2 class="fs3 lh-1p125 fw-700 letter-spacing-0em m0">The Grid</h2>
+              <p class="fs1 m0">2015–2016</p>
+            </div>
+          </a>
+        </div>
+        <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
+          <a href="" class="db text-decoration-none c-inherit">
+            <div class="w-100P">
+              <h2 class="fs3 lh-1p125 fw-700 letter-spacing-0em m0">Etsy</h2>
+              <p class="fs1 m0">2014–2015</p>
+            </div>
+          </a>
+        </div>
+        <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
+          <a href="" class="db text-decoration-none c-inherit">
+            <div class="w-100P">
+              <h2 class="fs3 lh-1p125 fw-700 letter-spacing-0em m0">Kickstarter</h2>
+              <p class="fs1 m0">2013–2014</p>
+            </div>
+          </a>
+        </div>
+        <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
+          <a href="" class="db text-decoration-none c-inherit">
+            <div class="w-100P">
+              <h2 class="fs3 lh-1p125 fw-700 letter-spacing-0em m0">Stitch Fix</h2>
+              <p class="fs1 m0">2013</p>
+            </div>
+          </a>
+        </div>
+        <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
+          <a href="" class="db text-decoration-none c-inherit">
+            <div class="w-100P">
+              <h2 class="fs3 lh-1p125 fw-700 letter-spacing-0em m0">LivingSocial</h2>
+              <p class="fs1 m0">2010–2013</p>
+            </div>
+          </a>
+        </div>
+        <div class="pl3 pr3 mb4 w-100P sm-w-50P md-w-Infinitypx lg-w-33p33333333333333P">
+          <a href="" class="db text-decoration-none c-inherit">
+            <div class="w-100P">
+              <h2 class="fs3 lh-1p125 fw-700 letter-spacing-0em m0">Opower</h2>
+              <p class="fs1 m0">2008–2010</p>
+            </div>
+          </a>
+        </div>
       </div>
-    </a>
+    </div>
+  </section>
+  <footer class="Bold-footer c bg pt0 pb0">
+    <div class="mauto pl4 pr4 max-width-1280px">
+      <div class="mb5 ml-16px mr-16px"><a type="1" href="https://twitter.com/jxnblk" class="align-items-center c-inherit dif fs1 fw-600 pb2 pt2 text-decoration-none vertical-align-middle ml3 mr3 mt2 mb2">Twitter</a><a type="1" href="https://github.com/jxnblk" class="align-items-center c-inherit dif fs1 fw-600 pb2 pt2 text-decoration-none vertical-align-middle ml3 mr3 mt2 mb2">GitHub</a>
+        <a
+          type="1" href="http://jxnblk.com/writing" class="align-items-center c-inherit dif fs1 fw-600 pb2 pt2 text-decoration-none vertical-align-middle ml3 mr3 mt2 mb2">Writing</a>
+      </div>
+    </div>
+  </footer>
+  <div class="PromoBadge-styleguide c-white bg-gray">
+    <div class="align-items-center p2 df">
+      <a href="http://compositor.io" class="mlauto db text-decoration-none c-inherit">
+        <div class="align-items-center df">
+          <p class="PromoBadge-styleguide-xp7h0p6 fs-8px fw-700 text-transform-uppercase letter-spacing-p2em mr2 m0">Built with Compositor</p>
+          <div><svg viewBox="-12 -12 24 24" width="24" height="24" vector-effect="non-scaling-stroke" class="db m0"><rect x="-12" y="-12" width="24" height="24" fill="currentcolor" rx="1" ry="1"></rect><rect x="-8" y="-4" width="16" height="8" fill="#000" rx="0.5" ry="0.5"></rect><g fill="none" stroke="currentcolor" stroke-width="0.5"><path d="M -4.8 -1.8 L -1.2 1.8 M -1.2 -1.8 L -4.8 1.8"></path><path d="M 3 -2 A 2 2 0 0 0 3 2 A 2 2 0 0 0 3 -2 M 4.5 -1.5 L 1.5 1.5"></path></g></svg></div>
+        </div>
+      </a>
+    </div>
   </div>
-</div>
-
 </body>

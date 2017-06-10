@@ -12,53 +12,34 @@
     "favicon": "assets/favicon.png",
     "icon": "assets/avatar-640.png",
     "title": "Jxnblk",
-    "version": "0.0.41"
+    "version": "0.0.49"
   },
   "content": [
-    {
-      "_id": 291964490050089,
-      "image": "",
-      "links": [
-        {
-          "_id": 291964490050100,
-          "href": "https://twitter.com/jxnblk",
-          "text": "Twitter"
-        },
-        {
-          "_id": 291964490050101,
-          "href": "https://github.com/jxnblk",
-          "text": "GitHub"
-        },
-        {
-          "_id": 291964490050102,
-          "href": "http://jxnblk.com/writing",
-          "text": "Writing"
-        }
-      ],
-      "meta": {
-        "colors": {
-          "background": "",
-          "button": {},
-          "text": ""
-        },
-        "layout": {
-          "paddingBottom": [
-            0
-          ],
-          "paddingTop": [
-            3
-          ]
-        },
-        "name": "Basic",
-        "styles": {},
-        "type": "nav"
-      }
-    },
     {
       "_id": 291964490050088,
       "heading": "Jxnblk",
       "image": "assets/avatar-640.png",
-      "kicker": "Brent Jackson",
+      "kicker": "",
+      "links": [
+        {
+          "_id": 291964490062329,
+          "href": "https://twitter.com/jxnblk",
+          "icon": "",
+          "text": "Twitter"
+        },
+        {
+          "_id": 291964490063290,
+          "href": "https://github.com/jxnblk",
+          "icon": "",
+          "text": "GitHub"
+        },
+        {
+          "_id": 291964490064059,
+          "href": "http://jxnblk.com/writing",
+          "icon": "",
+          "text": "Writing"
+        }
+      ],
       "meta": {
         "backgroundImage": "",
         "colors": {
@@ -74,17 +55,14 @@
             6
           ]
         },
-        "name": "MiniBar",
+        "name": "Bold",
         "styles": {},
         "type": "header",
         "typography": {
-          "h1": [
-            5,
-            6
-          ]
+          "h1": null
         }
       },
-      "subhead": "",
+      "subhead": "Brent Jackson",
       "text": "Web designer/developer specializing in modular design systems & front-end architecture. Based in Brooklyn, NY."
     },
     {
@@ -198,7 +176,7 @@
             0
           ]
         },
-        "name": "Grid",
+        "name": "Basic",
         "styles": {},
         "type": "cards",
         "typography": {
@@ -1150,11 +1128,21 @@
       "heading": "Résumé",
       "items": [
         {
+          "_id": 291964490061632,
+          "cta": "",
+          "heading": "Priceline.com",
+          "href": "",
+          "image": "",
+          "kicker": "",
+          "subhead": "",
+          "text": "2017"
+        },
+        {
           "_id": 291964490061436,
           "heading": "Bond Street",
           "href": "",
           "image": "",
-          "text": "2016–Present"
+          "text": "2016–2017"
         },
         {
           "_id": 291964490061437,
@@ -1256,7 +1244,15 @@
           "button": {},
           "text": ""
         },
-        "name": "Right",
+        "layout": {
+          "paddingBottom": [
+            0
+          ],
+          "paddingTop": [
+            0
+          ]
+        },
+        "name": "Bold",
         "styles": {},
         "type": "footer"
       }
@@ -1267,9 +1263,9 @@
       "kicker": "Hello",
       "meta": {
         "colors": {
-          "background": "",
+          "background": 0,
           "button": {},
-          "text": 1
+          "text": "white"
         },
         "name": "PromoBadge",
         "styles": {},
@@ -1286,7 +1282,7 @@
       "@media screen and (min-width:64em)",
       "@media screen and (min-width:96em)"
     ],
-    "fontFamily": "\"Avenir Next\", Helvetica, sans-serif",
+    "fontFamily": "-apple-system, BlinkMacSystemFont, sans-serif",
     "h1": {
       "fontSize": [
         4,
@@ -1295,10 +1291,10 @@
         0,
         null
       ],
-      "fontWeight": 500,
-      "letterSpacing": 0.1875,
+      "fontWeight": 700,
+      "letterSpacing": 0,
       "lineHeight": 1.125,
-      "textTransform": "uppercase"
+      "textTransform": null
     },
     "h2": {
       "fontSize": [
@@ -1308,7 +1304,7 @@
         null,
         4
       ],
-      "fontWeight": 600,
+      "fontWeight": 700,
       "lineHeight": 1.125
     },
     "h3": {
