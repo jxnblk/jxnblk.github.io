@@ -103,11 +103,8 @@ const theme = {
     32,
     64,
     128,
-    256,
-    512
-  ],
-  _colors: {
-  }
+    256
+  ]
 }
 
 const UI = dxs(config, { theme })
