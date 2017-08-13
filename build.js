@@ -26,8 +26,12 @@ ga('create', 'UA-4603832-6', 'auto');
 ga('send', 'pageview');
 </script>`
 
-
 const html = template({ body, css })
 
 fs.writeFileSync('index.html', html)
+
+console.log(body.length + ' bytes HTML')
+console.log(css.length + ' bytes CSS')
+console.log(html.length + ' bytes total')
+
 console.timeEnd('build')
