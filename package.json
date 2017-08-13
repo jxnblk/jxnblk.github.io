@@ -1,7 +1,22 @@
 {
   "name": "jxnblk.github.io",
-  "version": "512.0.0",
-  "description": "Brent Jackson, Designer",
+  "version": "1024.0.0",
+  "description": "Brent Jackson, Design systems developer",
   "author": "Brent Jackson",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "relab src/index.js -op 8000",
+    "build": "babel src -d dist && node build.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "cxs": "^5.0.0-1",
+    "dxs": "^1.0.0-7",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "relab": "^1.0.0-19",
+    "styled-system": "^1.0.0-12"
+  }
 }
