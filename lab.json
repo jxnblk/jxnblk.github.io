@@ -1,0 +1,127 @@
+{
+  "name": "jxnblk.github.io",
+  "library": "styled-components",
+  "components": [
+    {
+      "name": "Avatar",
+      "filename": "Avatar.js",
+      "external": true,
+      "examples": [
+        "<Avatar size={128} />"
+      ],
+      "system": []
+    },
+    {
+      "name": "Box",
+      "type": "div",
+      "props": {},
+      "style": {},
+      "examples": [
+        "<Box>Hello</Box>"
+      ],
+      "system": []
+    },
+    {
+      "name": "Text",
+      "type": "div",
+      "props": {
+        "fontWeight": "600"
+      },
+      "style": {},
+      "examples": [
+        "<Text>Hello</Text>"
+      ],
+      "system": [
+        "fontWeight"
+      ]
+    },
+    {
+      "name": "Caps",
+      "type": "Text",
+      "props": {
+        "fontSize": 10,
+        "fontWeight": "700"
+      },
+      "style": {
+        "textTransform": "uppercase",
+        "letterSpacing": "0.15625em"
+      },
+      "examples": [
+        "<Caps>\n  Hello\n</Caps>"
+      ],
+      "system": [
+        "fontWeight"
+      ]
+    },
+    {
+      "name": "Link",
+      "type": "a",
+      "props": {
+        "color": "inherit",
+        "fontWeight": "600",
+        "hover": {
+          "webkitTextDecoration": "underline",
+          "textDecoration": "underline",
+          "color": "blue"
+        }
+      },
+      "style": {
+        "webkitTextDecoration": "none",
+        "textDecoration": "none"
+      },
+      "examples": [
+        "<Link href='#!'>Hello</Link>"
+      ],
+      "system": [
+        "fontWeight",
+        "hover"
+      ]
+    },
+    {
+      "name": "Title",
+      "type": "h1",
+      "props": {
+        "fontSize": 7,
+        "m": 0
+      },
+      "style": {
+        "fontWeight": "bold",
+        "lineHeight": "1.125"
+      },
+      "examples": [
+        "<Title>Hello</Title>"
+      ],
+      "system": []
+    },
+    {
+      "name": "Heading",
+      "type": "h2",
+      "props": {
+        "fontSize": 4,
+        "m": 0
+      },
+      "style": {
+        "fontWeight": "bold",
+        "lineHeight": 1.25
+      },
+      "examples": [
+        "<Heading>Hello</Heading>"
+      ]
+    },
+    {
+      "name": "Container",
+      "type": "Box",
+      "props": {
+        "mx": "auto",
+        "px": 3
+      },
+      "style": {
+        "maxWidth": "1024px"
+      },
+      "examples": [
+        "<Container />"
+      ],
+      "system": []
+    }
+  ]
+}
