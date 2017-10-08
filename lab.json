@@ -81,7 +81,7 @@
       "name": "Title",
       "type": "h1",
       "props": {
-        "fontSize": 7,
+        "fontSize": 4,
         "m": 0
       },
       "style": {
@@ -120,6 +120,95 @@
       },
       "examples": [
         "<Container />"
+      ],
+      "system": []
+    },
+    {
+      "name": "Image",
+      "type": "img",
+      "props": {},
+      "style": {
+        "display": "block",
+        "maxWidth": "100%",
+        "height": "auto"
+      },
+      "examples": [
+        "<Image\nsrc='http://jxnblk.com/rebass/card.png'\n/>"
+      ],
+      "system": []
+    },
+    {
+      "name": "BlockLink",
+      "type": "a",
+      "props": {
+        "color": "inherit",
+        "hover": {
+          "color": "blue"
+        },
+        "focus": {
+          "color": "blue"
+        }
+      },
+      "style": {
+        "display": "block",
+        "webkitTextDecoration": "none",
+        "textDecoration": "none"
+      },
+      "examples": [
+        "<BlockLink>Hello</BlockLink>"
+      ],
+      "system": [
+        "hover",
+        "focus"
+      ]
+    },
+    {
+      "name": "BackgroundImage",
+      "type": "div",
+      "props": {
+        "ratio": 0.5,
+        "size": "cover"
+      },
+      "style": {
+        "width": "100%",
+        "height": "0",
+        "paddingBottom": "${(props.ratio * 100) + '%'}",
+        "backgroundImage": "url(${props.src})",
+        "backgroundPosition": "center",
+        "backgroundSize": "${props.size}",
+        "backgroundRepeat": "no-repeat"
+      },
+      "examples": [
+        "<BackgroundImage\n  src='http://jxnblk.com/rebass/card.png'\n/>",
+        "<BackgroundImage\n  size='contain'\n  src='http://jxnblk.com/rebass/card.png'\n/>"
+      ],
+      "system": []
+    },
+    {
+      "name": "ImageCard",
+      "imports": [
+        "Box",
+        "Image",
+        "Heading",
+        "Text",
+        "BlockLink",
+        "BackgroundImage"
+      ],
+      "jsx": "<BlockLink href={props.href}>\n  <BackgroundImage\n    size={props.size}\n  ratio={3/4} src={props.image} mb={1} />\n  <Heading fontSize={2}>{props.heading}</Heading>\n  {props.text && <Text fontSize={0}>{props.text}</Text>}\n</BlockLink>",
+      "examples": [
+        "<ImageCard\n  image='http://jxnblk.com/rebass/card.png'\n  heading='Rebass'\n  text='Functional React UI component library, built with styled-components'\n/>"
+      ],
+      "system": []
+    },
+    {
+      "name": "Pre",
+      "type": "pre",
+      "props": {},
+      "style": {
+        "fontFamily": "Menlo, monospace"
+      },
+      "examples": [
+        "<Pre>Hello</Pre>"
       ],
       "system": []
     }
