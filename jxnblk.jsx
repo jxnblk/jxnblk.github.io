@@ -4,7 +4,6 @@ description: Design systems developer. Based in Brooklyn, NY
 image: http://jxnblk.com/avatar/avatar-640.png
 cards:
   - href: 'https://compositor.io/'
-    _image: 'https://compositor.io/logo/dist/compositor.png'
     image: 'https://s3-us-west-1.amazonaws.com/c8r-x0/viv-s.jpg'
     heading: Compositor
     text: 'Tools for designers, developers, and creatives'
@@ -12,9 +11,9 @@ cards:
   - href: 'http://jxnblk.com/grid-styled'
     image: 'http://jxnblk.com/grid-styled/icon.png'
     heading: Grid Styled
-    text: Responsive React grid system built with styled-components
+    text: Responsive React grid system
   - heading: Rebass
-    text: 'Functional React UI component library, built with styled-components'
+    text: 'Functional React UI component library'
     href: 'http://jxnblk.com/rebass/'
     image: 'http://jxnblk.com/rebass/card.png'
   - href: 'https://colorable.jxnblk.com'
@@ -29,6 +28,14 @@ cards:
     image: 'http://basscss.com/images/f48c400f6f1aa4b44cb2b7a8103291b9.png'
     heading: Basscss
     text: Low-level CSS toolkit
+  # - href: http://jxnblk.com/react-x-ray
+  #   image: https://github.com/jxnblk/react-x-ray/raw/master/docs/x-ray.gif
+  #   heading: React X-Ray
+  #   text: React CSS layout debugger
+  # - href: http://jxnblk.com/reflexbox
+  #   image: http://jxnblk.com/reflexbox/card.png
+  #   heading: Reflexbox
+  #   text: Responsive React flexbox grid system
 links:
   - text: Styled System
     href: 'https://github.com/jxnblk/styled-system/'
@@ -94,7 +101,7 @@ ga: >
 </header>
 <Container py={5}>
   <Box mx={-3}>
-    <Layout p={3} w={[1, 0.5, 0.3333333333333333]}>
+    <Layout align='center' p={3} w={[1, 0.5, 0.3333333333333333]}>
       {(props.cards || []).map(card => (
         <ImageCard
           key={card.href}
