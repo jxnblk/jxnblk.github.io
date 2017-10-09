@@ -126,7 +126,9 @@
     {
       "name": "Image",
       "type": "img",
-      "props": {},
+      "props": {
+        "borderRadius": 8
+      },
       "style": {
         "display": "block",
         "maxWidth": "100%",
@@ -135,7 +137,9 @@
       "examples": [
         "<Image\nsrc='http://jxnblk.com/rebass/card.png'\n/>"
       ],
-      "system": []
+      "system": [
+        "borderRadius"
+      ]
     },
     {
       "name": "BlockLink",
@@ -167,7 +171,8 @@
       "type": "div",
       "props": {
         "ratio": 0.5,
-        "size": "cover"
+        "size": "cover",
+        "borderRadius": 8
       },
       "style": {
         "width": "100%",
@@ -182,7 +187,9 @@
         "<BackgroundImage\n  src='http://jxnblk.com/rebass/card.png'\n/>",
         "<BackgroundImage\n  size='contain'\n  src='http://jxnblk.com/rebass/card.png'\n/>"
       ],
-      "system": []
+      "system": [
+        "borderRadius"
+      ]
     },
     {
       "name": "ImageCard",

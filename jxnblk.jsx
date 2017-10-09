@@ -95,74 +95,27 @@ ga: >
 <Container py={5}>
   <Box mx={-3}>
     <Layout p={3} w={[1, 0.5, 0.3333333333333333]}>
-      <ImageCard
-        heading="Compositor"
-        href="https://compositor.io/"
-        image="https://s3-us-west-1.amazonaws.com/c8r-x0/viv-s.jpg"
-        size="contain"
-        text="Tools for designers, developers, and creatives"
-      />
-      <ImageCard
-        heading="Rebass"
-        href="http://jxnblk.com/rebass/"
-        image="http://jxnblk.com/rebass/card.png"
-        size={undefined}
-        text="Functional React UI component library, built with styled-components"
-      />
-      <ImageCard
-        heading="Grid Styled"
-        href="http://jxnblk.com/grid-styled"
-        image="http://jxnblk.com/grid-styled/icon.png"
-        size={undefined}
-        text="Responsive React grid system built with styled-components"
-      />
-      <ImageCard
-        heading="Basscss"
-        href="http://basscss.com"
-        image="http://basscss.com/images/f48c400f6f1aa4b44cb2b7a8103291b9.png"
-        size={undefined}
-        text="Low-level CSS toolkit"
-      />
-      <ImageCard
-        heading="Colorable"
-        href="https://colorable.jxnblk.com"
-        image="https://colorable.jxnblk.com/004466/00ffa2/card.png"
-        size={undefined}
-        text="Color contrast tester"
-      />
-      <ImageCard
-        heading="Palx"
-        href="https://palx.jxnblk.com"
-        image="https://palx.jxnblk.com/07c/card.png"
-        size={undefined}
-        text="Automatic UI color palette generator"
-      />
+      {(props.cards || []).map(card => (
+        <ImageCard
+          key={card.href}
+          href={card.href}
+          heading={card.heading}
+          image={card.image}
+          size={card.size}
+          text={card.text}
+        />
+      ))}
     </Layout>
   </Box>
 </Container>
 <Container py={5}>
   <Box mx={-3}>
     <Layout p={3} w={[1, 0.3333333333333333, 0.2]}>
-      <Link href="https://github.com/jxnblk/styled-system/">
-        Styled System
-      </Link>
-      <Link href="https://monochrome.jxnblk.com/">
-        Monochrome
-      </Link>
-      <Link href="http://jxnblk.com/hello-color/">
-        Hello Color
-      </Link>
-      <Link href="http://jxnblk.com/shade/">Shade</Link>
-      <Link href="http://jxnblk.com/grays/">Grays</Link>
-      <Link href="https://icon.now.sh/">Microicon</Link>
-      <Link href="http://mrsjxn.com/">MrsJxn</Link>
-      <Link href="http://microbeats.cc/">Microbeats</Link>
-      <Link href="http://jxnblk.com/skullcat/">
-        Skullcat
-      </Link>
-      <Link href="http://jxnblk.com/gifolio/">
-        Gifolio
-      </Link>
+      {(props.links || []).map(link => (
+        <Link key={link.href} href={link.href}>
+          {link.text}
+        </Link>
+      ))}
     </Layout>
   </Box>
 </Container>
