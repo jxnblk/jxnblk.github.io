@@ -72,7 +72,7 @@ ga: >
 />
 <Container py={3}>
   <Caps mx={-3}>
-    <Layout justify='flex-end' px={3} py={2}>
+    <Grid justify='flex-end' px={3} py={2}>
       <Link href="https://compositor.io">Compositor</Link>
       <Link href="https://github.com/jxnblk">GitHub</Link>
       <Link href="https://twitter.com/jxnblk">
@@ -81,7 +81,7 @@ ga: >
       <Link href="http://jxnblk.com/writing">
         Writing
       </Link>
-    </Layout>
+    </Grid>
   </Caps>
 </Container>
 <header>
@@ -101,7 +101,7 @@ ga: >
 </header>
 <Container py={5}>
   <Box mx={-3}>
-    <Layout align='center' p={3} w={[1, 0.5, 0.3333333333333333]}>
+    <Grid align='center' p={3} w={[1, 0.5, 0.3333333333333333]}>
       {(props.cards || []).map(card => (
         <ImageCard
           key={card.href}
@@ -112,24 +112,24 @@ ga: >
           text={card.text}
         />
       ))}
-    </Layout>
+    </Grid>
   </Box>
 </Container>
 <Container py={5}>
   <Box mx={-3}>
-    <Layout p={3} w={[1, 0.3333333333333333, 0.2]}>
+    <Grid p={3} w={[1, 0.3333333333333333, 0.2]}>
       {(props.links || []).map(link => (
         <Link key={link.href} href={link.href}>
           {link.text}
         </Link>
       ))}
-    </Layout>
+    </Grid>
   </Box>
 </Container>
 <footer>
   <Container py={5}>
     <Caps mx={-3}>
-      <Layout p={3} align='center'>
+      <Grid p={3} align='center'>
         <Link href="https://compositor.io/">
           Built with Compositor
         </Link>
@@ -143,7 +143,7 @@ ga: >
           Writing
         </Link>
         <Pre>(^..^ )_</Pre>
-      </Layout>
+      </Grid>
     </Caps>
   </Container>
 </footer>
