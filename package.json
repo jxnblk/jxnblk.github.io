@@ -1,18 +1,32 @@
 {
   "name": "jxnblk.github.io",
   "private": true,
-  "version": "2048.0.0",
+  "version": "4096.0.0",
   "description": "Brent Jackson, Design systems developer",
   "author": "Brent Jackson",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "start": "x0 dev App.js -o",
+    "build": "x0 build App.js -d . --static"
+  },
   "dependencies": {
-    "babel-preset-env": "^1.6.0",
+    "@compositor/markdown": "0.0.25",
+    "@compositor/markdown-loader": "0.0.7",
+    "@compositor/mdx": "0.0.6",
+    "@compositor/x0": "^3.2.1",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "grid-styled": "^3.2.0",
     "jxnblk-avatar": "^1.2.0",
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0",
-    "styled-components": "^2.2.1",
-    "styled-system": "^1.0.7"
+    "ok-css": "^1.0.0-0",
+    "react": "^16.2.0",
+    "styled-components": "^3.1.6",
+    "system-loader": "^1.0.0"
+  },
+  "x0": {
+    "config": "webpack.config.js",
+    "cssLibrary": "styled-components"
   }
 }
