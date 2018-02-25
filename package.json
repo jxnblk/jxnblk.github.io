@@ -6,27 +6,26 @@
   "author": "Brent Jackson",
   "license": "MIT",
   "scripts": {
-    "start": "x0 dev App.js -o",
-    "build": "x0 build App.js -d . --static"
+    "start": "mdx . -o",
+    "build": "mdx . -d . --static",
+    "x0": "x0 build App.js -d . --static"
   },
   "dependencies": {
     "@compositor/markdown": "0.0.25",
     "@compositor/markdown-loader": "0.0.7",
     "@compositor/mdx": "0.0.6",
-    "@compositor/x0": "^3.2.1",
+    "@compositor/x0": "^4.0.0-0",
     "babel-loader": "^7.1.2",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
     "grid-styled": "^3.2.0",
     "jxnblk-avatar": "^1.2.0",
+    "mdx0": "^1.0.0-6",
     "ok-css": "^1.0.0-0",
     "react": "^16.2.0",
     "styled-components": "^3.1.6",
     "system-loader": "^1.0.0"
   },
-  "x0": {
-    "config": "webpack.config.js",
-    "cssLibrary": "styled-components"
-  }
+  "mdx0": {}
 }

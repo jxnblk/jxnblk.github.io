@@ -14,7 +14,14 @@ import {
   Divider,
   Pre
 } from './system.json'
-import Home from './README.md'
+import Loadable from 'react-loadable'
+
+// import Home from './README.md'
+
+const Home = Loadable({
+  loading: () => <pre>loading</pre>,
+  loader: () => import('./README.md')
+})
 
 const px = base => Comp => props => <Comp {...base} {...props} />
 
