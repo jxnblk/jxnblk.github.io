@@ -57,8 +57,6 @@ const Home = Loadable({
 })
 
 const config = ({ mdx }) => {
-  console.log(mdx)
-
   return {
     title: 'Jxnblk | Brent Jackson',
     description: 'Design systems developer. Based in Brooklyn, NY',

@@ -92,6 +92,13 @@ const App = props => (
   </React.Fragment>
 )
 
+  /*
+App.getInitialProps = async (props) => {
+  const loaded = await Loadable.preloadAll()
+  return {}
+}
+*/
+
 const GA = () =>
   <script
     dangerouslySetInnerHTML={{

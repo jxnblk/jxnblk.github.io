@@ -8,7 +8,7 @@ module.exports = {
       },
       {
         test: /system\.json$/,
-        type: 'javascript/auto',
+        // type: 'javascript/auto',
         use: 'system-loader'
       },
       {
