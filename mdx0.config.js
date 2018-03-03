@@ -60,11 +60,10 @@ const config = ({ mdx }) => {
   return {
     title: 'Jxnblk | Brent Jackson',
     description: 'Design systems developer. Based in Brooklyn, NY',
-    image: 'http://jxnblk.com/avatar/avatar-640.png',
+    image: 'http://jxnblk.com/avatar.png',
     theme,
     components,
     routes: [
-      // ...mdx,
       {
         path: '/',
         exact: true,
