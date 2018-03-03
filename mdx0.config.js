@@ -52,7 +52,7 @@ const components = {
 }
 
 const Home = Loadable({
-  loading: () => <pre>loading...</pre>,
+  loading: () => false,
   loader: () => import('./index.mdx')
 })
 
@@ -61,6 +61,13 @@ const config = ({ mdx }) => {
     title: 'Jxnblk | Brent Jackson',
     description: 'Design systems developer. Based in Brooklyn, NY',
     image: 'http://jxnblk.com/avatar.png',
+    twitter: {
+      site: '@jxnblk',
+      card: 'summary',
+      title: 'Jxnblk',
+      image: 'http://jxnblk.com/avatar.png',
+      description: 'Design systems developer. Based in Brooklyn, NY',
+    },
     theme,
     components,
     routes: [
