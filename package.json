@@ -7,7 +7,8 @@
   "license": "MIT",
   "scripts": {
     "start": "mdx . -o",
-    "build": "mdx . -d . --static",
+    "build": "mdx . -d . --static && npm run avatar",
+    "avatar": "repng node_modules/jxnblk-avatar/src/Avatar.js -w 1024 -h 1024 -o . -f avatar -p '{\"size\":1024}'",
     "x0": "x0 build App.js -d . --static"
   },
   "dependencies": {
@@ -20,6 +21,7 @@
     "mdx0": "^1.0.0-8",
     "ok-css": "^1.0.0-0",
     "react": "^16.2.0",
+    "repng": "^2.0.0-alpha.1",
     "styled-components": "^3.1.6",
     "system-loader": "^1.0.0"
   },
