@@ -1,33 +1,22 @@
 {
   "name": "jxnblk.github.io",
   "private": true,
-  "version": "4096.0.0",
+  "version": "8192.0.0",
   "description": "Brent Jackson, Design systems developer",
   "author": "Brent Jackson",
   "license": "MIT",
   "scripts": {
-    "start": "mdx . -o",
-    "build": "mdx . -d . --static && npm run avatar",
-    "avatar": "repng node_modules/jxnblk-avatar/src/Avatar.js -w 1024 -h 1024 -o . -f avatar -p '{\"size\":1024}'"
+    "start": "mdx-go src",
+    "build": "mdx-go build src -d . && npm run avatar",
+    "avatar": "repng node_modules/jxnblk-avatar/src/Avatar.js -w 1024 -h 1024 -d . -f avatar.png -p '{\"size\":1024}'"
   },
   "dependencies": {
-    "@compositor/markdown": "0.0.25",
-    "@compositor/markdown-loader": "0.0.7",
-    "@compositor/mdx": "0.0.6",
-    "@compositor/x0": "^4.0.1",
-    "grid-styled": "^3.2.0",
+    "@mdx-js/tag": "^0.15.0",
+    "grid-styled": "^5.0.2",
     "jxnblk-avatar": "^1.2.0",
-    "mdx0": "^1.0.0-11",
-    "ok-css": "^1.0.0-0",
-    "react": "^16.2.0",
-    "repng": "^2.0.0-alpha.1",
-    "styled-components": "^3.1.6",
-    "system-loader": "^1.0.0"
-  },
-  "x0": {
-    "routes": [
-      "/"
-    ]
-  },
-  "mdx0": {}
+    "mdx-go": "^1.0.2",
+    "repng": "^3.0.2",
+    "styled-components": "^3.4.5",
+    "system-components": "^3.0.0"
+  }
 }
