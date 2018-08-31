@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "start": "mdx-go src",
-    "build": "mdx-go build src -d . && npm run avatar",
+    "build": "mdx-go build src -d . --static && npm run avatar",
     "avatar": "repng node_modules/jxnblk-avatar/src/Avatar.js -w 1024 -h 1024 -d . -f avatar.png -p '{\"size\":1024}'"
   },
   "dependencies": {
