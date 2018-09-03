@@ -16,8 +16,10 @@ Based in Brooklyn, NY
 
 - [Styled System](https://jxnblk.com/styled-system)
 - [mdx-deck](https://github.com/jxnblk/mdx-deck)
+- [mdx-go](https://github.com/jxnblk/mdx-go)
 - [Rebass](https://jxnblk.com/rebass)
-- [Grid Styled](https://jxnblk.com/grid-styled)
+- [Rebass Grid](https://rebassjs.org/grid/) (formerly grid-styled)
+- [Rebass Components](https://rebassjs.org/components/) (formerly system-components)
 
 ---
 
