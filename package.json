@@ -11,12 +11,9 @@
     "avatar": "repng node_modules/jxnblk-avatar/src/Avatar.js -w 1024 -h 1024 -d . -f avatar.png -p '{\"size\":1024}'"
   },
   "dependencies": {
-    "@mdx-js/tag": "^0.15.0",
-    "grid-styled": "^5.0.2",
+    "@mdx-js/tag": "^0.16.0",
     "jxnblk-avatar": "^1.2.0",
-    "mdx-go": "^1.0.4",
-    "repng": "^3.0.2",
-    "styled-components": "^3.4.5",
-    "system-components": "^3.0.0"
+    "mdx-go": "^2.0.0-31",
+    "repng": "^3.0.2"
   }
 }
