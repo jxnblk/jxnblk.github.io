@@ -2,18 +2,13 @@
   "name": "jxnblk.github.io",
   "private": true,
   "version": "8192.0.0",
-  "description": "Brent Jackson, Design systems developer",
+  "description": "Brent Jackson, Designer/developer",
   "author": "Brent Jackson",
   "license": "MIT",
   "scripts": {
-    "start": "mdx-go src",
-    "build": "mdx-go build src -d . --static && npm run avatar",
     "avatar": "repng node_modules/jxnblk-avatar/src/Avatar.js -w 1024 -h 1024 -d . -f avatar.png -p '{\"size\":1024}'"
   },
   "dependencies": {
-    "@mdx-js/tag": "^0.16.0",
-    "jxnblk-avatar": "^1.2.0",
-    "mdx-go": "^2.0.0-31",
     "repng": "^3.0.2"
   }
 }

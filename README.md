@@ -3,8 +3,10 @@
 
 ## Brent Jackson
 
-Design systems developer.
+Designer/developer.
 Based in Brooklyn, NY
+
+https://jxnblk.com
 
 ---
 
@@ -12,6 +14,7 @@ Based in Brooklyn, NY
 - [Twitter][]
 - [Writing][]
 
+<!--
 ---
 
 - [Styled System](https://jxnblk.com/styled-system)
@@ -39,6 +42,7 @@ Based in Brooklyn, NY
 - [MrsJxn](https://mrsjxn.com)
 - [Gifolio](http://jxnblk.com/gifolio)
 
+-->
 
 ```
 (^..^ )_
