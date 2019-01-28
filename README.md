@@ -50,6 +50,6 @@ https://jxnblk.com
 
 [github]: https://github.com/jxnblk
 [twitter]: https://twitter.com/jxnblk
-[writing]: http://jxnblk.com/writing
+[writing]: http://jxnblk.com/blog
 
 
