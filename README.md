@@ -15,7 +15,6 @@ https://jxnblk.com
 - [Writing][]
 
 <!--
----
 
 - [Styled System](https://jxnblk.com/styled-system)
 - [MDX Deck](https://github.com/jxnblk/mdx-deck)
